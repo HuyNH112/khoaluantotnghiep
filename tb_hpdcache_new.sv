@@ -1,0 +1,365 @@
+// File: tb_hpdcache.sv
+// Mô tả: Standalone Testbench hoàn chỉnh tích hợp mô hình bộ nhớ ngoài đọc Burst (AXI Refill)
+`timescale 1ns/1ps
+
+`include "hpdcache_typedef.svh"
+`include "hpdcache_config.svh"
+module tb_hpdcache_new;
+    import hpdcache_pkg::*;
+
+    parameter CLK_PERIOD = 10; // ns
+
+    // ========== 1. THIẾT LẬP CONFIGURATION ĐỒNG BỘ TUYỆT ĐỐI VỚI WRAPPER ==========
+    localparam hpdcache_user_cfg_t UserCfg = '{
+        nRequesters: (4'b1 << `CONF_HPDCACHE_REQ_SRC_ID_WIDTH),
+        paWidth: `CONF_HPDCACHE_PA_WIDTH,
+        wordWidth: `CONF_HPDCACHE_WORD_WIDTH,
+        sets: `CONF_HPDCACHE_SETS,
+        ways: `CONF_HPDCACHE_WAYS,
+        clWords: `CONF_HPDCACHE_CL_WORDS,
+        reqWords: `CONF_HPDCACHE_REQ_WORDS,
+        reqTransIdWidth: `CONF_HPDCACHE_REQ_TRANS_ID_WIDTH,
+        reqSrcIdWidth: `CONF_HPDCACHE_REQ_SRC_ID_WIDTH,
+        victimSel: `CONF_HPDCACHE_VICTIM_SEL,
+        dataWaysPerRamWord: `CONF_HPDCACHE_DATA_WAYS_PER_RAM_WORD,
+        dataSetsPerRam: `CONF_HPDCACHE_DATA_SETS_PER_RAM,
+        dataRamByteEnable: `CONF_HPDCACHE_DATA_RAM_WBYTEENABLE,
+        accessWords: `CONF_HPDCACHE_ACCESS_WORDS,
+        mshrSets: `CONF_HPDCACHE_MSHR_SETS,
+        mshrWays: `CONF_HPDCACHE_MSHR_WAYS,
+        mshrWaysPerRamWord: `CONF_HPDCACHE_MSHR_WAYS_PER_RAM_WORD,
+        mshrSetsPerRam: `CONF_HPDCACHE_MSHR_SETS_PER_RAM,
+        mshrRamByteEnable: `CONF_HPDCACHE_MSHR_RAM_WBYTEENABLE,
+        mshrUseRegbank: `CONF_HPDCACHE_MSHR_USE_REGBANK,
+        cbufEntries: `CONF_HPDCACHE_CBUF_ENTRIES,
+        refillCoreRspFeedthrough: `CONF_HPDCACHE_REFILL_CORE_RSP_FEEDTHROUGH,
+        refillFifoDepth: `CONF_HPDCACHE_REFILL_FIFO_DEPTH,
+        wbufDirEntries: `CONF_HPDCACHE_WBUF_DIR_ENTRIES,
+        wbufDataEntries: `CONF_HPDCACHE_WBUF_DATA_ENTRIES,
+        wbufWords: `CONF_HPDCACHE_WBUF_WORDS,
+        wbufTimecntWidth: `CONF_HPDCACHE_WBUF_TIMECNT_WIDTH,
+        rtabEntries: `CONF_HPDCACHE_RTAB_ENTRIES,
+        flushEntries: `CONF_HPDCACHE_FLUSH_ENTRIES,
+        flushFifoDepth: `CONF_HPDCACHE_FLUSH_FIFO_DEPTH,
+        memAddrWidth: `CONF_HPDCACHE_MEM_ADDR_WIDTH,
+        memIdWidth: `CONF_HPDCACHE_MEM_ID_WIDTH,
+        memDataWidth: `CONF_HPDCACHE_MEM_DATA_WIDTH,
+        wtEn: `CONF_HPDCACHE_WT_ENABLE,
+        wbEn: `CONF_HPDCACHE_WB_ENABLE,
+        lowLatency: `CONF_HPDCACHE_LOW_LATENCY,
+        eccEn: `CONF_HPDCACHE_ECC_ENABLE,
+        eccScrubberEn: `CONF_HPDCACHE_ECC_SCRUBBER_ENABLE
+    };
+
+    localparam hpdcache_cfg_t Cfg = hpdcacheBuildConfig(UserCfg);
+    localparam type wbuf_timecnt_t = logic unsigned [Cfg.u.wbufTimecntWidth-1:0];
+
+    // Khai báo kiểu dữ liệu động khớp với các thông số cấu trúc Cfg
+    typedef logic [Cfg.tagWidth-1:0] hpdcache_tag_t;
+    typedef logic [Cfg.u.wordWidth-1:0] hpdcache_data_word_t;
+    typedef logic [Cfg.u.wordWidth/8-1:0] hpdcache_data_be_t;
+    typedef logic [Cfg.reqOffsetWidth-1:0] hpdcache_req_offset_t;
+    typedef logic [Cfg.u.reqWords-1:0][Cfg.u.wordWidth-1:0] hpdcache_req_data_t;
+    typedef logic [Cfg.u.reqWords-1:0][Cfg.u.wordWidth/8-1:0] hpdcache_req_be_t;
+    typedef logic [Cfg.u.reqSrcIdWidth-1:0] hpdcache_req_sid_t;
+    typedef logic [Cfg.u.reqTransIdWidth-1:0] hpdcache_req_tid_t;
+
+    // Sử dụng Macro của hãng đóng gói Struct yêu cầu/phản hồi
+    typedef `HPDCACHE_DECL_REQ_T(
+                hpdcache_req_offset_t,
+                hpdcache_req_data_t,
+                hpdcache_req_be_t,
+                hpdcache_req_sid_t,
+                hpdcache_req_tid_t,
+                hpdcache_tag_t) tb_req_t;
+
+    typedef `HPDCACHE_DECL_RSP_T(
+                hpdcache_req_data_t,
+                hpdcache_req_sid_t,
+                hpdcache_req_tid_t) tb_rsp_t;
+
+    typedef logic [Cfg.u.memAddrWidth-1:0] hpdcache_mem_addr_t;
+    typedef logic [Cfg.u.memIdWidth-1:0] hpdcache_mem_id_t;
+    typedef logic [Cfg.u.memDataWidth-1:0] hpdcache_mem_data_t;
+    typedef logic [Cfg.u.memDataWidth/8-1:0] hpdcache_mem_be_t;
+
+    // ========== 2. HỆ THỐNG DÂY TÍN HIỆU TOÀN DIỆN KẾT NỐI HPDCACHE ==========
+    logic clk;
+    logic rst_n;
+    logic wbuf_flush;
+
+    logic                 core_req_valid;
+    logic                 core_req_ready;
+    tb_req_t              core_req;
+    logic                 core_req_abort;
+    hpdcache_tag_t        core_req_tag;
+    hpdcache_pma_t        core_req_pma;
+
+    logic                 core_rsp_valid;
+    tb_rsp_t              core_rsp;
+
+    // Memory Read Interface
+    logic                 mem_req_read_ready;
+    logic                 mem_req_read_valid;
+    hpdcache_mem_addr_t   mem_req_read_addr;
+    hpdcache_mem_len_t    mem_req_read_len;
+    hpdcache_mem_size_t   mem_req_read_size;
+    hpdcache_mem_id_t     mem_req_read_id;
+    hpdcache_mem_command_e mem_req_read_command;
+    hpdcache_mem_atomic_e  mem_req_read_atomic;
+    logic                 mem_req_read_cacheable;
+
+    logic                 mem_resp_read_ready;
+    logic                 mem_resp_read_valid;
+    hpdcache_mem_error_e  mem_resp_read_error;
+    hpdcache_mem_id_t     mem_resp_read_id;
+    hpdcache_mem_data_t   mem_resp_read_data;
+    logic                 mem_resp_read_last;
+
+    // Memory Write Interface
+    logic                 mem_req_write_ready;
+    logic                 mem_req_write_valid;
+    hpdcache_mem_addr_t   mem_req_write_addr;
+    hpdcache_mem_len_t    mem_req_write_len;
+    hpdcache_mem_size_t   mem_req_write_size;
+    hpdcache_mem_id_t     mem_req_write_id;
+    hpdcache_mem_command_e mem_req_write_command;
+    hpdcache_mem_atomic_e  mem_req_write_atomic;
+    logic                 mem_req_write_cacheable;
+
+    logic                 mem_req_write_data_ready;
+    logic                 mem_req_write_data_valid;
+    hpdcache_mem_data_t   mem_req_write_data;
+    hpdcache_mem_be_t     mem_req_write_be;
+    logic                 mem_req_write_last;
+
+    logic                 mem_resp_write_ready;
+    logic                 mem_resp_write_valid;
+    logic                 mem_resp_write_is_atomic;
+    hpdcache_mem_error_e  mem_resp_write_error;
+    hpdcache_mem_id_t     mem_resp_write_id;
+
+    // ========== 3. KHỞI TẠO VÀ MAPPING TỪNG PIN TRỰC TIẾP VÀO DUT ==========
+    hpdcache_wrapper u_dut (
+        .clk_i                            (clk),
+        .rst_ni                           (rst_n),
+        .wbuf_flush_i                     (wbuf_flush),
+
+        // Core Request Ports
+        .core_req_valid_i                 (core_req_valid),
+        .core_req_ready_o                 (core_req_ready),
+        .core_req_i                       (core_req),
+        .core_req_abort_i                 (core_req_abort),
+        .core_req_tag_i                   (core_req_tag),
+        .core_req_pma_i                   (core_req_pma),
+
+        // Core Response Ports
+        .core_rsp_valid_o                 (core_rsp_valid),
+        .core_rsp_o                       (core_rsp),
+
+        // Memory Read Ports
+        .mem_req_read_ready_i             (mem_req_read_ready),
+        .mem_req_read_valid_o             (mem_req_read_valid),
+        .mem_req_read_addr_o              (mem_req_read_addr),
+        .mem_req_read_len_o               (mem_req_read_len),
+        .mem_req_read_size_o              (mem_req_read_size),
+        .mem_req_read_id_o                (mem_req_read_id),
+        .mem_req_read_command_o           (mem_req_read_command),
+        .mem_req_read_atomic_o            (mem_req_read_atomic),
+        .mem_req_read_cacheable_o         (mem_req_read_cacheable),
+
+        .mem_resp_read_ready_o            (mem_resp_read_ready),
+        .mem_resp_read_valid_i            (mem_resp_read_valid),
+        .mem_resp_read_error_i            (mem_resp_read_error),
+        .mem_resp_read_id_i               (mem_resp_read_id),
+        .mem_resp_read_data_i             (mem_resp_read_data),
+        .mem_resp_read_last_i             (mem_resp_read_last),
+
+        // Memory Write Ports
+        .mem_req_write_ready_i            (mem_req_write_ready),
+        .mem_req_write_valid_o            (mem_req_write_valid),
+        .mem_req_write_addr_o             (mem_req_write_addr),
+        .mem_req_write_len_o              (mem_req_write_len),
+        .mem_req_write_size_o             (mem_req_write_size),
+        .mem_req_write_id_o               (mem_req_write_id),
+        .mem_req_write_command_o          (mem_req_write_command),
+        .mem_req_write_atomic_o           (mem_req_write_atomic),
+        .mem_req_write_cacheable_o        (mem_req_write_cacheable),
+
+        .mem_req_write_data_ready_i       (mem_req_write_data_ready),
+        .mem_req_write_data_valid_o       (mem_req_write_data_valid),
+        .mem_req_write_data_o             (mem_req_write_data),
+        .mem_req_write_be_o               (mem_req_write_be),
+        .mem_req_write_last_o             (mem_req_write_last),
+
+        .mem_resp_write_ready_o           (mem_resp_write_ready),
+        .mem_resp_write_valid_i           (mem_resp_write_valid),
+        .mem_resp_write_is_atomic_i       (mem_resp_write_is_atomic),
+        .mem_resp_write_error_i           (mem_resp_write_error),
+        .mem_resp_write_id_i              (mem_resp_write_id),
+
+        // Không cần xuất các cổng performance
+        .evt_cache_write_miss_o           (), .evt_cache_read_miss_o  (),
+        .evt_cache_dir_unc_err_o          (), .evt_cache_dir_cor_err_o(),
+        .evt_cache_dat_unc_err_o          (), .evt_cache_dat_cor_err_o(),
+        .evt_scrub_complete_o             (), .evt_uncached_req_o     (),
+        .evt_cmo_req_o                    (), .evt_write_req_o        (),
+        .evt_read_req_o                   (), .evt_prefetch_req_o     (),
+        .evt_req_on_hold_o                (), .evt_rtab_rollback_o    (),
+        .evt_stall_refill_o               (), .evt_stall_o            (),
+        .wbuf_empty_o                     (),
+
+        // Cấu hình cứng mặc định cho các thanh ghi điều khiển của Cache
+        .cfg_enable_i                     (1'b1),
+        .cfg_wbuf_threshold_i             ('0),
+        .cfg_wbuf_reset_timecnt_on_write_i(1'b1),
+        .cfg_wbuf_sequential_waw_i        (1'b0),
+        .cfg_wbuf_inhibit_write_coalescing_i(1'b0),
+        .cfg_prefetch_updt_plru_i         (1'b1),
+        .cfg_error_on_cacheable_amo_i     (1'b0),
+        .cfg_rtab_single_entry_i          (1'b0),
+        .cfg_default_wb_i                 (1'b1),
+        .cfg_scrub_enable_i               (1'b0),
+        .cfg_scrub_period_i               ('0),
+        .cfg_scrub_restart_i              (1'b0)
+    );
+
+    // ========== 4. MẠCH TẠO XUNG CLOCK & RESET ==========
+    initial begin
+        clk = 0;
+        forever #(CLK_PERIOD/2) clk = ~clk;
+    end
+
+    initial begin
+        rst_n = 0;
+        wbuf_flush = 0;
+        core_req_valid = 0;
+        core_req = '0;
+        core_req_abort = 0;
+        core_req_tag = '0;
+        core_req_pma = '0;
+        mem_req_read_ready = 1;
+        mem_req_write_ready = 1;
+        mem_req_write_data_ready = 1;
+        #100;
+        rst_n = 1;
+    end
+
+    // ========== 5. KỊCH BẢN KÍCH THÍCH THEO CHU KỲ PIPELINE HÃNG ==========
+    initial begin
+        static hpdcache_pkg::hpdcache_pma_t default_pma = '0;
+        default_pma.uncacheable    = 1'b0; 
+        default_pma.wr_policy_hint = hpdcache_pkg::HPDCACHE_WR_POLICY_AUTO; 
+
+        @(posedge rst_n);
+        repeat(5) @(posedge clk);
+        $display("==================================================");
+        $display("[TB] BAT DAU MO PHONG HPDCACHE STANDALONE");
+        $display("==================================================");
+
+        // --- KỊCH BẢN 1: GHI DỮ LIỆU (STORE) ---
+        // Tại thời điểm này Cache đang trống -> Chắc chắn gây ra Cache Miss và kích hoạt Refill
+        $display("[TB DCACHE] Kịch bản 1: CPU đẩy yêu cầu STORE (Ghi 0x11223344) vào chu kỳ 1.");
+        core_req_valid     = 1'b1;
+        core_req.op        = HPDCACHE_REQ_STORE;
+        core_req.need_rsp  = 1'b1; // <--- BỔ SUNG DÒNG NÀY
+        core_req.sid       = '0;
+        core_req.tid       = '0;
+        core_req.wdata[0]  = 64'h1122_3344_5566_7788;
+        core_req.be[0]     = '1; 
+        core_req.addr_offset = '0;
+
+        @(posedge clk);
+        while(!core_req_ready) @(posedge clk);
+        
+        core_req_valid     = 1'b0;
+        core_req_tag       = 32'h0000_2000; // Địa chỉ Tag giả định là 0x2000
+        core_req_pma       = default_pma;
+        
+        @(posedge clk);
+        core_req_tag       = '0;
+
+        // Chờ đợi Cache Refill thành công và ghi hoàn tất
+        repeat(40) @(posedge clk);
+
+        // --- KỊCH BẢN 2: CPU ĐỌC LẠI (LOAD) ĐỂ TẠO CACHE HIT ---
+        $display("[TB DCACHE] Kịch bản 2: CPU LOAD trùng địa chỉ để tạo Cache Hit.");
+        core_req_valid     = 1'b1;
+        core_req.op        = HPDCACHE_REQ_LOAD;
+        core_req.need_rsp  = 1'b1; // <--- BỔ SUNG DÒNG NÀY
+        core_req.wdata[0]  = '0;
+
+        @(posedge clk);
+        while(!core_req_ready) @(posedge clk);
+        
+        core_req_valid     = 1'b0;
+        core_req_tag       = 32'h0000_2000;
+        core_req_pma       = default_pma;
+
+        @(posedge clk);
+        core_req_tag       = '0;
+
+        // Chờ phản hồi từ Cache (Định vị Task chờ để không bị treo vĩnh viễn)
+        fork : wait_rsp
+            begin
+                while(!core_rsp_valid) @(posedge clk);
+                $display("[TB SUCCESS] DOC THANH CONG TU HPDCACHE standalone!");
+                $display("[TB SUCCESS] Du lieu doc ra trung khop hoan hao: %h", core_rsp.rdata[0]);
+                disable wait_rsp;
+            end
+            begin
+                // Đóng mốc Timeout 10,000ns bảo vệ hệ thống tránh bị treo cứng
+                #10000; 
+                $fatal(1, "[TIMEOUT] TEST1: core_rsp_valid_o khong len, Refill Memory bi loi!");
+            end
+        join
+
+        repeat(10) @(posedge clk);
+        $display("[TB DCACHE] Ket thuc mo phong.");
+        $stop;
+    end
+
+    // ========== 6. MÔ HÌNH BỘ NHỚ ĐỌC BURST TỰ ĐỘNG (BURST MEMORY SLAVE) ==========
+    logic [7:0]                  read_beat_cnt;
+    logic [7:0]                  read_len_reg;
+    logic [Cfg.u.memIdWidth-1:0] read_id_reg;
+    logic                        read_active;
+
+    always_ff @(posedge clk or negedge rst_n) begin
+        if (!rst_n) begin
+            mem_resp_read_valid      <= 1'b0;
+            mem_resp_read_data       <= '0;
+            mem_resp_read_id         <= '0;
+            mem_resp_read_last       <= 1'b0;
+            mem_resp_read_error      <= HPDCACHE_MEM_RESP_OK;
+            
+            mem_resp_write_valid     <= 1'b0;
+            mem_resp_write_id        <= '0;
+            mem_resp_write_error     <= HPDCACHE_MEM_RESP_OK;
+            mem_resp_write_is_atomic <= 1'b0;
+        end else begin
+            // Xử lý phản hồi đọc nạp dòng Refill (Chuẩn Handshake)
+            if (mem_req_read_valid && mem_req_read_ready && !mem_resp_read_valid) begin
+                mem_resp_read_valid <= 1'b1;
+                mem_resp_read_id    <= mem_req_read_id;
+                mem_resp_read_data  <= 512'h1122_3344_5566_7788; // Cấp đủ dữ liệu chiều rộng khung 512-bit
+                mem_resp_read_last  <= 1'b1; // Báo nhịp cuối cùng hoàn tất
+                mem_resp_read_error <= HPDCACHE_MEM_RESP_OK;
+            end else if (mem_resp_read_valid && mem_resp_read_ready) begin
+                // CHỈ KHI NÀO CACHE BÁO ĐÃ NHẬN XONG (ready = 1) THÌ TB MỚI ĐƯỢC THU VALID VỀ
+                mem_resp_read_valid <= 1'b0;
+                mem_resp_read_last  <= 1'b0;
+            end
+
+            // Tự động phản hồi OK khi Cache thực hiện chu kỳ Writeback
+            if (mem_req_write_valid && mem_req_write_ready) begin
+                mem_resp_write_valid <= 1'b1;
+                mem_resp_write_id    <= mem_req_write_id;
+                mem_resp_write_error <= HPDCACHE_MEM_RESP_OK;
+            end else if (mem_resp_write_valid && mem_resp_write_ready) begin
+                mem_resp_write_valid <= 1'b0;
+            end
+        end
+    end
+
+endmodule
