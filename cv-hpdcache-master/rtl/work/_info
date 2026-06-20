@@ -1,0 +1,1133 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/HCMUS/THESIS/cv-hpdcache-master/rtl
+vhpdcache
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 DXx4 work 12 hpdcache_pkg 0 22 XIRC>7:?5?hQS]c0R7Hm`0
+Z3 !s110 1781192198
+!i10b 1
+!s100 L6LAnh]z?jKA6ez4HDzD[1
+I]E9WO<f;?k@EAMC1h;z:a3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+!s105 hpdcache_sv_unit
+S1
+R0
+Z5 w1779437026
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache.sv
+L0 15
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1781192198.000000
+Z8 !s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_flush.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_wbuf.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_victim_sel.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_victim_random.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_victim_plru.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_uncached.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_rtab.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_mshr.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_miss_handler.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_cbuf.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_ctrl_pe.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_ctrl.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_core_arbiter.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_cmo.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_amo.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_arb.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_pkg.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_data_resize.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_data_upsize.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_data_downsize.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wmask_1rw.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wbyteenable_1rw.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wbyteenable.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sram.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_prio_bin_encoder.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_prio_1hot_encoder.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_1hot_to_binary.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_decoder.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_mux.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_rrarb.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_fxarb.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg_initialized.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sync_buffer.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_lfsr.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_write_arbiter.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_read_arbiter.sv|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_pkg.sv|
+Z9 !s90 -reportprogress|300|-sv|-work|work|-f|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/hpdcache.Flist|
+!i113 1
+Z10 o-sv -work work
+Z11 !s92 -sv -work work +incdir+D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include
+Z12 tCvgOpt 0
+vhpdcache_1hot_to_binary
+R1
+R3
+!i10b 1
+!s100 ]Q8UHbU>?FFoc2h_DEPNE3
+I?V:6^PkWZhIL;5O4E`?KH2
+R4
+!s105 hpdcache_1hot_to_binary_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_1hot_to_binary.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_1hot_to_binary.sv
+Z13 L0 26
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_amo
+R1
+R2
+R3
+!i10b 1
+!s100 J@hY[8`QG4EKTmn>eFT9m1
+I=I[5eDR6<H:R<JPKF=PkB3
+R4
+!s105 hpdcache_amo_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_amo.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_amo.sv
+Z14 L0 27
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_cbuf
+R1
+R2
+Z15 !s110 1781192199
+!i10b 1
+!s100 :XiO@dQfFO_3SnfbIU5mQ0
+I]<[Of6O^j^4VLUmj9Omed2
+R4
+!s105 hpdcache_cbuf_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_cbuf.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_cbuf.sv
+Z16 L0 19
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_cmo
+R1
+R2
+R3
+!i10b 1
+!s100 1R]0j8YCL=e=??2`7YZdm1
+IK?K1c;czz@QZLgTfAMgCB3
+R4
+!s105 hpdcache_cmo_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_cmo.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_cmo.sv
+R14
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_core_arbiter
+R1
+R2
+R3
+!i10b 1
+!s100 C4X5GE:36RoIWR95lGAVm2
+IQHBMh2BUeD`EFc2D::1I53
+R4
+!s105 hpdcache_core_arbiter_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_core_arbiter.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_core_arbiter.sv
+R14
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_ctrl
+R1
+R2
+R15
+!i10b 1
+!s100 :]HQR3I=BPzAKJl2]eW;72
+IHEcbnJ7<3MjBgTbg5T2dZ3
+R4
+!s105 hpdcache_ctrl_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_ctrl.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_ctrl.sv
+Z17 L0 13
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_ctrl_pe
+R1
+R2
+R15
+!i10b 1
+!s100 ;]A^oQhnc?dNX>n]8bNDF3
+InI8c871L;VTU8gc1`5?hR3
+R4
+!s105 hpdcache_ctrl_pe_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_ctrl_pe.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_ctrl_pe.sv
+R17
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_data_downsize
+R1
+R2
+R3
+!i10b 1
+!s100 KYazL7?oSl?ERSPX?B]z?0
+I7Lcj65<zCfMbT7Fk;^5`L2
+R4
+!s105 hpdcache_data_downsize_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_data_downsize.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_data_downsize.sv
+R13
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_data_resize
+R1
+R2
+R3
+!i10b 1
+!s100 nKC9KKXjkik>hX9Ul>M;W1
+IZO:EZYjdK:3Pi[6dmWU1h0
+R4
+!s105 hpdcache_data_resize_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_data_resize.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_data_resize.sv
+R13
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_data_upsize
+R1
+R2
+R3
+!i10b 1
+!s100 F50>4bX6AWPK^BSOn@H4<2
+Ig;o?hbLi;P11RKCIoN^@P3
+R4
+!s105 hpdcache_data_upsize_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_data_upsize.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_data_upsize.sv
+R13
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_decoder
+R1
+R3
+!i10b 1
+!s100 ?Tn65DJQ@g3>J8BQ0?8722
+IAQ_bjHQWm_]WzLoc7WC?31
+R4
+!s105 hpdcache_decoder_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_decoder.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_decoder.sv
+R13
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_demux
+R1
+R3
+!i10b 1
+!s100 VN:;WmOKEOZOYk[VGio0F3
+IR@f=I^A?GiV:C7lDUfTzD3
+R4
+!s105 hpdcache_demux_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv
+R13
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_fifo_reg
+R1
+R3
+!i10b 1
+!s100 [VkHeaBQG>Om;HD:WDd>92
+ISZK@R>NBmGfR0dZ^CSYEl0
+R4
+!s105 hpdcache_fifo_reg_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg.sv
+R13
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_fifo_reg_initialized
+R1
+R3
+!i10b 1
+!s100 Lj<m6;hcS^5G9]z_kaNHk2
+IALF>NHL>n5;NOcQVNeIoJ2
+R4
+!s105 hpdcache_fifo_reg_initialized_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg_initialized.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg_initialized.sv
+R14
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_flush
+R1
+R2
+R15
+!i10b 1
+!s100 bELh4zA`QAzlQd7=hbWc[0
+ITS<UIhi[Dg5zFHFoTjKAe1
+R4
+!s105 hpdcache_flush_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_flush.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_flush.sv
+R14
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_fxarb
+R1
+R3
+!i10b 1
+!s100 6UaC4iXJ]WGnaS@EH]Bi^0
+IC;fEiAT`alU;EX[G5SkT>3
+R4
+!s105 hpdcache_fxarb_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_fxarb.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_fxarb.sv
+R13
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_lfsr
+R1
+R3
+!i10b 1
+!s100 V>oDRNVm8bhB>Ln0@c9?G3
+I9JS2I1cnmST9NJ@ocS;lz1
+R4
+!s105 hpdcache_lfsr_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_lfsr.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_lfsr.sv
+R13
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_mem_req_read_arbiter
+R1
+R3
+!i10b 1
+!s100 ?b6`U:9S7578FjYX>?ZKX3
+I65m]?fb[=44of8HefkfAU2
+R4
+!s105 hpdcache_mem_req_read_arbiter_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_read_arbiter.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_read_arbiter.sv
+R13
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_mem_req_write_arbiter
+R1
+R3
+!i10b 1
+!s100 aO0A7PW633G74m0@QND?e3
+IzMB6aNaTU^iN7KQK8[EY`3
+R4
+!s105 hpdcache_mem_req_write_arbiter_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_write_arbiter.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_write_arbiter.sv
+R13
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_memctrl
+R1
+R2
+R15
+!i10b 1
+!s100 4kdn0CK11m1?9^kN1?:RF3
+I<hUoVYULCZ2FKg?WzPz490
+R4
+!s105 hpdcache_memctrl_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv
+R17
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_miss_handler
+R1
+R2
+R15
+!i10b 1
+!s100 :m>RdCCa@Hb_K5XKMDzag2
+IJXAbZJgPV?=:4j52KdDn@2
+R4
+!s105 hpdcache_miss_handler_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_miss_handler.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_miss_handler.sv
+R14
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_mshr
+R1
+R2
+R15
+!i10b 1
+!s100 ^TfLCDl`6gEmC>[]>zOGQ3
+I;M:eGFjX?SzE?SkHXi?;G1
+R4
+!s105 hpdcache_mshr_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_mshr.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_mshr.sv
+R14
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_mux
+R1
+R3
+!i10b 1
+!s100 eMZhKO>oEgP6F[WU2jNTD3
+IAH[Y7fD:l2E_AAN:LQoSz3
+R4
+!s105 hpdcache_mux_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_mux.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_mux.sv
+R13
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+Xhpdcache_pkg
+R1
+R3
+!i10b 1
+!s100 ;7NDQc8B9SFK]5RW9ZbEI3
+IXIRC>7:?5?hQS]c0R7Hm`0
+VXIRC>7:?5?hQS]c0R7Hm`0
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_pkg.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_pkg.sv
+R17
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_prio_1hot_encoder
+R1
+R3
+!i10b 1
+!s100 ]=bhoI07:i^IniHR2ng;02
+IXe7_0`U==lOXIA:M7dgf=0
+R4
+!s105 hpdcache_prio_1hot_encoder_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_prio_1hot_encoder.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_prio_1hot_encoder.sv
+R13
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_prio_bin_encoder
+R1
+R3
+!i10b 1
+!s100 NYMSeXLWWTb]S?T3@F=H62
+I8YEV^jPjB;_I>h84Z`Jbc0
+R4
+!s105 hpdcache_prio_bin_encoder_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_prio_bin_encoder.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_prio_bin_encoder.sv
+R16
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_regbank_wbyteenable_1rw
+R1
+R3
+!i10b 1
+!s100 :cS6@9kSX`U==?f9ER0431
+I`^RH``1YH9^e^905aEM771
+R4
+!s105 hpdcache_regbank_wbyteenable_1rw_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wbyteenable_1rw.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wbyteenable_1rw.sv
+R13
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_regbank_wmask_1rw
+R1
+R3
+!i10b 1
+!s100 b;HLCnPV3`34W[<MPLCeJ1
+IT3Oe48O[l]LBRgd@[5>A:0
+R4
+!s105 hpdcache_regbank_wmask_1rw_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wmask_1rw.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wmask_1rw.sv
+R13
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_rrarb
+R1
+R3
+!i10b 1
+!s100 5T6KN1cm6H7[[0eDE?ieo0
+IVjK6]gUOoL0nVQQ;=DDBT0
+R4
+!s105 hpdcache_rrarb_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_rrarb.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_rrarb.sv
+Z18 L0 28
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_rtab
+R1
+R2
+R15
+!i10b 1
+!s100 m``Dk33HDBL:SAiGdYb5h2
+IDk4>0hg>BXB7SX:BWh=gY2
+R4
+!s105 hpdcache_rtab_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_rtab.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_rtab.sv
+R17
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_sram
+R1
+R3
+!i10b 1
+!s100 d[PDkgHF5CDMkk;ZlX_c`3
+ILoR`zdGC80m39Q9EHdLN^3
+R4
+!s105 hpdcache_sram_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sram.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sram.sv
+R17
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_sram_wbyteenable
+R1
+R3
+!i10b 1
+!s100 0;_^:0bOL;aRmPdJW]GAe2
+I9bHdY6RoUNGeRo798Z>E>0
+R4
+!s105 hpdcache_sram_wbyteenable_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wbyteenable.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wbyteenable.sv
+R17
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_sram_wmask
+R1
+R3
+!i10b 1
+!s100 o<]^MlfoGgDMXCJAhmd=A1
+IN?E[4LDz:WaAhRiZ54mHH0
+R4
+!s105 hpdcache_sram_wmask_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv
+R17
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_sync_buffer
+R1
+R3
+!i10b 1
+!s100 QoSQX=:4n;`Li]imjL7?41
+I;OzlS[0PLA:nVZShKiRd]1
+R4
+!s105 hpdcache_sync_buffer_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sync_buffer.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sync_buffer.sv
+R13
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_uncached
+R1
+R2
+R15
+!i10b 1
+!s100 8J7oMe7?z^bIJL?4EYfX]0
+INQhegOhCS=LLJ5[=eN8WB0
+R4
+!s105 hpdcache_uncached_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_uncached.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_uncached.sv
+R17
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_victim_plru
+R1
+R2
+R15
+!i10b 1
+!s100 _Jk?b=F<[:RNHcQgbC@[83
+IIgb5gHB;TN5zU5SJ7lhc?2
+R4
+!s105 hpdcache_victim_plru_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_victim_plru.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_victim_plru.sv
+R14
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_victim_random
+R1
+R2
+R15
+!i10b 1
+!s100 g]P:BT4RP]L4g:aS?N2_]0
+I7=Ln>@]iTada@@R:J0ezj0
+R4
+!s105 hpdcache_victim_random_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_victim_random.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_victim_random.sv
+R14
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_victim_sel
+R1
+R2
+R15
+!i10b 1
+!s100 6Q3mZ9oO5g^@HfO>L]fSV2
+I^ejF;Sgn3c]L[Y2j7l:gI2
+R4
+!s105 hpdcache_victim_sel_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_victim_sel.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_victim_sel.sv
+R14
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhpdcache_wbuf
+R1
+R2
+R15
+!i10b 1
+!s100 e<cJ6h<:OgD?VgaiH_:h02
+IejYIkfHaYjgYHdJEKYM@O0
+R4
+!s105 hpdcache_wbuf_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_wbuf.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_wbuf.sv
+R14
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhwpf_stride
+R1
+Z19 DXx4 work 15 hwpf_stride_pkg 0 22 ;]RckCOJg<]I16:2Q6GBN1
+R2
+R3
+!i10b 1
+!s100 [2k079jX:mP>ET?moNWbg1
+IF9_^EDKI0DDAi?b:f[F?W0
+R4
+!s105 hwpf_stride_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride.sv
+R14
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhwpf_stride_arb
+R1
+R2
+R3
+!i10b 1
+!s100 @Z]mX31A1n2XYRT<cQUXf2
+IQ206Cz1O8G[f<YSdHX:n<0
+R4
+!s105 hwpf_stride_arb_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_arb.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_arb.sv
+R13
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+Xhwpf_stride_pkg
+R1
+R3
+!i10b 1
+!s100 mLLYi3zl1^D]@k:b^Wd4b1
+I;]RckCOJg<]I16:2Q6GBN1
+V;]RckCOJg<]I16:2Q6GBN1
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_pkg.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_pkg.sv
+R14
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vhwpf_stride_wrapper
+R1
+R19
+R2
+R3
+!i10b 1
+!s100 oR0Xz<c`RQeU2M8S[omf50
+I6QDBOa;]Q1X5XDDa:_e2Z3
+R4
+!s105 hwpf_stride_wrapper_sv_unit
+S1
+R0
+R5
+8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv
+R18
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12

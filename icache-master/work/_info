@@ -1,0 +1,337 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/HCMUS/THESIS/icache-master
+Xariane_pkg
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 DXx4 work 10 config_pkg 0 22 >zDDjUo@V@I6RN8Wn1H6;0
+Z3 DXx4 work 15 cva6_config_pkg 0 22 CIVfRFK[<b[m2YYIa7ia?1
+Z4 DXx4 work 5 riscv 0 22 <dhf<BS760UXlG:>Wg3A61
+Z5 !s110 1781017372
+!i10b 1
+!s100 ]Q^@emZD2b8mG`d^3Cb[@1
+I]R40fH2N2P@OafVWJa]Bd1
+V]R40fH2N2P@OafVWJa]Bd1
+S1
+R0
+Z6 w1780322994
+8D:/HCMUS/THESIS/cva6-master/core/include/ariane_pkg.sv
+FD:/HCMUS/THESIS/cva6-master/core/include/ariane_pkg.sv
+L0 29
+Z7 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z8 !s108 1781017372.000000
+!s107 D:/HCMUS/THESIS/cva6-master/core/include/ariane_pkg.sv|
+!s90 -reportprogress|300|-sv|-work|work|D:/HCMUS/THESIS/cva6-master/core/include/ariane_pkg.sv|
+!i113 1
+Z9 o-sv -work work
+Z10 tCvgOpt 0
+Xcf_math_pkg
+R1
+Z11 !s110 1781017371
+!i10b 1
+!s100 QcAWVUd3>H`Jc[58jH[FO1
+IBe_@0CK>DW5THYJE?SfK]0
+VBe_@0CK>DW5THYJE?SfK]0
+S1
+R0
+R6
+8D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/cf_math_pkg.sv
+FD:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/cf_math_pkg.sv
+Z12 L0 18
+R7
+r1
+!s85 0
+31
+Z13 !s108 1781017371.000000
+!s107 D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/cf_math_pkg.sv|
+!s90 -reportprogress|300|-sv|-work|work|D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/cf_math_pkg.sv|
+!i113 1
+R9
+R10
+Xconfig_pkg
+R1
+R11
+!i10b 1
+!s100 ]1A^`553_H<TO4Ha9RfWg2
+I>zDDjUo@V@I6RN8Wn1H6;0
+V>zDDjUo@V@I6RN8Wn1H6;0
+S1
+R0
+R6
+8D:/HCMUS/THESIS/cva6-master/core/include/config_pkg.sv
+FD:/HCMUS/THESIS/cva6-master/core/include/config_pkg.sv
+L0 10
+R7
+r1
+!s85 0
+31
+R13
+!s107 D:/HCMUS/THESIS/cva6-master/core/include/config_pkg.sv|
+!s90 -reportprogress|300|-sv|-work|work|D:/HCMUS/THESIS/cva6-master/core/include/config_pkg.sv|
+!i113 1
+R9
+R10
+Xcva6_config_pkg
+R1
+R2
+R11
+!i10b 1
+!s100 ;I1IFbMi9Nb4AJO7aXNLa3
+ICIVfRFK[<b[m2YYIa7ia?1
+VCIVfRFK[<b[m2YYIa7ia?1
+S1
+R0
+R6
+8D:/HCMUS/THESIS/cva6-master/core/include/cv32a6_imac_sv32_config_pkg.sv
+FD:/HCMUS/THESIS/cva6-master/core/include/cv32a6_imac_sv32_config_pkg.sv
+L0 11
+R7
+r1
+!s85 0
+31
+R13
+!s107 D:/HCMUS/THESIS/cva6-master/core/include/cv32a6_imac_sv32_config_pkg.sv|
+!s90 -reportprogress|300|-sv|-work|work|D:/HCMUS/THESIS/cva6-master/core/include/cv32a6_imac_sv32_config_pkg.sv|
+!i113 1
+R9
+R10
+vcva6_icache
+R1
+R2
+R3
+R4
+Z14 DXx4 work 10 ariane_pkg 0 22 ]R40fH2N2P@OafVWJa]Bd1
+Z15 DXx4 work 12 wt_cache_pkg 0 22 2aCO91Z90V9=GVW9UI34l2
+R5
+!i10b 1
+!s100 m22FZXB:XHoFjf582M:=31
+I8B;3PzXNa;5b95moW8niU2
+Z16 VDg1SIo80bB@j0V0VzS_@n1
+!s105 cva6_icache_sv_unit
+S1
+R0
+w1780987242
+8D:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_icache.sv
+FD:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_icache.sv
+L0 28
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_icache.sv|
+!s90 -reportprogress|300|-sv|-work|work|D:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_icache.sv|
+!i113 1
+R9
+R10
+vlzc
+R1
+DXx4 work 11 cf_math_pkg 0 22 Be_@0CK>DW5THYJE?SfK]0
+R5
+!i10b 1
+!s100 ;N^J@dd4l]d@[_Dz`Dc5K2
+I2jDfBX3O;ZE5bdlW98Adk1
+R16
+!s105 lzc_sv_unit
+S1
+R0
+R6
+8D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/lzc.sv
+FD:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/lzc.sv
+L0 25
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/lzc.sv|
+!s90 -reportprogress|300|-sv|-work|work|D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/lzc.sv|
+!i113 1
+R9
+R10
+vplru
+R1
+R5
+!i10b 1
+!s100 OIdDP8<l8YCD9]6M0d8I01
+I1nM:YBfA_`@91SK<m:fk`2
+R16
+!s105 plru_sv_unit
+S1
+R0
+w1780982437
+8D:/HCMUS/THESIS/icache-master/plru.sv
+FD:/HCMUS/THESIS/icache-master/plru.sv
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/HCMUS/THESIS/icache-master/plru.sv|
+!s90 -reportprogress|300|-sv|-work|work|D:/HCMUS/THESIS/icache-master/plru.sv|
+!i113 1
+R9
+R10
+Xriscv
+R1
+R2
+R3
+R5
+!i10b 1
+!s100 DQc8c;IO?b<UVLi]R>HkI3
+I<dhf<BS760UXlG:>Wg3A61
+V<dhf<BS760UXlG:>Wg3A61
+S1
+R0
+R6
+8D:/HCMUS/THESIS/cva6-master/core/include/riscv_pkg.sv
+FD:/HCMUS/THESIS/cva6-master/core/include/riscv_pkg.sv
+R12
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/HCMUS/THESIS/cva6-master/core/include/riscv_pkg.sv|
+!s90 -reportprogress|300|-sv|-work|work|D:/HCMUS/THESIS/cva6-master/core/include/riscv_pkg.sv|
+!i113 1
+R9
+R10
+vsram
+R1
+R5
+!i10b 1
+!s100 U?3e2aIfeYGg@SHY?:h@k2
+I1Xl<LU99EVOkWSI>oj=S[2
+R16
+!s105 sram_sv_unit
+S1
+R0
+R6
+8D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/deprecated/sram.sv
+FD:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/deprecated/sram.sv
+L0 14
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/deprecated/sram.sv|
+!s90 -reportprogress|300|-sv|-work|work|D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/deprecated/sram.sv|
+!i113 1
+R9
+R10
+vsram_cache
+R1
+R5
+!i10b 1
+!s100 zPHaC[gDA^PXAoeYM0>JF3
+IgTYhmeCXRml0k@f6Tocbn3
+R16
+!s105 sram_cache_sv_unit
+S1
+R0
+w1781017364
+8D:/HCMUS/THESIS/cva6-master/common/local/util/sram_cache.sv
+FD:/HCMUS/THESIS/cva6-master/common/local/util/sram_cache.sv
+L0 21
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/HCMUS/THESIS/cva6-master/common/local/util/sram_cache.sv|
+!s90 -reportprogress|300|-sv|-work|work|D:/HCMUS/THESIS/cva6-master/common/local/util/sram_cache.sv|
+!i113 1
+R9
+R10
+vtb_icache
+R1
+R2
+R3
+R4
+R14
+R15
+DXx4 work 17 tb_icache_sv_unit 0 22 7j4bTH3P_LzkB3`Wj@DGW2
+R16
+r1
+!s85 0
+31
+!i10b 1
+!s100 <mBZ4i@PKh>n@WCJagIH52
+IKLShjf=PL:>ONY;TAGWVl0
+!s105 tb_icache_sv_unit
+S1
+R0
+Z17 w1781016688
+Z18 8D:/HCMUS/THESIS/icache-master/tb_icache.sv
+Z19 FD:/HCMUS/THESIS/icache-master/tb_icache.sv
+L0 87
+R7
+R8
+Z20 !s107 D:/HCMUS/THESIS/icache-master/tb_icache.sv|
+Z21 !s90 -reportprogress|300|-sv|-work|work|D:/HCMUS/THESIS/icache-master/tb_icache.sv|
+!i113 1
+R9
+R10
+Xtb_icache_sv_unit
+R1
+R2
+R3
+R4
+R14
+R15
+V7j4bTH3P_LzkB3`Wj@DGW2
+r1
+!s85 0
+31
+!i10b 1
+!s100 KgD1D0Rj<Vfz1G_od<j_<1
+I7j4bTH3P_LzkB3`Wj@DGW2
+!i103 1
+S1
+R0
+R17
+R18
+R19
+L0 3
+R7
+R8
+R20
+R21
+!i113 1
+R9
+R10
+Xwt_cache_pkg
+R1
+R5
+!i10b 1
+!s100 jaM[fKg1HOo1foW?J:ISW3
+I2aCO91Z90V9=GVW9UI34l2
+V2aCO91Z90V9=GVW9UI34l2
+S1
+R0
+R6
+8D:/HCMUS/THESIS/cva6-master/core/include/wt_cache_pkg.sv
+FD:/HCMUS/THESIS/cva6-master/core/include/wt_cache_pkg.sv
+R12
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/HCMUS/THESIS/cva6-master/core/include/wt_cache_pkg.sv|
+!s90 -reportprogress|300|-sv|-work|work|D:/HCMUS/THESIS/cva6-master/core/include/wt_cache_pkg.sv|
+!i113 1
+R9
+R10
