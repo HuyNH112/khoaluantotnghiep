@@ -10,7 +10,7 @@ set HPDCACHE_DIR "D:/HCMUS/THESIS/cv-hpdcache-master"
 
 quit -sim
 catch {project close}
-project new $BASE_DIR full_core work
+project new $BASE_DIR cva6 work
 
 
 

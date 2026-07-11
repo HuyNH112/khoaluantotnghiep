@@ -32,34 +32,35 @@ module domino_prefetcher_top (
         .pre_miss_o(pre_miss), .pre2_miss_o(pre2_miss)
     );
     
-    // 3. Hash cho MHT1 và MHT2
-    logic [INDEX_WIDTH-1:0] hash_idx_mht1, hash_idx_mht2;
-    domino_xor_hash u_hash_mht1 (
-        .addr_in1_i(pre_miss), .addr_in2_i('0), .hash_idx_o(hash_idx_mht1)
-    );
-    domino_xor_hash u_hash_mht2 (
-        .addr_in1_i(pre_miss), .addr_in2_i(pre2_miss), .hash_idx_o(hash_idx_mht2)
-    );
-    
+    // 3. Hash cho MHT1 và MHT2 (TÁCH BIỆT HASH ĐỌC VÀ GHI)
+    logic [INDEX_WIDTH-1:0] write_hash_mht1, write_hash_mht2;
+    logic [INDEX_WIDTH-1:0] read_hash_mht1, read_hash_mht2;
+
+    domino_xor_hash u_hash_write_mht1 (.addr_in1_i(pre_miss), .addr_in2_i('0), .hash_idx_o(write_hash_mht1));
+    domino_xor_hash u_hash_write_mht2 (.addr_in1_i(pre_miss), .addr_in2_i(pre2_miss), .hash_idx_o(write_hash_mht2));
+
+    domino_xor_hash u_hash_read_mht1 (.addr_in1_i(curr_miss_addr), .addr_in2_i('0), .hash_idx_o(read_hash_mht1));
+    domino_xor_hash u_hash_read_mht2 (.addr_in1_i(curr_miss_addr), .addr_in2_i(pre_miss), .hash_idx_o(read_hash_mht2));
+
     // 4. Bảng MHT1 & MHT2
     logic mht1_valid, mht2_valid;
     logic [ADDR_WIDTH-1:0] mht1_data, mht2_data;
     
     domino_mht_ram u_mht1 (
         .clk(clk), .rst_n(rst_n),
-        .read_en_i(miss_detected), .read_idx_i(hash_idx_mht1),
+        .read_en_i(miss_detected), .read_idx_i(read_hash_mht1),
         .read_valid_o(mht1_valid), .read_data_o(mht1_data),
-        .write_en_i(miss_detected), .write_idx_i(hash_idx_mht1), .write_data_i(curr_miss_addr)
+        .write_en_i(miss_detected), .write_idx_i(write_hash_mht1), .write_data_i(curr_miss_addr)
     );
     
     domino_mht_ram u_mht2 (
         .clk(clk), .rst_n(rst_n),
-        .read_en_i(miss_detected), .read_idx_i(hash_idx_mht2),
+        .read_en_i(miss_detected), .read_idx_i(read_hash_mht2),
         .read_valid_o(mht2_valid), .read_data_o(mht2_data),
-        .write_en_i(miss_detected), .write_idx_i(hash_idx_mht2), .write_data_i(curr_miss_addr)
+        .write_en_i(miss_detected), .write_idx_i(write_hash_mht2), .write_data_i(curr_miss_addr)
     );
     
-    // 5. Cấp quyền ưu tiên (Priority Mux): MHT2 ưu tiên hơn MHT1
+    // 5. Cấp quyền ưu tiên (Priority Mux)
     always_ff @(posedge clk or negedge rst_n) begin
         if (!rst_n) begin
             pref_req_o.valid <= 1'b0;
@@ -76,5 +77,4 @@ module domino_prefetcher_top (
             end
         end
     end
-
 endmodule

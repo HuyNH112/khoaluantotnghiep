@@ -121,14 +121,36 @@ module tb_cva6;
     );
     
     // ========== MÔ HÌNH BỘ NHỚ GIẢ LẬP (AXI SLAVE) ==========
-    logic [7:0] memory [0:1023];
     
-    
+    // 1. Tăng kích thước RAM lên 256KB (18-bit address) để chứa được code ở 0x10094
+    logic [7:0] memory [0:262143]; 
+
+    // 2. Khởi tạo RAM và nạp file HEX
+    initial begin
+        // CHỈ dùng hàm hệ thống để nạp mã máy, không gán tay bằng vòng lặp nữa
+        $readmemh("D:/HCMUS/THESIS/test/matrix_test.hex", memory);
+        $display("[INFO] Da nap file matrix_test.hex vao RAM he thong!");
+    end
+
     // --- Logic Xử lý AXI Đa luồng (Chống Đỏ X) ---
     logic        r_valid_q;
     axi_r_chan_t r_data_q;
     logic        b_valid_q;
     axi_b_chan_t b_data_q;
+
+    // 3. Kỹ thuật Address Masking (Đã fix lỗi AXI Protocol)
+    logic [17:0] safe_ar_addr;
+    assign safe_ar_addr = noc_req.ar.addr[17:0];
+
+    // --- CÁC THANH GHI CHỐT KÊNH GHI (AW CHANNEL LATCH) ---
+    logic [17:0] latched_aw_addr;
+    logic [CVA6Cfg.AxiIdWidth-1:0] latched_aw_id;
+    logic [17:0] current_aw_addr;
+    logic [CVA6Cfg.AxiIdWidth-1:0] current_aw_id;
+
+    // Tự động chọn: Nếu AW đến cùng lúc thì dùng trực tiếp, nếu AW đến trước thì dùng đồ đã chốt
+    assign current_aw_addr = (noc_req.aw_valid) ? noc_req.aw.addr[17:0] : latched_aw_addr;
+    assign current_aw_id   = (noc_req.aw_valid) ? noc_req.aw.id : latched_aw_id;
 
     always_ff @(posedge clk or negedge rst_n) begin
         if (!rst_n) begin
@@ -136,41 +158,40 @@ module tb_cva6;
             b_valid_q <= 1'b0;
             r_data_q  <= '0;
             b_data_q  <= '0;
-            
-            // CHUYỂN VIỆC KHỞI TẠO RAM VÀO LÚC RESET ĐỂ TRÁNH LỖI MULTIPLE DRIVERS
-            for (int i = 0; i < 1024; i++) begin
-                memory[i] <= 8'h00;
-            end
-            memory[0] <= 8'h13; memory[1] <= 8'h01; memory[2] <= 8'h10; memory[3] <= 8'h00; 
-            memory[4] <= 8'h93; memory[5] <= 8'h01; memory[6] <= 8'h20; memory[7] <= 8'h00;
-            memory[8] <= 8'h33; memory[9] <= 8'h02; memory[10] <= 8'h31; memory[11] <= 8'h00;
-            memory[12] <= 8'h6F; memory[13] <= 8'h00; memory[14] <= 8'h00; memory[15] <= 8'h00;
-            
         end else begin
-            // 1. Phản hồi Kênh Đọc (Cấp lệnh cho CPU)
+            // 4. Phản hồi Kênh Đọc (Cấp lệnh/Data cho CPU)
             if (noc_req.ar_valid && noc_resp.ar_ready) begin
                 r_valid_q      <= 1'b1;
-                r_data_q.data  <= {memory[noc_req.ar.addr+7], memory[noc_req.ar.addr+6],
-                                   memory[noc_req.ar.addr+5], memory[noc_req.ar.addr+4],
-                                   memory[noc_req.ar.addr+3], memory[noc_req.ar.addr+2],
-                                   memory[noc_req.ar.addr+1], memory[noc_req.ar.addr]};
-                r_data_q.resp  <= 2'b00; 
+                r_data_q.data  <= {memory[safe_ar_addr+7], memory[safe_ar_addr+6],
+                                   memory[safe_ar_addr+5], memory[safe_ar_addr+4],
+                                   memory[safe_ar_addr+3], memory[safe_ar_addr+2],
+                                   memory[safe_ar_addr+1], memory[safe_ar_addr]};
+                r_data_q.resp  <= 2'b00;
                 r_data_q.last  <= 1'b1;  
                 r_data_q.id    <= noc_req.ar.id;
             end else if (r_valid_q && noc_req.r_ready) begin
                 r_valid_q      <= 1'b0;
             end
             
-            // 2. Phản hồi Kênh Ghi (CPU ghi kết quả xuống RAM)
+            // =================================================================
+            // [FIX] 5. PHẢN HỒI KÊNH GHI (TÁCH BẠCH AW VÀ W)
+            // =================================================================
+            // BƯỚC 1: Chốt Address và ID khi kênh AW đến
+            if (noc_req.aw_valid && noc_resp.aw_ready) begin
+                latched_aw_addr <= noc_req.aw.addr[17:0];
+                latched_aw_id   <= noc_req.aw.id;
+            end
+
+            // BƯỚC 2: Ghi RAM và trả B-Response khi kênh W đến
             if (noc_req.w_valid && noc_resp.w_ready) begin
                 for (int i = 0; i < 8; i++) begin
                     if (noc_req.w.strb[i]) begin
-                        memory[noc_req.aw.addr + i] <= noc_req.w.data[i*8 +: 8];
+                        memory[current_aw_addr + i] <= noc_req.w.data[i*8 +: 8];
                     end
                 end
                 b_valid_q      <= 1'b1;
                 b_data_q.resp  <= 2'b00; 
-                b_data_q.id    <= noc_req.aw.id;
+                b_data_q.id    <= current_aw_id; // Đã sửa: Không còn bị rác ID
             end else if (b_valid_q && noc_req.b_ready) begin
                 b_valid_q      <= 1'b0;
             end
@@ -202,7 +223,8 @@ module tb_cva6;
     end
     
     initial begin
-        boot_addr_i = '0; 
+        // Đặt địa chỉ Boot của CPU trỏ đúng vào địa chỉ bắt đầu trong file HEX (@00010094)
+        boot_addr_i = 64'h00010094; 
         hart_id_i   = '0;   
         irq_i       = 2'b0;
         ipi_i       = 1'b0;
@@ -214,7 +236,7 @@ module tb_cva6;
     logic [31:0] expected_result = 32'd8; 
     
     initial begin
-        #10000; // Đổi thành thời gian này để CPU chạy thoải mái qua các chu kỳ pipeline
+        #500000; // Đổi thành thời gian này để CPU chạy thoải mái qua các chu kỳ pipeline
         // Kiểm tra xem CPU có tính ra 8 và ghi vào RAM không
         if ({memory['h103], memory['h102], memory['h101], memory['h100]} == expected_result) begin
             $display("[INFO] TEST PASSED! Result = %d", expected_result);

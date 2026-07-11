@@ -288,6 +288,69 @@ module cva6_hpdcache_subsystem
   logic                 dcache_resp_read_inval;
   hpdcache_nline_t      dcache_resp_read_inval_nline;
 
+  // ==============================================================================
+  // [THESIS] TÍCH HỢP DOMINO PREFETCHER VÀO SUBSYSTEM
+  // ==============================================================================
+  domino_pkg::domino_pref_req_t pref_req;
+  logic is_prefetching;
+  
+  // 1. Trigger: Nghe lén lệnh Load từ Load Unit của CVA6 (Port 1)
+  logic [55:0] core_load_addr;
+  assign core_load_addr = {dcache_req_ports_i[1].address_tag, dcache_req_ports_i[1].address_index};
+  
+  logic core_load_valid;
+  // Bắt Trigger khi Load Unit phát lệnh thành công (Handshake Req & Gnt)
+  assign core_load_valid = dcache_req_ports_i[1].data_req && dcache_req_ports_o[1].data_gnt;
+
+  domino_prefetcher_top u_domino (
+      .clk(clk_i),
+      .rst_n(rst_ni),
+      // Chỉ học khi có lệnh từ Core và bản thân Domino không đang bơm data
+      .evt_cache_read_miss_i(core_load_valid && !is_prefetching), 
+      .miss_addr_i(core_load_addr),
+      .pref_req_o(pref_req)
+  );
+
+  // 2. Mảng Request sửa đổi: Trộn lệnh của Core và lệnh của Domino
+  dcache_req_i_t [NumPorts-1:0] dcache_req_ports_i_mod;
+  
+  always_comb begin
+      // Mặc định: Pass-through toàn bộ tín hiệu gốc từ CPU Core
+      dcache_req_ports_i_mod = dcache_req_ports_i;
+      
+      // Ghi đè Port 2 (Accelerator Load) để Domino bơm địa chỉ dự đoán
+      if (is_prefetching) begin
+          dcache_req_ports_i_mod[2].data_req      = 1'b1;
+          
+          // ---> THÊM 2 DÒNG NÀY ĐỂ ÉP BUỘC LÀ LỆNH READ <---
+          dcache_req_ports_i_mod[2].data_we       = 1'b0;    // 0 = READ, 1 = WRITE
+          dcache_req_ports_i_mod[2].data_be       = 4'b1111; // Bật 4 byte cho hệ 32-bit
+          
+          dcache_req_ports_i_mod[2].address_tag   = pref_req.pref_addr[55:12];
+          dcache_req_ports_i_mod[2].address_index = pref_req.pref_addr[11:0];
+          dcache_req_ports_i_mod[2].data_size     = 2'b10;
+          dcache_req_ports_i_mod[2].kill_req      = 1'b0;
+          dcache_req_ports_i_mod[2].data_wdata    = '0;
+      end
+  end
+
+  // 3. FSM Quản lý trạng thái bơm lệnh (Injection Control)
+  always_ff @(posedge clk_i or negedge rst_ni) begin
+      if (!rst_ni) begin
+          is_prefetching <= 1'b0;
+      end else begin
+          // Khi Domino phát hiện quy luật và nhả địa chỉ hợp lệ
+          if (pref_req.valid && pref_req.pref_addr != 56'h0 && !is_prefetching) begin
+              is_prefetching <= 1'b1;
+          end 
+          // Hạ cờ khi Cache Wrapper đã nhận lệnh Prefetch thành công (Gnt = 1)
+          else if (is_prefetching && dcache_req_ports_o[2].data_gnt) begin
+              is_prefetching <= 1'b0;
+          end
+      end
+  end
+  // ==============================================================================
+
   cva6_hpdcache_wrapper #(
       .CVA6Cfg(CVA6Cfg),
       .HPDcacheCfg(HPDcacheCfg),
@@ -327,7 +390,7 @@ module cva6_hpdcache_subsystem
       .dcache_amo_resp_o(dcache_amo_resp_o),
       .dcache_cmo_req_i(dcache_cmo_req_i),
       .dcache_cmo_resp_o(dcache_cmo_resp_o),
-      .dcache_req_ports_i(dcache_req_ports_i),
+      .dcache_req_ports_i(dcache_req_ports_i_mod),
       .dcache_req_ports_o(dcache_req_ports_o),
       .wbuffer_empty_o(wbuffer_empty_o),
       .wbuffer_not_ni_o(wbuffer_not_ni_o),

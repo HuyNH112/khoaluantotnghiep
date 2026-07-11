@@ -1,0 +1,323 @@
+// File: tb_hpdcache_prefetch.sv
+// Description: Standalone Testbench verify chức năng Domino Prefetcher tích hợp trong HPDcache
+`timescale 1ns/1ps
+
+`include "hpdcache_typedef.svh"
+`include "hpdcache_config.svh"
+
+module tb_hpdcache_prefetch;
+    import hpdcache_pkg::*;
+
+    parameter CLK_PERIOD = 10; // ns
+
+    // ========== 1. THIẾT LẬP CONFIGURATION ĐỒNG BỘ TUYỆT ĐỐI VỚI WRAPPER ==========
+    localparam hpdcache_user_cfg_t UserCfg = '{
+        nRequesters: (4'b1 << `CONF_HPDCACHE_REQ_SRC_ID_WIDTH),
+        paWidth: `CONF_HPDCACHE_PA_WIDTH,
+        wordWidth: `CONF_HPDCACHE_WORD_WIDTH,
+        sets: `CONF_HPDCACHE_SETS,
+        ways: `CONF_HPDCACHE_WAYS,
+        clWords: `CONF_HPDCACHE_CL_WORDS,
+        reqWords: `CONF_HPDCACHE_REQ_WORDS,
+        reqTransIdWidth: `CONF_HPDCACHE_REQ_TRANS_ID_WIDTH,
+        reqSrcIdWidth: `CONF_HPDCACHE_REQ_SRC_ID_WIDTH,
+        victimSel: `CONF_HPDCACHE_VICTIM_SEL,
+        dataWaysPerRamWord: `CONF_HPDCACHE_DATA_WAYS_PER_RAM_WORD,
+        dataSetsPerRam: `CONF_HPDCACHE_DATA_SETS_PER_RAM,
+        dataRamByteEnable: `CONF_HPDCACHE_DATA_RAM_WBYTEENABLE,
+        accessWords: `CONF_HPDCACHE_ACCESS_WORDS,
+        mshrSets: `CONF_HPDCACHE_MSHR_SETS,
+        mshrWays: `CONF_HPDCACHE_MSHR_WAYS,
+        mshrWaysPerRamWord: `CONF_HPDCACHE_MSHR_WAYS_PER_RAM_WORD,
+        mshrSetsPerRam: `CONF_HPDCACHE_MSHR_SETS_PER_RAM,
+        mshrRamByteEnable: `CONF_HPDCACHE_MSHR_RAM_WBYTEENABLE,
+        mshrUseRegbank: `CONF_HPDCACHE_MSHR_USE_REGBANK,
+        cbufEntries: `CONF_HPDCACHE_CBUF_ENTRIES,
+        refillCoreRspFeedthrough: `CONF_HPDCACHE_REFILL_CORE_RSP_FEEDTHROUGH,
+        refillFifoDepth: `CONF_HPDCACHE_REFILL_FIFO_DEPTH,
+        wbufDirEntries: `CONF_HPDCACHE_WBUF_DIR_ENTRIES,
+        wbufDataEntries: `CONF_HPDCACHE_WBUF_DATA_ENTRIES,
+        wbufWords: `CONF_HPDCACHE_WBUF_WORDS,
+        wbufTimecntWidth: `CONF_HPDCACHE_WBUF_TIMECNT_WIDTH,
+        rtabEntries: `CONF_HPDCACHE_RTAB_ENTRIES,
+        flushEntries: `CONF_HPDCACHE_FLUSH_ENTRIES,
+        flushFifoDepth: `CONF_HPDCACHE_FLUSH_FIFO_DEPTH,
+        memAddrWidth: `CONF_HPDCACHE_MEM_ADDR_WIDTH,
+        memIdWidth: `CONF_HPDCACHE_MEM_ID_WIDTH,
+        memDataWidth: `CONF_HPDCACHE_MEM_DATA_WIDTH,
+        wtEn: `CONF_HPDCACHE_WT_ENABLE,
+        wbEn: `CONF_HPDCACHE_WB_ENABLE,
+        lowLatency: `CONF_HPDCACHE_LOW_LATENCY,
+        eccEn: `CONF_HPDCACHE_ECC_ENABLE,
+        eccScrubberEn: `CONF_HPDCACHE_ECC_SCRUBBER_ENABLE
+    };
+    localparam hpdcache_cfg_t Cfg = hpdcacheBuildConfig(UserCfg);
+
+    // Sử dụng Macro của hãng để định nghĩa chính xác cấu trúc kiểu bộ nhớ dựa trên Cfg
+    `HPDCACHE_TYPEDEF_MEM_ATTR_T(tb_mem_addr_t, tb_mem_id_t, tb_mem_data_t, tb_mem_be_t, Cfg);
+    `HPDCACHE_TYPEDEF_MEM_REQ_T(hpdcache_mem_req_t, tb_mem_addr_t, tb_mem_id_t);
+    `HPDCACHE_TYPEDEF_MEM_RESP_R_T(hpdcache_mem_resp_r_t, tb_mem_id_t, tb_mem_data_t);
+    `HPDCACHE_TYPEDEF_MEM_REQ_W_T(hpdcache_mem_req_w_t, tb_mem_data_t, tb_mem_be_t);
+    `HPDCACHE_TYPEDEF_MEM_RESP_W_T(hpdcache_mem_resp_w_t, tb_mem_id_t);
+
+    typedef logic [Cfg.tagWidth-1:0] hpdcache_tag_t;
+    typedef logic [Cfg.u.wordWidth-1:0] hpdcache_data_word_t;
+    typedef logic [Cfg.u.wordWidth/8-1:0] hpdcache_data_be_t;
+    typedef logic [Cfg.reqOffsetWidth-1:0] hpdcache_req_offset_t;
+    typedef logic [Cfg.u.reqWords-1:0][Cfg.u.wordWidth-1:0] hpdcache_req_data_t;
+    typedef logic [Cfg.u.reqWords-1:0][Cfg.u.wordWidth/8-1:0] hpdcache_req_be_t;
+    typedef logic [Cfg.u.reqSrcIdWidth-1:0] hpdcache_req_sid_t;
+    typedef logic [Cfg.u.reqTransIdWidth-1:0] hpdcache_req_tid_t;
+
+    typedef `HPDCACHE_DECL_REQ_T(
+                hpdcache_req_offset_t,
+                hpdcache_req_data_t,
+                hpdcache_req_be_t,
+                hpdcache_req_sid_t,
+                hpdcache_req_tid_t,
+                hpdcache_tag_t) tb_req_t;
+
+    typedef `HPDCACHE_DECL_RSP_T(
+                hpdcache_req_data_t,
+                hpdcache_req_sid_t,
+                hpdcache_req_tid_t) tb_rsp_t;
+
+    // ========== 2. HỆ THỐNG DÂY TÍN HIỆU GIAO TIẾP MỨC TOP ==========
+    logic clk;
+    logic rst_n;
+    logic wbuf_flush;
+
+    logic                 core_req_valid [Cfg.u.nRequesters];
+    logic                 core_req_ready [Cfg.u.nRequesters];
+    tb_req_t              core_req       [Cfg.u.nRequesters];
+    logic                 core_req_abort [Cfg.u.nRequesters];
+    hpdcache_tag_t        core_req_tag   [Cfg.u.nRequesters];
+    hpdcache_pma_t        core_req_pma   [Cfg.u.nRequesters];
+    logic                 core_rsp_valid [Cfg.u.nRequesters];
+    tb_rsp_t              core_rsp       [Cfg.u.nRequesters];
+
+    // Giao tiếp Memory
+    logic                 mem_req_read_ready;
+    logic                 mem_req_read_valid;
+    hpdcache_mem_req_t    mem_req_read;
+    logic                 mem_resp_read_ready;
+    logic                 mem_resp_read_valid;
+    hpdcache_mem_resp_r_t mem_resp_read;
+    logic                 mem_req_write_ready;
+    logic                 mem_req_write_valid;
+    hpdcache_mem_req_t    mem_req_write;
+    logic                 mem_req_write_data_ready;
+    logic                 mem_req_write_data_valid;
+    hpdcache_mem_req_w_t  mem_req_write_data;
+    logic                 mem_resp_write_ready;
+    logic                 mem_resp_write_valid;
+	logic                 mem_resp_write_ready_from_cache;
+	logic                 evt_cache_write_miss, evt_cache_read_miss, evt_cache_dir_unc_err, evt_cache_dir_cor_err;
+    logic                 evt_cache_dat_unc_err, evt_cache_dat_cor_err, evt_scrub_complete, evt_uncached_req;
+    logic                 evt_cmo_req, evt_write_req, evt_read_req, evt_prefetch_req;
+    logic                 evt_req_on_hold, evt_rtab_rollback, evt_stall_refill, evt_stall, wbuf_empty;
+    hpdcache_mem_resp_w_t mem_resp_write;
+
+    // ========== 3. KHỞI TẠO VÀ KẾT NỐI TRỰC TIẾP VÀO HPDCACHE TOP ==========
+    hpdcache #(
+        .HPDcacheCfg                      (Cfg),
+        .wbuf_timecnt_t                   (logic unsigned [Cfg.u.wbufTimecntWidth-1:0]),
+        .hpdcache_tag_t                   (hpdcache_tag_t),
+        .hpdcache_data_word_t             (hpdcache_data_word_t),
+        .hpdcache_data_be_t               (hpdcache_data_be_t),
+        .hpdcache_req_offset_t            (hpdcache_req_offset_t),
+        .hpdcache_req_data_t              (hpdcache_req_data_t),
+        .hpdcache_req_be_t                (hpdcache_req_be_t),
+        .hpdcache_req_sid_t               (hpdcache_req_sid_t),
+        .hpdcache_req_tid_t               (hpdcache_req_tid_t),
+        .hpdcache_req_t                   (tb_req_t),
+        .hpdcache_rsp_t                   (tb_rsp_t),
+        .hpdcache_mem_addr_t              (tb_mem_addr_t),
+        .hpdcache_mem_id_t                (tb_mem_id_t),
+        .hpdcache_mem_data_t              (tb_mem_data_t),
+        .hpdcache_mem_be_t                (tb_mem_be_t),
+        .hpdcache_mem_req_t               (hpdcache_mem_req_t),
+        .hpdcache_mem_req_w_t             (hpdcache_mem_req_w_t),
+        .hpdcache_mem_resp_r_t            (hpdcache_mem_resp_r_t),
+        .hpdcache_mem_resp_w_t            (hpdcache_mem_resp_w_t)
+    ) u_hpdcache_top (
+        .clk_i                            (clk),
+        .rst_ni                           (rst_n),
+        .wbuf_flush_i                     (wbuf_flush),
+
+        .core_req_valid_i                 (core_req_valid),
+        .core_req_ready_o                 (core_req_ready),
+        .core_req_i                       (core_req),
+        .core_req_abort_i                 (core_req_abort),
+        .core_req_tag_i                   (core_req_tag),
+        .core_req_pma_i                   (core_req_pma),
+
+        .core_rsp_valid_o                 (core_rsp_valid),
+        .core_rsp_o                       (core_rsp),
+
+        .mem_req_read_ready_i             (mem_req_read_ready),
+        .mem_req_read_valid_o             (mem_req_read_valid),
+        .mem_req_read_o                   (mem_req_read),
+        .mem_resp_read_ready_o            (mem_resp_read_ready),
+        .mem_resp_read_valid_i            (mem_resp_read_valid),
+        .mem_resp_read_i                  (mem_resp_read),
+        .mem_resp_read_inval_i            (1'b0),
+        .mem_resp_read_inval_nline_i      ('0),
+
+        .mem_req_write_ready_i            (mem_req_write_ready),
+        .mem_req_write_valid_o            (mem_req_write_valid),
+        .mem_req_write_o                  (mem_req_write),
+        .mem_req_write_data_ready_i       (mem_req_write_data_ready),
+        .mem_req_write_data_valid_o       (mem_req_write_data_valid),
+        .mem_req_write_data_o             (mem_req_write_data),
+        .mem_resp_write_ready_o           (mem_resp_write_ready), 
+        .mem_resp_write_valid_i           (mem_resp_write_valid),
+        .mem_resp_write_i                 (mem_resp_write),
+		
+		.evt_cache_write_miss_o           (evt_cache_write_miss),
+		.evt_cache_read_miss_o            (evt_cache_read_miss),
+		.evt_cache_dir_unc_err_o          (evt_cache_dir_unc_err),
+		.evt_cache_dir_cor_err_o          (evt_cache_dir_cor_err),
+		.evt_cache_dat_unc_err_o          (evt_cache_dat_unc_err),
+		.evt_cache_dat_cor_err_o          (evt_cache_dat_cor_err),
+		.evt_scrub_complete_o             (evt_scrub_complete),
+		.evt_uncached_req_o               (evt_uncached_req),
+		.evt_cmo_req_o                    (evt_cmo_req),
+		.evt_write_req_o                  (evt_write_req),
+		.evt_read_req_o                   (evt_read_req),
+		.evt_prefetch_req_o               (evt_prefetch_req),
+		.evt_req_on_hold_o                (evt_req_on_hold),
+		.evt_rtab_rollback_o              (evt_rtab_rollback),
+		.evt_stall_refill_o               (evt_stall_refill),
+		.evt_stall_o                      (evt_stall),
+		.wbuf_empty_o                     (wbuf_empty),
+
+        .cfg_enable_i                     (1'b1),
+        .cfg_wbuf_threshold_i             ('0),
+        .cfg_wbuf_reset_timecnt_on_write_i(1'b1),
+        .cfg_wbuf_sequential_waw_i        (1'b0),
+        .cfg_wbuf_inhibit_write_coalescing_i(1'b0),
+        .cfg_prefetch_updt_plru_i         (1'b1),
+        .cfg_error_on_cacheable_amo_i     (1'b0),
+        .cfg_rtab_single_entry_i          (1'b0),
+        .cfg_default_wb_i                 (1'b1),
+        .cfg_scrub_enable_i               (1'b0),
+        .cfg_scrub_period_i               ('0),
+        .cfg_scrub_restart_i              (1'b0)
+    );
+
+    // ========== 4. MẠCH TẠO XUNG CLOCK & RESET ==========
+    initial begin
+        clk = 0;
+        forever #(CLK_PERIOD/2) clk = ~clk;
+    end
+
+    // ========== 5. TỔ HỢP ĐIỀU KHIỂN CORE STIMULUS (ĐÃ FIX GIAO THỨC) ==========
+    task automatic send_load_req(input int req_port, input logic [55:0] addr, input logic [Cfg.u.reqTransIdWidth-1:0] trans_id);
+        hpdcache_pkg::hpdcache_pma_t pma = '0;
+        pma.uncacheable = 1'b0;
+        pma.wr_policy_hint = hpdcache_pkg::HPDCACHE_WR_POLICY_AUTO;
+
+        // Bơm đủ các tham số rẽ nhánh của Pipeline
+        core_req_valid[req_port]       = 1'b1;
+        core_req[req_port].op          = HPDCACHE_REQ_LOAD;
+        core_req[req_port].need_rsp    = 1'b1;
+        core_req[req_port].phys_indexed= 1'b1;                                 // [BẮT BUỘC] Bỏ qua TLB
+        core_req[req_port].size        = hpdcache_pkg::HPDCACHE_REQ_SIZE_WORD; // [BẮT BUỘC] Kích thước từ
+        core_req[req_port].be          = { (Cfg.u.wordWidth/8) {1'b1} };       // [BẮT BUỘC] Enable đọc
+        core_req[req_port].tid         = trans_id;                             // [BẮT BUỘC] ID định tuyến Domino
+        
+        core_req[req_port].addr_offset = addr[11:0];
+        core_req_tag[req_port]         = addr[55:12];
+        core_req_pma[req_port]         = pma;
+
+        @(posedge clk);
+        while(!core_req_ready[req_port]) @(posedge clk);
+        
+        core_req_valid[req_port]       = 1'b0;
+        
+        repeat(2) @(posedge clk);
+        core_req_tag[req_port]         = '0;
+        core_req[req_port]             = '0;
+    endtask
+
+    // ========== 6. KỊCH BẢN VERIFY PREFETCHER ==========
+    initial begin
+        wbuf_flush = 0;
+        mem_req_read_ready = 1;
+        mem_req_write_ready = 1;
+        mem_req_write_data_ready = 1;
+        for(int i=0; i<Cfg.u.nRequesters; i++) begin
+            core_req_valid[i] = 0;
+            core_req[i]       = '0;
+            core_req_abort[i] = 0;
+            core_req_tag[i]   = '0;
+        end
+        
+        rst_n = 0; #100;
+        rst_n = 1;
+        repeat(5) @(posedge clk);
+
+        $display("===============================================================");
+        $display("[TB PREFETCH] BAT DAU TRA TAN THUAT TOAN DOMINO PREFETCHER");
+        $display("===============================================================");
+        
+        // KỊCH BẢN DOMINO CHUẨN: Training tuyến tính, không ngắt quãng
+        $display("[TB PREFETCH] Nhip 1: Phat lenh Miss tai 0x1000.");
+        send_load_req(0, 56'h0000_0000_1000, 4'h1);
+        repeat(15) @(posedge clk);
+
+        $display("[TB PREFETCH] Nhip 2: Phat lenh Miss tai 0x2000.");
+        send_load_req(0, 56'h0000_0000_2000, 4'h1);
+        
+        // Bắt đầu giám sát tín hiệu đoán trước của khối Domino
+        $display("[TB PREFETCH] Dang giam sat Bus Memory de cho lenh Refill 0x3000 tu Prefetcher...");
+        fork : watch_prefetch
+            begin
+                forever @(posedge clk) begin
+                    if (mem_req_read_valid && mem_req_read.mem_req_addr == 56'h0000_0000_3000) begin
+                        $display("===============================================================");
+                        $display("[SUCCESS] DOMINO PREFETCHER HOAT DONG PERFECT!");
+                        $display("[SUCCESS] Da tu dong doan truoc va goi Refill dia chi: %h", mem_req_read.mem_req_addr);
+                        $display("===============================================================");
+                        disable watch_prefetch;
+                    end
+                end
+            end
+            begin
+                #10000;
+                $fatal(1, "[FAILED] TIMEOUT: Prefetcher bi ket logic, khong dua ra duoc dia chi du doan!");
+            end
+        join
+
+        repeat(20) @(posedge clk);
+        $display("[TB PREFETCH] Hoan thanh bai test.");
+        $stop;
+    end
+
+    // ========== 7. MO HINH RAM PHAN HOI TRUYEN TAI ==========
+    always_ff @(posedge clk or negedge rst_n) begin
+        if (!rst_n) begin
+            mem_resp_read_valid <= 1'b0;
+            mem_resp_read       <= '0;
+            mem_resp_write_valid<= 1'b0;
+            mem_resp_write      <= '0;
+        end else begin
+            if (mem_req_read_valid && mem_req_read_ready && !mem_resp_read_valid) begin
+                mem_resp_read_valid         <= 1'b1;
+                mem_resp_read.mem_resp_r_id <= mem_req_read.mem_req_id;
+                mem_resp_read.mem_resp_r_data <= 512'hCAFE_BABE_1122_3344_5566_7788;
+                mem_resp_read.mem_resp_r_last <= 1'b1;
+            end else if (mem_resp_read_valid && mem_resp_read_ready) begin
+                mem_resp_read_valid         <= 1'b0;
+            end
+
+            if (mem_req_write_valid && mem_req_write_ready) begin
+                mem_resp_write_valid        <= 1'b1;
+                mem_resp_write.mem_resp_w_id <= mem_req_write.mem_req_id;
+            end else if (mem_resp_write_valid && mem_resp_write_ready) begin
+                mem_resp_write_valid        <= 1'b0;
+            end
+        end
+    end
+endmodule

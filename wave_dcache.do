@@ -9,7 +9,7 @@ add wave -noupdate -divider "CLOCK & RESET"
 add wave -noupdate /tb_hpdcache_prefetch/clk
 add wave -noupdate /tb_hpdcache_prefetch/rst_n
 
-# --- 2. CORE <-> CACHE INTERFACE ---
+# --- 2. CORE <-> CACHE INTERFACE (Array of Ports) ---
 add wave -noupdate -divider "CORE <-> CACHE INTERFACE"
 add wave -noupdate /tb_hpdcache_prefetch/core_req_valid
 add wave -noupdate /tb_hpdcache_prefetch/core_req_ready
@@ -34,9 +34,16 @@ add wave -noupdate -radix hexadecimal /tb_hpdcache_prefetch/mem_req_write
 add wave -noupdate /tb_hpdcache_prefetch/mem_req_write_data_valid
 add wave -noupdate -radix hexadecimal /tb_hpdcache_prefetch/mem_req_write_data
 
+# --- 5. DOMINO PREFETCHER INTERNALS (MỚI THÊM) ---
+add wave -noupdate -divider "DOMINO PREFETCHER IP"
+add wave -noupdate -color Gold /tb_hpdcache_prefetch/u_domino/miss_detected
+add wave -noupdate -color Gold -radix hexadecimal /tb_hpdcache_prefetch/u_domino/curr_miss_addr
+add wave -noupdate -color Cyan /tb_hpdcache_prefetch/pref_req.valid
+add wave -noupdate -color Cyan -radix hexadecimal /tb_hpdcache_prefetch/pref_req.pref_addr
+
 TreeUpdate [SetDefaultTree]
 configure wave -namecolwidth 280
 configure wave -valuecolwidth 140
 configure wave -signalnamewidth 1
 configure wave -justifyvalue left
-WaveRestoreZoom {0 ns} {1000 ns}
+WaveRestoreZoom {0 ns} {1500 ns}

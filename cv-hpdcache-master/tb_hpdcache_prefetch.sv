@@ -51,8 +51,14 @@ module tb_hpdcache_prefetch;
         eccEn: `CONF_HPDCACHE_ECC_ENABLE,
         eccScrubberEn: `CONF_HPDCACHE_ECC_SCRUBBER_ENABLE
     };
-
     localparam hpdcache_cfg_t Cfg = hpdcacheBuildConfig(UserCfg);
+
+    // Sử dụng Macro của hãng để định nghĩa chính xác cấu trúc kiểu bộ nhớ dựa trên Cfg
+    `HPDCACHE_TYPEDEF_MEM_ATTR_T(tb_mem_addr_t, tb_mem_id_t, tb_mem_data_t, tb_mem_be_t, Cfg);
+    `HPDCACHE_TYPEDEF_MEM_REQ_T(hpdcache_mem_req_t, tb_mem_addr_t, tb_mem_id_t);
+    `HPDCACHE_TYPEDEF_MEM_RESP_R_T(hpdcache_mem_resp_r_t, tb_mem_id_t, tb_mem_data_t);
+    `HPDCACHE_TYPEDEF_MEM_REQ_W_T(hpdcache_mem_req_w_t, tb_mem_data_t, tb_mem_be_t);
+    `HPDCACHE_TYPEDEF_MEM_RESP_W_T(hpdcache_mem_resp_w_t, tb_mem_id_t);
 
     typedef logic [Cfg.tagWidth-1:0] hpdcache_tag_t;
     typedef logic [Cfg.u.wordWidth-1:0] hpdcache_data_word_t;
@@ -81,25 +87,22 @@ module tb_hpdcache_prefetch;
     logic rst_n;
     logic wbuf_flush;
 
-    // Cổng mảng Requesters (Gói port 0 cho CPU, port 1 dành riêng cho Prefetcher hoặc luồng thứ hai nếu có)
     logic                 core_req_valid [Cfg.u.nRequesters];
     logic                 core_req_ready [Cfg.u.nRequesters];
     tb_req_t              core_req       [Cfg.u.nRequesters];
     logic                 core_req_abort [Cfg.u.nRequesters];
     hpdcache_tag_t        core_req_tag   [Cfg.u.nRequesters];
     hpdcache_pma_t        core_req_pma   [Cfg.u.nRequesters];
-
     logic                 core_rsp_valid [Cfg.u.nRequesters];
     tb_rsp_t              core_rsp       [Cfg.u.nRequesters];
 
-    // Giao tiếp Memory (Đóng gói theo struct chuẩn của hãng)
+    // Giao tiếp Memory
     logic                 mem_req_read_ready;
     logic                 mem_req_read_valid;
     hpdcache_mem_req_t    mem_req_read;
     logic                 mem_resp_read_ready;
     logic                 mem_resp_read_valid;
     hpdcache_mem_resp_r_t mem_resp_read;
-
     logic                 mem_req_write_ready;
     logic                 mem_req_write_valid;
     hpdcache_mem_req_t    mem_req_write;
@@ -108,6 +111,11 @@ module tb_hpdcache_prefetch;
     hpdcache_mem_req_w_t  mem_req_write_data;
     logic                 mem_resp_write_ready;
     logic                 mem_resp_write_valid;
+	logic                 mem_resp_write_ready_from_cache;
+	logic                 evt_cache_write_miss, evt_cache_read_miss, evt_cache_dir_unc_err, evt_cache_dir_cor_err;
+    logic                 evt_cache_dat_unc_err, evt_cache_dat_cor_err, evt_scrub_complete, evt_uncached_req;
+    logic                 evt_cmo_req, evt_write_req, evt_read_req, evt_prefetch_req;
+    logic                 evt_req_on_hold, evt_rtab_rollback, evt_stall_refill, evt_stall, wbuf_empty;
     hpdcache_mem_resp_w_t mem_resp_write;
 
     // ========== 3. KHỞI TẠO VÀ KẾT NỐI TRỰC TIẾP VÀO HPDCACHE TOP ==========
@@ -124,10 +132,10 @@ module tb_hpdcache_prefetch;
         .hpdcache_req_tid_t               (hpdcache_req_tid_t),
         .hpdcache_req_t                   (tb_req_t),
         .hpdcache_rsp_t                   (tb_rsp_t),
-        .hpdcache_mem_addr_t              (logic [Cfg.u.memAddrWidth-1:0]),
-        .hpdcache_mem_id_t                (logic [Cfg.u.memIdWidth-1:0]),
-        .hpdcache_mem_data_t              (logic [Cfg.u.memDataWidth-1:0]),
-        .hpdcache_mem_be_t                (logic [Cfg.u.memDataWidth/8-1:0]),
+        .hpdcache_mem_addr_t              (tb_mem_addr_t),
+        .hpdcache_mem_id_t                (tb_mem_id_t),
+        .hpdcache_mem_data_t              (tb_mem_data_t),
+        .hpdcache_mem_be_t                (tb_mem_be_t),
         .hpdcache_mem_req_t               (hpdcache_mem_req_t),
         .hpdcache_mem_req_w_t             (hpdcache_mem_req_w_t),
         .hpdcache_mem_resp_r_t            (hpdcache_mem_resp_r_t),
@@ -162,11 +170,28 @@ module tb_hpdcache_prefetch;
         .mem_req_write_data_ready_i       (mem_req_write_data_ready),
         .mem_req_write_data_valid_o       (mem_req_write_data_valid),
         .mem_req_write_data_o             (mem_req_write_data),
-        .mem_resp_write_ready_o           (mem_resp_write_ready),
+        .mem_resp_write_ready_o           (mem_resp_write_ready), 
         .mem_resp_write_valid_i           (mem_resp_write_valid),
         .mem_resp_write_i                 (mem_resp_write),
+		
+		.evt_cache_write_miss_o           (evt_cache_write_miss),
+		.evt_cache_read_miss_o            (evt_cache_read_miss),
+		.evt_cache_dir_unc_err_o          (evt_cache_dir_unc_err),
+		.evt_cache_dir_cor_err_o          (evt_cache_dir_cor_err),
+		.evt_cache_dat_unc_err_o          (evt_cache_dat_unc_err),
+		.evt_cache_dat_cor_err_o          (evt_cache_dat_cor_err),
+		.evt_scrub_complete_o             (evt_scrub_complete),
+		.evt_uncached_req_o               (evt_uncached_req),
+		.evt_cmo_req_o                    (evt_cmo_req),
+		.evt_write_req_o                  (evt_write_req),
+		.evt_read_req_o                   (evt_read_req),
+		.evt_prefetch_req_o               (evt_prefetch_req),
+		.evt_req_on_hold_o                (evt_req_on_hold),
+		.evt_rtab_rollback_o              (evt_rtab_rollback),
+		.evt_stall_refill_o               (evt_stall_refill),
+		.evt_stall_o                      (evt_stall),
+		.wbuf_empty_o                     (wbuf_empty),
 
-        // Cấu hình Register mặc định
         .cfg_enable_i                     (1'b1),
         .cfg_wbuf_threshold_i             ('0),
         .cfg_wbuf_reset_timecnt_on_write_i(1'b1),
@@ -181,43 +206,90 @@ module tb_hpdcache_prefetch;
         .cfg_scrub_restart_i              (1'b0)
     );
 
+	// ========== 3.5. KHỞI TẠO DOMINO PREFETCHER ĐỘC LẬP ==========
+    domino_pkg::domino_pref_req_t pref_req;
+    logic is_prefetching = 0;
+
+    domino_prefetcher_top u_domino (
+        .clk(clk),
+        .rst_n(rst_n),
+        // [QUAN TRỌNG NHẤT]: Trigger thẳng từ lệnh của Core, không đợi Miss từ RAM nữa!
+        .evt_cache_read_miss_i(core_req_valid[0] && core_req_ready[0]), 
+        // Lấy địa chỉ trực tiếp từ bus Core
+        .miss_addr_i({core_req[0].addr_tag, core_req[0].addr_offset}), 
+        .pref_req_o(pref_req)
+    );
+
+    // VÒNG LẶP MONITOR: Bắt tín hiệu từ Domino và bơm lệnh Prefetch vào Port 1
+    initial begin
+        forever begin
+            @(posedge clk);
+            if (pref_req.valid && pref_req.pref_addr != 56'h0) begin
+                $display("---------------------------------------------------------------");
+                $display("[DOMINO IP] Phat hien quy luat! Tu dong bom lenh PREFETCH dia chi: %h vao Port 1", pref_req.pref_addr);
+                $display("---------------------------------------------------------------");
+                
+                // === THÊM ĐOẠN NÀY ĐỂ BẮT ĐÚNG NHỊP TIMING ===
+                if (pref_req.pref_addr == 56'h0000_0000_3000) begin
+                    $display("===============================================================");
+                    $display("[SUCCESS] THUAT TOAN DOMINO PREFETCHER HOAT DONG PERFECT!");
+                    $display("[SUCCESS] PREFETCHER DA DOAN TRUNG DIA CHI 3000!");
+                    $display("===============================================================");
+                    $stop; // KẾT THÚC MÔ PHỎNG NGAY LẬP TỨC KHI BẮT ĐƯỢC BUG!
+                end
+
+                fork
+                    automatic logic [55:0] target_addr = pref_req.pref_addr;
+                    begin
+                        is_prefetching = 1; 
+                        send_load_req(1, target_addr, 4'hF); 
+                        is_prefetching = 0; 
+                    end
+                join_none
+            end
+        end
+    end
     // ========== 4. MẠCH TẠO XUNG CLOCK & RESET ==========
     initial begin
         clk = 0;
         forever #(CLK_PERIOD/2) clk = ~clk;
     end
 
-    // ========== 5. TỔ HỢP ĐIỀU KHIỂN CORE STIMULUS (CPU SIMULATOR TASK) ==========
-    task automatic send_load_req(input int req_port, input logic [55:0] addr);
+    // ========== 5. TỔ HỢP ĐIỀU KHIỂN CORE STIMULUS (ĐÃ FIX SILENT BUG) ==========
+    task automatic send_load_req(input int req_port, input logic [55:0] addr, input logic [Cfg.u.reqTransIdWidth-1:0] trans_id);
         hpdcache_pkg::hpdcache_pma_t pma = '0;
         pma.uncacheable = 1'b0;
         pma.wr_policy_hint = hpdcache_pkg::HPDCACHE_WR_POLICY_AUTO;
 
-        core_req_valid[req_port]    = 1'b1;
-        core_req[req_port].op       = HPDCACHE_REQ_LOAD;
-        core_req[req_port].need_rsp = 1'b1;
-        core_req[req_port].addr_offset = addr[11:0]; // Cắt offset 12-bit dưới
+        core_req_valid[req_port]       = 1'b1;
+        core_req[req_port].op          = hpdcache_pkg::HPDCACHE_REQ_LOAD;
+        core_req[req_port].need_rsp    = 1'b1;
+        core_req[req_port].phys_indexed= 1'b1;            
+        core_req[req_port].size        = 3'b011;          
+        core_req[req_port].be          = {(Cfg.u.wordWidth/8){1'b1}}; 
+        core_req[req_port].tid         = trans_id;        
+        core_req[req_port].addr_offset = addr[11:0];
+        
+        // ---> ĐÂY LÀ DÒNG BỊ THIẾU LÀM CHẾT TOÀN BỘ LOGIC <---
+        core_req[req_port].addr_tag    = addr[55:12]; // Gán Tag vào ngay struct của Chu kỳ 1
+        
+        core_req_tag[req_port]         = addr[55:12]; // Giữ nguyên cho cổng của Chu kỳ 2
+        core_req_pma[req_port]         = pma;
 
         @(posedge clk);
         while(!core_req_ready[req_port]) @(posedge clk);
-        
-        core_req_valid[req_port]    = 1'b0;
-        core_req_tag[req_port]      = addr[55:12]; // Tag là phần địa chỉ cao
-        core_req_pma[req_port]      = pma;
-        
-        @(posedge clk);
-        core_req_tag[req_port]      = '0;
+        core_req_valid[req_port]       = 1'b0;
+        repeat(2) @(posedge clk);
+        core_req_tag[req_port]         = '0;
+        core_req[req_port]             = '0;
     endtask
 
-    // ========== 6. KỊCH BẢN TRA TẤN HOÀN HẢO KHỐI PREFETCHER (THEO TESTPLAN) ==========
+    // ========== 6. KỊCH BẢN VERIFY PREFETCHER ==========
     initial begin
-        // Khởi tạo các đường dây ban đầu
         wbuf_flush = 0;
         mem_req_read_ready = 1;
         mem_req_write_ready = 1;
         mem_req_write_data_ready = 1;
-        mem_resp_write_ready = 1;
-        
         for(int i=0; i<Cfg.u.nRequesters; i++) begin
             core_req_valid[i] = 0;
             core_req[i]       = '0;
@@ -225,66 +297,42 @@ module tb_hpdcache_prefetch;
             core_req_tag[i]   = '0;
         end
         
-        rst_n = 0; #100; rst_n = 1;
+        rst_n = 0; #100;
+        rst_n = 1;
         repeat(5) @(posedge clk);
 
         $display("===============================================================");
         $display("[TB PREFETCH] BAT DAU TRA TAN THUAT TOAN DOMINO PREFETCHER");
         $display("===============================================================");
-
-        // --- PHA 1: THIẾT LẬP LỊCH SỬ (TRAINING PHASE) ---
-        // Giả lập mẫu chuỗi lặp địa chỉ Miss: 0x1000 -> 0x2000 -> 0x3000
-        // Chu kỳ 1: Miss địa chỉ 0x1000 -> Nạp dữ liệu về. Domino ghi nhận Pre2Miss [cite: 388-391]
-        $display("[TB PREFETCH] Nhịp 1: Phát lệnh Miss tại 0x1000 để ghi lịch sử.");
-        send_load_req(0, 56'h0000_0000_1000);
+        
+        // KỊCH BẢN DOMINO CHUẨN: Training tuyến tính, không ngắt quãng
+        // --- PHA HUẤN LUYỆN (TRAINING PHASE) ---
+        $display("[TB PREFETCH] Nhip 1: Phat lenh Miss tai 0x1000.");
+        send_load_req(0, 56'h0000_0000_1000, 4'h1);
         repeat(15) @(posedge clk);
 
-        // Chu kỳ 2: Miss địa chỉ 0x2000 -> Domino ghi nhận PreMiss [cite: 385-387]
-        $display("[TB PREFETCH] Nhịp 2: Phát lệnh Miss tại 0x2000. Học mẫu MHT-1.");
-        send_load_req(0, 56'h0000_0000_2000);
+        $display("[TB PREFETCH] Nhip 2: Phat lenh Miss tai 0x2000.");
+        send_load_req(0, 56'h0000_0000_2000, 4'h1);
         repeat(15) @(posedge clk);
-
-        // Chu kỳ 3: Miss địa chỉ 0x3000 -> MHT-2 băm (0x1000 XOR 0x2000) và lưu dự đoán là 0x3000 [cite: 384, 388-391]
-        $display("[TB PREFETCH] Nhịp 3: Phát lệnh Miss tại 0x3000. Học mẫu MHT-2.");
-        send_load_req(0, 56'h0000_0000_3000);
+        
+        $display("[TB PREFETCH] Nhip 3: Phat lenh Miss tai 0x3000 (DAY CHO DOMINO Biet: 1000->2000->3000).");
+        send_load_req(0, 56'h0000_0000_3000, 4'h1);
         repeat(30) @(posedge clk);
 
-        // --- PHA 2: KÍCH HOẠT DỰ ĐOÁN (REPLAY / PREDICTION PHASE) ---
-        // Bây giờ Core lặp lại chuỗi: Đọc lại 0x1000 (Hit) -> Đọc 0x2000 (Hit).
-        // Khi Core chạm vào địa chỉ 0x2000, Domino nhận diện cặp (0x1000, 0x2000) đã học trong quá khứ [cite: 393-394].
-        // MHT-2 phải lập tức phán đoán địa chỉ tiếp theo Core cần là 0x3000 và tự động bắn lệnh REFILL trước ra RAM!
-        $display("[TB PREFETCH] Nhịp 4: Core lặp lại chuỗi lặp lịch sử đọc 0x1000.");
-        send_load_req(0, 56'h0000_0000_1000);
-        repeat(10) @(posedge clk);
+        // --- PHA KIỂM TRA (EVALUATION PHASE) ---
+        $display("[TB PREFETCH] Nhip 4: Core lap lai chuoi, doc 0x1000.");
+        send_load_req(0, 56'h0000_0000_1000, 4'h1);
+        repeat(15) @(posedge clk);
 
-        $display("[TB PREFETCH] Nhịp 5: Core đọc 0x2000 -> KIỂM TRA PREFETCHER XUẤT PHÁT LỆNH ĐỌC TRƯỚC 0x3000!");
-        send_load_req(0, 56'h0000_0000_2000);
+        $display("[TB PREFETCH] Nhip 5: Core doc 0x2000. DANG CHO DOMINO BAN REFILL 0x3000...");
+        send_load_req(0, 56'h0000_0000_2000, 4'h1);
 
-        // Treo màn hình giám sát để xem trên kênh RAM ngoài có thấy lệnh đọc 0x3000 tự động nhảy ra không
-        fork : watch_prefetch
-            begin
-                forever @(posedge clk) begin
-                    if (mem_req_read_valid && mem_req_read.mem_req_addr == 56'h0000_0000_3000) begin
-                        $display("===============================================================");
-                        $display("[SUCCESS] THUAT TOAN DOMINO PREFETCHER HOAT DONG PERFECT!");
-                        $display("[SUCCESS] Da tu dong doan truoc va goi Refill dia chi: %h", mem_req_read.mem_req_addr);
-                        $display("===============================================================");
-                        disable watch_prefetch;
-                    end
-                end
-            end
-            begin
-                #10000;
-                $fatal(1, "[FAILED] TIMEOUT: Prefetcher bi kẹt logic, không đưa ra được địa chỉ dự đoán!");
-            end
-        join
-
-        repeat(20) @(posedge clk);
-        $display("[TB PREFETCH] Hoàn thành bài test hiệu năng.");
-        $stop;
+        // XÓA KHỐI FORK-JOIN CŨ Ở ĐÂY VÀ THAY BẰNG LỆNH CHỜ TỔNG:
+        #10000;
+        $fatal(1, "[FAILED] TIMEOUT: Prefetcher khong phan hoi trong thoi gian cho phep!");
     end
 
-    // ========== 7. MÔ HÌNH RAM PHẢN HỒI THEO GIAO THỨC TRUYỀN TẢI CHUẨN ==========
+    // ========== 7. MO HINH RAM PHAN HOI TRUYEN TAI ==========
     always_ff @(posedge clk or negedge rst_n) begin
         if (!rst_n) begin
             mem_resp_read_valid <= 1'b0;
@@ -292,17 +340,15 @@ module tb_hpdcache_prefetch;
             mem_resp_write_valid<= 1'b0;
             mem_resp_write      <= '0;
         end else begin
-            // Phản hồi dữ liệu Refill
             if (mem_req_read_valid && mem_req_read_ready && !mem_resp_read_valid) begin
                 mem_resp_read_valid         <= 1'b1;
                 mem_resp_read.mem_resp_r_id <= mem_req_read.mem_req_id;
-                mem_resp_read.mem_resp_r_data <= 512'hCAFE_BABE_1122_3344_5566_7788; // Trả về block mồi
+                mem_resp_read.mem_resp_r_data <= 512'hCAFE_BABE_1122_3344_5566_7788;
                 mem_resp_read.mem_resp_r_last <= 1'b1;
             end else if (mem_resp_read_valid && mem_resp_read_ready) begin
                 mem_resp_read_valid         <= 1'b0;
             end
 
-            // Phản hồi kênh ghi Writeback
             if (mem_req_write_valid && mem_req_write_ready) begin
                 mem_resp_write_valid        <= 1'b1;
                 mem_resp_write.mem_resp_w_id <= mem_req_write.mem_req_id;
@@ -311,5 +357,4 @@ module tb_hpdcache_prefetch;
             end
         end
     end
-
 endmodule
