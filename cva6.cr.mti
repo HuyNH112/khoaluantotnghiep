@@ -122,9 +122,8 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	--none--
 
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_prefetcher_top.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_prefetcher_top.sv
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_prefetcher_top.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_prefetcher_top.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_prefetcher_top.sv(1): (vlog-13233) Design unit "domino_prefetcher_top_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
 -- Compiling package domino_prefetcher_top_sv_unit
 -- Importing package domino_pkg
 -- Compiling module domino_prefetcher_top
@@ -147,7 +146,7 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	--none--
 
-} {} {}} D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv {0 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv {2 {vlog -work work -vopt -sv +incdir+D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include -stats=none D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module cva6_hpdcache_subsystem
 -- Importing package config_pkg
@@ -158,22 +157,14 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 ** Warning: D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv(111): (vlog-13314) Defaulting port 'hwpf_base_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 ** Warning: D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv(117): (vlog-13314) Defaulting port 'hwpf_param_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 ** Warning: D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv(123): (vlog-13314) Defaulting port 'hwpf_throttle_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-** Error: D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv(179): Cannot find `include file "hpdcache_typedef.svh" in directories:
-    C:/intelFPGA/23.1std/questa_fse/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src
 -- Importing package hpdcache_pkg
-** Error: D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv(249): (vlog-2163) Macro `HPDCACHE_TYPEDEF_MEM_ATTR_T is undefined.
-** Error: (vlog-13069) D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv(249): near "(": syntax error, unexpected '('.
-** Error: D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv(251): (vlog-2163) Macro `HPDCACHE_TYPEDEF_MEM_REQ_T is undefined.
-** Error: D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv(252): (vlog-2163) Macro `HPDCACHE_TYPEDEF_MEM_RESP_R_T is undefined.
-** Error: D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv(253): (vlog-2163) Macro `HPDCACHE_TYPEDEF_MEM_REQ_W_T is undefined.
-** Error: D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv(254): (vlog-2163) Macro `HPDCACHE_TYPEDEF_MEM_RESP_W_T is undefined.
-** Error: D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv(256): (vlog-2163) Macro `HPDCACHE_TYPEDEF_REQ_ATTR_T is undefined.
-** Error: D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv(259): (vlog-2163) Macro `HPDCACHE_TYPEDEF_REQ_T is undefined.
-** Error: D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv(262): (vlog-2163) Macro `HPDCACHE_TYPEDEF_RSP_T is undefined.
 -- Importing package domino_pkg
 -- Importing package l15_pkg
 
-} {12.0 13.0 15.0 24.0} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_rtab.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_rtab.sv
+Top level modules:
+	cva6_hpdcache_subsystem
+
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_rtab.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_rtab.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module hpdcache_rtab
 -- Importing package hpdcache_pkg
@@ -208,7 +199,6 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 ** Warning: D:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv(32): (vlog-13314) Defaulting port 'instruction' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 ** Warning: D:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv(37): (vlog-13314) Defaulting port 'waddr' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 ** Warning: D:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv(38): (vlog-13314) Defaulting port 'wdata' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-** Warning: D:/khoaluantotnghiep/cva6-master/common/local/util/ex_trace_item.svh(16): (vlog-13233) Design unit "instr_tracer_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
 -- Compiling package instr_tracer_sv_unit
 -- Importing package config_pkg
 -- Importing package riscv
@@ -330,6 +320,14 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	stream_arbiter
 
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/cvxif_issue_register_commit_if_driver.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/cvxif_issue_register_commit_if_driver.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module cvxif_issue_register_commit_if_driver
+-- Importing package config_pkg
+
+Top level modules:
+	cvxif_issue_register_commit_if_driver
+
 } {} {}} D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_mux.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_mux.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module stream_mux
@@ -388,17 +386,18 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	bht
 
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache.sv {0 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache.sv
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache.sv {2 {vlog -work work -vopt -sv +incdir+D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-** Error: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache.sv(13): Cannot find `include file "hpdcache_typedef.svh" in directories:
-    C:/intelFPGA/23.1std/questa_fse/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src
 -- Compiling module hpdcache
 -- Importing package hpdcache_pkg
 ** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache.sv(66): (vlog-13314) Defaulting port 'core_req_valid_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 ** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache.sv(70): (vlog-13314) Defaulting port 'core_req_abort_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 ** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache.sv(72): (vlog-13314) Defaulting port 'core_req_pma_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 
-} {3.0 4.0} {}} D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_if_adapter.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_if_adapter.sv
+Top level modules:
+	hpdcache
+
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_if_adapter.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_if_adapter.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module cva6_hpdcache_if_adapter
 -- Importing package config_pkg
@@ -573,6 +572,16 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	hpdcache_prio_1hot_encoder
 
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/include/config_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/include/config_pkg.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling package config_pkg
+
+Top level modules:
+	--none--
+
 } {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_1rw.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_1rw.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module hpdcache_sram_1rw
@@ -746,16 +755,6 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	--none--
 
-} {} {}} D:/khoaluantotnghiep/cva6-master/core/include/config_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/include/config_pkg.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling package config_pkg
-
-Top level modules:
-	--none--
-
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-
 } {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wbyteenable_1rw.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wbyteenable_1rw.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module hpdcache_sram_wbyteenable_1rw
@@ -853,116 +852,24 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	instr_scan
 
-} {} {}} D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv {0 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv
+} {} {}} D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv {1 {vlog -work work -vopt -sv +incdir+D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include -stats=none D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(5): Cannot find `include file "hpdcache_typedef.svh" in directories:
-    C:/intelFPGA/23.1std/questa_fse/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(6): Cannot find `include file "hpdcache_config.svh" in directories:
-    C:/intelFPGA/23.1std/questa_fse/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src
 -- Compiling module tb_hpdcache_prefetch
 -- Importing package hpdcache_pkg
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(15): (vlog-2163) Macro `CONF_HPDCACHE_REQ_SRC_ID_WIDTH is undefined.
-** Error: (vlog-13069) D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(15): near ")": syntax error, unexpected ')'.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(16): (vlog-2163) Macro `CONF_HPDCACHE_PA_WIDTH is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(17): (vlog-2163) Macro `CONF_HPDCACHE_WORD_WIDTH is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(18): (vlog-2163) Macro `CONF_HPDCACHE_SETS is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(19): (vlog-2163) Macro `CONF_HPDCACHE_WAYS is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(20): (vlog-2163) Macro `CONF_HPDCACHE_CL_WORDS is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(21): (vlog-2163) Macro `CONF_HPDCACHE_REQ_WORDS is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(22): (vlog-2163) Macro `CONF_HPDCACHE_REQ_TRANS_ID_WIDTH is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(23): (vlog-2163) Macro `CONF_HPDCACHE_REQ_SRC_ID_WIDTH is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(24): (vlog-2163) Macro `CONF_HPDCACHE_VICTIM_SEL is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(25): (vlog-2163) Macro `CONF_HPDCACHE_DATA_WAYS_PER_RAM_WORD is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(26): (vlog-2163) Macro `CONF_HPDCACHE_DATA_SETS_PER_RAM is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(27): (vlog-2163) Macro `CONF_HPDCACHE_DATA_RAM_WBYTEENABLE is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(28): (vlog-2163) Macro `CONF_HPDCACHE_ACCESS_WORDS is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(29): (vlog-2163) Macro `CONF_HPDCACHE_MSHR_SETS is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(30): (vlog-2163) Macro `CONF_HPDCACHE_MSHR_WAYS is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(31): (vlog-2163) Macro `CONF_HPDCACHE_MSHR_WAYS_PER_RAM_WORD is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(32): (vlog-2163) Macro `CONF_HPDCACHE_MSHR_SETS_PER_RAM is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(33): (vlog-2163) Macro `CONF_HPDCACHE_MSHR_RAM_WBYTEENABLE is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(34): (vlog-2163) Macro `CONF_HPDCACHE_MSHR_USE_REGBANK is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(35): (vlog-2163) Macro `CONF_HPDCACHE_CBUF_ENTRIES is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(36): (vlog-2163) Macro `CONF_HPDCACHE_REFILL_CORE_RSP_FEEDTHROUGH is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(37): (vlog-2163) Macro `CONF_HPDCACHE_REFILL_FIFO_DEPTH is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(38): (vlog-2163) Macro `CONF_HPDCACHE_WBUF_DIR_ENTRIES is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(39): (vlog-2163) Macro `CONF_HPDCACHE_WBUF_DATA_ENTRIES is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(40): (vlog-2163) Macro `CONF_HPDCACHE_WBUF_WORDS is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(41): (vlog-2163) Macro `CONF_HPDCACHE_WBUF_TIMECNT_WIDTH is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(42): (vlog-2163) Macro `CONF_HPDCACHE_RTAB_ENTRIES is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(43): (vlog-2163) Macro `CONF_HPDCACHE_FLUSH_ENTRIES is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(44): (vlog-2163) Macro `CONF_HPDCACHE_FLUSH_FIFO_DEPTH is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(45): (vlog-2163) Macro `CONF_HPDCACHE_MEM_ADDR_WIDTH is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(46): (vlog-2163) Macro `CONF_HPDCACHE_MEM_ID_WIDTH is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(47): (vlog-2163) Macro `CONF_HPDCACHE_MEM_DATA_WIDTH is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(48): (vlog-2163) Macro `CONF_HPDCACHE_WT_ENABLE is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(49): (vlog-2163) Macro `CONF_HPDCACHE_WB_ENABLE is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(50): (vlog-2163) Macro `CONF_HPDCACHE_LOW_LATENCY is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(51): (vlog-2163) Macro `CONF_HPDCACHE_ECC_ENABLE is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(52): (vlog-2163) Macro `CONF_HPDCACHE_ECC_SCRUBBER_ENABLE is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(57): (vlog-2163) Macro `HPDCACHE_TYPEDEF_MEM_ATTR_T is undefined.
-** Error: (vlog-13069) D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(57): near "(": syntax error, unexpected '('.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(58): (vlog-2163) Macro `HPDCACHE_TYPEDEF_MEM_REQ_T is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(59): (vlog-2163) Macro `HPDCACHE_TYPEDEF_MEM_RESP_R_T is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(60): (vlog-2163) Macro `HPDCACHE_TYPEDEF_MEM_REQ_W_T is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(61): (vlog-2163) Macro `HPDCACHE_TYPEDEF_MEM_RESP_W_T is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(72): (vlog-2163) Macro `HPDCACHE_DECL_REQ_T is undefined.
-** Error: (vlog-13069) D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(72): near "(": syntax error, unexpected '('.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv(80): (vlog-2163) Macro `HPDCACHE_DECL_RSP_T is undefined.
 -- Importing package domino_pkg
 
-} {3.0 4.0 5.0 6.0 9.0 57.0} {}} D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv {0 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv
+Top level modules:
+	tb_hpdcache_prefetch
+
+} {} {}} D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv {1 {vlog -work work -vopt -sv +incdir+D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include -stats=none D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(5): Cannot find `include file "hpdcache_typedef.svh" in directories:
-    C:/intelFPGA/23.1std/questa_fse/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(6): Cannot find `include file "hpdcache_config.svh" in directories:
-    C:/intelFPGA/23.1std/questa_fse/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src
 -- Compiling module tb_hpdcache_new
 -- Importing package hpdcache_pkg
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(14): (vlog-2163) Macro `CONF_HPDCACHE_REQ_SRC_ID_WIDTH is undefined.
-** Error: (vlog-13069) D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(14): near ")": syntax error, unexpected ')'.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(15): (vlog-2163) Macro `CONF_HPDCACHE_PA_WIDTH is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(16): (vlog-2163) Macro `CONF_HPDCACHE_WORD_WIDTH is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(17): (vlog-2163) Macro `CONF_HPDCACHE_SETS is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(18): (vlog-2163) Macro `CONF_HPDCACHE_WAYS is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(19): (vlog-2163) Macro `CONF_HPDCACHE_CL_WORDS is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(20): (vlog-2163) Macro `CONF_HPDCACHE_REQ_WORDS is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(21): (vlog-2163) Macro `CONF_HPDCACHE_REQ_TRANS_ID_WIDTH is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(22): (vlog-2163) Macro `CONF_HPDCACHE_REQ_SRC_ID_WIDTH is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(23): (vlog-2163) Macro `CONF_HPDCACHE_VICTIM_SEL is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(24): (vlog-2163) Macro `CONF_HPDCACHE_DATA_WAYS_PER_RAM_WORD is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(25): (vlog-2163) Macro `CONF_HPDCACHE_DATA_SETS_PER_RAM is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(26): (vlog-2163) Macro `CONF_HPDCACHE_DATA_RAM_WBYTEENABLE is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(27): (vlog-2163) Macro `CONF_HPDCACHE_ACCESS_WORDS is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(28): (vlog-2163) Macro `CONF_HPDCACHE_MSHR_SETS is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(29): (vlog-2163) Macro `CONF_HPDCACHE_MSHR_WAYS is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(30): (vlog-2163) Macro `CONF_HPDCACHE_MSHR_WAYS_PER_RAM_WORD is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(31): (vlog-2163) Macro `CONF_HPDCACHE_MSHR_SETS_PER_RAM is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(32): (vlog-2163) Macro `CONF_HPDCACHE_MSHR_RAM_WBYTEENABLE is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(33): (vlog-2163) Macro `CONF_HPDCACHE_MSHR_USE_REGBANK is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(34): (vlog-2163) Macro `CONF_HPDCACHE_CBUF_ENTRIES is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(35): (vlog-2163) Macro `CONF_HPDCACHE_REFILL_CORE_RSP_FEEDTHROUGH is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(36): (vlog-2163) Macro `CONF_HPDCACHE_REFILL_FIFO_DEPTH is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(37): (vlog-2163) Macro `CONF_HPDCACHE_WBUF_DIR_ENTRIES is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(38): (vlog-2163) Macro `CONF_HPDCACHE_WBUF_DATA_ENTRIES is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(39): (vlog-2163) Macro `CONF_HPDCACHE_WBUF_WORDS is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(40): (vlog-2163) Macro `CONF_HPDCACHE_WBUF_TIMECNT_WIDTH is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(41): (vlog-2163) Macro `CONF_HPDCACHE_RTAB_ENTRIES is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(42): (vlog-2163) Macro `CONF_HPDCACHE_FLUSH_ENTRIES is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(43): (vlog-2163) Macro `CONF_HPDCACHE_FLUSH_FIFO_DEPTH is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(44): (vlog-2163) Macro `CONF_HPDCACHE_MEM_ADDR_WIDTH is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(45): (vlog-2163) Macro `CONF_HPDCACHE_MEM_ID_WIDTH is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(46): (vlog-2163) Macro `CONF_HPDCACHE_MEM_DATA_WIDTH is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(47): (vlog-2163) Macro `CONF_HPDCACHE_WT_ENABLE is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(48): (vlog-2163) Macro `CONF_HPDCACHE_WB_ENABLE is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(49): (vlog-2163) Macro `CONF_HPDCACHE_LOW_LATENCY is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(50): (vlog-2163) Macro `CONF_HPDCACHE_ECC_ENABLE is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(51): (vlog-2163) Macro `CONF_HPDCACHE_ECC_SCRUBBER_ENABLE is undefined.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(68): (vlog-2163) Macro `HPDCACHE_DECL_REQ_T is undefined.
-** Error: (vlog-13069) D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(68): near "(": syntax error, unexpected '('.
-** Error: D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv(76): (vlog-2163) Macro `HPDCACHE_DECL_RSP_T is undefined.
 
-} {3.0 4.0 5.0 6.0 9.0 51.0} {}} D:/khoaluantotnghiep/cva6-master/core/include/rvfi_types.svh {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/include/rvfi_types.svh
+Top level modules:
+	tb_hpdcache_new
+
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/include/rvfi_types.svh {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/include/rvfi_types.svh
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 
 } {} {}} D:/khoaluantotnghiep/cva6-master/core/amo_buffer.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/amo_buffer.sv
@@ -1315,9 +1222,8 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	hpdcache_1hot_to_binary
 
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_trigger_detector.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_trigger_detector.sv
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_trigger_detector.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_trigger_detector.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_trigger_detector.sv(1): (vlog-13233) Design unit "domino_trigger_detector_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
 -- Compiling package domino_trigger_detector_sv_unit
 -- Importing package domino_pkg
 -- Compiling module domino_trigger_detector
@@ -1695,9 +1601,8 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	lzc
 
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_mht_ram.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_mht_ram.sv
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_mht_ram.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_mht_ram.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_mht_ram.sv(1): (vlog-13233) Design unit "domino_mht_ram_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
 -- Compiling package domino_mht_ram_sv_unit
 -- Importing package domino_pkg
 -- Compiling module domino_mht_ram
@@ -1891,10 +1796,8 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	--none--
 
-} {} {}} D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_wrapper.sv {0 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_wrapper.sv
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_wrapper.sv {2 {vlog -work work -vopt -sv +incdir+D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include -stats=none D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_wrapper.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-** Error: D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_wrapper.sv(13): Cannot find `include file "hpdcache_typedef.svh" in directories:
-    C:/intelFPGA/23.1std/questa_fse/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src
 -- Compiling module cva6_hpdcache_wrapper
 -- Importing package config_pkg
 -- Importing package hpdcache_pkg
@@ -1907,7 +1810,10 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 ** Warning: D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_wrapper.sv(94): (vlog-13314) Defaulting port 'hwpf_throttle_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 -- Importing package hwpf_stride_pkg
 
-} {3.0 4.0} {}} D:/khoaluantotnghiep/cva6-master/core/include/dummy_l15_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/include/dummy_l15_pkg.sv
+Top level modules:
+	cva6_hpdcache_wrapper
+
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/include/dummy_l15_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/include/dummy_l15_pkg.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling package l15_pkg
 
@@ -1961,21 +1867,16 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	hpdcache_miss_handler
 
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_wrapper.sv {0 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_wrapper.sv
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_wrapper.sv {2 {vlog -work work -vopt -sv +incdir+D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_wrapper.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-** Error: D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_wrapper.sv(12): Cannot find `include file "hpdcache_typedef.svh" in directories:
-    C:/intelFPGA/23.1std/questa_fse/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src
 -- Compiling module hpdcache_wrapper
 -- Importing package hpdcache_pkg
-** Error: D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_wrapper.sv(75): (vlog-2163) Macro `HPDCACHE_DECL_REQ_T is undefined.
-** Error: (vlog-13005) D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_wrapper.sv(76.41): near ",": syntax error, unexpected type name found where an identifier was expected. The type 'hpdcache_req_offset_t' is defined at D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_wrapper.sv(69).
-** Error: D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_wrapper.sv(83): (vlog-2163) Macro `HPDCACHE_DECL_RSP_T is undefined.
-** Error: D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_wrapper.sv(201): (vlog-2163) Macro `HPDCACHE_TYPEDEF_MEM_REQ_T is undefined.
-** Error: D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_wrapper.sv(202): (vlog-2163) Macro `HPDCACHE_TYPEDEF_MEM_RESP_R_T is undefined.
-** Error: D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_wrapper.sv(203): (vlog-2163) Macro `HPDCACHE_TYPEDEF_MEM_REQ_W_T is undefined.
-** Error: D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_wrapper.sv(204): (vlog-2163) Macro `HPDCACHE_TYPEDEF_MEM_RESP_W_T is undefined.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_wrapper.sv(115): (vlog-13314) Defaulting port 'core_req_pma_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 
-} {3.0 4.0 7.0 14.0} {}} D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lfsr.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lfsr.sv
+Top level modules:
+	hpdcache_wrapper
+
+} {} {}} D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lfsr.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lfsr.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module lfsr
 ** Warning: D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lfsr.sv(258): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
@@ -2008,9 +1909,8 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	hpdcache_data_resize
 
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_history_buffers.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_history_buffers.sv
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_history_buffers.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_history_buffers.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_history_buffers.sv(1): (vlog-13233) Design unit "domino_history_buffers_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
 -- Compiling package domino_history_buffers_sv_unit
 -- Importing package domino_pkg
 -- Compiling module domino_history_buffers
@@ -2018,44 +1918,37 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	domino_history_buffers
 
-} {} {}} D:/khoaluantotnghiep/cva6-master/core/cva6.sv {0 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/cva6.sv
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/cva6.sv {2 {vlog -work work -vopt -sv +incdir+D:/khoaluantotnghiep/cva6-master/core/include -stats=none D:/khoaluantotnghiep/cva6-master/core/cva6.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-** Error: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(15): Cannot find `include file "rvfi_types.svh" in directories:
-    C:/intelFPGA/23.1std/questa_fse/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src
-** Error: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(16): Cannot find `include file "cvxif_types.svh" in directories:
-    C:/intelFPGA/23.1std/questa_fse/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src
 -- Compiling module cva6
 -- Importing package ariane_pkg
 -- Importing package config_pkg
 -- Importing package riscv
 -- Importing package cva6_config_pkg
 -- Importing package build_config_pkg
-** Error: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(27): (vlog-2163) Macro `RVFI_PROBES_INSTR_T is undefined.
-** Error (suppressible): D:/khoaluantotnghiep/cva6-master/core/cva6.sv(27): (vlog-2987) Illegal expression as initializer for type parameter 'rvfi_probes_instr_t'.
-** Error: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(28): (vlog-2163) Macro `RVFI_PROBES_CSR_T is undefined.
-** Error (suppressible): D:/khoaluantotnghiep/cva6-master/core/cva6.sv(28): (vlog-2987) Illegal expression as initializer for type parameter 'rvfi_probes_csr_t'.
 -- Importing package wt_cache_pkg
 -- Importing package axi_pkg
-** Error: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(303): (vlog-2163) Macro `READREGFLAGS_T is undefined.
-** Error (suppressible): D:/khoaluantotnghiep/cva6-master/core/cva6.sv(303): (vlog-2987) Illegal expression as initializer for type parameter 'readregflags_t'.
-** Error: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(304): (vlog-2163) Macro `WRITEREGFLAGS_T is undefined.
-** Error (suppressible): D:/khoaluantotnghiep/cva6-master/core/cva6.sv(304): (vlog-2987) Illegal expression as initializer for type parameter 'writeregflags_t'.
-** Error: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(305): (vlog-2163) Macro `ID_T is undefined.
-** Error (suppressible): D:/khoaluantotnghiep/cva6-master/core/cva6.sv(305): (vlog-2987) Illegal expression as initializer for type parameter 'id_t'.
-** Error: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(306): (vlog-2163) Macro `HARTID_T is undefined.
-** Error (suppressible): D:/khoaluantotnghiep/cva6-master/core/cva6.sv(306): (vlog-2987) Illegal expression as initializer for type parameter 'hartid_t'.
-** Error: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(307): (vlog-2163) Macro `X_COMPRESSED_REQ_T is undefined.
-** Error: (vlog-13069) D:/khoaluantotnghiep/cva6-master/core/cva6.sv(307): near ",": syntax error, unexpected ','.
-** Error: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(308): (vlog-2163) Macro `X_COMPRESSED_RESP_T is undefined.
-** Error: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(309): (vlog-2163) Macro `X_ISSUE_REQ_T is undefined.
-** Error: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(310): (vlog-2163) Macro `X_ISSUE_RESP_T is undefined.
-** Error: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(311): (vlog-2163) Macro `X_REGISTER_T is undefined.
-** Error: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(312): (vlog-2163) Macro `X_COMMIT_T is undefined.
-** Error: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(313): (vlog-2163) Macro `X_RESULT_T is undefined.
-** Error: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(315): (vlog-2163) Macro `CVXIF_REQ_T is undefined.
-** Error: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(317): (vlog-2163) Macro `CVXIF_RESP_T is undefined.
+** Warning: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(807): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(808): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(809): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(810): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(811): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(812): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(813): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(817): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(818): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(819): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(820): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(821): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(822): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(823): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(824): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(825): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
 
-} {3.0 4.0 5.0 6.0 13.0 14.0 15.0 16.0 19.0 20.0 21.0 22.0 23.0 24.0 25.0 26.0 27.0 37.0} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_downsize.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_downsize.sv
+Top level modules:
+	cva6
+
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_downsize.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_downsize.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module hpdcache_data_downsize
 -- Importing package hpdcache_pkg
@@ -2084,18 +1977,28 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	--none--
 
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv {0 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv {2 {vlog -work work -vopt -sv +incdir+D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-** Error: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv(26): Cannot find `include file "hpdcache_typedef.svh" in directories:
-    C:/intelFPGA/23.1std/questa_fse/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src
 -- Compiling module hwpf_stride_wrapper
 -- Importing package hwpf_stride_pkg
 -- Importing package hpdcache_pkg
 ** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv(61): (vlog-13314) Defaulting port 'hwpf_stride_base_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 ** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv(65): (vlog-13314) Defaulting port 'hwpf_stride_param_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 ** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv(69): (vlog-13314) Defaulting port 'hwpf_stride_throttle_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv(189): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv(190): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv(190): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv(196): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv(197): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv(199): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv(200): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv(202): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv(203): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
 
-} {3.0 4.0} {}} D:/khoaluantotnghiep/cva6-master/core/store_unit.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/store_unit.sv
+Top level modules:
+	hwpf_stride_wrapper
+
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/store_unit.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/store_unit.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module store_unit
 -- Importing package ariane_pkg
@@ -2159,9 +2062,8 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	cva6_icache_axi_wrapper
 
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_xor_hash.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_xor_hash.sv
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_xor_hash.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_xor_hash.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_xor_hash.sv(1): (vlog-13233) Design unit "domino_xor_hash_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
 -- Compiling package domino_xor_hash_sv_unit
 -- Importing package domino_pkg
 -- Compiling module domino_xor_hash
