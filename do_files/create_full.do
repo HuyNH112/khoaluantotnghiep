@@ -3,10 +3,10 @@
 # Target: cv32a6_imac_sv32 + ICache + HPDcache
 # ============================================================
 
-set BASE_DIR  "D:/HCMUS/THESIS"
-set CVA6_DIR  "D:/HCMUS/THESIS/cva6-master"
-set ICACHE_DIR "D:/HCMUS/THESIS/icache-master"
-set HPDCACHE_DIR "D:/HCMUS/THESIS/cv-hpdcache-master"
+set BASE_DIR  "D:/khoaluantotnghiep"
+set CVA6_DIR  "D:/khoaluantotnghiep/cva6-master"
+set ICACHE_DIR "D:/khoaluantotnghiep/icache-master"
+set HPDCACHE_DIR "D:/khoaluantotnghiep/cv-hpdcache-master"
 
 quit -sim
 catch {project close}
@@ -55,6 +55,7 @@ set file_list [list \
     $CVA6_DIR/common/local/util/sram_cache.sv \
 \
     $CVA6_DIR/core/frontend/bht.sv \
+	$CVA6_DIR/core/frontend/btb.sv \
     $CVA6_DIR/core/frontend/bht2lvl.sv \
     $CVA6_DIR/core/frontend/ras.sv \
     $CVA6_DIR/core/frontend/instr_scan.sv \
@@ -66,6 +67,7 @@ set file_list [list \
     $CVA6_DIR/core/cache_subsystem/cva6_icache_axi_wrapper.sv \
 \
     $CVA6_DIR/core/cva6_mmu/cva6_tlb.sv \
+	$CVA6_DIR/vendor/pulp-platform/common_cells/src/lfsr.sv \
     $CVA6_DIR/core/cva6_mmu/cva6_shared_tlb.sv \
     $CVA6_DIR/core/cva6_mmu/cva6_ptw.sv \
     $CVA6_DIR/core/cva6_mmu/cva6_mmu.sv \
@@ -82,6 +84,7 @@ set file_list [list \
 \
     $CVA6_DIR/core/ariane_regfile_ff.sv \
     $CVA6_DIR/core/scoreboard.sv \
+	$CVA6_DIR/core/cvxif_issue_register_commit_if_driver.sv \
     $CVA6_DIR/core/issue_read_operands.sv \
     $CVA6_DIR/core/issue_stage.sv \
 \
@@ -94,6 +97,8 @@ set file_list [list \
     $CVA6_DIR/core/csr_buffer.sv \
     $CVA6_DIR/core/raw_checker.sv \
     $CVA6_DIR/core/perf_counters.sv \
+	$CVA6_DIR/core/include/aes_pkg.sv \
+	$CVA6_DIR/core/aes.sv \
     $CVA6_DIR/core/ex_stage.sv \
 \
     $CVA6_DIR/core/amo_buffer.sv \
@@ -138,6 +143,12 @@ set file_list [list \
     $HPDCACHE_DIR/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv \
 	$CVA6_DIR/core/cache_subsystem/cva6_hpdcache_if_adapter.sv \
 	$HPDCACHE_DIR/rtl/src/target/cva6/cva6_hpdcache_cmo_if_adapter.sv \
+	$HPDCACHE_DIR/prefetcher/domino_pkg.sv \
+    $HPDCACHE_DIR/prefetcher/domino_trigger_detector.sv \
+    $HPDCACHE_DIR/prefetcher/domino_history_buffers.sv \
+    $HPDCACHE_DIR/prefetcher/domino_xor_hash.sv \
+    $HPDCACHE_DIR/prefetcher/domino_mht_ram.sv \
+    $HPDCACHE_DIR/prefetcher/domino_prefetcher_top.sv \
     $HPDCACHE_DIR/rtl/src/hpdcache.sv \
 	$CVA6_DIR/core/cache_subsystem/cva6_hpdcache_wrapper.sv \
     $HPDCACHE_DIR/rtl/src/hpdcache_amo.sv \
@@ -164,9 +175,18 @@ set file_list [list \
 	$HPDCACHE_DIR/rtl/src/utils/hpdcache_mem_resp_demux.sv \
 	$HPDCACHE_DIR/rtl/src/utils/hpdcache_mem_to_axi_write.sv \
 	$HPDCACHE_DIR/rtl/src/utils/hpdcache_mem_to_axi_read.sv \
+	$CVA6_DIR/core/cache_subsystem/cva6_hpdcache_subsystem_axi_arbiter.sv \
 	$CVA6_DIR/core/cache_subsystem/cva6_hpdcache_subsystem.sv \
     $CVA6_DIR/core/cva6.sv \
-	$BASE_DIR/tb_cva6.sv \
+\
+    $CVA6_DIR/core/include/instr_tracer_pkg.sv \
+    $CVA6_DIR/common/local/util/instr_tracer.sv \
+    $CVA6_DIR/core/cva6_rvfi_probes.sv \
+\
+	$BASE_DIR/testbench/tb_cva6.sv \
+    $BASE_DIR/testbench/tb_hpdcache_new.sv \
+    $BASE_DIR/testbench/tb_hpdcache_prefetch.sv \
+    $BASE_DIR/testbench/tb_plru.sv\
 ]
 
 foreach f $file_list {

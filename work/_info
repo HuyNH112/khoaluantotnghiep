@@ -59,120 +59,120 @@ n@_opt2
 R7
 R3
 vaes
-2D:/HCMUS/THESIS/cva6-master/core/aes.sv
+2D:/khoaluantotnghiep/cva6-master/core/aes.sv
 Z8 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z9 DXx4 work 10 config_pkg 0 22 cb3HTVhRg6oifoNLX1PPW1
-Z10 DXx4 work 15 cva6_config_pkg 0 22 ^2lCJ_C:fePnaf2Q2hz8k2
-Z11 DXx4 work 5 riscv 0 22 0z1DjFCHbMjZVdoRoRI5[0
-Z12 DXx4 work 10 ariane_pkg 0 22 =O=5X^_gV8RPYiR9M^:0c3
-DXx4 work 7 aes_pkg 0 22 `OfeFQkPRKVK7PaacX]372
-Z13 !s110 1783766456
+Z9 DXx4 work 10 config_pkg 0 22 ;mbk1JTiPPgJ6IE=N>NaM1
+Z10 DXx4 work 15 cva6_config_pkg 0 22 =PUgY5:n7::eOUP3G08=21
+Z11 DXx4 work 5 riscv 0 22 >VPOUm;m^iedg=zeYIG=G3
+Z12 DXx4 work 10 ariane_pkg 0 22 `b:@R81LEcFBW?0ndnW0H2
+DXx4 work 7 aes_pkg 0 22 7<4[_1IC7`EC2j_IFScik3
+Z13 !s110 1783850528
 !i10b 1
 !s100 ]:VW;:WzUOKPHA^j0z74Y0
-IE>RWd1kWe4:1N1fWF=oEa2
+IYV5eb3lHViHHhNcAhk3hf0
 S1
 Z14 dD:/khoaluantotnghiep
 Z15 w1780322994
-8D:/HCMUS/THESIS/cva6-master/core/aes.sv
-FD:/HCMUS/THESIS/cva6-master/core/aes.sv
-!i122 4070
+8D:/khoaluantotnghiep/cva6-master/core/aes.sv
+FD:/khoaluantotnghiep/cva6-master/core/aes.sv
+!i122 5524
 L0 13 222
 Z16 VDg1SIo80bB@j0V0VzS_@n1
 Z17 OL;L;2023.3;77
 r1
 !s85 0
 31
-Z18 !s108 1783766456.000000
-!s107 D:/HCMUS/THESIS/cva6-master/core/aes.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/aes.sv|
+Z18 !s108 1783850528.000000
+!s107 D:/khoaluantotnghiep/cva6-master/core/aes.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/aes.sv|
 !i113 0
-Z19 o-work work -sv
+Z19 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R6
 Xaes_pkg
-2D:/HCMUS/THESIS/cva6-master/core/include/aes_pkg.sv
+2D:/khoaluantotnghiep/cva6-master/core/include/aes_pkg.sv
 R8
 R13
 !i10b 1
 !s100 =BJLoFLU;T`FNG0;05d6V0
-I`OfeFQkPRKVK7PaacX]372
+I7<4[_1IC7`EC2j_IFScik3
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/include/aes_pkg.sv
-FD:/HCMUS/THESIS/cva6-master/core/include/aes_pkg.sv
-!i122 4069
+8D:/khoaluantotnghiep/cva6-master/core/include/aes_pkg.sv
+FD:/khoaluantotnghiep/cva6-master/core/include/aes_pkg.sv
+!i122 5523
 Z20 L0 13 0
-V`OfeFQkPRKVK7PaacX]372
+V7<4[_1IC7`EC2j_IFScik3
 R17
 r1
 !s85 0
 31
 R18
-!s107 D:/HCMUS/THESIS/cva6-master/core/include/aes_pkg.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/include/aes_pkg.sv|
+!s107 D:/khoaluantotnghiep/cva6-master/core/include/aes_pkg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/include/aes_pkg.sv|
 !i113 0
 R19
 R6
 valu
-2D:/HCMUS/THESIS/cva6-master/core/alu.sv
+2D:/khoaluantotnghiep/cva6-master/core/alu.sv
 R8
 R9
 R10
 R11
 R12
-Z21 !s110 1783766455
+R13
 !i10b 1
 !s100 JhdckTBmm]TDcK=PAeEXW3
-IVWOECI5X:i@b=Do`fa]fQ1
+I><;2L?]]FDbD47PR9Gz7j0
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/alu.sv
-FD:/HCMUS/THESIS/cva6-master/core/alu.sv
-!i122 4060
+8D:/khoaluantotnghiep/cva6-master/core/alu.sv
+FD:/khoaluantotnghiep/cva6-master/core/alu.sv
+!i122 5514
 L0 21 393
 R16
 R17
 r1
 !s85 0
 31
-Z22 !s108 1783766455.000000
-!s107 D:/HCMUS/THESIS/cva6-master/core/alu.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/alu.sv|
+Z21 !s108 1783850527.000000
+!s107 D:/khoaluantotnghiep/cva6-master/core/alu.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/alu.sv|
 !i113 0
 R19
 R6
 valu_wrapper
-2D:/HCMUS/THESIS/cva6-master/core/alu_wrapper.sv
+2D:/khoaluantotnghiep/cva6-master/core/alu_wrapper.sv
 R8
 R9
 R10
 R11
 R12
-R21
+R13
 !i10b 1
 !s100 jiA9<5Z6CcS42jSm1e0k<3
-I_;Kh625hkUY2W8I3;VO8Y1
+IV=aFz]1ToJD3zLS`c6EeO2
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/alu_wrapper.sv
-FD:/HCMUS/THESIS/cva6-master/core/alu_wrapper.sv
-!i122 4061
+8D:/khoaluantotnghiep/cva6-master/core/alu_wrapper.sv
+FD:/khoaluantotnghiep/cva6-master/core/alu_wrapper.sv
+!i122 5515
 L0 15 57
 R16
 R17
 r1
 !s85 0
 31
-R22
-!s107 D:/HCMUS/THESIS/cva6-master/core/alu_wrapper.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/alu_wrapper.sv|
+R18
+!s107 D:/khoaluantotnghiep/cva6-master/core/alu_wrapper.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/alu_wrapper.sv|
 !i113 0
 R19
 R6
 vamo_buffer
-2D:/HCMUS/THESIS/cva6-master/core/amo_buffer.sv
+2D:/khoaluantotnghiep/cva6-master/core/amo_buffer.sv
 R8
 R9
 R10
@@ -181,162 +181,162 @@ R12
 R13
 !i10b 1
 !s100 J2ZlVSg`8YFQXhECboO7[1
-IP>C@<i7f1oQBn^L51;4Pm3
+IYPbeO;5FB1@@mkbOWInMc3
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/amo_buffer.sv
-FD:/HCMUS/THESIS/cva6-master/core/amo_buffer.sv
-!i122 4072
-Z23 L0 17 67
+8D:/khoaluantotnghiep/cva6-master/core/amo_buffer.sv
+FD:/khoaluantotnghiep/cva6-master/core/amo_buffer.sv
+!i122 5526
+Z22 L0 17 67
 R16
 R17
 r1
 !s85 0
 31
 R18
-!s107 D:/HCMUS/THESIS/cva6-master/core/amo_buffer.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/amo_buffer.sv|
+!s107 D:/khoaluantotnghiep/cva6-master/core/amo_buffer.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/amo_buffer.sv|
 !i113 0
 R19
 R6
 Xariane_pkg
-2D:/HCMUS/THESIS/cva6-master/core/include/ariane_pkg.sv
+2D:/khoaluantotnghiep/cva6-master/core/include/ariane_pkg.sv
 R8
 R9
 R10
 R11
-Z24 !s110 1783766452
+Z23 !s110 1783850524
 !i10b 1
 !s100 XG<0WI2H7LM4N42iI;B;o1
-I=O=5X^_gV8RPYiR9M^:0c3
+I`b:@R81LEcFBW?0ndnW0H2
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/include/ariane_pkg.sv
-FD:/HCMUS/THESIS/cva6-master/core/include/ariane_pkg.sv
-!i122 4007
+8D:/khoaluantotnghiep/cva6-master/core/include/ariane_pkg.sv
+FD:/khoaluantotnghiep/cva6-master/core/include/ariane_pkg.sv
+!i122 5461
 L0 29 0
-V=O=5X^_gV8RPYiR9M^:0c3
+V`b:@R81LEcFBW?0ndnW0H2
 R17
 r1
 !s85 0
 31
-Z25 !s108 1783766452.000000
-!s107 D:/HCMUS/THESIS/cva6-master/core/include/ariane_pkg.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/include/ariane_pkg.sv|
+Z24 !s108 1783850524.000000
+!s107 D:/khoaluantotnghiep/cva6-master/core/include/ariane_pkg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/include/ariane_pkg.sv|
 !i113 0
 R19
 R6
 variane_regfile
-2D:/HCMUS/THESIS/cva6-master/core/ariane_regfile_ff.sv
+2D:/khoaluantotnghiep/cva6-master/core/ariane_regfile_ff.sv
 R8
 R9
-R21
+Z25 !s110 1783850527
 !i10b 1
 !s100 `=FFS=ibJbLZWzUb?[_022
-IJ>ARQblUQXPR6?mjb`ooA1
+IbZ=gW>YHd7:7WG7<_k<MA2
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/ariane_regfile_ff.sv
-FD:/HCMUS/THESIS/cva6-master/core/ariane_regfile_ff.sv
-!i122 4055
+8D:/khoaluantotnghiep/cva6-master/core/ariane_regfile_ff.sv
+FD:/khoaluantotnghiep/cva6-master/core/ariane_regfile_ff.sv
+!i122 5509
 L0 25 59
 R16
 R17
 r1
 !s85 0
 31
-R22
-!s107 D:/HCMUS/THESIS/cva6-master/core/ariane_regfile_ff.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/ariane_regfile_ff.sv|
+R21
+!s107 D:/khoaluantotnghiep/cva6-master/core/ariane_regfile_ff.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/ariane_regfile_ff.sv|
 !i113 0
 R19
 R6
 Xaxi_pkg
-2D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/axi/src/axi_pkg.sv
+2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/axi/src/axi_pkg.sv
 R8
-R24
+R23
 !i10b 1
 !s100 mhXa[i`IbVLG:cY:SPQFO3
-IY8aPXlB^EHh`SfYXYX`OI1
+I;RW@BLczkQf7WXfjIY4NX2
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/axi/src/axi_pkg.sv
-FD:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/axi/src/axi_pkg.sv
-!i122 4008
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/axi/src/axi_pkg.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/axi/src/axi_pkg.sv
+!i122 5462
 L0 21 0
-VY8aPXlB^EHh`SfYXYX`OI1
+V;RW@BLczkQf7WXfjIY4NX2
 R17
 r1
 !s85 0
 31
-R25
-!s107 D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/axi/src/axi_pkg.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/axi/src/axi_pkg.sv|
+R24
+!s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/axi/src/axi_pkg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/axi/src/axi_pkg.sv|
 !i113 0
 R19
 R6
 vaxi_shim
-2D:/HCMUS/THESIS/cva6-master/core/axi_shim.sv
+2D:/khoaluantotnghiep/cva6-master/core/axi_shim.sv
 R8
 R9
-Z26 DXx4 work 7 axi_pkg 0 22 Y8aPXlB^EHh`SfYXYX`OI1
-Z27 !s110 1783766457
+Z26 DXx4 work 7 axi_pkg 0 22 ;RW@BLczkQf7WXfjIY4NX2
+Z27 !s110 1783850529
 !i10b 1
 !s100 4bQ0jl;J2T<B>AKS[z`n80
-I5:77LI2ESFB:Imm?56jV;0
+I5f?^0`czPH:=Ra;dOZU2b0
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/axi_shim.sv
-FD:/HCMUS/THESIS/cva6-master/core/axi_shim.sv
-!i122 4081
+8D:/khoaluantotnghiep/cva6-master/core/axi_shim.sv
+FD:/khoaluantotnghiep/cva6-master/core/axi_shim.sv
+!i122 5535
 L0 22 289
 R16
 R17
 r1
 !s85 0
 31
-Z28 !s108 1783766457.000000
-!s107 D:/HCMUS/THESIS/cva6-master/core/axi_shim.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/axi_shim.sv|
+Z28 !s108 1783850529.000000
+!s107 D:/khoaluantotnghiep/cva6-master/core/axi_shim.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/axi_shim.sv|
 !i113 0
 R19
 R6
 vbht
-2D:/HCMUS/THESIS/cva6-master/core/frontend/bht.sv
+2D:/khoaluantotnghiep/cva6-master/core/frontend/bht.sv
 R8
 R9
 R10
 R11
 R12
-Z29 !s110 1783766453
+Z29 !s110 1783850525
 !i10b 1
 !s100 3>Sz6nZ4XFZbQo3:K:E]f3
-IDe>N8encN>3_3h^ZcJS5B2
+I=J3o6kEaS0fYL_2:J`8<03
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/frontend/bht.sv
-FD:/HCMUS/THESIS/cva6-master/core/frontend/bht.sv
-!i122 4031
+8D:/khoaluantotnghiep/cva6-master/core/frontend/bht.sv
+FD:/khoaluantotnghiep/cva6-master/core/frontend/bht.sv
+!i122 5485
 L0 24 290
 R16
 R17
 r1
 !s85 0
 31
-Z30 !s108 1783766453.000000
-!s107 D:/HCMUS/THESIS/cva6-master/core/frontend/bht.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/frontend/bht.sv|
+Z30 !s108 1783850525.000000
+!s107 D:/khoaluantotnghiep/cva6-master/core/frontend/bht.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/frontend/bht.sv|
 !i113 0
 R19
 R6
 vbht2lvl
-2D:/HCMUS/THESIS/cva6-master/core/frontend/bht2lvl.sv
+2D:/khoaluantotnghiep/cva6-master/core/frontend/bht2lvl.sv
 R8
 R9
 R10
@@ -345,13 +345,13 @@ R12
 R29
 !i10b 1
 !s100 Wik2_aNMTllh1]O@NXdES0
-IGlREVeIzXT=ORLJKfeE<20
+I24Y<XoDT[61Nmg]6S^2L81
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/frontend/bht2lvl.sv
-FD:/HCMUS/THESIS/cva6-master/core/frontend/bht2lvl.sv
-!i122 4033
+8D:/khoaluantotnghiep/cva6-master/core/frontend/bht2lvl.sv
+FD:/khoaluantotnghiep/cva6-master/core/frontend/bht2lvl.sv
+!i122 5487
 L0 14 118
 R16
 R17
@@ -359,54 +359,54 @@ r1
 !s85 0
 31
 R30
-!s107 D:/HCMUS/THESIS/cva6-master/core/frontend/bht2lvl.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/frontend/bht2lvl.sv|
+!s107 D:/khoaluantotnghiep/cva6-master/core/frontend/bht2lvl.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/frontend/bht2lvl.sv|
 !i113 0
 R19
 R6
 vbranch_unit
-2D:/HCMUS/THESIS/cva6-master/core/branch_unit.sv
+2D:/khoaluantotnghiep/cva6-master/core/branch_unit.sv
 R8
 R9
 R10
 R11
 R12
-R21
+R13
 !i10b 1
 !s100 hF5WDPT18f3Nhd[fG^CL53
-I]?RGO2e`f<oFO][4ncCTF1
+IogEAcm=:UW=:91U``GV]l2
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/branch_unit.sv
-FD:/HCMUS/THESIS/cva6-master/core/branch_unit.sv
-!i122 4062
+8D:/khoaluantotnghiep/cva6-master/core/branch_unit.sv
+FD:/khoaluantotnghiep/cva6-master/core/branch_unit.sv
+!i122 5516
 L0 15 126
 R16
 R17
 r1
 !s85 0
 31
-R22
-!s107 D:/HCMUS/THESIS/cva6-master/core/branch_unit.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/branch_unit.sv|
+R18
+!s107 D:/khoaluantotnghiep/cva6-master/core/branch_unit.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/branch_unit.sv|
 !i113 0
 R19
 R6
 vbtb
-2D:/HCMUS/THESIS/cva6-master/core/frontend/btb.sv
+2D:/khoaluantotnghiep/cva6-master/core/frontend/btb.sv
 R8
 R9
 R29
 !i10b 1
 !s100 5B@9_ZB=3dmh2U[;^BQ[<1
-IUl@KeZ3Nb6CU;_HhE=D1;2
+IJ6LYmFf:jkT_D5QQHCj0>0
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/frontend/btb.sv
-FD:/HCMUS/THESIS/cva6-master/core/frontend/btb.sv
-!i122 4032
+8D:/khoaluantotnghiep/cva6-master/core/frontend/btb.sv
+FD:/khoaluantotnghiep/cva6-master/core/frontend/btb.sv
+!i122 5486
 L0 28 166
 R16
 R17
@@ -414,64 +414,64 @@ r1
 !s85 0
 31
 R30
-!s107 D:/HCMUS/THESIS/cva6-master/core/frontend/btb.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/frontend/btb.sv|
+!s107 D:/khoaluantotnghiep/cva6-master/core/frontend/btb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/frontend/btb.sv|
 !i113 0
 R19
 R6
 Xbuild_config_pkg
-2D:/HCMUS/THESIS/cva6-master/core/include/build_config_pkg.sv
+2D:/khoaluantotnghiep/cva6-master/core/include/build_config_pkg.sv
 R8
 R9
-R24
+R23
 !i10b 1
 !s100 Pi@>9C;UD_24cd2ZbMPA^1
-IQe6KUZ7d7;eEB=kja7geZ0
+IE4GRJ]h;HCR0M7PnDF4b=0
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/include/build_config_pkg.sv
-FD:/HCMUS/THESIS/cva6-master/core/include/build_config_pkg.sv
-!i122 4010
+8D:/khoaluantotnghiep/cva6-master/core/include/build_config_pkg.sv
+FD:/khoaluantotnghiep/cva6-master/core/include/build_config_pkg.sv
+!i122 5464
 Z31 L0 1 0
-VQe6KUZ7d7;eEB=kja7geZ0
+VE4GRJ]h;HCR0M7PnDF4b=0
 R17
 r1
 !s85 0
 31
-R25
-!s107 D:/HCMUS/THESIS/cva6-master/core/include/build_config_pkg.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/include/build_config_pkg.sv|
+R24
+!s107 D:/khoaluantotnghiep/cva6-master/core/include/build_config_pkg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/include/build_config_pkg.sv|
 !i113 0
 R19
 R6
 Xcf_math_pkg
-2D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/cf_math_pkg.sv
+2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/cf_math_pkg.sv
 R8
-R24
+R23
 !i10b 1
 !s100 BCK1a3g]B;deb7k<XVBUH0
-I<K<XEL9aV7X]OC_8@kSK52
+I:TSdRUUo<@Fn4ko6Cdh`?0
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/cf_math_pkg.sv
-FD:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/cf_math_pkg.sv
-!i122 4012
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/cf_math_pkg.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/cf_math_pkg.sv
+!i122 5466
 Z32 L0 18 0
-V<K<XEL9aV7X]OC_8@kSK52
+V:TSdRUUo<@Fn4ko6Cdh`?0
 R17
 r1
 !s85 0
 31
-R25
-!s107 D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/cf_math_pkg.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/cf_math_pkg.sv|
+R24
+!s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/cf_math_pkg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/cf_math_pkg.sv|
 !i113 0
 R19
 R6
 vcommit_stage
-2D:/HCMUS/THESIS/cva6-master/core/commit_stage.sv
+2D:/khoaluantotnghiep/cva6-master/core/commit_stage.sv
 R8
 R9
 R10
@@ -480,80 +480,80 @@ R12
 R27
 !i10b 1
 !s100 ;eA<`ULL@ffeZkEdTo2682
-IFH01e6Ij8`S<3V^O6JR0`2
+I?9JHdVo285>3l3@jLOfV^3
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/commit_stage.sv
-FD:/HCMUS/THESIS/cva6-master/core/commit_stage.sv
-!i122 4078
+8D:/khoaluantotnghiep/cva6-master/core/commit_stage.sv
+FD:/khoaluantotnghiep/cva6-master/core/commit_stage.sv
+!i122 5532
 L0 16 400
 R16
 R17
 r1
 !s85 0
 31
-R18
-!s107 D:/HCMUS/THESIS/cva6-master/core/commit_stage.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/commit_stage.sv|
+R28
+!s107 D:/khoaluantotnghiep/cva6-master/core/commit_stage.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/commit_stage.sv|
 !i113 0
 R19
 R6
 vcompressed_decoder
-2D:/HCMUS/THESIS/cva6-master/core/compressed_decoder.sv
+2D:/khoaluantotnghiep/cva6-master/core/compressed_decoder.sv
 R8
 R9
 R10
 R11
-R21
+R25
 !i10b 1
 !s100 YRPLVl6n=?PgXhW]>Y<jl2
-I`^KSF1<85mgeNOWIi49R33
+I]@kY3TAgYH:mgmgXRGlOD2
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/compressed_decoder.sv
-FD:/HCMUS/THESIS/cva6-master/core/compressed_decoder.sv
-!i122 4051
+8D:/khoaluantotnghiep/cva6-master/core/compressed_decoder.sv
+FD:/khoaluantotnghiep/cva6-master/core/compressed_decoder.sv
+!i122 5505
 L0 22 926
 R16
 R17
 r1
 !s85 0
 31
-R22
-!s107 D:/HCMUS/THESIS/cva6-master/core/compressed_decoder.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/compressed_decoder.sv|
+R21
+!s107 D:/khoaluantotnghiep/cva6-master/core/compressed_decoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/compressed_decoder.sv|
 !i113 0
 R19
 R6
 Xconfig_pkg
-2D:/HCMUS/THESIS/cva6-master/core/include/config_pkg.sv
 R8
-!s110 1783766451
+Z33 !s110 1783850534
 !i10b 1
-!s100 cPFDa0NbUQo;iUYl_FUhh1
-Icb3HTVhRg6oifoNLX1PPW1
+!s100 lHdge1EF9M0XC;Ffh1ALX1
+Ih`oMj0nKVkcBB431ScIJ40
 S1
 R14
-R15
-8D:/HCMUS/THESIS/cva6-master/core/include/config_pkg.sv
-FD:/HCMUS/THESIS/cva6-master/core/include/config_pkg.sv
-!i122 4004
+w1783850082
+FD:/khoaluantotnghiep/cva6-master/core/include/config_pkg.sv
+FD:/khoaluantotnghiep/testbench/tb_cva6_full_integration.sv
+!i122 5607
 L0 10 0
-Vcb3HTVhRg6oifoNLX1PPW1
+Vh`oMj0nKVkcBB431ScIJ40
 R17
 r1
 !s85 0
 31
-!s108 1783766451.000000
-!s107 D:/HCMUS/THESIS/cva6-master/core/include/config_pkg.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/include/config_pkg.sv|
+Z34 !s108 1783850534.000000
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_config.svh|D:/khoaluantotnghiep/cva6-master/core/include/config_pkg.sv|D:/khoaluantotnghiep/testbench/tb_cva6_full_integration.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|+incdir+D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include|+incdir+D:/khoaluantotnghiep/cva6-master/core/include|-stats=none|D:/khoaluantotnghiep/testbench/tb_cva6_full_integration.sv|
 !i113 0
 R19
+!s92 -work work -sv +incdir+D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include +incdir+D:/khoaluantotnghiep/cva6-master/core/include -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R6
 vcontroller
-2D:/HCMUS/THESIS/cva6-master/core/controller.sv
+2D:/khoaluantotnghiep/cva6-master/core/controller.sv
 R8
 R9
 R10
@@ -562,13 +562,13 @@ R12
 R27
 !i10b 1
 !s100 KKIP8X_@e[HU?MD3F94E53
-IdQ=I`kcVUjK[M:oU91K@61
+IXID7OYQTfB`Z0Bh[i3j>@3
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/controller.sv
-FD:/HCMUS/THESIS/cva6-master/core/controller.sv
-!i122 4079
+8D:/khoaluantotnghiep/cva6-master/core/controller.sv
+FD:/khoaluantotnghiep/cva6-master/core/controller.sv
+!i122 5533
 L0 16 262
 R16
 R17
@@ -576,24 +576,24 @@ r1
 !s85 0
 31
 R28
-!s107 D:/HCMUS/THESIS/cva6-master/core/controller.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/controller.sv|
+!s107 D:/khoaluantotnghiep/cva6-master/core/controller.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/controller.sv|
 !i113 0
 R19
 R6
 vcounter
-2D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/counter.sv
+2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/counter.sv
 R8
 R29
 !i10b 1
 !s100 fAXT?FGIi^P@i@DfJJFz_3
-IlMQ]m^j5QR4?n<B6^a_5L1
+I6az^cTZAGgJSDY6EfDVdK3
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/counter.sv
-FD:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/counter.sv
-!i122 4024
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/counter.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/counter.sv
+!i122 5478
 L0 14 30
 R16
 R17
@@ -601,13 +601,13 @@ r1
 !s85 0
 31
 R30
-!s107 D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/counter.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/counter.sv|
+!s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/counter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/counter.sv|
 !i113 0
 R19
 R6
 vcsr_buffer
-2D:/HCMUS/THESIS/cva6-master/core/csr_buffer.sv
+2D:/khoaluantotnghiep/cva6-master/core/csr_buffer.sv
 R8
 R9
 R10
@@ -616,27 +616,27 @@ R12
 R13
 !i10b 1
 !s100 b3J59g?L;]h1cFL3=NRlR0
-I0Ne=0jdK?Kd2a3@[<H6h71
+IgH9U5l`A?l0a?<mjPg35d3
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/csr_buffer.sv
-FD:/HCMUS/THESIS/cva6-master/core/csr_buffer.sv
-!i122 4066
-R23
+8D:/khoaluantotnghiep/cva6-master/core/csr_buffer.sv
+FD:/khoaluantotnghiep/cva6-master/core/csr_buffer.sv
+!i122 5520
+R22
 R16
 R17
 r1
 !s85 0
 31
 R18
-!s107 D:/HCMUS/THESIS/cva6-master/core/csr_buffer.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/csr_buffer.sv|
+!s107 D:/khoaluantotnghiep/cva6-master/core/csr_buffer.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/csr_buffer.sv|
 !i113 0
 R19
 R6
 vcsr_regfile
-2D:/HCMUS/THESIS/cva6-master/core/csr_regfile.sv
+2D:/khoaluantotnghiep/cva6-master/core/csr_regfile.sv
 R8
 R9
 R10
@@ -645,13 +645,13 @@ R12
 R27
 !i10b 1
 !s100 PYZJEhCGSF2^z_N62FhST0
-IW`M17A;WIoJN5lAMzjHf80
+I=VjojNB6k9__Nm=el]4W=3
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/csr_regfile.sv
-FD:/HCMUS/THESIS/cva6-master/core/csr_regfile.sv
-!i122 4080
+8D:/khoaluantotnghiep/cva6-master/core/csr_regfile.sv
+FD:/khoaluantotnghiep/cva6-master/core/csr_regfile.sv
+!i122 5534
 L0 16 3073
 R16
 R17
@@ -659,83 +659,83 @@ r1
 !s85 0
 31
 R28
-!s107 D:/HCMUS/THESIS/cva6-master/core/csr_regfile.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/csr_regfile.sv|
+!s107 D:/khoaluantotnghiep/cva6-master/core/csr_regfile.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/csr_regfile.sv|
 !i113 0
 R19
 R6
 vcva6
-2D:/HCMUS/THESIS/cva6-master/core/cva6.sv
+2D:/khoaluantotnghiep/cva6-master/core/cva6.sv
 R8
 R9
 R10
 R11
 R12
-Z33 DXx4 work 16 build_config_pkg 0 22 Qe6KUZ7d7;eEB=kja7geZ0
-Z34 DXx4 work 12 wt_cache_pkg 0 22 QZ`EUh=oHoeC[L_d>5=9L3
+Z35 DXx4 work 16 build_config_pkg 0 22 E4GRJ]h;HCR0M7PnDF4b=0
+Z36 DXx4 work 12 wt_cache_pkg 0 22 KL1d3MHET>`dT=4lf4dk<0
 R26
-Z35 !s110 1783766461
+R33
 !i10b 1
 !s100 Cgn]b4`?1eMM:P:Ae?zPn0
-Iz^kAV9GA_5LGZbc7_ndS83
+IGNG>91bz<UP:j2oZM`4MT2
 S1
 R14
 w1781256701
-8D:/HCMUS/THESIS/cva6-master/core/cva6.sv
-FD:/HCMUS/THESIS/cva6-master/core/cva6.sv
-!i122 4148
+8D:/khoaluantotnghiep/cva6-master/core/cva6.sv
+FD:/khoaluantotnghiep/cva6-master/core/cva6.sv
+!i122 5599
 L0 18 1875
 R16
 R17
 r1
 !s85 0
 31
-Z36 !s108 1783766461.000000
-!s107 D:/HCMUS/THESIS/cva6-master/core/include/cvxif_types.svh|D:/HCMUS/THESIS/cva6-master/core/include/rvfi_types.svh|D:/HCMUS/THESIS/cva6-master/core/cva6.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|+incdir+D:/HCMUS/THESIS/cva6-master/core/include|-stats=none|D:/HCMUS/THESIS/cva6-master/core/cva6.sv|
+Z37 !s108 1783850533.000000
+!s107 D:/khoaluantotnghiep/cva6-master/core/include/cvxif_types.svh|D:/khoaluantotnghiep/cva6-master/core/include/rvfi_types.svh|D:/khoaluantotnghiep/cva6-master/core/cva6.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|+incdir+D:/khoaluantotnghiep/cva6-master/core/include|-stats=none|D:/khoaluantotnghiep/cva6-master/core/cva6.sv|
 !i113 0
 R19
-!s92 -work work -sv +incdir+D:/HCMUS/THESIS/cva6-master/core/include
+!s92 -work work -sv +incdir+D:/khoaluantotnghiep/cva6-master/core/include -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R6
 Xcva6_config_pkg
-2D:/HCMUS/THESIS/cva6-master/core/include/cv32a6_imac_sv32_config_pkg.sv
+2D:/khoaluantotnghiep/cva6-master/core/include/cv32a6_imac_sv32_config_pkg.sv
 R8
 R9
-R24
+R23
 !i10b 1
 !s100 g4?E^VS2z8K:=JHU]f1MR3
-I^2lCJ_C:fePnaf2Q2hz8k2
+I=PUgY5:n7::eOUP3G08=21
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/include/cv32a6_imac_sv32_config_pkg.sv
-FD:/HCMUS/THESIS/cva6-master/core/include/cv32a6_imac_sv32_config_pkg.sv
-!i122 4005
+8D:/khoaluantotnghiep/cva6-master/core/include/cv32a6_imac_sv32_config_pkg.sv
+FD:/khoaluantotnghiep/cva6-master/core/include/cv32a6_imac_sv32_config_pkg.sv
+!i122 5459
 L0 11 0
-V^2lCJ_C:fePnaf2Q2hz8k2
+V=PUgY5:n7::eOUP3G08=21
 R17
 r1
 !s85 0
 31
-R25
-!s107 D:/HCMUS/THESIS/cva6-master/core/include/cv32a6_imac_sv32_config_pkg.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/include/cv32a6_imac_sv32_config_pkg.sv|
+R24
+!s107 D:/khoaluantotnghiep/cva6-master/core/include/cv32a6_imac_sv32_config_pkg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/include/cv32a6_imac_sv32_config_pkg.sv|
 !i113 0
 R19
 R6
 vcva6_fifo_v3
-2D:/HCMUS/THESIS/cva6-master/core/cva6_fifo_v3.sv
+2D:/khoaluantotnghiep/cva6-master/core/cva6_fifo_v3.sv
 R8
 R27
 !i10b 1
 !s100 ?=e5YV1^az0=QfbVTbh@L2
-Il?nffzPI[i2:RWZl]LI?o2
+I_2K;Le4;6`;Y@5K?0QmPY1
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/cva6_fifo_v3.sv
-FD:/HCMUS/THESIS/cva6-master/core/cva6_fifo_v3.sv
-!i122 4082
+8D:/khoaluantotnghiep/cva6-master/core/cva6_fifo_v3.sv
+FD:/khoaluantotnghiep/cva6-master/core/cva6_fifo_v3.sv
+!i122 5536
 L0 16 216
 R16
 R17
@@ -743,745 +743,745 @@ r1
 !s85 0
 31
 R28
-!s107 D:/HCMUS/THESIS/cva6-master/core/cva6_fifo_v3.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/cva6_fifo_v3.sv|
+!s107 D:/khoaluantotnghiep/cva6-master/core/cva6_fifo_v3.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/cva6_fifo_v3.sv|
 !i113 0
 R19
 R6
 vcva6_hpdcache_cmo_if_adapter
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/target/cva6/cva6_hpdcache_cmo_if_adapter.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/target/cva6/cva6_hpdcache_cmo_if_adapter.sv
 R8
-Z37 DXx4 work 12 hpdcache_pkg 0 22 ;V_<A2oEZhZ6Mj<2oP4in0
-Z38 !s110 1783766459
+Z38 DXx4 work 12 hpdcache_pkg 0 22 ;aOaP]TaTS=A=Q;OiDO6`3
+Z39 !s110 1783850531
 !i10b 1
 !s100 UQXOn[>m9gd=eLSHIbb>=0
-Id2bl6=Le_TB2Q==z;giTB0
+I<L3WlgQdOZXd0N2EIRA:[3
 S1
 R14
 w1781582043
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/target/cva6/cva6_hpdcache_cmo_if_adapter.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/target/cva6/cva6_hpdcache_cmo_if_adapter.sv
-!i122 4111
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/target/cva6/cva6_hpdcache_cmo_if_adapter.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/target/cva6/cva6_hpdcache_cmo_if_adapter.sv
+!i122 5565
 L0 16 154
 R16
 R17
 r1
 !s85 0
 31
-Z39 !s108 1783766459.000000
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/target/cva6/cva6_hpdcache_cmo_if_adapter.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/target/cva6/cva6_hpdcache_cmo_if_adapter.sv|
+Z40 !s108 1783850531.000000
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/target/cva6/cva6_hpdcache_cmo_if_adapter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/target/cva6/cva6_hpdcache_cmo_if_adapter.sv|
 !i113 0
 R19
 R6
 vcva6_hpdcache_if_adapter
-2D:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_hpdcache_if_adapter.sv
+2D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_if_adapter.sv
 R8
 R9
-R37
+R38
 R10
 R11
 R12
-R38
+R39
 !i10b 1
 !s100 Wn1<jNCB`6c3KIWQin5D<0
-IJgG]A_0=2N2PjRhYT?2aZ1
+IIYVaXeI;aAUJnf3YboXXb0
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_hpdcache_if_adapter.sv
-FD:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_hpdcache_if_adapter.sv
-!i122 4110
+8D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_if_adapter.sv
+FD:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_if_adapter.sv
+!i122 5564
 L0 12 362
 R16
 R17
 r1
 !s85 0
 31
-Z40 !s108 1783766458.000000
-!s107 D:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_hpdcache_if_adapter.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_hpdcache_if_adapter.sv|
+R40
+!s107 D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_if_adapter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_if_adapter.sv|
 !i113 0
 R19
 R6
 vcva6_hpdcache_subsystem
-2D:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv
+2D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv
 R8
 R9
 R10
 R11
 R12
-R37
-Z41 DXx4 work 10 domino_pkg 0 22 D6^l_fBzzmSgZ;:BKEVQ:1
-DXx4 work 7 l15_pkg 0 22 W<ZFI1fd5P]9WnTI3]82f0
-R35
+R38
+Z41 DXx4 work 10 domino_pkg 0 22 TlJY8V3koWXJ]G1NZ6z@Y3
+DXx4 work 7 l15_pkg 0 22 JPL?[FzUPPVNJnSVIKYeI1
+Z42 !s110 1783850533
 !i10b 1
 !s100 gihO;V9i<;7J[NE67X[V?1
-IHl2Ce`JZMc4H[FBoGEfKY1
+IPfRo3fO_8K`Qk?fICSzYY0
 S1
 R14
 w1782231436
-8D:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv
-FD:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv
-Z42 FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh
-!i122 4144
+8D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv
+FD:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh
+!i122 5598
 L0 15 731
 R16
 R17
 r1
 !s85 0
 31
-R36
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh|D:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|+incdir+D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include|-stats=none|D:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv|
+R37
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh|D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|+incdir+D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include|-stats=none|D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv|
 !i113 0
 R19
-Z43 !s92 -work work -sv +incdir+D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include
+Z43 !s92 -work work -sv +incdir+D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R6
 vcva6_hpdcache_subsystem_axi_arbiter
-2D:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem_axi_arbiter.sv
+2D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem_axi_arbiter.sv
 R8
 R9
-R37
-R34
-R35
+R38
+R36
+R42
 !i10b 1
 !s100 ^gQV1RMg46@Z]IVaJG7Hc3
-I8OlRCdHXzOX?^Nb`3YK8E3
+IDQ:ekN9E0Uc;b:UF14H<d1
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem_axi_arbiter.sv
-FD:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem_axi_arbiter.sv
-!i122 4143
+8D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem_axi_arbiter.sv
+FD:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem_axi_arbiter.sv
+!i122 5597
 L0 15 411
 R16
 R17
 r1
 !s85 0
 31
-R36
-!s107 D:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem_axi_arbiter.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem_axi_arbiter.sv|
+R37
+!s107 D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem_axi_arbiter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem_axi_arbiter.sv|
 !i113 0
 R19
 R6
 vcva6_hpdcache_wrapper
-2D:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_hpdcache_wrapper.sv
+2D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_wrapper.sv
 R8
 R9
-R37
+R38
 R10
 R11
 R12
-Z44 DXx4 work 15 hwpf_stride_pkg 0 22 e`H5f<clhhTdi5^Yod>d93
-R38
+Z44 DXx4 work 15 hwpf_stride_pkg 0 22 SSQ5z5UlE`;E82PgPF4U62
+Z45 !s110 1783850532
 !i10b 1
 !s100 lejYkDnocFn:`W90^<oGC0
-I5jfU5_nm08c:V1^V[SYUO1
+I;OK`LnclQHGj3F>QMf_NB0
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_hpdcache_wrapper.sv
-FD:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_hpdcache_wrapper.sv
-!i122 4119
+8D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_wrapper.sv
+FD:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_wrapper.sv
+!i122 5573
 L0 15 428
 R16
 R17
 r1
 !s85 0
 31
-R39
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh|D:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_hpdcache_wrapper.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|+incdir+D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include|-stats=none|D:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_hpdcache_wrapper.sv|
+Z46 !s108 1783850532.000000
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh|D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_wrapper.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|+incdir+D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include|-stats=none|D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_wrapper.sv|
 !i113 0
 R19
 R43
 R6
 vcva6_icache
-2D:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_icache.sv
+2D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_icache.sv
 R8
 R9
 R10
 R11
 R12
-R34
-Z45 !s110 1783766454
+R36
+Z47 !s110 1783850526
 !i10b 1
 !s100 ^TMBfJ@hV?WiMRj34ETaM0
-IIRUGAT^e@<fNaaijf7Gn51
+I^ZGl;`X2^TBjY4LakhfI41
 S1
 R14
 w1781280133
-8D:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_icache.sv
-FD:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_icache.sv
-!i122 4040
+8D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_icache.sv
+FD:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_icache.sv
+!i122 5494
 L0 28 575
 R16
 R17
 r1
 !s85 0
 31
-Z46 !s108 1783766454.000000
-!s107 D:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_icache.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_icache.sv|
+Z48 !s108 1783850526.000000
+!s107 D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_icache.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_icache.sv|
 !i113 0
 R19
 R6
 vcva6_icache_axi_wrapper
-2D:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_icache_axi_wrapper.sv
+2D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_icache_axi_wrapper.sv
 R8
 R9
 R10
 R11
 R12
-R34
-R45
+R36
+R47
 !i10b 1
 !s100 ^N0XLf]jl6ifBg<LacTIH0
-IJObWKb9:ezY8F2J^SDzYf1
+I^V^4`BKBd8H=BToSGHDfF1
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_icache_axi_wrapper.sv
-FD:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_icache_axi_wrapper.sv
-!i122 4041
+8D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_icache_axi_wrapper.sv
+FD:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_icache_axi_wrapper.sv
+!i122 5495
 L0 16 199
 R16
 R17
 r1
 !s85 0
 31
-R46
-!s107 D:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_icache_axi_wrapper.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/cache_subsystem/cva6_icache_axi_wrapper.sv|
+R48
+!s107 D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_icache_axi_wrapper.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_icache_axi_wrapper.sv|
 !i113 0
 R19
 R6
 vcva6_mmu
-2D:/HCMUS/THESIS/cva6-master/core/cva6_mmu/cva6_mmu.sv
+2D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_mmu.sv
 R8
 R9
 R10
 R11
 R12
-R45
+R47
 !i10b 1
 !s100 ePUCZ:U[GhH2;B1Ob2Pg=0
-IU4nmD2IKdR_CO]g9blUkc2
+InQUd=HR]9097_LlOG8:WE2
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/cva6_mmu/cva6_mmu.sv
-FD:/HCMUS/THESIS/cva6-master/core/cva6_mmu/cva6_mmu.sv
-!i122 4046
+8D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_mmu.sv
+FD:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_mmu.sv
+!i122 5500
 L0 25 744
 R16
 R17
 r1
 !s85 0
 31
-R46
-!s107 D:/HCMUS/THESIS/cva6-master/core/cva6_mmu/cva6_mmu.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/cva6_mmu/cva6_mmu.sv|
+R48
+!s107 D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_mmu.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_mmu.sv|
 !i113 0
 R19
 R6
 vcva6_ptw
-2D:/HCMUS/THESIS/cva6-master/core/cva6_mmu/cva6_ptw.sv
+2D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_ptw.sv
 R8
 R9
 R10
 R11
 R12
-R45
+R47
 !i10b 1
 !s100 fo9U3HO4_8[OjG<0KNkZn3
-IQcGkdN3]K`2o70<H1df5J2
+IQhHO==0JdHeIf6S1cEm<00
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/cva6_mmu/cva6_ptw.sv
-FD:/HCMUS/THESIS/cva6-master/core/cva6_mmu/cva6_ptw.sv
-!i122 4045
+8D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_ptw.sv
+FD:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_ptw.sv
+!i122 5499
 L0 23 680
 R16
 R17
 r1
 !s85 0
 31
-R46
-!s107 D:/HCMUS/THESIS/cva6-master/core/cva6_mmu/cva6_ptw.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/cva6_mmu/cva6_ptw.sv|
+R48
+!s107 D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_ptw.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_ptw.sv|
 !i113 0
 R19
 R6
 vcva6_rvfi_probes
-2D:/HCMUS/THESIS/cva6-master/core/cva6_rvfi_probes.sv
+2D:/khoaluantotnghiep/cva6-master/core/cva6_rvfi_probes.sv
 R8
 R9
 R10
 R11
 R12
-R35
+R33
 !i10b 1
 !s100 N7eobodW^[fBQCTRa@jc]0
-IazdIJ9o8[[H3__:3GAYS^1
+IY<4kD55>b5d?VN[LKF3JI0
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/cva6_rvfi_probes.sv
-FD:/HCMUS/THESIS/cva6-master/core/cva6_rvfi_probes.sv
-!i122 4147
+8D:/khoaluantotnghiep/cva6-master/core/cva6_rvfi_probes.sv
+FD:/khoaluantotnghiep/cva6-master/core/cva6_rvfi_probes.sv
+!i122 5602
 L0 12 133
 R16
 R17
 r1
 !s85 0
 31
-R36
-!s107 D:/HCMUS/THESIS/cva6-master/core/cva6_rvfi_probes.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/cva6_rvfi_probes.sv|
+R34
+!s107 D:/khoaluantotnghiep/cva6-master/core/cva6_rvfi_probes.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/cva6_rvfi_probes.sv|
 !i113 0
 R19
 R6
 vcva6_shared_tlb
-2D:/HCMUS/THESIS/cva6-master/core/cva6_mmu/cva6_shared_tlb.sv
+2D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_shared_tlb.sv
 R8
 R9
-R45
+R47
 !i10b 1
 !s100 I66>RmKKT6aU=;^CaVgR00
-IeLZWOliIDBjVUMfY5n<CU0
+IU[BC9eQ:9Z^a5fIQN4ijl2
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/cva6_mmu/cva6_shared_tlb.sv
-FD:/HCMUS/THESIS/cva6-master/core/cva6_mmu/cva6_shared_tlb.sv
-!i122 4044
+8D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_shared_tlb.sv
+FD:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_shared_tlb.sv
+!i122 5498
 L0 23 531
 R16
 R17
 r1
 !s85 0
 31
-R46
-!s107 D:/HCMUS/THESIS/cva6-master/core/cva6_mmu/cva6_shared_tlb.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/cva6_mmu/cva6_shared_tlb.sv|
+R48
+!s107 D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_shared_tlb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_shared_tlb.sv|
 !i113 0
 R19
 R6
 vcva6_tlb
-2D:/HCMUS/THESIS/cva6-master/core/cva6_mmu/cva6_tlb.sv
+2D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_tlb.sv
 R8
 R9
 R10
 R11
 R12
-R45
+R47
 !i10b 1
 !s100 o=^@d^CJhNeCJU7m5iWoo2
-IZYcciz[8W[e3>UACobZb52
+IIWVFzm4D@gDgY1fBBe2:h0
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/cva6_mmu/cva6_tlb.sv
-FD:/HCMUS/THESIS/cva6-master/core/cva6_mmu/cva6_tlb.sv
-!i122 4042
+8D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_tlb.sv
+FD:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_tlb.sv
+!i122 5496
 L0 24 515
 R16
 R17
 r1
 !s85 0
 31
-R46
-!s107 D:/HCMUS/THESIS/cva6-master/core/cva6_mmu/cva6_tlb.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/cva6_mmu/cva6_tlb.sv|
+R48
+!s107 D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_tlb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_tlb.sv|
 !i113 0
 R19
 R6
 vcvxif_issue_register_commit_if_driver
-2D:/HCMUS/THESIS/cva6-master/core/cvxif_issue_register_commit_if_driver.sv
+2D:/khoaluantotnghiep/cva6-master/core/cvxif_issue_register_commit_if_driver.sv
 R8
 R9
-R21
+R25
 !i10b 1
 !s100 <3J2=PZ4[f]`]GERgOW1h0
-IJU21eg41k69V@a?zS^j6?2
+I8Bi1IW<<`L4l0FO0gGn0G0
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/cvxif_issue_register_commit_if_driver.sv
-FD:/HCMUS/THESIS/cva6-master/core/cvxif_issue_register_commit_if_driver.sv
-!i122 4057
+8D:/khoaluantotnghiep/cva6-master/core/cvxif_issue_register_commit_if_driver.sv
+FD:/khoaluantotnghiep/cva6-master/core/cvxif_issue_register_commit_if_driver.sv
+!i122 5511
 L0 10 57
 R16
 R17
 r1
 !s85 0
 31
-R22
-!s107 D:/HCMUS/THESIS/cva6-master/core/cvxif_issue_register_commit_if_driver.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/cvxif_issue_register_commit_if_driver.sv|
+R21
+!s107 D:/khoaluantotnghiep/cva6-master/core/cvxif_issue_register_commit_if_driver.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/cvxif_issue_register_commit_if_driver.sv|
 !i113 0
 R19
 R6
 vdecoder
-2D:/HCMUS/THESIS/cva6-master/core/decoder.sv
+2D:/khoaluantotnghiep/cva6-master/core/decoder.sv
 R8
 R9
 R10
 R11
 R12
-R21
+R25
 !i10b 1
 !s100 3Mh4ennA9A>Dd[lo3ILh11
-IXIQ;>X8eQA6SX4EPCYO@03
+Ib0>aV0QQC]6nH>Uj_i;D_1
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/decoder.sv
-FD:/HCMUS/THESIS/cva6-master/core/decoder.sv
-!i122 4050
+8D:/khoaluantotnghiep/cva6-master/core/decoder.sv
+FD:/khoaluantotnghiep/cva6-master/core/decoder.sv
+!i122 5504
 L0 22 1967
 R16
 R17
 r1
 !s85 0
 31
-R46
-!s107 D:/HCMUS/THESIS/cva6-master/core/decoder.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/decoder.sv|
+R21
+!s107 D:/khoaluantotnghiep/cva6-master/core/decoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/decoder.sv|
 !i113 0
 R19
 R6
 vdelta_counter
-2D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/delta_counter.sv
+2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/delta_counter.sv
 R8
 R29
 !i10b 1
 !s100 UJbDN<mnFYXjPkcNZXXNa2
-InM_k3jcU3_QlC5k:WnMZD2
+I`[]j5j^0hlJDUMG:<MJDJ1
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/delta_counter.sv
-FD:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/delta_counter.sv
-!i122 4025
-Z47 L0 13 62
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/delta_counter.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/delta_counter.sv
+!i122 5479
+Z49 L0 13 62
 R16
 R17
 r1
 !s85 0
 31
 R30
-!s107 D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/delta_counter.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/delta_counter.sv|
+!s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/delta_counter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/delta_counter.sv|
 !i113 0
 R19
 R6
 vdomino_history_buffers
-Z48 2D:/HCMUS/THESIS/cv-hpdcache-master/prefetcher/domino_history_buffers.sv
+Z50 2D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_history_buffers.sv
 R8
 R41
-DXx4 work 30 domino_history_buffers_sv_unit 0 22 jS6WRZ5]gjMIS>Q95d68E1
-R38
+DXx4 work 30 domino_history_buffers_sv_unit 0 22 2j;=Aim:FNXJk5l7Ub55X0
+R39
 R16
 r1
 !s85 0
 !i10b 1
 !s100 ;ELRjS9SQR08`o7`3n1=W3
-IFUVO8DBzGFE]E[9k]7^nh1
+IzOOo`DTGRORZWDlePk4in1
 !s105 domino_history_buffers_sv_unit
 S1
 R14
-Z49 w1781761119
-Z50 8D:/HCMUS/THESIS/cv-hpdcache-master/prefetcher/domino_history_buffers.sv
-Z51 FD:/HCMUS/THESIS/cv-hpdcache-master/prefetcher/domino_history_buffers.sv
-!i122 4114
+Z51 w1781761119
+Z52 8D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_history_buffers.sv
+Z53 FD:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_history_buffers.sv
+!i122 5568
 L0 2 19
 R17
 31
-R39
-Z52 !s107 D:/HCMUS/THESIS/cv-hpdcache-master/prefetcher/domino_history_buffers.sv|
-Z53 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/prefetcher/domino_history_buffers.sv|
+R40
+Z54 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_history_buffers.sv|
+Z55 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_history_buffers.sv|
 !i113 0
 R19
 R6
 Xdomino_history_buffers_sv_unit
-R48
+R50
 R8
 R41
-R38
-VjS6WRZ5]gjMIS>Q95d68E1
+R39
+V2j;=Aim:FNXJk5l7Ub55X0
 r1
 !s85 0
 !i10b 1
 !s100 6G6KfBVCQ^_I<YgJzAgUF1
-IjS6WRZ5]gjMIS>Q95d68E1
+I2j;=Aim:FNXJk5l7Ub55X0
 !i103 1
 S1
 R14
-R49
-R50
 R51
-!i122 4114
+R52
+R53
+!i122 5568
 R31
 R17
 31
-R39
-R52
-R53
+R40
+R54
+R55
 !i113 0
 R19
 R6
 vdomino_mht_ram
-Z54 2D:/HCMUS/THESIS/cv-hpdcache-master/prefetcher/domino_mht_ram.sv
+Z56 2D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_mht_ram.sv
 R8
 R41
-DXx4 work 22 domino_mht_ram_sv_unit 0 22 im8dIY@4DAbVb:Bf?c1nY0
-R38
+DXx4 work 22 domino_mht_ram_sv_unit 0 22 7_1:56?[GiPzO=AlTP@9E0
+R39
 R16
 r1
 !s85 0
 !i10b 1
 !s100 <ID3B;;o?5]17H4zzOYhQ1
-IaDz]zP7C5[:mV6OEE4=iA2
+IaDdFffGza=NTT<Pk87:iN3
 !s105 domino_mht_ram_sv_unit
 S1
 R14
-Z55 w1781761190
-Z56 8D:/HCMUS/THESIS/cv-hpdcache-master/prefetcher/domino_mht_ram.sv
-Z57 FD:/HCMUS/THESIS/cv-hpdcache-master/prefetcher/domino_mht_ram.sv
-!i122 4116
+Z57 w1781761190
+Z58 8D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_mht_ram.sv
+Z59 FD:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_mht_ram.sv
+!i122 5570
 L0 2 47
 R17
 31
-R39
-Z58 !s107 D:/HCMUS/THESIS/cv-hpdcache-master/prefetcher/domino_mht_ram.sv|
-Z59 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/prefetcher/domino_mht_ram.sv|
+R40
+Z60 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_mht_ram.sv|
+Z61 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_mht_ram.sv|
 !i113 0
 R19
 R6
 Xdomino_mht_ram_sv_unit
-R54
+R56
 R8
 R41
-R38
-Vim8dIY@4DAbVb:Bf?c1nY0
+R39
+V7_1:56?[GiPzO=AlTP@9E0
 r1
 !s85 0
 !i10b 1
 !s100 HU[5AHdKjSRo0^?ja^D@O0
-Iim8dIY@4DAbVb:Bf?c1nY0
+I7_1:56?[GiPzO=AlTP@9E0
 !i103 1
 S1
 R14
-R55
-R56
 R57
-!i122 4116
+R58
+R59
+!i122 5570
 R31
 R17
 31
-R39
-R58
-R59
+R40
+R60
+R61
 !i113 0
 R19
 R6
 Xdomino_pkg
-2D:/HCMUS/THESIS/cv-hpdcache-master/prefetcher/domino_pkg.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_pkg.sv
 R8
-R38
+R39
 !i10b 1
 !s100 I5==CaJ9X>K?E9EbB;_W60
-ID6^l_fBzzmSgZ;:BKEVQ:1
+ITlJY8V3koWXJ]G1NZ6z@Y3
 S1
 R14
 w1781761014
-8D:/HCMUS/THESIS/cv-hpdcache-master/prefetcher/domino_pkg.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/prefetcher/domino_pkg.sv
-!i122 4112
+8D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_pkg.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_pkg.sv
+!i122 5566
 R31
-VD6^l_fBzzmSgZ;:BKEVQ:1
+VTlJY8V3koWXJ]G1NZ6z@Y3
 R17
 r1
 !s85 0
 31
-R39
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/prefetcher/domino_pkg.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/prefetcher/domino_pkg.sv|
+R40
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_pkg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_pkg.sv|
 !i113 0
 R19
 R6
 vdomino_prefetcher_top
-Z60 2D:/HCMUS/THESIS/cv-hpdcache-master/prefetcher/domino_prefetcher_top.sv
+Z62 2D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_prefetcher_top.sv
 R8
 R41
-DXx4 work 29 domino_prefetcher_top_sv_unit 0 22 m]`3lG@l@;cPz_jag<?8>2
-R38
+DXx4 work 29 domino_prefetcher_top_sv_unit 0 22 9B9cn[I572e@hDZ4B3m=Y2
+R45
 R16
 r1
 !s85 0
 !i10b 1
 !s100 S[zW@hEO;FUWEL:?XoE^V0
-IKU7_SB>oQlD5N>NNMCVjl1
+IA=dP^bAU@S7Q`9UFL36;R3
 !s105 domino_prefetcher_top_sv_unit
 S1
 R14
-Z61 w1782198279
-Z62 8D:/HCMUS/THESIS/cv-hpdcache-master/prefetcher/domino_prefetcher_top.sv
-Z63 FD:/HCMUS/THESIS/cv-hpdcache-master/prefetcher/domino_prefetcher_top.sv
-!i122 4117
+Z63 w1782198279
+Z64 8D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_prefetcher_top.sv
+Z65 FD:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_prefetcher_top.sv
+!i122 5571
 L0 2 79
 R17
 31
-R39
-Z64 !s107 D:/HCMUS/THESIS/cv-hpdcache-master/prefetcher/domino_prefetcher_top.sv|
-Z65 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/prefetcher/domino_prefetcher_top.sv|
+R40
+Z66 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_prefetcher_top.sv|
+Z67 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_prefetcher_top.sv|
 !i113 0
 R19
 R6
 Xdomino_prefetcher_top_sv_unit
-R60
+R62
 R8
 R41
-R38
-Vm]`3lG@l@;cPz_jag<?8>2
+R45
+V9B9cn[I572e@hDZ4B3m=Y2
 r1
 !s85 0
 !i10b 1
 !s100 OmX@ThENUZB>FZ;R_nzmR2
-Im]`3lG@l@;cPz_jag<?8>2
+I9B9cn[I572e@hDZ4B3m=Y2
 !i103 1
 S1
 R14
-R61
-R62
 R63
-!i122 4117
+R64
+R65
+!i122 5571
 R31
 R17
 31
-R39
-R64
-R65
+R40
+R66
+R67
 !i113 0
 R19
 R6
 vdomino_trigger_detector
-Z66 2D:/HCMUS/THESIS/cv-hpdcache-master/prefetcher/domino_trigger_detector.sv
+Z68 2D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_trigger_detector.sv
 R8
 R41
-DXx4 work 31 domino_trigger_detector_sv_unit 0 22 O]f@E4WS1Jk[cVPc^DC@h2
-R38
+DXx4 work 31 domino_trigger_detector_sv_unit 0 22 Zci];DW5L::Mdh1I`E8<@3
+R39
 R16
 r1
 !s85 0
 !i10b 1
 !s100 M2WPX9<SE^9c>kMoRj8Ad1
-IkGQ?RLZ=STo[j79OlmGL`3
+IDm`[<CNB_1W[XAN@QFd`f1
 !s105 domino_trigger_detector_sv_unit
 S1
 R14
-Z67 w1781761052
-Z68 8D:/HCMUS/THESIS/cv-hpdcache-master/prefetcher/domino_trigger_detector.sv
-Z69 FD:/HCMUS/THESIS/cv-hpdcache-master/prefetcher/domino_trigger_detector.sv
-!i122 4113
+Z69 w1781761052
+Z70 8D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_trigger_detector.sv
+Z71 FD:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_trigger_detector.sv
+!i122 5567
 L0 2 20
 R17
 31
-R39
-Z70 !s107 D:/HCMUS/THESIS/cv-hpdcache-master/prefetcher/domino_trigger_detector.sv|
-Z71 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/prefetcher/domino_trigger_detector.sv|
+R40
+Z72 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_trigger_detector.sv|
+Z73 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_trigger_detector.sv|
 !i113 0
 R19
 R6
 Xdomino_trigger_detector_sv_unit
-R66
+R68
 R8
 R41
-R38
-VO]f@E4WS1Jk[cVPc^DC@h2
+R39
+VZci];DW5L::Mdh1I`E8<@3
 r1
 !s85 0
 !i10b 1
 !s100 jb5MnilGnVA`n?8]Bn0_l0
-IO]f@E4WS1Jk[cVPc^DC@h2
+IZci];DW5L::Mdh1I`E8<@3
 !i103 1
 S1
 R14
-R67
-R68
 R69
-!i122 4113
+R70
+R71
+!i122 5567
 R31
 R17
 31
-R39
-R70
-R71
+R40
+R72
+R73
 !i113 0
 R19
 R6
 vdomino_xor_hash
-Z72 2D:/HCMUS/THESIS/cv-hpdcache-master/prefetcher/domino_xor_hash.sv
+Z74 2D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_xor_hash.sv
 R8
 R41
-DXx4 work 23 domino_xor_hash_sv_unit 0 22 @kBzFNhXfE=ONk^9RQ2SN1
-R38
+DXx4 work 23 domino_xor_hash_sv_unit 0 22 `;Tc:NA_nJ8QN6d@jYPn<1
+R39
 R16
 r1
 !s85 0
 !i10b 1
 !s100 D:EQhMAdCJZkCdg?35TjE0
-IRVH;[n[dY9K@caXKFfNEn0
+IDgR?<W5BDgm`aC@K;T;j53
 !s105 domino_xor_hash_sv_unit
 S1
 R14
-Z73 w1781761160
-Z74 8D:/HCMUS/THESIS/cv-hpdcache-master/prefetcher/domino_xor_hash.sv
-Z75 FD:/HCMUS/THESIS/cv-hpdcache-master/prefetcher/domino_xor_hash.sv
-!i122 4115
+Z75 w1781761160
+Z76 8D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_xor_hash.sv
+Z77 FD:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_xor_hash.sv
+!i122 5569
 L0 2 13
 R17
 31
-R39
-Z76 !s107 D:/HCMUS/THESIS/cv-hpdcache-master/prefetcher/domino_xor_hash.sv|
-Z77 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/prefetcher/domino_xor_hash.sv|
+R40
+Z78 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_xor_hash.sv|
+Z79 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_xor_hash.sv|
 !i113 0
 R19
 R6
 Xdomino_xor_hash_sv_unit
-R72
+R74
 R8
 R41
-R38
-V@kBzFNhXfE=ONk^9RQ2SN1
+R39
+V`;Tc:NA_nJ8QN6d@jYPn<1
 r1
 !s85 0
 !i10b 1
 !s100 6B74PIP1SbJ5nhEZ3ZRbk2
-I@kBzFNhXfE=ONk^9RQ2SN1
+I`;Tc:NA_nJ8QN6d@jYPn<1
 !i103 1
 S1
 R14
-R73
-R74
 R75
-!i122 4115
+R76
+R77
+!i122 5569
 R31
 R17
 31
-R39
-R76
-R77
+R40
+R78
+R79
 !i113 0
 R19
 R6
 vex_stage
-2D:/HCMUS/THESIS/cva6-master/core/ex_stage.sv
+2D:/khoaluantotnghiep/cva6-master/core/ex_stage.sv
 R8
 R9
 R10
@@ -1490,13 +1490,13 @@ R12
 R13
 !i10b 1
 !s100 6D`iZaXIzQ1`Nk;dH>OLS3
-Ie>?T1Ng0aMJCETCI2;4U`0
+IJho1KB]U8SQ@9mCDQhca@3
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/ex_stage.sv
-FD:/HCMUS/THESIS/cva6-master/core/ex_stage.sv
-!i122 4071
+8D:/khoaluantotnghiep/cva6-master/core/ex_stage.sv
+FD:/khoaluantotnghiep/cva6-master/core/ex_stage.sv
+!i122 5525
 L0 17 744
 R16
 R17
@@ -1504,24 +1504,24 @@ r1
 !s85 0
 31
 R18
-!s107 D:/HCMUS/THESIS/cva6-master/core/ex_stage.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/ex_stage.sv|
+!s107 D:/khoaluantotnghiep/cva6-master/core/ex_stage.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/ex_stage.sv|
 !i113 0
 R19
 R6
 vexp_backoff
-2D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/exp_backoff.sv
+2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/exp_backoff.sv
 R8
 R29
 !i10b 1
 !s100 khUV=Y8Jei4;4Q:6^5PEc0
-IJW`zeB>GP9VzC[@oW2kYI2
+IoGETdWzCKTJoh[_8<fdcm0
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/exp_backoff.sv
-FD:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/exp_backoff.sv
-!i122 4023
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/exp_backoff.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/exp_backoff.sv
+!i122 5477
 L0 23 76
 R16
 R17
@@ -1529,287 +1529,287 @@ r1
 !s85 0
 31
 R30
-!s107 D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/exp_backoff.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/exp_backoff.sv|
+!s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/exp_backoff.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/exp_backoff.sv|
 !i113 0
 R19
 R6
 vfifo_v3
-2D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/fifo_v3.sv
+2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/fifo_v3.sv
 R8
-R24
+R23
 !i10b 1
 !s100 lM1XRXIZ_[PFiIG@ShnKd0
-IzMS^EibjISlY2>8ScJADI3
+I?SHK1WGKP7Wj2iXA;iDEL1
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/fifo_v3.sv
-FD:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/fifo_v3.sv
-!i122 4013
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/fifo_v3.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/fifo_v3.sv
+!i122 5467
 L0 13 144
 R16
 R17
 r1
 !s85 0
 31
-R25
-!s107 D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/fifo_v3.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/fifo_v3.sv|
+R24
+!s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/fifo_v3.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/fifo_v3.sv|
 !i113 0
 R19
 R6
 vfrontend
-2D:/HCMUS/THESIS/cva6-master/core/frontend/frontend.sv
+2D:/khoaluantotnghiep/cva6-master/core/frontend/frontend.sv
 R8
 R9
 R10
 R11
 R12
-R45
+R47
 !i10b 1
 !s100 @IKH@^_73<:FR_kG1Ul[T1
-I_4^Dz:<gU[;:P1C]U]1fQ1
+I>naWmLLJo8Dkg?n5R[`zI1
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/frontend/frontend.sv
-FD:/HCMUS/THESIS/cva6-master/core/frontend/frontend.sv
-!i122 4037
+8D:/khoaluantotnghiep/cva6-master/core/frontend/frontend.sv
+FD:/khoaluantotnghiep/cva6-master/core/frontend/frontend.sv
+!i122 5491
 L0 18 576
 R16
 R17
 r1
 !s85 0
 31
-R46
-!s107 D:/HCMUS/THESIS/cva6-master/core/frontend/frontend.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/frontend/frontend.sv|
+R48
+!s107 D:/khoaluantotnghiep/cva6-master/core/frontend/frontend.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/frontend/frontend.sv|
 !i113 0
 R19
 R6
 vhpdcache
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache.sv
 R8
-R37
 R38
+R45
 !i10b 1
 !s100 beZF;QLI9Xoa_8`DKdF:=3
-IKdhzP7P>Lkn16cgW?ioFX2
+I?n5j@4`2UQJS:SLb=3mN_1
 S1
 R14
-Z78 w1779437026
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache.sv
-!i122 4118
+Z80 w1779437026
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache.sv
+!i122 5572
 L0 15 1321
 R16
 R17
 r1
 !s85 0
 31
-R39
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|+incdir+D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache.sv|
+R46
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|+incdir+D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache.sv|
 !i113 0
 R19
 R43
 R6
 vhpdcache_1hot_to_binary
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_1hot_to_binary.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_1hot_to_binary.sv
 R8
-Z79 !s110 1783766458
+Z81 !s110 1783850530
 !i10b 1
 !s100 f<ISKYA;cR_I=JR;d>JZH1
-I25057<C:OBI;EfK:SiAOf2
+I5Uf2DE`UPm_2bYkakEzCd3
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_1hot_to_binary.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_1hot_to_binary.sv
-!i122 4095
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_1hot_to_binary.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_1hot_to_binary.sv
+!i122 5549
 L0 26 35
 R16
 R17
 r1
 !s85 0
 31
-R40
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_1hot_to_binary.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_1hot_to_binary.sv|
+Z82 !s108 1783850530.000000
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_1hot_to_binary.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_1hot_to_binary.sv|
 !i113 0
 R19
 R6
 vhpdcache_amo
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_amo.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_amo.sv
 R8
-R37
 R38
+R45
 !i10b 1
 !s100 ;zd;RHH0bFmz16TXRoC2I0
-IN8XLC5I9]:<24JR?d4C0f3
+IYzO8FR]X92OBR>@Xn:QUS0
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_amo.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_amo.sv
-!i122 4120
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_amo.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_amo.sv
+!i122 5574
 L0 27 42
 R16
 R17
 r1
 !s85 0
 31
-R39
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_amo.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_amo.sv|
+R46
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_amo.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_amo.sv|
 !i113 0
 R19
 R6
 vhpdcache_cbuf
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_cbuf.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_cbuf.sv
 R8
-R37
-Z80 !s110 1783766460
+R38
+R45
 !i10b 1
 !s100 :@<=Vja=naFf[:;gUZfcN3
-IUYPSIeP`Pgz<P>G5Z88`S2
+I7AU3NghEUEEzAW;a0U4o40
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_cbuf.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_cbuf.sv
-!i122 4126
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_cbuf.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_cbuf.sv
+!i122 5580
 L0 19 75
 R16
 R17
 r1
 !s85 0
 31
-Z81 !s108 1783766460.000000
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_cbuf.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_cbuf.sv|
+R46
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_cbuf.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_cbuf.sv|
 !i113 0
 R19
 R6
 vhpdcache_cmo
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_cmo.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_cmo.sv
 R8
-R37
 R38
+R45
 !i10b 1
 !s100 V^P@Y6NSY_iBPXaJCh`hO3
-II<mjM9UlkdkGNSWGTGSA?3
+IlF8ageJ^`FQAllX`9;>2N2
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_cmo.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_cmo.sv
-!i122 4121
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_cmo.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_cmo.sv
+!i122 5575
 L0 27 656
 R16
 R17
 r1
 !s85 0
 31
-R39
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_cmo.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_cmo.sv|
+R46
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_cmo.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_cmo.sv|
 !i113 0
 R19
 R6
 vhpdcache_core_arbiter
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_core_arbiter.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_core_arbiter.sv
 R8
-R37
 R38
+R45
 !i10b 1
 !s100 c=1W9MF3o;e89E;6d1^_H0
-I=<WLJJ0<EiBWPMWRGl]`H2
+I>]QBF:=oLkYPdi`_W1]MD2
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_core_arbiter.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_core_arbiter.sv
-!i122 4122
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_core_arbiter.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_core_arbiter.sv
+!i122 5576
 L0 27 149
 R16
 R17
 r1
 !s85 0
 31
-R39
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_core_arbiter.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_core_arbiter.sv|
+R46
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_core_arbiter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_core_arbiter.sv|
 !i113 0
 R19
 R6
 vhpdcache_ctrl
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_ctrl.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_ctrl.sv
 R8
-R37
 R38
+R45
 !i10b 1
 !s100 VNa_?=R6fna^>`A9Zf1c[2
-I8JTcBb_J?M]^=eZWgXin82
+Ih4Dk[QA`4ac6ND:Pj?BDO1
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_ctrl.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_ctrl.sv
-!i122 4123
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_ctrl.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_ctrl.sv
+!i122 5577
 L0 13 1777
 R16
 R17
 r1
 !s85 0
 31
-R39
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_ctrl.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_ctrl.sv|
+R46
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_ctrl.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_ctrl.sv|
 !i113 0
 R19
 R6
 vhpdcache_ctrl_pe
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_ctrl_pe.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_ctrl_pe.sv
 R8
-R37
 R38
+R45
 !i10b 1
 !s100 6kz0L8hleb^l5TcA?bUXZ3
-I@<=a4dzG2T2OkUmWRmT^i2
+IFF:S3bG2ZF74D0ZCZ63Pj0
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_ctrl_pe.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_ctrl_pe.sv
-!i122 4124
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_ctrl_pe.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_ctrl_pe.sv
+!i122 5578
 L0 13 1262
 R16
 R17
 r1
 !s85 0
 31
-R39
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_ctrl_pe.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_ctrl_pe.sv|
+R46
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_ctrl_pe.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_ctrl_pe.sv|
 !i113 0
 R19
 R6
 vhpdcache_data_downsize
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_data_downsize.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_downsize.sv
 R8
-R37
-R79
+R38
+R39
 !i10b 1
 !s100 :Sm>WzgD^kEcWPn@VaJS@1
-I1TW47KVjVk[18jT7gZ@9b0
+IQD4PZmi`Hg5i3W^X>=Baj1
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_data_downsize.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_data_downsize.sv
-!i122 4103
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_downsize.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_downsize.sv
+!i122 5557
 L0 26 165
 R16
 R17
@@ -1817,25 +1817,25 @@ r1
 !s85 0
 31
 R40
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_data_downsize.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_data_downsize.sv|
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_downsize.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_downsize.sv|
 !i113 0
 R19
 R6
 vhpdcache_data_resize
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_data_resize.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_resize.sv
 R8
-R37
-R79
+R38
+R39
 !i10b 1
 !s100 IY3<>nWW[4G4FeZd@n2c@2
-IK7b]HeDm[`QDmB;08;jkG0
+I2@92kW2L[zKIa@bQ`AVRP2
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_data_resize.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_data_resize.sv
-!i122 4105
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_resize.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_resize.sv
+!i122 5559
 L0 26 103
 R16
 R17
@@ -1843,75 +1843,75 @@ r1
 !s85 0
 31
 R40
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_data_resize.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_data_resize.sv|
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_resize.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_resize.sv|
 !i113 0
 R19
 R6
 vhpdcache_data_upsize
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_data_upsize.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_upsize.sv
 R8
-R37
-R79
+R38
+R39
 !i10b 1
 !s100 @9S_dhS268Xf92Od8mNdO3
-IbH7`RWdhH2M1khZ9lJVUK0
+IzW>=V8c_>_1:Qo:ZW<BVK0
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_data_upsize.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_data_upsize.sv
-!i122 4104
-Z82 L0 26 155
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_upsize.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_upsize.sv
+!i122 5558
+Z83 L0 26 155
 R16
 R17
 r1
 !s85 0
 31
 R40
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_data_upsize.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_data_upsize.sv|
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_upsize.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_upsize.sv|
 !i113 0
 R19
 R6
 vhpdcache_decoder
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_decoder.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_decoder.sv
 R8
-R79
+R81
 !i10b 1
 !s100 k2<b_>I[aTF0D`=FUfKL]2
-IijG2Z97lE=MK4<GAQ[S;Y0
+IS<mfYOSEGHIg6aI][FBTZ3
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_decoder.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_decoder.sv
-!i122 4094
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_decoder.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_decoder.sv
+!i122 5548
 L0 26 28
 R16
 R17
 r1
 !s85 0
 31
-R40
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_decoder.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_decoder.sv|
+R82
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_decoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_decoder.sv|
 !i113 0
 R19
 R6
 vhpdcache_demux
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv
 R8
 R27
 !i10b 1
 !s100 8INIkCG2kjW]5<OnQkgF>3
-IRBibEBXPi?z9SE?:N72QB3
+I>JZ2d_^DgH:3063eIbDi22
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv
-!i122 4086
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv
+!i122 5540
 L0 26 47
 R16
 R17
@@ -1919,116 +1919,116 @@ r1
 !s85 0
 31
 R28
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv|
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv|
 !i113 0
 R19
 R6
 vhpdcache_fifo_reg
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg.sv
 R8
-R27
+R81
 !i10b 1
 !s100 hC2NiVHTe:kcHd[<BSJC02
-IYAhI2O[_l3DKMhCUD1k6E0
+I4f2Ach?FH9W1<]MacnLFH2
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg.sv
-!i122 4089
-R82
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg.sv
+!i122 5543
+R83
 R16
 R17
 r1
 !s85 0
 31
-R28
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg.sv|
+R82
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg.sv|
 !i113 0
 R19
 R6
 vhpdcache_fifo_reg_initialized
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg_initialized.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg_initialized.sv
 R8
-R27
+R81
 !i10b 1
 !s100 `V=]PbFQceD6?3nhk`Wc?2
-Ibb8^HcP4P0`Nn^Z7PR3Yn0
+IZU80FESlJVJbBCgf:VWRK0
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg_initialized.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg_initialized.sv
-!i122 4090
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg_initialized.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg_initialized.sv
+!i122 5544
 L0 27 121
 R16
 R17
 r1
 !s85 0
 31
-R28
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg_initialized.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg_initialized.sv|
+R82
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg_initialized.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg_initialized.sv|
 !i113 0
 R19
 R6
 vhpdcache_flush
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_flush.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_flush.sv
 R8
-R37
-R80
+R38
+R42
 !i10b 1
 !s100 GaVWH90AZfWPUG1WVb?na3
-IVRQ?9FWIkh;[DHMJaY5L93
+I`d@H]?Y?=LJE51iTgRz[l0
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_flush.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_flush.sv
-!i122 4135
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_flush.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_flush.sv
+!i122 5589
 L0 27 368
 R16
 R17
 r1
 !s85 0
 31
-R81
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_flush.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_flush.sv|
+R37
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_flush.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_flush.sv|
 !i113 0
 R19
 R6
 vhpdcache_fxarb
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_fxarb.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fxarb.sv
 R8
-R27
+R81
 !i10b 1
 !s100 547J6P5YFSf8FYk`EIPMb0
-IJJX_5EdCETHI7fVibmB<52
+ITN4Y_Y;_2k<V<=@41KOQB2
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_fxarb.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_fxarb.sv
-!i122 4091
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fxarb.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fxarb.sv
+!i122 5545
 L0 26 60
 R16
 R17
 r1
 !s85 0
 31
-R28
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_fxarb.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_fxarb.sv|
+R82
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fxarb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fxarb.sv|
 !i113 0
 R19
 R6
 Yhpdcache_if
 2D:/HCMUS/UVM/tb/hpdcache_if.sv
 R8
-R37
+Z84 DXx4 work 12 hpdcache_pkg 0 22 ;V_<A2oEZhZ6Mj<2oP4in0
 !s110 1783700963
 !i10b 1
 !s100 Mm212FdhaYNNiLQBD59DW2
@@ -2039,57 +2039,57 @@ w1783418183
 8D:/HCMUS/UVM/tb/hpdcache_if.sv
 FD:/HCMUS/UVM/tb/hpdcache_if.sv
 !i122 278
-Z83 L0 23 0
+Z85 L0 23 0
 R16
 R17
 r1
 !s85 0
 31
-Z84 !s108 1783700963.000000
+Z86 !s108 1783700963.000000
 !s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include/hpdcache_config.svh|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh|D:/HCMUS/UVM/tb/hpdcache_if.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+.|+incdir+D:/HCMUS/UVM/sv|+incdir+D:/HCMUS/UVM/tb|+incdir+D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include|+define+CONF_HPDCACHE_PA_WIDTH=56|+define+CONF_HPDCACHE_WORD_WIDTH=64|+define+CONF_HPDCACHE_SETS=64|+define+CONF_HPDCACHE_WAYS=8|+define+CONF_HPDCACHE_CL_WORDS=8|+define+CONF_HPDCACHE_REQ_WORDS=2|+define+CONF_HPDCACHE_REQ_TRANS_ID_WIDTH=6|+define+CONF_HPDCACHE_REQ_SRC_ID_WIDTH=3|+define+CONF_HPDCACHE_MEM_ADDR_WIDTH=56|+define+CONF_HPDCACHE_MEM_ID_WIDTH=8|+define+CONF_HPDCACHE_MEM_DATA_WIDTH=512|+define+CONF_HPDCACHE_MSHR_SETS=4|+define+CONF_HPDCACHE_MSHR_WAYS=4|+define+CONF_HPDCACHE_MSHR_WAYS_PER_RAM_WORD=1|+define+CONF_HPDCACHE_MSHR_SETS_PER_RAM=4|+define+CONF_HPDCACHE_MSHR_RAM_WBYTEENABLE=1|+define+CONF_HPDCACHE_MSHR_USE_REGBANK=0|+define+CONF_HPDCACHE_VICTIM_SEL=0|+define+CONF_HPDCACHE_DATA_WAYS_PER_RAM_WORD=1|+define+CONF_HPDCACHE_DATA_SETS_PER_RAM=64|+define+CONF_HPDCACHE_DATA_RAM_WBYTEENABLE=1|+define+CONF_HPDCACHE_ACCESS_WORDS=2|+define+CONF_HPDCACHE_WBUF_DIR_ENTRIES=4|+define+CONF_HPDCACHE_WBUF_DATA_ENTRIES=4|+define+CONF_HPDCACHE_WBUF_WORDS=2|+define+CONF_HPDCACHE_WBUF_TIMECNT_WIDTH=4|+define+CONF_HPDCACHE_RTAB_ENTRIES=4|+define+CONF_HPDCACHE_FLUSH_ENTRIES=2|+define+CONF_HPDCACHE_FLUSH_FIFO_DEPTH=2|+define+CONF_HPDCACHE_CBUF_ENTRIES=4|+define+CONF_HPDCACHE_REFILL_CORE_RSP_FEEDTHROUGH=0|+define+CONF_HPDCACHE_REFILL_FIFO_DEPTH=2|+define+CONF_HPDCACHE_WT_ENABLE=1|+define+CONF_HPDCACHE_WB_ENABLE=1|+define+CONF_HPDCACHE_LOW_LATENCY=0|+define+CONF_HPDCACHE_ECC_ENABLE=0|+define+CONF_HPDCACHE_ECC_SCRUBBER_ENABLE=0|+define+HPDCACHE_ASSERT_OFF|D:/HCMUS/UVM/tb/hpdcache_if.sv|
 !i113 0
-Z85 o-sv -work work
+Z87 o-sv -work work
 !s92 -sv -work work +incdir+. +incdir+D:/HCMUS/UVM/sv +incdir+D:/HCMUS/UVM/tb +incdir+D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include +define+CONF_HPDCACHE_PA_WIDTH=56 +define+CONF_HPDCACHE_WORD_WIDTH=64 +define+CONF_HPDCACHE_SETS=64 +define+CONF_HPDCACHE_WAYS=8 +define+CONF_HPDCACHE_CL_WORDS=8 +define+CONF_HPDCACHE_REQ_WORDS=2 +define+CONF_HPDCACHE_REQ_TRANS_ID_WIDTH=6 +define+CONF_HPDCACHE_REQ_SRC_ID_WIDTH=3 +define+CONF_HPDCACHE_MEM_ADDR_WIDTH=56 +define+CONF_HPDCACHE_MEM_ID_WIDTH=8 +define+CONF_HPDCACHE_MEM_DATA_WIDTH=512 +define+CONF_HPDCACHE_MSHR_SETS=4 +define+CONF_HPDCACHE_MSHR_WAYS=4 +define+CONF_HPDCACHE_MSHR_WAYS_PER_RAM_WORD=1 +define+CONF_HPDCACHE_MSHR_SETS_PER_RAM=4 +define+CONF_HPDCACHE_MSHR_RAM_WBYTEENABLE=1 +define+CONF_HPDCACHE_MSHR_USE_REGBANK=0 +define+CONF_HPDCACHE_VICTIM_SEL=0 +define+CONF_HPDCACHE_DATA_WAYS_PER_RAM_WORD=1 +define+CONF_HPDCACHE_DATA_SETS_PER_RAM=64 +define+CONF_HPDCACHE_DATA_RAM_WBYTEENABLE=1 +define+CONF_HPDCACHE_ACCESS_WORDS=2 +define+CONF_HPDCACHE_WBUF_DIR_ENTRIES=4 +define+CONF_HPDCACHE_WBUF_DATA_ENTRIES=4 +define+CONF_HPDCACHE_WBUF_WORDS=2 +define+CONF_HPDCACHE_WBUF_TIMECNT_WIDTH=4 +define+CONF_HPDCACHE_RTAB_ENTRIES=4 +define+CONF_HPDCACHE_FLUSH_ENTRIES=2 +define+CONF_HPDCACHE_FLUSH_FIFO_DEPTH=2 +define+CONF_HPDCACHE_CBUF_ENTRIES=4 +define+CONF_HPDCACHE_REFILL_CORE_RSP_FEEDTHROUGH=0 +define+CONF_HPDCACHE_REFILL_FIFO_DEPTH=2 +define+CONF_HPDCACHE_WT_ENABLE=1 +define+CONF_HPDCACHE_WB_ENABLE=1 +define+CONF_HPDCACHE_LOW_LATENCY=0 +define+CONF_HPDCACHE_ECC_ENABLE=0 +define+CONF_HPDCACHE_ECC_SCRUBBER_ENABLE=0 +define+HPDCACHE_ASSERT_OFF
 R6
 vhpdcache_lfsr
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_lfsr.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_lfsr.sv
 R8
 R27
 !i10b 1
 !s100 0RDRZ2BhPA>6RRBj8^H7k3
-If1ao]QQcEi]SOIdknjOeC3
+IHIVJUF2a0:o[IHMFVik5A0
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_lfsr.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_lfsr.sv
-!i122 4087
-Z86 L0 26 70
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_lfsr.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_lfsr.sv
+!i122 5541
+Z88 L0 26 70
 R16
 R17
 r1
 !s85 0
 31
 R28
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_lfsr.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_lfsr.sv|
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_lfsr.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_lfsr.sv|
 !i113 0
 R19
 R6
 vhpdcache_mem_req_read_arbiter
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_read_arbiter.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_read_arbiter.sv
 R8
 R27
 !i10b 1
 !s100 L]WF]TOmz24T1Mz_0kI0?0
-IA1_5oE1DNz`WKTVV]Wa0m0
+I[FYHc_7AZgZU9gWBPZnQ;3
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_read_arbiter.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_read_arbiter.sv
-!i122 4084
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_read_arbiter.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_read_arbiter.sv
+!i122 5538
 L0 26 73
 R16
 R17
@@ -2097,24 +2097,24 @@ r1
 !s85 0
 31
 R28
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_read_arbiter.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_read_arbiter.sv|
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_read_arbiter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_read_arbiter.sv|
 !i113 0
 R19
 R6
 vhpdcache_mem_req_write_arbiter
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_write_arbiter.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_write_arbiter.sv
 R8
 R27
 !i10b 1
 !s100 J6LN[?>g?S>2P9S35fHnX2
-IE`Na9Tn<be6_cFH?h=B0?0
+IX@hA^1C@K;34V3Yb^_D<h1
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_write_arbiter.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_write_arbiter.sv
-!i122 4085
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_write_arbiter.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_write_arbiter.sv
+!i122 5539
 L0 26 164
 R16
 R17
@@ -2122,532 +2122,532 @@ r1
 !s85 0
 31
 R28
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_write_arbiter.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_write_arbiter.sv|
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_write_arbiter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_write_arbiter.sv|
 !i113 0
 R19
 R6
 vhpdcache_mem_resp_demux
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_resp_demux.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_resp_demux.sv
 R8
-R35
+R42
 !i10b 1
 !s100 ;W<6O=K7SzT=ZaGOXO0672
-IkaMN:i@7YDRP0Qli=46L93
+INIMMi>MWjL<mPFOgo4DhT2
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_resp_demux.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_resp_demux.sv
-!i122 4140
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_resp_demux.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_resp_demux.sv
+!i122 5594
 L0 26 83
 R16
 R17
 r1
 !s85 0
 31
-R81
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_resp_demux.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_resp_demux.sv|
+R37
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_resp_demux.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_resp_demux.sv|
 !i113 0
 R19
 R6
 vhpdcache_mem_to_axi_read
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_read.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_read.sv
 R8
-R37
+R38
 R26
-R35
+R42
 !i10b 1
 !s100 NlW@GJ@:UHaYQT4QFd_H70
-IE`_MPng4]Fo?L1bz;@zE<2
+I;R3RzBVDeZ?l@D7_jJR6g3
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_read.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_read.sv
-!i122 4142
-R86
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_read.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_read.sv
+!i122 5596
+R88
 R16
 R17
 r1
 !s85 0
 31
-R36
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_read.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_read.sv|
+R37
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_read.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_read.sv|
 !i113 0
 R19
 R6
 vhpdcache_mem_to_axi_write
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_write.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_write.sv
 R8
-R37
+R38
 R26
-R35
+R42
 !i10b 1
 !s100 >kme1k349B:MDLj^j9zV61
-I41[hdODRDnR9W==hi`f6G2
+IK1E:AjmL0RY[iXS=VAaEK3
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_write.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_write.sv
-!i122 4141
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_write.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_write.sv
+!i122 5595
 L0 26 123
 R16
 R17
 r1
 !s85 0
 31
-R36
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_write.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_write.sv|
+R37
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_write.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_write.sv|
 !i113 0
 R19
 R6
 vhpdcache_memctrl
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv
 R8
-R37
-R80
+R38
+R45
 !i10b 1
 !s100 @Hz5TSf_agfTU[j90f]SP1
-I7WJj=g;F<Shc[9jUd[30Y2
+ICTK;`d?mKL;:@20:mM3co0
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv
-!i122 4125
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv
+!i122 5579
 L0 13 1150
 R16
 R17
 r1
 !s85 0
 31
-R81
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv|
+R46
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv|
 !i113 0
 R19
 R6
 vhpdcache_miss_handler
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_miss_handler.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_miss_handler.sv
 R8
-R37
-R80
+R38
+R45
 !i10b 1
 !s100 ]JGoj_;HBN1nZFo4Zi@S61
-I9b:LV`aGK9N`3N6PL^:`d2
+IzNJCMVN@Ma`;`zMKAz?`H1
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_miss_handler.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_miss_handler.sv
-!i122 4127
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_miss_handler.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_miss_handler.sv
+!i122 5581
 L0 27 866
 R16
 R17
 r1
 !s85 0
 31
-R81
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_miss_handler.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_miss_handler.sv|
+R46
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_miss_handler.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_miss_handler.sv|
 !i113 0
 R19
 R6
 vhpdcache_mshr
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_mshr.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_mshr.sv
 R8
-R37
-R80
+R38
+R45
 !i10b 1
 !s100 OlORD0i>Jo<87_Z8HJ`^K3
-IZSnU<m]>?TNclZE4EnSRz0
+IEoaZD6KRmXTMdHH>c8VZE3
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_mshr.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_mshr.sv
-!i122 4128
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_mshr.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_mshr.sv
+!i122 5582
 L0 27 407
 R16
 R17
 r1
 !s85 0
 31
-R81
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_mshr.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_mshr.sv|
+R46
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_mshr.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_mshr.sv|
 !i113 0
 R19
 R6
 vhpdcache_mux
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_mux.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_mux.sv
 R8
-R27
+R81
 !i10b 1
 !s100 dh6Xj92J@l<hPDn25DTFg2
-In>U:a^bn=0MfJ:2VfRMKH2
+I]g>gNTPgh35z;CHNHag5V1
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_mux.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_mux.sv
-!i122 4093
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_mux.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_mux.sv
+!i122 5547
 L0 26 59
 R16
 R17
 r1
 !s85 0
 31
-R28
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_mux.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_mux.sv|
+R82
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_mux.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_mux.sv|
 !i113 0
 R19
 R6
 Xhpdcache_pkg
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_pkg.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_pkg.sv
 R8
 R27
 !i10b 1
 !s100 j]?SLY5iHZ`14?LO44Wb]3
-I;V_<A2oEZhZ6Mj<2oP4in0
+I;aOaP]TaTS=A=Q;OiDO6`3
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_pkg.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_pkg.sv
-!i122 4083
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_pkg.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_pkg.sv
+!i122 5537
 R20
-V;V_<A2oEZhZ6Mj<2oP4in0
+V;aOaP]TaTS=A=Q;OiDO6`3
 R17
 r1
 !s85 0
 31
 R28
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_pkg.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_pkg.sv|
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_pkg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_pkg.sv|
 !i113 0
 R19
 R6
 vhpdcache_prio_1hot_encoder
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_prio_1hot_encoder.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_prio_1hot_encoder.sv
 R8
-R79
+R81
 !i10b 1
 !s100 F:<>4mLkIZ>1;`Xb[NcEj0
-IcJEA^K>5>MRj:V4IT27JE2
+IV:MChTe_f9Z=R2cm1g=nb3
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_prio_1hot_encoder.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_prio_1hot_encoder.sv
-!i122 4096
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_prio_1hot_encoder.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_prio_1hot_encoder.sv
+!i122 5550
 L0 26 17
 R16
 R17
 r1
 !s85 0
 31
-R40
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_prio_1hot_encoder.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_prio_1hot_encoder.sv|
+R82
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_prio_1hot_encoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_prio_1hot_encoder.sv|
 !i113 0
 R19
 R6
 vhpdcache_prio_bin_encoder
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_prio_bin_encoder.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_prio_bin_encoder.sv
 R8
-R79
+R81
 !i10b 1
 !s100 MEllTGL=Rb1j>_D8F]z;<0
-I=>HCLcQTL_VAMl[@3F3kc2
+I7T8e11:?dK@AK[Gz?cK>:3
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_prio_bin_encoder.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_prio_bin_encoder.sv
-!i122 4097
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_prio_bin_encoder.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_prio_bin_encoder.sv
+!i122 5551
 L0 19 18
 R16
 R17
 r1
 !s85 0
 31
-R40
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_prio_bin_encoder.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_prio_bin_encoder.sv|
+R82
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_prio_bin_encoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_prio_bin_encoder.sv|
 !i113 0
 R19
 R6
 vhpdcache_regbank_wbyteenable_1rw
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wbyteenable_1rw.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wbyteenable_1rw.sv
 R8
-R79
+R81
 !i10b 1
 !s100 h>>Xf2^dh2_>:6iLGT6be2
-Icd>92_`810BEPaKhLU0680
+I232f6QQA2JLf:4LhIcKWW1
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wbyteenable_1rw.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wbyteenable_1rw.sv
-!i122 4101
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wbyteenable_1rw.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wbyteenable_1rw.sv
+!i122 5555
 L0 26 43
 R16
 R17
 r1
 !s85 0
 31
-R40
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wbyteenable_1rw.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wbyteenable_1rw.sv|
+R82
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wbyteenable_1rw.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wbyteenable_1rw.sv|
 !i113 0
 R19
 R6
 vhpdcache_regbank_wmask_1rw
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wmask_1rw.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wmask_1rw.sv
 R8
-R79
+R39
 !i10b 1
 !s100 ;JcGnenidKa_TGJUD_MG62
-I<QK7c4_kO^PFd2e43NIo>1
+I4IJ]L4hk9BeDNF?zClM1l2
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wmask_1rw.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wmask_1rw.sv
-!i122 4102
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wmask_1rw.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wmask_1rw.sv
+!i122 5556
 L0 26 41
 R16
 R17
 r1
 !s85 0
 31
-R40
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wmask_1rw.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wmask_1rw.sv|
+R82
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wmask_1rw.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wmask_1rw.sv|
 !i113 0
 R19
 R6
 vhpdcache_rrarb
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_rrarb.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_rrarb.sv
 R8
-R27
+R81
 !i10b 1
 !s100 H@R_IS169ae85?Sg@D2G[2
-IgTLa2[QN@?1B0X0QzSZh13
+I8Y2nOWdWbLMZXVFO<ji6c2
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_rrarb.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_rrarb.sv
-!i122 4092
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_rrarb.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_rrarb.sv
+!i122 5546
 L0 28 94
 R16
 R17
 r1
 !s85 0
 31
-R28
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_rrarb.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_rrarb.sv|
+R82
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_rrarb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_rrarb.sv|
 !i113 0
 R19
 R6
 vhpdcache_rtab
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_rtab.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_rtab.sv
 R8
-R37
-R80
+R38
+R45
 !i10b 1
 !s100 L9F]P7ZZ]1BRT0h]^B<C<1
-I6hS]lc5NNIihoG8nD:o3B3
+ITN945n`F]eHJJem]_ilFR1
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_rtab.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_rtab.sv
-!i122 4129
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_rtab.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_rtab.sv
+!i122 5583
 L0 13 720
 R16
 R17
 r1
 !s85 0
 31
-R81
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_rtab.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_rtab.sv|
+R46
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_rtab.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_rtab.sv|
 !i113 0
 R19
 R6
 vhpdcache_sram
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sram.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram.sv
 R8
-R79
+R81
 !i10b 1
 !s100 lfYC3H8ZggYjLlbBFk<zz3
-I2h6RJ>l]f4G@6n3@HKQNA1
+ITM]SL>1@Zn?mFD[N??6eC2
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sram.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sram.sv
-!i122 4098
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram.sv
+!i122 5552
 L0 13 64
 R16
 R17
 r1
 !s85 0
 31
-R40
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sram.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sram.sv|
+R82
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram.sv|
 !i113 0
 R19
 R6
 vhpdcache_sram_1rw
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_1rw.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_1rw.sv
 R8
-R80
+R42
 !i10b 1
 !s100 zQ950cmPJz]<JaAbZIO;L1
-I3Z2oWL_2ibc1jDE0`LcF_1
+I=E^A^K6nnPAmM_QD^19zZ1
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_1rw.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_1rw.sv
-!i122 4137
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_1rw.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_1rw.sv
+!i122 5591
 L0 13 57
 R16
 R17
 r1
 !s85 0
 31
-R81
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_1rw.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_1rw.sv|
+R37
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_1rw.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_1rw.sv|
 !i113 0
 R19
 R6
 vhpdcache_sram_wbyteenable
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wbyteenable.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wbyteenable.sv
 R8
-R79
+R81
 !i10b 1
 !s100 9eOfDEZk1P>[<J[f78P2_0
-IV8NEX<:i]@ejl>8>A=O<@3
+IgPz3iE<<HOQee6XWGEW6`1
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wbyteenable.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wbyteenable.sv
-!i122 4099
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wbyteenable.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wbyteenable.sv
+!i122 5553
 L0 13 69
 R16
 R17
 r1
 !s85 0
 31
-R40
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wbyteenable.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wbyteenable.sv|
+R82
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wbyteenable.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wbyteenable.sv|
 !i113 0
 R19
 R6
 vhpdcache_sram_wbyteenable_1rw
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wbyteenable_1rw.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wbyteenable_1rw.sv
 R8
-R80
+R42
 !i10b 1
 !s100 IUe73B2]=;8Da>c70J:>N2
-IbU=Bn5z<Q>3_hQ^agz;z11
+IX@3TQJN91cNITUen=;FC30
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wbyteenable_1rw.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wbyteenable_1rw.sv
-!i122 4138
-R47
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wbyteenable_1rw.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wbyteenable_1rw.sv
+!i122 5592
+R49
 R16
 R17
 r1
 !s85 0
 31
-R81
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wbyteenable_1rw.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wbyteenable_1rw.sv|
+R37
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wbyteenable_1rw.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wbyteenable_1rw.sv|
 !i113 0
 R19
 R6
 vhpdcache_sram_wmask
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv
 R8
-R79
+R81
 !i10b 1
 !s100 bzj:N_Wz2G@fWE[o?nHbF2
-ITABC=MV0m]E?Z7K1FA3@90
+IGln`L7A7@[1^^4B^7lX]W3
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv
-!i122 4100
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv
+!i122 5554
 L0 13 70
 R16
 R17
 r1
 !s85 0
 31
-R40
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv|
+R82
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv|
 !i113 0
 R19
 R6
 vhpdcache_sram_wmask_1rw
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wmask_1rw.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wmask_1rw.sv
 R8
-R80
+R42
 !i10b 1
 !s100 :HRkiA]NE^B3QoOmhoJTU1
-I8;J<8HJL<R574i6g>84fn2
+Im<VR91g>VdK=A:MfdPD?m3
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wmask_1rw.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wmask_1rw.sv
-!i122 4139
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wmask_1rw.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wmask_1rw.sv
+!i122 5593
 L0 13 58
 R16
 R17
 r1
 !s85 0
 31
-R81
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wmask_1rw.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wmask_1rw.sv|
+R37
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wmask_1rw.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wmask_1rw.sv|
 !i113 0
 R19
 R6
 vhpdcache_sync_buffer
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sync_buffer.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sync_buffer.sv
 R8
-R27
+R81
 !i10b 1
 !s100 jkko_4X=SD8H_`hP5cY:h2
-I:YB@Lf1O]E]1IcAEMbhPl0
+Ik35<ID_gPJQ:DI1bd^eaQ0
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sync_buffer.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sync_buffer.sv
-!i122 4088
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sync_buffer.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sync_buffer.sv
+!i122 5542
 L0 26 68
 R16
 R17
@@ -2655,44 +2655,44 @@ r1
 !s85 0
 31
 R28
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sync_buffer.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/common/hpdcache_sync_buffer.sv|
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sync_buffer.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sync_buffer.sv|
 !i113 0
 R19
 R6
 vhpdcache_uncached
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_uncached.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_uncached.sv
 R8
-R37
-R80
+R38
+R45
 !i10b 1
 !s100 _aocRl6Sgh<O>=ghE]76L0
-IgDcMI`:I;HTCdl:CZa;C22
+IA93kU@m:mHlNn2oM:z;;j1
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_uncached.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_uncached.sv
-!i122 4130
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_uncached.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_uncached.sv
+!i122 5584
 L0 13 966
 R16
 R17
 r1
 !s85 0
 31
-R81
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_uncached.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_uncached.sv|
+R46
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_uncached.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_uncached.sv|
 !i113 0
 R19
 R6
 Xhpdcache_uvm_pkg
 2D:/HCMUS/UVM/sv/hpdcache_uvm_pkg.sv
-Z87 !s115 hpdcache_if
+Z89 !s115 hpdcache_if
 R8
-Z88 DXx6 mtiUvm 7 uvm_pkg 0 22 8V[`8]Q0W57le7Z>zYaAj1
-R37
-Z89 !s110 1783700964
+Z90 DXx6 mtiUvm 7 uvm_pkg 0 22 8V[`8]Q0W57le7Z>zYaAj1
+R84
+Z91 !s110 1783700964
 !i10b 1
 !s100 JNX^Jn1<jN`GTD1XKL=Lg0
 I?H[KNikn?C40kjM@FFNU;1
@@ -2701,18 +2701,18 @@ R3
 w1783449287
 8D:/HCMUS/UVM/sv/hpdcache_uvm_pkg.sv
 FD:/HCMUS/UVM/sv/hpdcache_uvm_pkg.sv
-Z90 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
-Z91 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
-Z92 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
-Z93 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh
-Z94 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh
-Z95 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh
-Z96 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh
-Z97 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
-Z98 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh
-Z99 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
-Z100 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
-Z101 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
+Z92 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
+Z93 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
+Z94 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
+Z95 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh
+Z96 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh
+Z97 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh
+Z98 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh
+Z99 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
+Z100 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh
+Z101 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
+Z102 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
+Z103 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
 FD:/HCMUS/UVM/sv/hpdcache_seq_item.sv
 FD:/HCMUS/UVM/sv/hpdcache_sequencer.sv
 FD:/HCMUS/UVM/sv/hpdcache_driver.sv
@@ -2720,146 +2720,146 @@ FD:/HCMUS/UVM/sv/hpdcache_monitor.sv
 FD:/HCMUS/UVM/sv/hpdcache_scoreboard.sv
 FD:/HCMUS/UVM/sv/hpdcache_env.sv
 !i122 279
-R83
+R85
 V?H[KNikn?C40kjM@FFNU;1
 R17
 r1
 !s85 0
 31
-R84
+R86
 !s107 D:/HCMUS/UVM/sv/hpdcache_env.sv|D:/HCMUS/UVM/sv/hpdcache_scoreboard.sv|D:/HCMUS/UVM/sv/hpdcache_monitor.sv|D:/HCMUS/UVM/sv/hpdcache_driver.sv|D:/HCMUS/UVM/sv/hpdcache_sequencer.sv|D:/HCMUS/UVM/sv/hpdcache_seq_item.sv|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|D:/HCMUS/UVM/sv/hpdcache_uvm_pkg.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+.|+incdir+D:/HCMUS/UVM/sv|+incdir+D:/HCMUS/UVM/tb|+incdir+D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include|-L|mtiUvm|D:/HCMUS/UVM/sv/hpdcache_uvm_pkg.sv|
 !i113 0
-Z102 o-sv -work work -L mtiUvm
-Z103 !s92 -sv -work work +incdir+. +incdir+D:/HCMUS/UVM/sv +incdir+D:/HCMUS/UVM/tb +incdir+D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include -L mtiUvm
+Z104 o-sv -work work -L mtiUvm
+Z105 !s92 -sv -work work +incdir+. +incdir+D:/HCMUS/UVM/sv +incdir+D:/HCMUS/UVM/tb +incdir+D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include -L mtiUvm
 R6
 vhpdcache_victim_plru
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_victim_plru.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_plru.sv
 R8
-R37
-R80
+R38
+R42
 !i10b 1
 !s100 n>ReIjW4CnASchk[H7S]H1
-ILYdlAaZBd>HWI^@kU:M^_3
+ID=8dZUP:Vo`i41Wl<cL5e3
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_victim_plru.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_victim_plru.sv
-!i122 4131
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_plru.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_plru.sv
+!i122 5585
 L0 27 120
 R16
 R17
 r1
 !s85 0
 31
-R81
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_victim_plru.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_victim_plru.sv|
+R46
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_plru.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_plru.sv|
 !i113 0
 R19
 R6
 vhpdcache_victim_random
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_victim_random.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_random.sv
 R8
-R37
-R80
+R38
+R42
 !i10b 1
 !s100 ZdRFk:Pega3aie^z2CZEU3
-IL^Fmn7A48h7ahAoOlN>662
+I:Pm1;^ie7YDA7G8lD9Ac52
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_victim_random.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_victim_random.sv
-!i122 4132
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_random.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_random.sv
+!i122 5586
 L0 27 100
 R16
 R17
 r1
 !s85 0
 31
-R81
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_victim_random.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_victim_random.sv|
+R37
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_random.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_random.sv|
 !i113 0
 R19
 R6
 vhpdcache_victim_sel
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_victim_sel.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_sel.sv
 R8
-R37
-R80
+R38
+R42
 !i10b 1
 !s100 j]oPI3nGFjABF7S5<;FA21
-I6ZejO^Zhilg_@zQSKhb5h2
+InnWhURN;F8Xdb[KilCe`L1
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_victim_sel.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_victim_sel.sv
-!i122 4133
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_sel.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_sel.sv
+!i122 5587
 L0 27 96
 R16
 R17
 r1
 !s85 0
 31
-R81
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_victim_sel.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_victim_sel.sv|
+R37
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_sel.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_sel.sv|
 !i113 0
 R19
 R6
 vhpdcache_wbuf
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_wbuf.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_wbuf.sv
 R8
-R37
-R80
+R38
+R42
 !i10b 1
 !s100 n==HFn>UB8XYf2KF7_Y`J1
-I7VKOU3=UCT7@?mli[hJ672
+IoHIK6RONjIf74B6o;[5Hk3
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_wbuf.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_wbuf.sv
-!i122 4134
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_wbuf.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_wbuf.sv
+!i122 5588
 L0 27 716
 R16
 R17
 r1
 !s85 0
 31
-R81
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_wbuf.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hpdcache_wbuf.sv|
+R37
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_wbuf.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_wbuf.sv|
 !i113 0
 R19
 R6
 vhpdcache_wrapper
-2D:/HCMUS/THESIS/cv-hpdcache-master/hpdcache_wrapper.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_wrapper.sv
 R8
-R37
-R80
+R38
+R42
 !i10b 1
 !s100 M2Pj=CMVP994KSzRdJg?B3
-I`K[zKojh8=YO<lRkLG>320
+Ifj8i_bZKKDdASQi?kE:I]3
 S1
 R14
 w1781671591
-8D:/HCMUS/THESIS/cv-hpdcache-master/hpdcache_wrapper.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/hpdcache_wrapper.sv
-!i122 4136
+8D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_wrapper.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_wrapper.sv
+!i122 5590
 L0 15 405
 R16
 R17
 r1
 !s85 0
 31
-R81
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include/hpdcache_config.svh|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh|D:/HCMUS/THESIS/cv-hpdcache-master/hpdcache_wrapper.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|+incdir+D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/hpdcache_wrapper.sv|
+R37
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_config.svh|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh|D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_wrapper.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|+incdir+D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_wrapper.sv|
 !i113 0
 R19
 R43
@@ -2867,8 +2867,8 @@ R6
 vhw_top
 2D:/HCMUS/UVM/tb/hw_top.sv
 R8
-R37
-R89
+R84
+R91
 !i10b 1
 !s100 ;=U_=0=Lbz3A;GDT^A1PO0
 IbgbKMKSJGi3D7VUWUF?KV1
@@ -2884,28 +2884,28 @@ R17
 r1
 !s85 0
 31
-Z104 !s108 1783700964.000000
+Z106 !s108 1783700964.000000
 !s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include/hpdcache_config.svh|D:/HCMUS/UVM/tb/hw_top.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+.|+incdir+D:/HCMUS/UVM/sv|+incdir+D:/HCMUS/UVM/tb|+incdir+D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include|D:/HCMUS/UVM/tb/hw_top.sv|
 !i113 0
-R85
+R87
 !s92 -sv -work work +incdir+. +incdir+D:/HCMUS/UVM/sv +incdir+D:/HCMUS/UVM/tb +incdir+D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include
 R6
 vhwpf_stride
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride.sv
 R8
 R44
-R37
-R79
+R38
+R39
 !i10b 1
 !s100 jkg=a<;cCNi:SN5f:8g[^1
-IcnQe[?SE_2QfSb:YNTYUK1
+Ig9DOCGMbm<mQTUDYGC:^W3
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride.sv
-!i122 4107
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride.sv
+!i122 5561
 L0 27 353
 R16
 R17
@@ -2913,25 +2913,25 @@ r1
 !s85 0
 31
 R40
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride.sv|
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride.sv|
 !i113 0
 R19
 R6
 vhwpf_stride_arb
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_arb.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_arb.sv
 R8
-R37
-R79
+R38
+R39
 !i10b 1
 !s100 ;[4U_f7jaXSa2_UBlOzjh1
-IbgYNGUGh4S;cRnzV6TBib1
+InQRNDPU>??4ZCSGW9W=WB2
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_arb.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_arb.sv
-!i122 4108
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_arb.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_arb.sv
+!i122 5562
 L0 26 96
 R16
 R17
@@ -2939,51 +2939,51 @@ r1
 !s85 0
 31
 R40
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_arb.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_arb.sv|
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_arb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_arb.sv|
 !i113 0
 R19
 R6
 Xhwpf_stride_pkg
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_pkg.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_pkg.sv
 R8
-R79
+R39
 !i10b 1
 !s100 NT:Q]CJA[N0=k4<maXknl3
-Ie`H5f<clhhTdi5^Yod>d93
+ISSQ5z5UlE`;E82PgPF4U62
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_pkg.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_pkg.sv
-!i122 4106
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_pkg.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_pkg.sv
+!i122 5560
 L0 27 0
-Ve`H5f<clhhTdi5^Yod>d93
+VSSQ5z5UlE`;E82PgPF4U62
 R17
 r1
 !s85 0
 31
 R40
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_pkg.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_pkg.sv|
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_pkg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_pkg.sv|
 !i113 0
 R19
 R6
 vhwpf_stride_wrapper
-2D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv
+2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv
 R8
 R44
-R37
-R79
+R38
+R39
 !i10b 1
 !s100 Jkg=m4UG4bRJBZiH_LCT:3
-Iz[X^Ng74^UW^g05:B024g2
+I31O1=J0e]1>3koU8V1G2J2
 S1
 R14
-R78
-8D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv
-FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv
-!i122 4109
+R80
+8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv
+FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv
+!i122 5563
 L0 28 262
 R16
 R17
@@ -2991,387 +2991,470 @@ r1
 !s85 0
 31
 R40
-!s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|+incdir+D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include|-stats=none|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv|
+!s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|+incdir+D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv|
 !i113 0
 R19
 R43
 R6
 vid_stage
-2D:/HCMUS/THESIS/cva6-master/core/id_stage.sv
+2D:/khoaluantotnghiep/cva6-master/core/id_stage.sv
 R8
 R9
 R10
 R11
-R21
+R25
 !i10b 1
 !s100 SPmi8lnPj<hMl>WQ`KUa30
-IMOQbWiXC`dkGMj=F?=SWY1
+I7E6PgJb0Q34JnYZb>iK8A2
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/id_stage.sv
-FD:/HCMUS/THESIS/cva6-master/core/id_stage.sv
-!i122 4054
+8D:/khoaluantotnghiep/cva6-master/core/id_stage.sv
+FD:/khoaluantotnghiep/cva6-master/core/id_stage.sv
+!i122 5508
 L0 16 466
 R16
 R17
 r1
 !s85 0
 31
-R22
-!s107 D:/HCMUS/THESIS/cva6-master/core/id_stage.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/id_stage.sv|
+R21
+!s107 D:/khoaluantotnghiep/cva6-master/core/id_stage.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/id_stage.sv|
 !i113 0
 R19
 R6
 vinstr_queue
-2D:/HCMUS/THESIS/cva6-master/core/frontend/instr_queue.sv
+2D:/khoaluantotnghiep/cva6-master/core/frontend/instr_queue.sv
 R8
 R9
 R10
 R11
 R12
-R45
+R47
 !i10b 1
 !s100 0ad4m[fJ51^]YMlg2RAPQ3
-Ik>J24INbShQO8Z?VOXzOM1
+I>2NlC[XWn>?6AJfk:65IC2
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/frontend/instr_queue.sv
-FD:/HCMUS/THESIS/cva6-master/core/frontend/instr_queue.sv
-!i122 4036
+8D:/khoaluantotnghiep/cva6-master/core/frontend/instr_queue.sv
+FD:/khoaluantotnghiep/cva6-master/core/frontend/instr_queue.sv
+!i122 5490
 L0 46 520
 R16
 R17
 r1
 !s85 0
 31
-R30
-!s107 D:/HCMUS/THESIS/cva6-master/core/frontend/instr_queue.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/frontend/instr_queue.sv|
+R48
+!s107 D:/khoaluantotnghiep/cva6-master/core/frontend/instr_queue.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/frontend/instr_queue.sv|
 !i113 0
 R19
 R6
 vinstr_realign
-2D:/HCMUS/THESIS/cva6-master/core/instr_realign.sv
+2D:/khoaluantotnghiep/cva6-master/core/instr_realign.sv
 R8
 R9
 R10
 R11
 R12
-R21
+R25
 !i10b 1
 !s100 Aj5?XmclLK^I8;1GB2na91
-Ij]daN4J@kFgP<SogBeala3
+Il0Izd]Ym6UY@53j:6Ih=80
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/instr_realign.sv
-FD:/HCMUS/THESIS/cva6-master/core/instr_realign.sv
-!i122 4053
+8D:/khoaluantotnghiep/cva6-master/core/instr_realign.sv
+FD:/khoaluantotnghiep/cva6-master/core/instr_realign.sv
+!i122 5507
 L0 22 344
 R16
 R17
 r1
 !s85 0
 31
-R22
-!s107 D:/HCMUS/THESIS/cva6-master/core/instr_realign.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/instr_realign.sv|
+R21
+!s107 D:/khoaluantotnghiep/cva6-master/core/instr_realign.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/instr_realign.sv|
 !i113 0
 R19
 R6
 vinstr_scan
-2D:/HCMUS/THESIS/cva6-master/core/frontend/instr_scan.sv
+2D:/khoaluantotnghiep/cva6-master/core/frontend/instr_scan.sv
 R8
 R9
 R10
 R11
-R29
+R47
 !i10b 1
 !s100 1P_M=Ifi@3aGV;O?HWd@B0
-I;0RT76S?;`@Z1Ll=I?SMN1
+I`o3e4^Fhjk2BfMTh5?LaH3
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/frontend/instr_scan.sv
-FD:/HCMUS/THESIS/cva6-master/core/frontend/instr_scan.sv
-!i122 4035
+8D:/khoaluantotnghiep/cva6-master/core/frontend/instr_scan.sv
+FD:/khoaluantotnghiep/cva6-master/core/frontend/instr_scan.sv
+!i122 5489
 L0 18 93
 R16
 R17
 r1
 !s85 0
 31
-R30
-!s107 D:/HCMUS/THESIS/cva6-master/core/frontend/instr_scan.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/frontend/instr_scan.sv|
+R48
+!s107 D:/khoaluantotnghiep/cva6-master/core/frontend/instr_scan.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/frontend/instr_scan.sv|
 !i113 0
 R19
 R6
 vinstr_tracer
-Z105 2D:/HCMUS/THESIS/cva6-master/common/local/util/instr_tracer.sv
+Z107 2D:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv
 R8
 R9
 R10
 R11
 R12
-Z106 DXx4 work 16 instr_tracer_pkg 0 22 gAUk4O[8Jae]Y@P]E:PRj0
-DXx4 work 20 instr_tracer_sv_unit 0 22 ;mJUb?5LcK;_O[ho46`i51
-R35
+Z108 DXx4 work 16 instr_tracer_pkg 0 22 L12:F[3cdlN^2a_M@EVY60
+DXx4 work 20 instr_tracer_sv_unit 0 22 YKIgW_>QhXK4mF988U>]02
+R33
 R16
 r1
 !s85 0
 !i10b 1
 !s100 LjlFZH_66A3OK>YB9W_nE0
-I1G1gh2AiM1ohVO?AkM9eJ1
+I>d3MOSL]E:X:OS^N;0no72
 !s105 instr_tracer_sv_unit
 S1
 R14
 R15
-Z107 8D:/HCMUS/THESIS/cva6-master/common/local/util/instr_tracer.sv
-Z108 FD:/HCMUS/THESIS/cva6-master/common/local/util/instr_tracer.sv
-!i122 4146
+Z109 8D:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv
+Z110 FD:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv
+!i122 5601
 L0 20 293
 R17
 31
-R36
-Z109 !s107 D:/HCMUS/THESIS/cva6-master/common/local/util/instr_trace_item.svh|D:/HCMUS/THESIS/cva6-master/common/local/util/ex_trace_item.svh|D:/HCMUS/THESIS/cva6-master/common/local/util/instr_tracer.sv|
-Z110 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/common/local/util/instr_tracer.sv|
+R34
+Z111 !s107 D:/khoaluantotnghiep/cva6-master/common/local/util/instr_trace_item.svh|D:/khoaluantotnghiep/cva6-master/common/local/util/ex_trace_item.svh|D:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv|
+Z112 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv|
 !i113 0
 R19
 R6
 Xinstr_tracer_pkg
-2D:/HCMUS/THESIS/cva6-master/core/include/instr_tracer_pkg.sv
+2D:/khoaluantotnghiep/cva6-master/core/include/instr_tracer_pkg.sv
 R8
 R9
 R10
 R11
-R35
+R33
 !i10b 1
 !s100 _E=czY?gXb5Mf<GZ35]Z02
-IgAUk4O[8Jae]Y@P]E:PRj0
+IL12:F[3cdlN^2a_M@EVY60
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/include/instr_tracer_pkg.sv
-FD:/HCMUS/THESIS/cva6-master/core/include/instr_tracer_pkg.sv
-!i122 4145
-Z111 L0 16 0
-VgAUk4O[8Jae]Y@P]E:PRj0
+8D:/khoaluantotnghiep/cva6-master/core/include/instr_tracer_pkg.sv
+FD:/khoaluantotnghiep/cva6-master/core/include/instr_tracer_pkg.sv
+!i122 5600
+Z113 L0 16 0
+VL12:F[3cdlN^2a_M@EVY60
 R17
 r1
 !s85 0
 31
-R36
-!s107 D:/HCMUS/THESIS/cva6-master/core/include/instr_tracer_pkg.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/include/instr_tracer_pkg.sv|
+R34
+!s107 D:/khoaluantotnghiep/cva6-master/core/include/instr_tracer_pkg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/include/instr_tracer_pkg.sv|
 !i113 0
 R19
 R6
 Xinstr_tracer_sv_unit
-R105
+R107
 R8
 R9
 R10
 R11
 R12
-R106
-R35
-V;mJUb?5LcK;_O[ho46`i51
+R108
+R33
+VYKIgW_>QhXK4mF988U>]02
 r1
 !s85 0
 !i10b 1
 !s100 b3RhD`d@E2m=dl=0eWeBD2
-I;mJUb?5LcK;_O[ho46`i51
+IYKIgW_>QhXK4mF988U>]02
 !i103 1
 S1
 R14
 R15
-R107
-R108
-FD:/HCMUS/THESIS/cva6-master/common/local/util/ex_trace_item.svh
-FD:/HCMUS/THESIS/cva6-master/common/local/util/instr_trace_item.svh
-!i122 4146
-R111
-R17
-31
-R36
 R109
 R110
+FD:/khoaluantotnghiep/cva6-master/common/local/util/ex_trace_item.svh
+FD:/khoaluantotnghiep/cva6-master/common/local/util/instr_trace_item.svh
+!i122 5601
+R113
+R17
+31
+R34
+R111
+R112
 !i113 0
 R19
 R6
 vissue_read_operands
-2D:/HCMUS/THESIS/cva6-master/core/issue_read_operands.sv
+2D:/khoaluantotnghiep/cva6-master/core/issue_read_operands.sv
 R8
 R9
 R10
 R11
 R12
-R21
+R25
 !i10b 1
 !s100 QUlCK:CCg6AkT:8?FANd=1
-Il1YLI[X:b=bAQaah9c`nH3
+I[L]:>GT[Ej<Zo2FVWjofU2
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/issue_read_operands.sv
-FD:/HCMUS/THESIS/cva6-master/core/issue_read_operands.sv
-!i122 4058
+8D:/khoaluantotnghiep/cva6-master/core/issue_read_operands.sv
+FD:/khoaluantotnghiep/cva6-master/core/issue_read_operands.sv
+!i122 5512
 L0 17 1101
 R16
 R17
 r1
 !s85 0
 31
-R22
-!s107 D:/HCMUS/THESIS/cva6-master/core/issue_read_operands.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/issue_read_operands.sv|
+R21
+!s107 D:/khoaluantotnghiep/cva6-master/core/issue_read_operands.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/issue_read_operands.sv|
 !i113 0
 R19
 R6
 vissue_stage
-2D:/HCMUS/THESIS/cva6-master/core/issue_stage.sv
+2D:/khoaluantotnghiep/cva6-master/core/issue_stage.sv
 R8
 R9
 R10
 R11
 R12
-R21
+R25
 !i10b 1
 !s100 GdPX9Z0^OJjMFc<Bbn_b_3
-IhRDjQ4mIzXK`YcmIj7GGm3
+IF72E7ndS7o6YOLCOCggRT0
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/issue_stage.sv
-FD:/HCMUS/THESIS/cva6-master/core/issue_stage.sv
-!i122 4059
+8D:/khoaluantotnghiep/cva6-master/core/issue_stage.sv
+FD:/khoaluantotnghiep/cva6-master/core/issue_stage.sv
+!i122 5513
 L0 17 302
 R16
 R17
 r1
 !s85 0
 31
-R22
-!s107 D:/HCMUS/THESIS/cva6-master/core/issue_stage.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/issue_stage.sv|
+R21
+!s107 D:/khoaluantotnghiep/cva6-master/core/issue_stage.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/issue_stage.sv|
 !i113 0
 R19
 R6
 Xl15_pkg
-2D:/HCMUS/THESIS/cva6-master/core/include/dummy_l15_pkg.sv
+2D:/khoaluantotnghiep/cva6-master/core/include/dummy_l15_pkg.sv
 R8
-R24
+R23
 !i10b 1
 !s100 8nL[n@@al;0>nFSE;PW`l2
-IW<ZFI1fd5P]9WnTI3]82f0
+IJPL?[FzUPPVNJnSVIKYeI1
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/include/dummy_l15_pkg.sv
-FD:/HCMUS/THESIS/cva6-master/core/include/dummy_l15_pkg.sv
-!i122 4011
+8D:/khoaluantotnghiep/cva6-master/core/include/dummy_l15_pkg.sv
+FD:/khoaluantotnghiep/cva6-master/core/include/dummy_l15_pkg.sv
+!i122 5465
 L0 4 0
-VW<ZFI1fd5P]9WnTI3]82f0
+VJPL?[FzUPPVNJnSVIKYeI1
 R17
 r1
 !s85 0
 31
-R25
-!s107 D:/HCMUS/THESIS/cva6-master/core/include/dummy_l15_pkg.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/include/dummy_l15_pkg.sv|
+R24
+!s107 D:/khoaluantotnghiep/cva6-master/core/include/dummy_l15_pkg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/include/dummy_l15_pkg.sv|
 !i113 0
 R19
 R6
 vlfsr
-2D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/lfsr.sv
+2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lfsr.sv
 R8
-R45
+R47
 !i10b 1
 !s100 ZPT796JU@@?S[G4ohCb^X1
-Iieb7^T8D=V42B2N@7D[>e2
+INoB_oFm;A4GFQ3GGNEWCG2
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/lfsr.sv
-FD:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/lfsr.sv
-!i122 4043
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lfsr.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lfsr.sv
+!i122 5497
 L0 22 294
 R16
 R17
 r1
 !s85 0
 31
-R46
-!s107 D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/lfsr.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/lfsr.sv|
+R48
+!s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lfsr.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lfsr.sv|
 !i113 0
 R19
 R6
 vload_store_unit
-2D:/HCMUS/THESIS/cva6-master/core/load_store_unit.sv
+2D:/khoaluantotnghiep/cva6-master/core/load_store_unit.sv
 R8
 R9
 R10
 R11
 R12
-R13
+R27
 !i10b 1
 !s100 Lo[6f7LD3m;Q9P5l3OMg30
-IjZ1j?hFAieQ>O_acE]3K]1
+IS=X5BKH46Eb4`O<P5?8OY1
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/load_store_unit.sv
-FD:/HCMUS/THESIS/cva6-master/core/load_store_unit.sv
-!i122 4076
+8D:/khoaluantotnghiep/cva6-master/core/load_store_unit.sv
+FD:/khoaluantotnghiep/cva6-master/core/load_store_unit.sv
+!i122 5530
 L0 16 877
 R16
 R17
 r1
 !s85 0
 31
-R18
-!s107 D:/HCMUS/THESIS/cva6-master/core/load_store_unit.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/load_store_unit.sv|
+R28
+!s107 D:/khoaluantotnghiep/cva6-master/core/load_store_unit.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/load_store_unit.sv|
 !i113 0
 R19
 R6
 vload_unit
-2D:/HCMUS/THESIS/cva6-master/core/load_unit.sv
+2D:/khoaluantotnghiep/cva6-master/core/load_unit.sv
 R8
 R9
 R10
 R11
 R12
-R13
+R27
 !i10b 1
 !s100 C38zHQ<773KdO2a>o7QA[3
-I^W;Y@;9YKg?de1YdV3keQ0
+IhBEJ0Y9P:H8]_?nN?4iF<3
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/load_unit.sv
-FD:/HCMUS/THESIS/cva6-master/core/load_unit.sv
-!i122 4075
+8D:/khoaluantotnghiep/cva6-master/core/load_unit.sv
+FD:/khoaluantotnghiep/cva6-master/core/load_unit.sv
+!i122 5529
 L0 21 633
 R16
 R17
 r1
 !s85 0
 31
-R18
-!s107 D:/HCMUS/THESIS/cva6-master/core/load_unit.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/load_unit.sv|
+R28
+!s107 D:/khoaluantotnghiep/cva6-master/core/load_unit.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/load_unit.sv|
 !i113 0
 R19
 R6
 vlsu_bypass
-2D:/HCMUS/THESIS/cva6-master/core/lsu_bypass.sv
+2D:/khoaluantotnghiep/cva6-master/core/lsu_bypass.sv
+R8
+R9
+R10
+R11
+R12
+R27
+!i10b 1
+!s100 jTVFhCHHGUgIi`Pe3V@Nc1
+Im9fHeQbG0NK7^bkW^K6An3
+S1
+R14
+R15
+8D:/khoaluantotnghiep/cva6-master/core/lsu_bypass.sv
+FD:/khoaluantotnghiep/cva6-master/core/lsu_bypass.sv
+!i122 5531
+L0 26 119
+R16
+R17
+r1
+!s85 0
+31
+R28
+!s107 D:/khoaluantotnghiep/cva6-master/core/lsu_bypass.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/lsu_bypass.sv|
+!i113 0
+R19
+R6
+vlzc
+2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lzc.sv
+R8
+DXx4 work 11 cf_math_pkg 0 22 :TSdRUUo<@Fn4ko6Cdh`?0
+R23
+!i10b 1
+!s100 lZa^Mnl[28h8>3g_j;k>A3
+I`6>2O^Km:d2ekMWfi[I8?0
+S1
+R14
+R15
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lzc.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lzc.sv
+!i122 5472
+L0 25 88
+R16
+R17
+r1
+!s85 0
+31
+R24
+!s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lzc.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lzc.sv|
+!i113 0
+R19
+R6
+vmacro_decoder
+2D:/khoaluantotnghiep/cva6-master/core/macro_decoder.sv
+R8
+R9
+R10
+R11
+R25
+!i10b 1
+!s100 9hFgoWfSjWdIF6IgV6Daa0
+IUJ2QIS>jQ1=4R0=^@eFRT3
+S1
+R14
+R15
+8D:/khoaluantotnghiep/cva6-master/core/macro_decoder.sv
+FD:/khoaluantotnghiep/cva6-master/core/macro_decoder.sv
+!i122 5506
+L0 17 749
+R16
+R17
+r1
+!s85 0
+31
+R21
+!s107 D:/khoaluantotnghiep/cva6-master/core/macro_decoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/macro_decoder.sv|
+!i113 0
+R19
+R6
+vmult
+2D:/khoaluantotnghiep/cva6-master/core/mult.sv
 R8
 R9
 R10
@@ -3379,111 +3462,28 @@ R11
 R12
 R13
 !i10b 1
-!s100 jTVFhCHHGUgIi`Pe3V@Nc1
-I`BRPK?5dQobj]ibZZa^_i2
-S1
-R14
-R15
-8D:/HCMUS/THESIS/cva6-master/core/lsu_bypass.sv
-FD:/HCMUS/THESIS/cva6-master/core/lsu_bypass.sv
-!i122 4077
-L0 26 119
-R16
-R17
-r1
-!s85 0
-31
-R18
-!s107 D:/HCMUS/THESIS/cva6-master/core/lsu_bypass.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/lsu_bypass.sv|
-!i113 0
-R19
-R6
-vlzc
-2D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/lzc.sv
-R8
-DXx4 work 11 cf_math_pkg 0 22 <K<XEL9aV7X]OC_8@kSK52
-R24
-!i10b 1
-!s100 lZa^Mnl[28h8>3g_j;k>A3
-I6NAHGTn2miZ7`N1^K=zcB2
-S1
-R14
-R15
-8D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/lzc.sv
-FD:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/lzc.sv
-!i122 4018
-L0 25 88
-R16
-R17
-r1
-!s85 0
-31
-R25
-!s107 D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/lzc.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/lzc.sv|
-!i113 0
-R19
-R6
-vmacro_decoder
-2D:/HCMUS/THESIS/cva6-master/core/macro_decoder.sv
-R8
-R9
-R10
-R11
-R21
-!i10b 1
-!s100 9hFgoWfSjWdIF6IgV6Daa0
-INkzfa`ZT?`6LC=2<eCfJR1
-S1
-R14
-R15
-8D:/HCMUS/THESIS/cva6-master/core/macro_decoder.sv
-FD:/HCMUS/THESIS/cva6-master/core/macro_decoder.sv
-!i122 4052
-L0 17 749
-R16
-R17
-r1
-!s85 0
-31
-R22
-!s107 D:/HCMUS/THESIS/cva6-master/core/macro_decoder.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/macro_decoder.sv|
-!i113 0
-R19
-R6
-vmult
-2D:/HCMUS/THESIS/cva6-master/core/mult.sv
-R8
-R9
-R10
-R11
-R12
-R21
-!i10b 1
 !s100 dAl2`<5hY2^:4VLTic9M90
-Ik@XiTPl;PEFI41AXE0zSM3
+IRY]N<PaV5MF@;>nkj[K2l2
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/mult.sv
-FD:/HCMUS/THESIS/cva6-master/core/mult.sv
-!i122 4063
+8D:/khoaluantotnghiep/cva6-master/core/mult.sv
+FD:/khoaluantotnghiep/cva6-master/core/mult.sv
+!i122 5517
 L0 3 156
 R16
 R17
 r1
 !s85 0
 31
-R22
-!s107 D:/HCMUS/THESIS/cva6-master/core/mult.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/mult.sv|
+R18
+!s107 D:/khoaluantotnghiep/cva6-master/core/mult.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/mult.sv|
 !i113 0
 R19
 R6
 vmultiplier
-2D:/HCMUS/THESIS/cva6-master/core/multiplier.sv
+2D:/khoaluantotnghiep/cva6-master/core/multiplier.sv
 R8
 R9
 R10
@@ -3492,27 +3492,27 @@ R12
 R13
 !i10b 1
 !s100 6?zMAaz?:PibGC=Bf?:e70
-IFf9QF=Sn@mbmiWTzYKS:Y1
+IC=N@[3f9SedCMO3Ge84ID3
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/multiplier.sv
-FD:/HCMUS/THESIS/cva6-master/core/multiplier.sv
-!i122 4064
+8D:/khoaluantotnghiep/cva6-master/core/multiplier.sv
+FD:/khoaluantotnghiep/cva6-master/core/multiplier.sv
+!i122 5518
 L0 18 152
 R16
 R17
 r1
 !s85 0
 31
-R22
-!s107 D:/HCMUS/THESIS/cva6-master/core/multiplier.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/multiplier.sv|
+R18
+!s107 D:/khoaluantotnghiep/cva6-master/core/multiplier.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/multiplier.sv|
 !i113 0
 R19
 R6
 vperf_counters
-2D:/HCMUS/THESIS/cva6-master/core/perf_counters.sv
+2D:/khoaluantotnghiep/cva6-master/core/perf_counters.sv
 R8
 R9
 R10
@@ -3521,13 +3521,13 @@ R12
 R13
 !i10b 1
 !s100 =Mif?5F[F<ZLaeG;=j1Ai0
-In:lU4@:a9aQK0[Wc5mJ1D0
+I70ci6Z4Fj4ENJd;fz[AGc0
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/perf_counters.sv
-FD:/HCMUS/THESIS/cva6-master/core/perf_counters.sv
-!i122 4068
+8D:/khoaluantotnghiep/cva6-master/core/perf_counters.sv
+FD:/khoaluantotnghiep/cva6-master/core/perf_counters.sv
+!i122 5522
 L0 16 202
 R16
 R17
@@ -3535,160 +3535,160 @@ r1
 !s85 0
 31
 R18
-!s107 D:/HCMUS/THESIS/cva6-master/core/perf_counters.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/perf_counters.sv|
+!s107 D:/khoaluantotnghiep/cva6-master/core/perf_counters.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/perf_counters.sv|
 !i113 0
 R19
 R6
 vplru
-2D:/HCMUS/THESIS/icache-master/plru.sv
+2D:/khoaluantotnghiep/icache-master/plru.sv
 R8
-R45
+R47
 !i10b 1
 !s100 lh8:M=cWYkjF`L<9GeUb10
-I=`^0Xi2[KRLCn8_:anXHJ0
+Ih82[]K4:;K1FW2aFYi`9S2
 S1
 R14
 w1781279652
-8D:/HCMUS/THESIS/icache-master/plru.sv
-FD:/HCMUS/THESIS/icache-master/plru.sv
-!i122 4039
+8D:/khoaluantotnghiep/icache-master/plru.sv
+FD:/khoaluantotnghiep/icache-master/plru.sv
+!i122 5493
 L0 25 87
 R16
 R17
 r1
 !s85 0
 31
-R46
-!s107 D:/HCMUS/THESIS/icache-master/plru.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/icache-master/plru.sv|
+R48
+!s107 D:/khoaluantotnghiep/icache-master/plru.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/icache-master/plru.sv|
 !i113 0
 R19
 R6
 vplru_tree
-2D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/plru_tree.sv
+2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/plru_tree.sv
 R8
-R45
+R47
 !i10b 1
 !s100 @U4]ZKGXlUbAM3=6JFT_13
-I?QS4f9kA9HnO_E62FRXn]3
+Idz@LV0B?R:=b3>XVzGW810
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/plru_tree.sv
-FD:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/plru_tree.sv
-!i122 4038
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/plru_tree.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/plru_tree.sv
+!i122 5492
 L0 17 104
 R16
 R17
 r1
 !s85 0
 31
-R46
-!s107 D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/plru_tree.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/plru_tree.sv|
+R48
+!s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/plru_tree.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/plru_tree.sv|
 !i113 0
 R19
 R6
 vpmp
-2D:/HCMUS/THESIS/cva6-master/core/pmp/src/pmp.sv
+2D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp.sv
 R8
 R9
 R10
 R11
 R12
-R45
+R25
 !i10b 1
 !s100 Hb3IMk7gAUlFeNFW[E1O92
-IkhRR=45gSd96HRY<4bQch3
+I3TkeB^6nK[FBd03U_Xg6R1
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/pmp/src/pmp.sv
-FD:/HCMUS/THESIS/cva6-master/core/pmp/src/pmp.sv
-!i122 4048
+8D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp.sv
+FD:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp.sv
+!i122 5502
 L0 15 61
 R16
 R17
 r1
 !s85 0
 31
-R46
-!s107 D:/HCMUS/THESIS/cva6-master/core/pmp/src/pmp.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/pmp/src/pmp.sv|
+R21
+!s107 D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp.sv|
 !i113 0
 R19
 R6
 vpmp_data_if
-2D:/HCMUS/THESIS/cva6-master/core/pmp/src/pmp_data_if.sv
+2D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_data_if.sv
 R8
 R9
 R10
 R11
 R12
-R45
+R25
 !i10b 1
 !s100 Gb7?5XYcBDI;8X@@?HjGc2
-I`aS6bd5b9`dij2@FmH^@E2
+IU4I^7Y@H]9^K34?=LJCe62
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/pmp/src/pmp_data_if.sv
-FD:/HCMUS/THESIS/cva6-master/core/pmp/src/pmp_data_if.sv
-!i122 4049
+8D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_data_if.sv
+FD:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_data_if.sv
+!i122 5503
 L0 9 191
 R16
 R17
 r1
 !s85 0
 31
-R46
-!s107 D:/HCMUS/THESIS/cva6-master/core/pmp/src/pmp_data_if.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/pmp/src/pmp_data_if.sv|
+R21
+!s107 D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_data_if.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_data_if.sv|
 !i113 0
 R19
 R6
 vpmp_entry
-2D:/HCMUS/THESIS/cva6-master/core/pmp/src/pmp_entry.sv
+2D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_entry.sv
 R8
 R9
 R10
 R11
-R45
+R25
 !i10b 1
 !s100 ieAE:LJ`EdIKIaT]B2C150
-I42lGRBZRm2W7ZB]nlke`?1
+IGJa:c8TX6T`5ZeCkNVSH70
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/pmp/src/pmp_entry.sv
-FD:/HCMUS/THESIS/cva6-master/core/pmp/src/pmp_entry.sv
-!i122 4047
+8D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_entry.sv
+FD:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_entry.sv
+!i122 5501
 L0 15 108
 R16
 R17
 r1
 !s85 0
 31
-R46
-!s107 D:/HCMUS/THESIS/cva6-master/core/pmp/src/pmp_entry.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/pmp/src/pmp_entry.sv|
+R48
+!s107 D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_entry.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_entry.sv|
 !i113 0
 R19
 R6
 vpopcount
-2D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/popcount.sv
+2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/popcount.sv
 R8
 R29
 !i10b 1
 !s100 l<UmFgm7EBSihXlPjbUac2
-IdO8ZT[`f`T@14L8G`A2E51
+IhLCTh@EF?;Kj8cOzO?02U2
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/popcount.sv
-FD:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/popcount.sv
-!i122 4022
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/popcount.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/popcount.sv
+!i122 5476
 L0 19 39
 R16
 R17
@@ -3696,39 +3696,39 @@ r1
 !s85 0
 31
 R30
-!s107 D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/popcount.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/popcount.sv|
+!s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/popcount.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/popcount.sv|
 !i113 0
 R19
 R6
 vras
-2D:/HCMUS/THESIS/cva6-master/core/frontend/ras.sv
+2D:/khoaluantotnghiep/cva6-master/core/frontend/ras.sv
 R8
 R9
-R29
+R47
 !i10b 1
 !s100 IWz8gSam?GVHzA?[=Gka73
-IYiEQSUajKHX<GA]9Yn3eH2
+I]IfH;B53M1z4bKc[R8lNo1
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/frontend/ras.sv
-FD:/HCMUS/THESIS/cva6-master/core/frontend/ras.sv
-!i122 4034
+8D:/khoaluantotnghiep/cva6-master/core/frontend/ras.sv
+FD:/khoaluantotnghiep/cva6-master/core/frontend/ras.sv
+!i122 5488
 L0 17 63
 R16
 R17
 r1
 !s85 0
 31
-R30
-!s107 D:/HCMUS/THESIS/cva6-master/core/frontend/ras.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/frontend/ras.sv|
+R48
+!s107 D:/khoaluantotnghiep/cva6-master/core/frontend/ras.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/frontend/ras.sv|
 !i113 0
 R19
 R6
 vraw_checker
-2D:/HCMUS/THESIS/cva6-master/core/raw_checker.sv
+2D:/khoaluantotnghiep/cva6-master/core/raw_checker.sv
 R8
 R9
 R10
@@ -3737,13 +3737,13 @@ R12
 R13
 !i10b 1
 !s100 F[Rg[Oi5WFLhUSE[01FVS1
-Io>70MR3[VAhEJ5AmXFLec0
+IFogVi4^UXDcN4H]^CQDno2
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/raw_checker.sv
-FD:/HCMUS/THESIS/cva6-master/core/raw_checker.sv
-!i122 4067
+8D:/khoaluantotnghiep/cva6-master/core/raw_checker.sv
+FD:/khoaluantotnghiep/cva6-master/core/raw_checker.sv
+!i122 5521
 L0 10 64
 R16
 R17
@@ -3751,94 +3751,94 @@ r1
 !s85 0
 31
 R18
-!s107 D:/HCMUS/THESIS/cva6-master/core/raw_checker.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/raw_checker.sv|
+!s107 D:/khoaluantotnghiep/cva6-master/core/raw_checker.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/raw_checker.sv|
 !i113 0
 R19
 R6
 Xriscv
-2D:/HCMUS/THESIS/cva6-master/core/include/riscv_pkg.sv
+2D:/khoaluantotnghiep/cva6-master/core/include/riscv_pkg.sv
 R8
 R9
 R10
-R24
+R23
 !i10b 1
 !s100 m3i7Q3oEY9^B5<X6OimA<3
-I0z1DjFCHbMjZVdoRoRI5[0
+I>VPOUm;m^iedg=zeYIG=G3
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/include/riscv_pkg.sv
-FD:/HCMUS/THESIS/cva6-master/core/include/riscv_pkg.sv
-!i122 4006
+8D:/khoaluantotnghiep/cva6-master/core/include/riscv_pkg.sv
+FD:/khoaluantotnghiep/cva6-master/core/include/riscv_pkg.sv
+!i122 5460
 R32
-V0z1DjFCHbMjZVdoRoRI5[0
+V>VPOUm;m^iedg=zeYIG=G3
 R17
 r1
 !s85 0
 31
-R25
-!s107 D:/HCMUS/THESIS/cva6-master/core/include/riscv_pkg.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/include/riscv_pkg.sv|
+R24
+!s107 D:/khoaluantotnghiep/cva6-master/core/include/riscv_pkg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/include/riscv_pkg.sv|
 !i113 0
 R19
 R6
 vrr_arb_tree
-2D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/rr_arb_tree.sv
+2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/rr_arb_tree.sv
 R8
-R24
+R29
 !i10b 1
 !s100 cC2HhWH;CAgz42PaO[P`:0
-I_?ih@f0R4^_[gRKZc=F[b1
+I<g=bZS^mVR?E>F=DLjhNB2
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/rr_arb_tree.sv
-FD:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/rr_arb_tree.sv
-!i122 4019
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/rr_arb_tree.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/rr_arb_tree.sv
+!i122 5473
 L0 47 302
 R16
 R17
 r1
 !s85 0
 31
-R25
-!s107 D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/rr_arb_tree.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/rr_arb_tree.sv|
+R24
+!s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/rr_arb_tree.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/rr_arb_tree.sv|
 !i113 0
 R19
 R6
 vscoreboard
-2D:/HCMUS/THESIS/cva6-master/core/scoreboard.sv
+2D:/khoaluantotnghiep/cva6-master/core/scoreboard.sv
 R8
 R9
 R10
 R11
 R12
-R21
+R25
 !i10b 1
 !s100 BD>F>A?1cE2E?3T4Z`k1h3
-IZKFOGI^X_Pe9@AHF`4D3E3
+IU^[B6]F3e^eHmOkbg8Jl;3
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/scoreboard.sv
-FD:/HCMUS/THESIS/cva6-master/core/scoreboard.sv
-!i122 4056
+8D:/khoaluantotnghiep/cva6-master/core/scoreboard.sv
+FD:/khoaluantotnghiep/cva6-master/core/scoreboard.sv
+!i122 5510
 L0 15 342
 R16
 R17
 r1
 !s85 0
 31
-R22
-!s107 D:/HCMUS/THESIS/cva6-master/core/scoreboard.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/scoreboard.sv|
+R21
+!s107 D:/khoaluantotnghiep/cva6-master/core/scoreboard.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/scoreboard.sv|
 !i113 0
 R19
 R6
 vserdiv
-2D:/HCMUS/THESIS/cva6-master/core/serdiv.sv
+2D:/khoaluantotnghiep/cva6-master/core/serdiv.sv
 R8
 R9
 R10
@@ -3847,13 +3847,13 @@ R12
 R13
 !i10b 1
 !s100 V4dM?2Pn63kHb1G4Pf9k92
-I^aU[5D`k]YT32MR2lRP;F2
+ImLaaigf:`5b<gmO2ZcGX`0
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/serdiv.sv
-FD:/HCMUS/THESIS/cva6-master/core/serdiv.sv
-!i122 4065
+8D:/khoaluantotnghiep/cva6-master/core/serdiv.sv
+FD:/khoaluantotnghiep/cva6-master/core/serdiv.sv
+!i122 5519
 L0 18 260
 R16
 R17
@@ -3861,49 +3861,49 @@ r1
 !s85 0
 31
 R18
-!s107 D:/HCMUS/THESIS/cva6-master/core/serdiv.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/serdiv.sv|
+!s107 D:/khoaluantotnghiep/cva6-master/core/serdiv.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/serdiv.sv|
 !i113 0
 R19
 R6
 vshift_reg
-2D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/shift_reg.sv
+2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/shift_reg.sv
 R8
 R29
 !i10b 1
 !s100 4V0gB@4jCU^f]X_aSXGH?3
-I9RGWG8<4@E<:=C_S7lm=H0
+IJ64d`h[Jj8j]@5e[i2XO23
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/shift_reg.sv
-FD:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/shift_reg.sv
-!i122 4020
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/shift_reg.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/shift_reg.sv
+!i122 5474
 L0 16 38
 R16
 R17
 r1
 !s85 0
 31
-R25
-!s107 D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/shift_reg.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/shift_reg.sv|
+R30
+!s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/shift_reg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/shift_reg.sv|
 !i113 0
 R19
 R6
 vsram
-2D:/HCMUS/THESIS/cva6-master/common/local/util/sram.sv
+2D:/khoaluantotnghiep/cva6-master/common/local/util/sram.sv
 R8
 R29
 !i10b 1
 !s100 WT3[ZY_FKcMOUgQ?`bZ><0
-I[66[9WT;AIjKCb=_PC=Gj2
+IoeIU`IP>hi0OhPnaT9<8J3
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/common/local/util/sram.sv
-FD:/HCMUS/THESIS/cva6-master/common/local/util/sram.sv
-!i122 4029
+8D:/khoaluantotnghiep/cva6-master/common/local/util/sram.sv
+FD:/khoaluantotnghiep/cva6-master/common/local/util/sram.sv
+!i122 5483
 L0 21 97
 R16
 R17
@@ -3911,24 +3911,24 @@ r1
 !s85 0
 31
 R30
-!s107 D:/HCMUS/THESIS/cva6-master/common/local/util/sram.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/common/local/util/sram.sv|
+!s107 D:/khoaluantotnghiep/cva6-master/common/local/util/sram.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/common/local/util/sram.sv|
 !i113 0
 R19
 R6
 vsram_cache
-2D:/HCMUS/THESIS/cva6-master/common/local/util/sram_cache.sv
+2D:/khoaluantotnghiep/cva6-master/common/local/util/sram_cache.sv
 R8
 R29
 !i10b 1
 !s100 Z^dz3GVFznSRHO>@fVnoU0
-ImZ4]H0NAFI6DcUUIfjIAn3
+IfflCl_al3dPF9jjZ38ioN1
 S1
 R14
 w1781083615
-8D:/HCMUS/THESIS/cva6-master/common/local/util/sram_cache.sv
-FD:/HCMUS/THESIS/cva6-master/common/local/util/sram_cache.sv
-!i122 4030
+8D:/khoaluantotnghiep/cva6-master/common/local/util/sram_cache.sv
+FD:/khoaluantotnghiep/cva6-master/common/local/util/sram_cache.sv
+!i122 5484
 L0 21 107
 R16
 R17
@@ -3936,13 +3936,13 @@ r1
 !s85 0
 31
 R30
-!s107 D:/HCMUS/THESIS/cva6-master/common/local/util/sram_cache.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/common/local/util/sram_cache.sv|
+!s107 D:/khoaluantotnghiep/cva6-master/common/local/util/sram_cache.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/common/local/util/sram_cache.sv|
 !i113 0
 R19
 R6
 vstore_buffer
-2D:/HCMUS/THESIS/cva6-master/core/store_buffer.sv
+2D:/khoaluantotnghiep/cva6-master/core/store_buffer.sv
 R8
 R9
 R10
@@ -3951,13 +3951,13 @@ R12
 R13
 !i10b 1
 !s100 NAB`<fB;cTz_Z=4C]_f982
-InzkKIa5GKNkJ]^m2NSLg33
+I0WZB>zUG8Of6;5QlVn5F60
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/store_buffer.sv
-FD:/HCMUS/THESIS/cva6-master/core/store_buffer.sv
-!i122 4073
+8D:/khoaluantotnghiep/cva6-master/core/store_buffer.sv
+FD:/khoaluantotnghiep/cva6-master/core/store_buffer.sv
+!i122 5527
 L0 17 301
 R16
 R17
@@ -3965,28 +3965,28 @@ r1
 !s85 0
 31
 R18
-!s107 D:/HCMUS/THESIS/cva6-master/core/store_buffer.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/store_buffer.sv|
+!s107 D:/khoaluantotnghiep/cva6-master/core/store_buffer.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/store_buffer.sv|
 !i113 0
 R19
 R6
 vstore_unit
-2D:/HCMUS/THESIS/cva6-master/core/store_unit.sv
+2D:/khoaluantotnghiep/cva6-master/core/store_unit.sv
 R8
 R9
 R10
 R11
 R12
-R13
+R27
 !i10b 1
 !s100 Tomb6?zU;S?jcGPd4XHR<2
-I2JX@Lo7YFmX`]RVVVbCbU1
+I8KQ^0aACIMG?a2@0@3?CJ1
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/store_unit.sv
-FD:/HCMUS/THESIS/cva6-master/core/store_unit.sv
-!i122 4074
+8D:/khoaluantotnghiep/cva6-master/core/store_unit.sv
+FD:/khoaluantotnghiep/cva6-master/core/store_unit.sv
+!i122 5528
 L0 16 390
 R16
 R17
@@ -3994,263 +3994,263 @@ r1
 !s85 0
 31
 R18
-!s107 D:/HCMUS/THESIS/cva6-master/core/store_unit.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/store_unit.sv|
+!s107 D:/khoaluantotnghiep/cva6-master/core/store_unit.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/store_unit.sv|
 !i113 0
 R19
 R6
 vstream_arbiter
-2D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter.sv
+2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter.sv
 R8
-R24
+R23
 !i10b 1
 !s100 UZY5SC?7LZAR<I1][84K>1
-IB`=zZHB8lg;dgb37E<chl0
+I`;9IJ?8ihkQ0jVY^ho<l_0
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter.sv
-FD:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter.sv
-!i122 4014
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter.sv
+!i122 5468
 L0 16 34
 R16
 R17
 r1
 !s85 0
 31
-R25
-!s107 D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter.sv|
+R24
+!s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter.sv|
 !i113 0
 R19
 R6
 vstream_arbiter_flushable
-2D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter_flushable.sv
+2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter_flushable.sv
 R8
-R24
+R23
 !i10b 1
 !s100 h_h=LVlGeTQ:;cf8W2ODj1
-IN;E?NU1PVi8_BA5YH8Mbz3
+I^mX7n3mamz6ZRQKV=`MV=2
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter_flushable.sv
-FD:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter_flushable.sv
-!i122 4015
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter_flushable.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter_flushable.sv
+!i122 5469
 L0 16 67
 R16
 R17
 r1
 !s85 0
 31
-R25
-!s107 D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter_flushable.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter_flushable.sv|
+R24
+!s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter_flushable.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter_flushable.sv|
 !i113 0
 R19
 R6
 vstream_demux
-2D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/stream_demux.sv
+2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_demux.sv
 R8
-R24
+R23
 !i10b 1
 !s100 0cnIRi4I^DHm2mMnTNNc^3
-Iib4CdQ>@n1dA:7g0a^_>B1
+I?bUNc[Fi^7S6W][CjL=4G1
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/stream_demux.sv
-FD:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/stream_demux.sv
-!i122 4017
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_demux.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_demux.sv
+!i122 5471
 L0 15 22
 R16
 R17
 r1
 !s85 0
 31
-R25
-!s107 D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/stream_demux.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/stream_demux.sv|
+R24
+!s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_demux.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_demux.sv|
 !i113 0
 R19
 R6
 vstream_mux
-2D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/stream_mux.sv
+2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_mux.sv
 R8
-R24
+R23
 !i10b 1
 !s100 8hP5ZjP0dZdIB?_lf1d3G0
-ITSkd;oal<hAhNL8@18JO@0
+I=Teo>i]6fdA31GRaSNfKN1
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/stream_mux.sv
-FD:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/stream_mux.sv
-!i122 4016
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_mux.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_mux.sv
+!i122 5470
 L0 14 33
 R16
 R17
 r1
 !s85 0
 31
-R25
-!s107 D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/stream_mux.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/stream_mux.sv|
+R24
+!s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_mux.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_mux.sv|
 !i113 0
 R19
 R6
 vtb_cva6
-Z112 2D:/khoaluantotnghiep/testbench/tb_cva6.sv
+Z114 2D:/khoaluantotnghiep/testbench/tb_cva6.sv
 R8
 R9
 R10
 R11
 R12
 R26
-DXx4 work 15 tb_cva6_sv_unit 0 22 e56m6TLnNIhI8keX47=j32
-R33
+DXx4 work 15 tb_cva6_sv_unit 0 22 4[oB;gi5@L[1ZYG=MZJo31
 R35
+R33
 R16
 r1
 !s85 0
 !i10b 1
 !s100 5_Vh:^K4oFI4^HhE^99e80
-IYP=V3iY[Rk9Yc`ilCj:;;0
+Ib5?Eg1=DPT[`VSC5O8Wkb3
 !s105 tb_cva6_sv_unit
 S1
 R14
-Z113 w1782232710
-Z114 8D:/khoaluantotnghiep/testbench/tb_cva6.sv
-Z115 FD:/khoaluantotnghiep/testbench/tb_cva6.sv
-!i122 4149
+Z115 w1782232710
+Z116 8D:/khoaluantotnghiep/testbench/tb_cva6.sv
+Z117 FD:/khoaluantotnghiep/testbench/tb_cva6.sv
+!i122 5603
 L0 8 243
 R17
 31
-R36
-Z116 !s107 D:/khoaluantotnghiep/testbench/tb_cva6.sv|
-Z117 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/testbench/tb_cva6.sv|
+R34
+Z118 !s107 D:/khoaluantotnghiep/testbench/tb_cva6.sv|
+Z119 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/testbench/tb_cva6.sv|
 !i113 0
 R19
 R6
 Xtb_cva6_sv_unit
-R112
+R114
 R8
 R9
 R10
 R11
 R12
 R26
-R35
-Ve56m6TLnNIhI8keX47=j32
+R33
+V4[oB;gi5@L[1ZYG=MZJo31
 r1
 !s85 0
 !i10b 1
 !s100 W5lT6zSnOnNb_3n2[eO1:2
-Ie56m6TLnNIhI8keX47=j32
+I4[oB;gi5@L[1ZYG=MZJo31
 !i103 1
 S1
 R14
-R113
-R114
 R115
-!i122 4149
+R116
+R117
+!i122 5603
 L0 3 0
 R17
 31
-R36
-R116
-R117
+R34
+R118
+R119
 !i113 0
 R19
 R6
 vtb_hpdcache_new
 2D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv
 R8
-R37
-R35
+R38
+R33
 !i10b 1
 !s100 TcL]R87RH;2=>[ES:F[X_2
-I_6SXoTK_mT`nE:Hh9PHQ70
+IISN__6R@`i?FkB24H41i;2
 S1
 R14
 w1781669848
 8D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv
 FD:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv
-!i122 4150
+!i122 5604
 L0 7 359
 R16
 R17
 r1
 !s85 0
 31
-R36
+R34
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_config.svh|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh|D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|+incdir+D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include|-stats=none|D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv|
 !i113 0
 R19
-Z118 !s92 -work work -sv +incdir+D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include
+R43
 R6
 vtb_hpdcache_prefetch
 2D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv
 R8
-R37
+R38
 R41
-R35
+R33
 !i10b 1
 !s100 mH?d9G`83nLOFHG<SI]OD1
-I`US727JbNe;MdRZ@mi55S0
+I31kLAj7`m8VafFLZKZR?>0
 S1
 R14
 w1782200513
 8D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv
 FD:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv
-!i122 4151
+!i122 5605
 L0 8 353
 R16
 R17
 r1
 !s85 0
 31
-R36
+R34
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_config.svh|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh|D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|+incdir+D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include|-stats=none|D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv|
 !i113 0
 R19
-R118
+R43
 R6
 vtb_plru
 2D:/khoaluantotnghiep/testbench/tb_plru.sv
 R8
-R35
+R33
 !i10b 1
 !s100 FkLM1QI2HSgS4Ne:[0;NA2
-Id_BUBm>E4F?gZE^JJzU6l0
+IHdd3:[NKd>?=49K4MRjW@1
 S1
 R14
 w1782267626
 8D:/khoaluantotnghiep/testbench/tb_plru.sv
 FD:/khoaluantotnghiep/testbench/tb_plru.sv
-!i122 4152
+!i122 5606
 L0 3 105
 R16
 R17
 r1
 !s85 0
 31
-R36
+R34
 !s107 D:/khoaluantotnghiep/testbench/tb_plru.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/testbench/tb_plru.sv|
 !i113 0
 R19
 R6
 vtb_top
-Z119 2D:/HCMUS/UVM/tb/tb_top.sv
+Z120 2D:/HCMUS/UVM/tb/tb_top.sv
 R8
-R88
-R37
-Z120 DXx4 work 16 hpdcache_uvm_pkg 0 22 ?H[KNikn?C40kjM@FFNU;1
+R90
+R84
+Z121 DXx4 work 16 hpdcache_uvm_pkg 0 22 ?H[KNikn?C40kjM@FFNU;1
 DXx4 work 14 tb_top_sv_unit 0 22 M1DQM]KcaL[Bl=OLJOAh=0
-R89
+R91
 R16
 r1
 !s85 0
@@ -4261,27 +4261,27 @@ ILUFHCXjh;1=:<V1o4LMZ<1
 S1
 R3
 w1783416002
-Z121 8D:/HCMUS/UVM/tb/tb_top.sv
-Z122 FD:/HCMUS/UVM/tb/tb_top.sv
+Z122 8D:/HCMUS/UVM/tb/tb_top.sv
+Z123 FD:/HCMUS/UVM/tb/tb_top.sv
 !i122 281
 L0 17 43
 R17
 31
-R104
-Z123 !s107 D:/HCMUS/UVM/tb/hpdcache_test_lib.sv|D:/HCMUS/UVM/tb/hpdcache_base_test.sv|D:/HCMUS/UVM/tb/hpdcache_seq_lib.sv|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include/hpdcache_config.svh|D:/HCMUS/UVM/tb/tb_top.sv|
-Z124 !s90 -reportprogress|300|-sv|-work|work|+incdir+.|+incdir+D:/HCMUS/UVM/sv|+incdir+D:/HCMUS/UVM/tb|+incdir+D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include|-L|mtiUvm|D:/HCMUS/UVM/tb/tb_top.sv|
+R106
+Z124 !s107 D:/HCMUS/UVM/tb/hpdcache_test_lib.sv|D:/HCMUS/UVM/tb/hpdcache_base_test.sv|D:/HCMUS/UVM/tb/hpdcache_seq_lib.sv|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include/hpdcache_config.svh|D:/HCMUS/UVM/tb/tb_top.sv|
+Z125 !s90 -reportprogress|300|-sv|-work|work|+incdir+.|+incdir+D:/HCMUS/UVM/sv|+incdir+D:/HCMUS/UVM/tb|+incdir+D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include|-L|mtiUvm|D:/HCMUS/UVM/tb/tb_top.sv|
 !i113 0
-R102
-R103
+R104
+R105
 R6
 Xtb_top_sv_unit
-R119
-R87
-R8
-R88
-R37
 R120
 R89
+R8
+R90
+R84
+R121
+R91
 VM1DQM]KcaL[Bl=OLJOAh=0
 r1
 !s85 0
@@ -4292,12 +4292,10 @@ IM1DQM]KcaL[Bl=OLJOAh=0
 S1
 R3
 w1783443758
-R121
 R122
+R123
 FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/include/hpdcache_config.svh
-R42
-R90
-R91
+FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh
 R92
 R93
 R94
@@ -4308,6 +4306,8 @@ R98
 R99
 R100
 R101
+R102
+R103
 FD:/HCMUS/UVM/tb/hpdcache_seq_lib.sv
 FD:/HCMUS/UVM/tb/hpdcache_base_test.sv
 FD:/HCMUS/UVM/tb/hpdcache_test_lib.sv
@@ -4315,26 +4315,26 @@ FD:/HCMUS/UVM/tb/hpdcache_test_lib.sv
 L0 9 0
 R17
 31
-R104
-R123
+R106
 R124
+R125
 !i113 0
-R102
-R103
+R104
+R105
 R6
 vtc_sram
-2D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv
+2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv
 R8
 R29
 !i10b 1
 !s100 6^KWPSZiF`nZbQW1PS5_A3
-IUOAYW9V81bnFzV55WYTR:0
+IK54IaD?hEg73jBUZGK`a;0
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv
-FD:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv
-!i122 4026
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv
+!i122 5480
 L0 56 193
 R16
 R17
@@ -4342,24 +4342,24 @@ r1
 !s85 0
 31
 R30
-!s107 D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv|
+!s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv|
 !i113 0
 R19
 R6
 vtc_sram_wrapper
-2D:/HCMUS/THESIS/cva6-master/common/local/util/tc_sram_wrapper.sv
+2D:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper.sv
 R8
 R29
 !i10b 1
 !s100 JbNM2gE[dn3V30@GR@ZlN3
-I]6aW^n3Mfa=m^[eB9f?N40
+If0Lo4ENo?HiMKWg]6GOQi2
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/common/local/util/tc_sram_wrapper.sv
-FD:/HCMUS/THESIS/cva6-master/common/local/util/tc_sram_wrapper.sv
-!i122 4027
+8D:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper.sv
+FD:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper.sv
+!i122 5481
 L0 10 51
 R16
 R17
@@ -4367,24 +4367,24 @@ r1
 !s85 0
 31
 R30
-!s107 D:/HCMUS/THESIS/cva6-master/common/local/util/tc_sram_wrapper.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/common/local/util/tc_sram_wrapper.sv|
+!s107 D:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper.sv|
 !i113 0
 R19
 R6
 vtc_sram_wrapper_cache_techno
-2D:/HCMUS/THESIS/cva6-master/common/local/util/tc_sram_wrapper_cache_techno.sv
+2D:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper_cache_techno.sv
 R8
 R29
 !i10b 1
 !s100 MFhiUSJRngWnMKZ;dgzoP2
-I7dQeISM=i@OjifRHzk<o_1
+I@iN^hn`1JFhD>coj@k6lF2
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/common/local/util/tc_sram_wrapper_cache_techno.sv
-FD:/HCMUS/THESIS/cva6-master/common/local/util/tc_sram_wrapper_cache_techno.sv
-!i122 4028
+8D:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper_cache_techno.sv
+FD:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper_cache_techno.sv
+!i122 5482
 L0 13 52
 R16
 R17
@@ -4392,24 +4392,24 @@ r1
 !s85 0
 31
 R30
-!s107 D:/HCMUS/THESIS/cva6-master/common/local/util/tc_sram_wrapper_cache_techno.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/common/local/util/tc_sram_wrapper_cache_techno.sv|
+!s107 D:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper_cache_techno.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper_cache_techno.sv|
 !i113 0
 R19
 R6
 vunread
-2D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/unread.sv
+2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/unread.sv
 R8
 R29
 !i10b 1
 !s100 DB9FlkePX9kCczGL:za3>3
-IB]U;1EZ8E[2?_2Ugn]j0Z0
+IjWi;7hcCZ;a@U89_ScJaE0
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/unread.sv
-FD:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/unread.sv
-!i122 4021
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/unread.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/unread.sv
+!i122 5475
 L0 16 5
 R16
 R17
@@ -4417,33 +4417,33 @@ r1
 !s85 0
 31
 R30
-!s107 D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/unread.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/vendor/pulp-platform/common_cells/src/unread.sv|
+!s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/unread.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/unread.sv|
 !i113 0
 R19
 R6
 Xwt_cache_pkg
-2D:/HCMUS/THESIS/cva6-master/core/include/wt_cache_pkg.sv
+2D:/khoaluantotnghiep/cva6-master/core/include/wt_cache_pkg.sv
 R8
-R24
+R23
 !i10b 1
 !s100 zUhKHVbD@=T9=aKN;Mg;@1
-IQZ`EUh=oHoeC[L_d>5=9L3
+IKL1d3MHET>`dT=4lf4dk<0
 S1
 R14
 R15
-8D:/HCMUS/THESIS/cva6-master/core/include/wt_cache_pkg.sv
-FD:/HCMUS/THESIS/cva6-master/core/include/wt_cache_pkg.sv
-!i122 4009
+8D:/khoaluantotnghiep/cva6-master/core/include/wt_cache_pkg.sv
+FD:/khoaluantotnghiep/cva6-master/core/include/wt_cache_pkg.sv
+!i122 5463
 R32
-VQZ`EUh=oHoeC[L_d>5=9L3
+VKL1d3MHET>`dT=4lf4dk<0
 R17
 r1
 !s85 0
 31
-R25
-!s107 D:/HCMUS/THESIS/cva6-master/core/include/wt_cache_pkg.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/HCMUS/THESIS/cva6-master/core/include/wt_cache_pkg.sv|
+R24
+!s107 D:/khoaluantotnghiep/cva6-master/core/include/wt_cache_pkg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/include/wt_cache_pkg.sv|
 !i113 0
 R19
 R6
