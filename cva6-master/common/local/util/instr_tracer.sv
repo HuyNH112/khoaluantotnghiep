@@ -11,7 +11,7 @@
 // Author: Florian Zaruba, ETH Zurich
 // Date: 16.05.2017
 // Description: Instruction Tracer Main Class
-
+`timescale 1ns/1ps
 `ifndef VERILATOR
 //pragma translate_off
 `include "ex_trace_item.svh"

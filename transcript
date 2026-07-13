@@ -153,789 +153,102 @@ project compileall
 # Compile of tb_hpdcache_new.sv was successful.
 # Compile of tb_hpdcache_prefetch.sv was successful.
 # Compile of tb_plru.sv was successful.
-# Compile of tb_cva6_full_integration.sv failed with 30 errors.
-# 155 compiles, 1 failed with 30 errors.
-project compileall
-# Compile of rvfi_types.svh was successful.
-# Compile of cvxif_types.svh was successful.
-# Compile of registers.svh was successful.
-# Compile of hpdcache_typedef.svh was successful.
-# Compile of hpdcache_config.svh was successful.
-# Compile of config_pkg.sv was successful.
-# Compile of cv32a6_imac_sv32_config_pkg.sv was successful.
-# Compile of riscv_pkg.sv was successful.
-# Compile of ariane_pkg.sv was successful.
-# Compile of axi_pkg.sv was successful.
-# Compile of wt_cache_pkg.sv was successful.
-# Compile of build_config_pkg.sv was successful.
-# Compile of dummy_l15_pkg.sv was successful.
-# Compile of cf_math_pkg.sv was successful.
-# Compile of fifo_v3.sv was successful.
-# Compile of stream_arbiter.sv was successful.
-# Compile of stream_arbiter_flushable.sv was successful.
-# Compile of stream_mux.sv was successful.
-# Compile of stream_demux.sv was successful.
-# Compile of lzc.sv was successful with warnings.
-# Compile of rr_arb_tree.sv was successful.
-# Compile of shift_reg.sv was successful.
-# Compile of unread.sv was successful.
-# Compile of popcount.sv was successful.
-# Compile of exp_backoff.sv was successful.
-# Compile of counter.sv was successful.
-# Compile of delta_counter.sv was successful with warnings.
-# Compile of tc_sram.sv was successful with warnings.
-# Compile of tc_sram_wrapper.sv was successful.
-# Compile of tc_sram_wrapper_cache_techno.sv was successful.
-# Compile of sram.sv was successful.
-# Compile of sram_cache.sv was successful with warnings.
-# Compile of bht.sv was successful with warnings.
-# Compile of btb.sv was successful with warnings.
-# Compile of bht2lvl.sv was successful.
-# Compile of ras.sv was successful.
-# Compile of instr_scan.sv was successful.
-# Compile of instr_queue.sv was successful with warnings.
-# Compile of frontend.sv was successful.
-# Compile of plru_tree.sv was successful.
-# Compile of plru.sv was successful.
-# Compile of cva6_icache.sv was successful.
-# Compile of cva6_icache_axi_wrapper.sv was successful.
-# Compile of cva6_tlb.sv was successful.
-# Compile of lfsr.sv was successful with warnings.
-# Compile of cva6_shared_tlb.sv was successful.
-# Compile of cva6_ptw.sv was successful with warnings.
-# Compile of cva6_mmu.sv was successful with warnings.
-# Compile of pmp_entry.sv was successful.
-# Compile of pmp.sv was successful with warnings.
-# Compile of pmp_data_if.sv was successful with warnings.
-# Compile of decoder.sv was successful.
-# Compile of compressed_decoder.sv was successful.
-# Compile of macro_decoder.sv was successful.
-# Compile of instr_realign.sv was successful with warnings.
-# Compile of id_stage.sv was successful with warnings.
-# Compile of ariane_regfile_ff.sv was successful with warnings.
-# Compile of scoreboard.sv was successful with warnings.
-# Compile of cvxif_issue_register_commit_if_driver.sv was successful.
-# Compile of issue_read_operands.sv was successful with warnings.
-# Compile of issue_stage.sv was successful with warnings.
-# Compile of alu.sv was successful with warnings.
-# Compile of alu_wrapper.sv was successful with warnings.
-# Compile of branch_unit.sv was successful.
-# Compile of mult.sv was successful.
-# Compile of multiplier.sv was successful with warnings.
-# Compile of serdiv.sv was successful.
-# Compile of csr_buffer.sv was successful.
-# Compile of raw_checker.sv was successful with warnings.
-# Compile of perf_counters.sv was successful with warnings.
-# Compile of aes_pkg.sv was successful.
-# Compile of aes.sv was successful.
-# Compile of ex_stage.sv was successful with warnings.
-# Compile of amo_buffer.sv was successful with warnings.
-# Compile of store_buffer.sv was successful.
-# Compile of store_unit.sv was successful with warnings.
-# Compile of load_unit.sv was successful.
-# Compile of load_store_unit.sv was successful with warnings.
-# Compile of lsu_bypass.sv was successful.
-# Compile of commit_stage.sv was successful with warnings.
-# Compile of controller.sv was successful.
-# Compile of csr_regfile.sv was successful with warnings.
-# Compile of axi_shim.sv was successful with warnings.
-# Compile of cva6_fifo_v3.sv was successful.
-# Compile of hpdcache_pkg.sv was successful.
-# Compile of hpdcache_mem_req_read_arbiter.sv was successful.
-# Compile of hpdcache_mem_req_write_arbiter.sv was successful.
-# Compile of hpdcache_demux.sv was successful with warnings.
-# Compile of hpdcache_lfsr.sv was successful.
-# Compile of hpdcache_sync_buffer.sv was successful.
-# Compile of hpdcache_fifo_reg.sv was successful with warnings.
-# Compile of hpdcache_fifo_reg_initialized.sv was successful.
-# Compile of hpdcache_fxarb.sv was successful.
-# Compile of hpdcache_rrarb.sv was successful.
-# Compile of hpdcache_mux.sv was successful with warnings.
-# Compile of hpdcache_decoder.sv was successful.
-# Compile of hpdcache_1hot_to_binary.sv was successful.
-# Compile of hpdcache_prio_1hot_encoder.sv was successful.
-# Compile of hpdcache_prio_bin_encoder.sv was successful.
-# Compile of hpdcache_sram.sv was successful with warnings.
-# Compile of hpdcache_sram_wbyteenable.sv was successful with warnings.
-# Compile of hpdcache_sram_wmask.sv was successful with warnings.
-# Compile of hpdcache_regbank_wbyteenable_1rw.sv was successful.
-# Compile of hpdcache_regbank_wmask_1rw.sv was successful.
-# Compile of hpdcache_data_downsize.sv was successful.
-# Compile of hpdcache_data_upsize.sv was successful.
-# Compile of hpdcache_data_resize.sv was successful.
-# Compile of hwpf_stride_pkg.sv was successful.
-# Compile of hwpf_stride.sv was successful with warnings.
-# Compile of hwpf_stride_arb.sv was successful.
-# Compile of hwpf_stride_wrapper.sv was successful with warnings.
-# Compile of cva6_hpdcache_if_adapter.sv was successful with warnings.
-# Compile of cva6_hpdcache_cmo_if_adapter.sv was successful.
-# Compile of domino_pkg.sv was successful.
-# Compile of domino_trigger_detector.sv was successful.
-# Compile of domino_history_buffers.sv was successful.
-# Compile of domino_xor_hash.sv was successful.
-# Compile of domino_mht_ram.sv was successful.
-# Compile of domino_prefetcher_top.sv was successful.
-# Compile of hpdcache.sv was successful with warnings.
-# Compile of cva6_hpdcache_wrapper.sv was successful with warnings.
-# Compile of hpdcache_amo.sv was successful with warnings.
-# Compile of hpdcache_cmo.sv was successful with warnings.
-# Compile of hpdcache_core_arbiter.sv was successful with warnings.
-# Compile of hpdcache_ctrl.sv was successful with warnings.
-# Compile of hpdcache_ctrl_pe.sv was successful.
-# Compile of hpdcache_memctrl.sv was successful with warnings.
-# Compile of hpdcache_cbuf.sv was successful.
-# Compile of hpdcache_miss_handler.sv was successful with warnings.
-# Compile of hpdcache_mshr.sv was successful with warnings.
-# Compile of hpdcache_rtab.sv was successful with warnings.
-# Compile of hpdcache_uncached.sv was successful with warnings.
-# Compile of hpdcache_victim_plru.sv was successful.
-# Compile of hpdcache_victim_random.sv was successful.
-# Compile of hpdcache_victim_sel.sv was successful.
-# Compile of hpdcache_wbuf.sv was successful with warnings.
-# Compile of hpdcache_flush.sv was successful.
-# Compile of hpdcache_wrapper.sv was successful with warnings.
-# Compile of hpdcache_sram_1rw.sv was successful with warnings.
-# Compile of hpdcache_sram_wbyteenable_1rw.sv was successful with warnings.
-# Compile of hpdcache_sram_wmask_1rw.sv was successful with warnings.
-# Compile of hpdcache_mem_resp_demux.sv was successful with warnings.
-# Compile of hpdcache_mem_to_axi_write.sv was successful.
-# Compile of hpdcache_mem_to_axi_read.sv was successful.
-# Compile of cva6_hpdcache_subsystem_axi_arbiter.sv was successful.
-# Compile of cva6_hpdcache_subsystem.sv was successful with warnings.
-# Compile of cva6.sv was successful with warnings.
-# Compile of instr_tracer_pkg.sv was successful.
-# Compile of instr_tracer.sv was successful with warnings.
-# Compile of cva6_rvfi_probes.sv was successful with warnings.
-# Compile of tb_cva6.sv was successful.
-# Compile of tb_hpdcache_new.sv was successful.
-# Compile of tb_hpdcache_prefetch.sv was successful.
-# Compile of tb_plru.sv was successful.
-# Compile of tb_cva6_full_integration_FINAL_VERIFIED.sv failed with 10 errors.
-# 155 compiles, 1 failed with 10 errors.
-project compileall
-# Compile of rvfi_types.svh was successful.
-# Compile of cvxif_types.svh was successful.
-# Compile of registers.svh was successful.
-# Compile of hpdcache_typedef.svh was successful.
-# Compile of hpdcache_config.svh was successful.
-# Compile of config_pkg.sv was successful.
-# Compile of cv32a6_imac_sv32_config_pkg.sv was successful.
-# Compile of riscv_pkg.sv was successful.
-# Compile of ariane_pkg.sv was successful.
-# Compile of axi_pkg.sv was successful.
-# Compile of wt_cache_pkg.sv was successful.
-# Compile of build_config_pkg.sv was successful.
-# Compile of dummy_l15_pkg.sv was successful.
-# Compile of cf_math_pkg.sv was successful.
-# Compile of fifo_v3.sv was successful.
-# Compile of stream_arbiter.sv was successful.
-# Compile of stream_arbiter_flushable.sv was successful.
-# Compile of stream_mux.sv was successful.
-# Compile of stream_demux.sv was successful.
-# Compile of lzc.sv was successful with warnings.
-# Compile of rr_arb_tree.sv was successful.
-# Compile of shift_reg.sv was successful.
-# Compile of unread.sv was successful.
-# Compile of popcount.sv was successful.
-# Compile of exp_backoff.sv was successful.
-# Compile of counter.sv was successful.
-# Compile of delta_counter.sv was successful with warnings.
-# Compile of tc_sram.sv was successful with warnings.
-# Compile of tc_sram_wrapper.sv was successful.
-# Compile of tc_sram_wrapper_cache_techno.sv was successful.
-# Compile of sram.sv was successful.
-# Compile of sram_cache.sv was successful with warnings.
-# Compile of bht.sv was successful with warnings.
-# Compile of btb.sv was successful with warnings.
-# Compile of bht2lvl.sv was successful.
-# Compile of ras.sv was successful.
-# Compile of instr_scan.sv was successful.
-# Compile of instr_queue.sv was successful with warnings.
-# Compile of frontend.sv was successful.
-# Compile of plru_tree.sv was successful.
-# Compile of plru.sv was successful.
-# Compile of cva6_icache.sv was successful.
-# Compile of cva6_icache_axi_wrapper.sv was successful.
-# Compile of cva6_tlb.sv was successful.
-# Compile of lfsr.sv was successful with warnings.
-# Compile of cva6_shared_tlb.sv was successful.
-# Compile of cva6_ptw.sv was successful with warnings.
-# Compile of cva6_mmu.sv was successful with warnings.
-# Compile of pmp_entry.sv was successful.
-# Compile of pmp.sv was successful with warnings.
-# Compile of pmp_data_if.sv was successful with warnings.
-# Compile of decoder.sv was successful.
-# Compile of compressed_decoder.sv was successful.
-# Compile of macro_decoder.sv was successful.
-# Compile of instr_realign.sv was successful with warnings.
-# Compile of id_stage.sv was successful with warnings.
-# Compile of ariane_regfile_ff.sv was successful with warnings.
-# Compile of scoreboard.sv was successful with warnings.
-# Compile of cvxif_issue_register_commit_if_driver.sv was successful.
-# Compile of issue_read_operands.sv was successful with warnings.
-# Compile of issue_stage.sv was successful with warnings.
-# Compile of alu.sv was successful with warnings.
-# Compile of alu_wrapper.sv was successful with warnings.
-# Compile of branch_unit.sv was successful.
-# Compile of mult.sv was successful.
-# Compile of multiplier.sv was successful with warnings.
-# Compile of serdiv.sv was successful.
-# Compile of csr_buffer.sv was successful.
-# Compile of raw_checker.sv was successful with warnings.
-# Compile of perf_counters.sv was successful with warnings.
-# Compile of aes_pkg.sv was successful.
-# Compile of aes.sv was successful.
-# Compile of ex_stage.sv was successful with warnings.
-# Compile of amo_buffer.sv was successful with warnings.
-# Compile of store_buffer.sv was successful.
-# Compile of store_unit.sv was successful with warnings.
-# Compile of load_unit.sv was successful.
-# Compile of load_store_unit.sv was successful with warnings.
-# Compile of lsu_bypass.sv was successful.
-# Compile of commit_stage.sv was successful with warnings.
-# Compile of controller.sv was successful.
-# Compile of csr_regfile.sv was successful with warnings.
-# Compile of axi_shim.sv was successful with warnings.
-# Compile of cva6_fifo_v3.sv was successful.
-# Compile of hpdcache_pkg.sv was successful.
-# Compile of hpdcache_mem_req_read_arbiter.sv was successful.
-# Compile of hpdcache_mem_req_write_arbiter.sv was successful.
-# Compile of hpdcache_demux.sv was successful with warnings.
-# Compile of hpdcache_lfsr.sv was successful.
-# Compile of hpdcache_sync_buffer.sv was successful.
-# Compile of hpdcache_fifo_reg.sv was successful with warnings.
-# Compile of hpdcache_fifo_reg_initialized.sv was successful.
-# Compile of hpdcache_fxarb.sv was successful.
-# Compile of hpdcache_rrarb.sv was successful.
-# Compile of hpdcache_mux.sv was successful with warnings.
-# Compile of hpdcache_decoder.sv was successful.
-# Compile of hpdcache_1hot_to_binary.sv was successful.
-# Compile of hpdcache_prio_1hot_encoder.sv was successful.
-# Compile of hpdcache_prio_bin_encoder.sv was successful.
-# Compile of hpdcache_sram.sv was successful with warnings.
-# Compile of hpdcache_sram_wbyteenable.sv was successful with warnings.
-# Compile of hpdcache_sram_wmask.sv was successful with warnings.
-# Compile of hpdcache_regbank_wbyteenable_1rw.sv was successful.
-# Compile of hpdcache_regbank_wmask_1rw.sv was successful.
-# Compile of hpdcache_data_downsize.sv was successful.
-# Compile of hpdcache_data_upsize.sv was successful.
-# Compile of hpdcache_data_resize.sv was successful.
-# Compile of hwpf_stride_pkg.sv was successful.
-# Compile of hwpf_stride.sv was successful with warnings.
-# Compile of hwpf_stride_arb.sv was successful.
-# Compile of hwpf_stride_wrapper.sv was successful with warnings.
-# Compile of cva6_hpdcache_if_adapter.sv was successful with warnings.
-# Compile of cva6_hpdcache_cmo_if_adapter.sv was successful.
-# Compile of domino_pkg.sv was successful.
-# Compile of domino_trigger_detector.sv was successful.
-# Compile of domino_history_buffers.sv was successful.
-# Compile of domino_xor_hash.sv was successful.
-# Compile of domino_mht_ram.sv was successful.
-# Compile of domino_prefetcher_top.sv was successful.
-# Compile of hpdcache.sv was successful with warnings.
-# Compile of cva6_hpdcache_wrapper.sv was successful with warnings.
-# Compile of hpdcache_amo.sv was successful with warnings.
-# Compile of hpdcache_cmo.sv was successful with warnings.
-# Compile of hpdcache_core_arbiter.sv was successful with warnings.
-# Compile of hpdcache_ctrl.sv was successful with warnings.
-# Compile of hpdcache_ctrl_pe.sv was successful.
-# Compile of hpdcache_memctrl.sv was successful with warnings.
-# Compile of hpdcache_cbuf.sv was successful.
-# Compile of hpdcache_miss_handler.sv was successful with warnings.
-# Compile of hpdcache_mshr.sv was successful with warnings.
-# Compile of hpdcache_rtab.sv was successful with warnings.
-# Compile of hpdcache_uncached.sv was successful with warnings.
-# Compile of hpdcache_victim_plru.sv was successful.
-# Compile of hpdcache_victim_random.sv was successful.
-# Compile of hpdcache_victim_sel.sv was successful.
-# Compile of hpdcache_wbuf.sv was successful with warnings.
-# Compile of hpdcache_flush.sv was successful.
-# Compile of hpdcache_wrapper.sv was successful with warnings.
-# Compile of hpdcache_sram_1rw.sv was successful with warnings.
-# Compile of hpdcache_sram_wbyteenable_1rw.sv was successful with warnings.
-# Compile of hpdcache_sram_wmask_1rw.sv was successful with warnings.
-# Compile of hpdcache_mem_resp_demux.sv was successful with warnings.
-# Compile of hpdcache_mem_to_axi_write.sv was successful.
-# Compile of hpdcache_mem_to_axi_read.sv was successful.
-# Compile of cva6_hpdcache_subsystem_axi_arbiter.sv was successful.
-# Compile of cva6_hpdcache_subsystem.sv was successful with warnings.
-# Compile of cva6.sv was successful with warnings.
-# Compile of instr_tracer_pkg.sv was successful.
-# Compile of instr_tracer.sv was successful with warnings.
-# Compile of cva6_rvfi_probes.sv was successful with warnings.
-# Compile of tb_cva6.sv was successful.
-# Compile of tb_hpdcache_new.sv was successful.
-# Compile of tb_hpdcache_prefetch.sv was successful.
-# Compile of tb_plru.sv was successful.
-# Compile of tb_cva6_full_integration_FINAL.sv failed with 9 errors.
-# 155 compiles, 1 failed with 9 errors.
-project compileall
-# Compile of rvfi_types.svh was successful.
-# Compile of cvxif_types.svh was successful.
-# Compile of registers.svh was successful.
-# Compile of hpdcache_typedef.svh was successful.
-# Compile of hpdcache_config.svh was successful.
-# Compile of config_pkg.sv was successful.
-# Compile of cv32a6_imac_sv32_config_pkg.sv was successful.
-# Compile of riscv_pkg.sv was successful.
-# Compile of ariane_pkg.sv was successful.
-# Compile of axi_pkg.sv was successful.
-# Compile of wt_cache_pkg.sv was successful.
-# Compile of build_config_pkg.sv was successful.
-# Compile of dummy_l15_pkg.sv was successful.
-# Compile of cf_math_pkg.sv was successful.
-# Compile of fifo_v3.sv was successful.
-# Compile of stream_arbiter.sv was successful.
-# Compile of stream_arbiter_flushable.sv was successful.
-# Compile of stream_mux.sv was successful.
-# Compile of stream_demux.sv was successful.
-# Compile of lzc.sv was successful with warnings.
-# Compile of rr_arb_tree.sv was successful.
-# Compile of shift_reg.sv was successful.
-# Compile of unread.sv was successful.
-# Compile of popcount.sv was successful.
-# Compile of exp_backoff.sv was successful.
-# Compile of counter.sv was successful.
-# Compile of delta_counter.sv was successful with warnings.
-# Compile of tc_sram.sv was successful with warnings.
-# Compile of tc_sram_wrapper.sv was successful.
-# Compile of tc_sram_wrapper_cache_techno.sv was successful.
-# Compile of sram.sv was successful.
-# Compile of sram_cache.sv was successful with warnings.
-# Compile of bht.sv was successful with warnings.
-# Compile of btb.sv was successful with warnings.
-# Compile of bht2lvl.sv was successful.
-# Compile of ras.sv was successful.
-# Compile of instr_scan.sv was successful.
-# Compile of instr_queue.sv was successful with warnings.
-# Compile of frontend.sv was successful.
-# Compile of plru_tree.sv was successful.
-# Compile of plru.sv was successful.
-# Compile of cva6_icache.sv was successful.
-# Compile of cva6_icache_axi_wrapper.sv was successful.
-# Compile of cva6_tlb.sv was successful.
-# Compile of lfsr.sv was successful with warnings.
-# Compile of cva6_shared_tlb.sv was successful.
-# Compile of cva6_ptw.sv was successful with warnings.
-# Compile of cva6_mmu.sv was successful with warnings.
-# Compile of pmp_entry.sv was successful.
-# Compile of pmp.sv was successful with warnings.
-# Compile of pmp_data_if.sv was successful with warnings.
-# Compile of decoder.sv was successful.
-# Compile of compressed_decoder.sv was successful.
-# Compile of macro_decoder.sv was successful.
-# Compile of instr_realign.sv was successful with warnings.
-# Compile of id_stage.sv was successful with warnings.
-# Compile of ariane_regfile_ff.sv was successful with warnings.
-# Compile of scoreboard.sv was successful with warnings.
-# Compile of cvxif_issue_register_commit_if_driver.sv was successful.
-# Compile of issue_read_operands.sv was successful with warnings.
-# Compile of issue_stage.sv was successful with warnings.
-# Compile of alu.sv was successful with warnings.
-# Compile of alu_wrapper.sv was successful with warnings.
-# Compile of branch_unit.sv was successful.
-# Compile of mult.sv was successful.
-# Compile of multiplier.sv was successful with warnings.
-# Compile of serdiv.sv was successful.
-# Compile of csr_buffer.sv was successful.
-# Compile of raw_checker.sv was successful with warnings.
-# Compile of perf_counters.sv was successful with warnings.
-# Compile of aes_pkg.sv was successful.
-# Compile of aes.sv was successful.
-# Compile of ex_stage.sv was successful with warnings.
-# Compile of amo_buffer.sv was successful with warnings.
-# Compile of store_buffer.sv was successful.
-# Compile of store_unit.sv was successful with warnings.
-# Compile of load_unit.sv was successful.
-# Compile of load_store_unit.sv was successful with warnings.
-# Compile of lsu_bypass.sv was successful.
-# Compile of commit_stage.sv was successful with warnings.
-# Compile of controller.sv was successful.
-# Compile of csr_regfile.sv was successful with warnings.
-# Compile of axi_shim.sv was successful with warnings.
-# Compile of cva6_fifo_v3.sv was successful.
-# Compile of hpdcache_pkg.sv was successful.
-# Compile of hpdcache_mem_req_read_arbiter.sv was successful.
-# Compile of hpdcache_mem_req_write_arbiter.sv was successful.
-# Compile of hpdcache_demux.sv was successful with warnings.
-# Compile of hpdcache_lfsr.sv was successful.
-# Compile of hpdcache_sync_buffer.sv was successful.
-# Compile of hpdcache_fifo_reg.sv was successful with warnings.
-# Compile of hpdcache_fifo_reg_initialized.sv was successful.
-# Compile of hpdcache_fxarb.sv was successful.
-# Compile of hpdcache_rrarb.sv was successful.
-# Compile of hpdcache_mux.sv was successful with warnings.
-# Compile of hpdcache_decoder.sv was successful.
-# Compile of hpdcache_1hot_to_binary.sv was successful.
-# Compile of hpdcache_prio_1hot_encoder.sv was successful.
-# Compile of hpdcache_prio_bin_encoder.sv was successful.
-# Compile of hpdcache_sram.sv was successful with warnings.
-# Compile of hpdcache_sram_wbyteenable.sv was successful with warnings.
-# Compile of hpdcache_sram_wmask.sv was successful with warnings.
-# Compile of hpdcache_regbank_wbyteenable_1rw.sv was successful.
-# Compile of hpdcache_regbank_wmask_1rw.sv was successful.
-# Compile of hpdcache_data_downsize.sv was successful.
-# Compile of hpdcache_data_upsize.sv was successful.
-# Compile of hpdcache_data_resize.sv was successful.
-# Compile of hwpf_stride_pkg.sv was successful.
-# Compile of hwpf_stride.sv was successful with warnings.
-# Compile of hwpf_stride_arb.sv was successful.
-# Compile of hwpf_stride_wrapper.sv was successful with warnings.
-# Compile of cva6_hpdcache_if_adapter.sv was successful with warnings.
-# Compile of cva6_hpdcache_cmo_if_adapter.sv was successful.
-# Compile of domino_pkg.sv was successful.
-# Compile of domino_trigger_detector.sv was successful.
-# Compile of domino_history_buffers.sv was successful.
-# Compile of domino_xor_hash.sv was successful.
-# Compile of domino_mht_ram.sv was successful.
-# Compile of domino_prefetcher_top.sv was successful.
-# Compile of hpdcache.sv was successful with warnings.
-# Compile of cva6_hpdcache_wrapper.sv was successful with warnings.
-# Compile of hpdcache_amo.sv was successful with warnings.
-# Compile of hpdcache_cmo.sv was successful with warnings.
-# Compile of hpdcache_core_arbiter.sv was successful with warnings.
-# Compile of hpdcache_ctrl.sv was successful with warnings.
-# Compile of hpdcache_ctrl_pe.sv was successful.
-# Compile of hpdcache_memctrl.sv was successful with warnings.
-# Compile of hpdcache_cbuf.sv was successful.
-# Compile of hpdcache_miss_handler.sv was successful with warnings.
-# Compile of hpdcache_mshr.sv was successful with warnings.
-# Compile of hpdcache_rtab.sv was successful with warnings.
-# Compile of hpdcache_uncached.sv was successful with warnings.
-# Compile of hpdcache_victim_plru.sv was successful.
-# Compile of hpdcache_victim_random.sv was successful.
-# Compile of hpdcache_victim_sel.sv was successful.
-# Compile of hpdcache_wbuf.sv was successful with warnings.
-# Compile of hpdcache_flush.sv was successful.
-# Compile of hpdcache_wrapper.sv was successful with warnings.
-# Compile of hpdcache_sram_1rw.sv was successful with warnings.
-# Compile of hpdcache_sram_wbyteenable_1rw.sv was successful with warnings.
-# Compile of hpdcache_sram_wmask_1rw.sv was successful with warnings.
-# Compile of hpdcache_mem_resp_demux.sv was successful with warnings.
-# Compile of hpdcache_mem_to_axi_write.sv was successful.
-# Compile of hpdcache_mem_to_axi_read.sv was successful.
-# Compile of cva6_hpdcache_subsystem_axi_arbiter.sv was successful.
-# Compile of cva6_hpdcache_subsystem.sv was successful with warnings.
-# Compile of cva6.sv was successful with warnings.
-# Compile of instr_tracer_pkg.sv was successful.
-# Compile of instr_tracer.sv was successful with warnings.
-# Compile of cva6_rvfi_probes.sv was successful with warnings.
-# Compile of tb_cva6.sv was successful.
-# Compile of tb_hpdcache_new.sv was successful.
-# Compile of tb_hpdcache_prefetch.sv was successful.
-# Compile of tb_plru.sv was successful.
-# Compile of tb_cva6_full_integration_FINAL.sv failed with 2 errors.
-# 155 compiles, 1 failed with 2 errors.
-# Compile of rvfi_types.svh was successful.
-# Compile of cvxif_types.svh was successful.
-# Compile of registers.svh was successful.
-# Compile of hpdcache_typedef.svh was successful.
-# Compile of hpdcache_config.svh was successful.
-# Compile of config_pkg.sv was successful.
-# Compile of cv32a6_imac_sv32_config_pkg.sv was successful.
-# Compile of riscv_pkg.sv was successful.
-# Compile of ariane_pkg.sv was successful.
-# Compile of axi_pkg.sv was successful.
-# Compile of wt_cache_pkg.sv was successful.
-# Compile of build_config_pkg.sv was successful.
-# Compile of dummy_l15_pkg.sv was successful.
-# Compile of cf_math_pkg.sv was successful.
-# Compile of fifo_v3.sv was successful.
-# Compile of stream_arbiter.sv was successful.
-# Compile of stream_arbiter_flushable.sv was successful.
-# Compile of stream_mux.sv was successful.
-# Compile of stream_demux.sv was successful.
-# Compile of lzc.sv was successful with warnings.
-# Compile of rr_arb_tree.sv was successful.
-# Compile of shift_reg.sv was successful.
-# Compile of unread.sv was successful.
-# Compile of popcount.sv was successful.
-# Compile of exp_backoff.sv was successful.
-# Compile of counter.sv was successful.
-# Compile of delta_counter.sv was successful with warnings.
-# Compile of tc_sram.sv was successful with warnings.
-# Compile of tc_sram_wrapper.sv was successful.
-# Compile of tc_sram_wrapper_cache_techno.sv was successful.
-# Compile of sram.sv was successful.
-# Compile of sram_cache.sv was successful with warnings.
-# Compile of bht.sv was successful with warnings.
-# Compile of btb.sv was successful with warnings.
-# Compile of bht2lvl.sv was successful.
-# Compile of ras.sv was successful.
-# Compile of instr_scan.sv was successful.
-# Compile of instr_queue.sv was successful with warnings.
-# Compile of frontend.sv was successful.
-# Compile of plru_tree.sv was successful.
-# Compile of plru.sv was successful.
-# Compile of cva6_icache.sv was successful.
-# Compile of cva6_icache_axi_wrapper.sv was successful.
-# Compile of cva6_tlb.sv was successful.
-# Compile of lfsr.sv was successful with warnings.
-# Compile of cva6_shared_tlb.sv was successful.
-# Compile of cva6_ptw.sv was successful with warnings.
-# Compile of cva6_mmu.sv was successful with warnings.
-# Compile of pmp_entry.sv was successful.
-# Compile of pmp.sv was successful with warnings.
-# Compile of pmp_data_if.sv was successful with warnings.
-# Compile of decoder.sv was successful.
-# Compile of compressed_decoder.sv was successful.
-# Compile of macro_decoder.sv was successful.
-# Compile of instr_realign.sv was successful with warnings.
-# Compile of id_stage.sv was successful with warnings.
-# Compile of ariane_regfile_ff.sv was successful with warnings.
-# Compile of scoreboard.sv was successful with warnings.
-# Compile of cvxif_issue_register_commit_if_driver.sv was successful.
-# Compile of issue_read_operands.sv was successful with warnings.
-# Compile of issue_stage.sv was successful with warnings.
-# Compile of alu.sv was successful with warnings.
-# Compile of alu_wrapper.sv was successful with warnings.
-# Compile of branch_unit.sv was successful.
-# Compile of mult.sv was successful.
-# Compile of multiplier.sv was successful with warnings.
-# Compile of serdiv.sv was successful.
-# Compile of csr_buffer.sv was successful.
-# Compile of raw_checker.sv was successful with warnings.
-# Compile of perf_counters.sv was successful with warnings.
-# Compile of aes_pkg.sv was successful.
-# Compile of aes.sv was successful.
-# Compile of ex_stage.sv was successful with warnings.
-# Compile of amo_buffer.sv was successful with warnings.
-# Compile of store_buffer.sv was successful.
-# Compile of store_unit.sv was successful with warnings.
-# Compile of load_unit.sv was successful.
-# Compile of load_store_unit.sv was successful with warnings.
-# Compile of lsu_bypass.sv was successful.
-# Compile of commit_stage.sv was successful with warnings.
-# Compile of controller.sv was successful.
-# Compile of csr_regfile.sv was successful with warnings.
-# Compile of axi_shim.sv was successful with warnings.
-# Compile of cva6_fifo_v3.sv was successful.
-# Compile of hpdcache_pkg.sv was successful.
-# Compile of hpdcache_mem_req_read_arbiter.sv was successful.
-# Compile of hpdcache_mem_req_write_arbiter.sv was successful.
-# Compile of hpdcache_demux.sv was successful with warnings.
-# Compile of hpdcache_lfsr.sv was successful.
-# Compile of hpdcache_sync_buffer.sv was successful.
-# Compile of hpdcache_fifo_reg.sv was successful with warnings.
-# Compile of hpdcache_fifo_reg_initialized.sv was successful.
-# Compile of hpdcache_fxarb.sv was successful.
-# Compile of hpdcache_rrarb.sv was successful.
-# Compile of hpdcache_mux.sv was successful with warnings.
-# Compile of hpdcache_decoder.sv was successful.
-# Compile of hpdcache_1hot_to_binary.sv was successful.
-# Compile of hpdcache_prio_1hot_encoder.sv was successful.
-# Compile of hpdcache_prio_bin_encoder.sv was successful.
-# Compile of hpdcache_sram.sv was successful with warnings.
-# Compile of hpdcache_sram_wbyteenable.sv was successful with warnings.
-# Compile of hpdcache_sram_wmask.sv was successful with warnings.
-# Compile of hpdcache_regbank_wbyteenable_1rw.sv was successful.
-# Compile of hpdcache_regbank_wmask_1rw.sv was successful.
-# Compile of hpdcache_data_downsize.sv was successful.
-# Compile of hpdcache_data_upsize.sv was successful.
-# Compile of hpdcache_data_resize.sv was successful.
-# Compile of hwpf_stride_pkg.sv was successful.
-# Compile of hwpf_stride.sv was successful with warnings.
-# Compile of hwpf_stride_arb.sv was successful.
-# Compile of hwpf_stride_wrapper.sv was successful with warnings.
-# Compile of cva6_hpdcache_if_adapter.sv was successful with warnings.
-# Compile of cva6_hpdcache_cmo_if_adapter.sv was successful.
-# Compile of domino_pkg.sv was successful.
-# Compile of domino_trigger_detector.sv was successful.
-# Compile of domino_history_buffers.sv was successful.
-# Compile of domino_xor_hash.sv was successful.
-# Compile of domino_mht_ram.sv was successful.
-# Compile of domino_prefetcher_top.sv was successful.
-# Compile of hpdcache.sv was successful with warnings.
-# Compile of cva6_hpdcache_wrapper.sv was successful with warnings.
-# Compile of hpdcache_amo.sv was successful with warnings.
-# Compile of hpdcache_cmo.sv was successful with warnings.
-# Compile of hpdcache_core_arbiter.sv was successful with warnings.
-# Compile of hpdcache_ctrl.sv was successful with warnings.
-# Compile of hpdcache_ctrl_pe.sv was successful.
-# Compile of hpdcache_memctrl.sv was successful with warnings.
-# Compile of hpdcache_cbuf.sv was successful.
-# Compile of hpdcache_miss_handler.sv was successful with warnings.
-# Compile of hpdcache_mshr.sv was successful with warnings.
-# Compile of hpdcache_rtab.sv was successful with warnings.
-# Compile of hpdcache_uncached.sv was successful with warnings.
-# Compile of hpdcache_victim_plru.sv was successful.
-# Compile of hpdcache_victim_random.sv was successful.
-# Compile of hpdcache_victim_sel.sv was successful.
-# Compile of hpdcache_wbuf.sv was successful with warnings.
-# Compile of hpdcache_flush.sv was successful.
-# Compile of hpdcache_wrapper.sv was successful with warnings.
-# Compile of hpdcache_sram_1rw.sv was successful with warnings.
-# Compile of hpdcache_sram_wbyteenable_1rw.sv was successful with warnings.
-# Compile of hpdcache_sram_wmask_1rw.sv was successful with warnings.
-# Compile of hpdcache_mem_resp_demux.sv was successful with warnings.
-# Compile of hpdcache_mem_to_axi_write.sv was successful.
-# Compile of hpdcache_mem_to_axi_read.sv was successful.
-# Compile of cva6_hpdcache_subsystem_axi_arbiter.sv was successful.
-# Compile of cva6_hpdcache_subsystem.sv was successful with warnings.
-# Compile of cva6.sv was successful with warnings.
-# Compile of instr_tracer_pkg.sv was successful.
-# Compile of instr_tracer.sv was successful with warnings.
-# Compile of cva6_rvfi_probes.sv was successful with warnings.
-# Compile of tb_cva6.sv was successful.
-# Compile of tb_hpdcache_new.sv was successful.
-# Compile of tb_hpdcache_prefetch.sv was successful.
-# Compile of tb_plru.sv was successful.
 # Compile of tb_cva6_full_integration_FINAL_FIXED_ALL_ERRORS.sv was successful.
 # 155 compiles, 0 failed with no errors.
-project compileall
-# Compile of rvfi_types.svh was successful.
-# Compile of cvxif_types.svh was successful.
-# Compile of registers.svh was successful.
-# Compile of hpdcache_typedef.svh was successful.
-# Compile of hpdcache_config.svh was successful.
-# Compile of config_pkg.sv was successful.
-# Compile of cv32a6_imac_sv32_config_pkg.sv was successful.
-# Compile of riscv_pkg.sv was successful.
-# Compile of ariane_pkg.sv was successful.
-# Compile of axi_pkg.sv was successful.
-# Compile of wt_cache_pkg.sv was successful.
-# Compile of build_config_pkg.sv was successful.
-# Compile of dummy_l15_pkg.sv was successful.
-# Compile of cf_math_pkg.sv was successful.
-# Compile of fifo_v3.sv was successful.
-# Compile of stream_arbiter.sv was successful.
-# Compile of stream_arbiter_flushable.sv was successful.
-# Compile of stream_mux.sv was successful.
-# Compile of stream_demux.sv was successful.
-# Compile of lzc.sv was successful with warnings.
-# Compile of rr_arb_tree.sv was successful.
-# Compile of shift_reg.sv was successful.
-# Compile of unread.sv was successful.
-# Compile of popcount.sv was successful.
-# Compile of exp_backoff.sv was successful.
-# Compile of counter.sv was successful.
-# Compile of delta_counter.sv was successful with warnings.
-# Compile of tc_sram.sv was successful with warnings.
-# Compile of tc_sram_wrapper.sv was successful.
-# Compile of tc_sram_wrapper_cache_techno.sv was successful.
-# Compile of sram.sv was successful.
-# Compile of sram_cache.sv was successful with warnings.
-# Compile of bht.sv was successful with warnings.
-# Compile of btb.sv was successful with warnings.
-# Compile of bht2lvl.sv was successful.
-# Compile of ras.sv was successful.
-# Compile of instr_scan.sv was successful.
-# Compile of instr_queue.sv was successful with warnings.
-# Compile of frontend.sv was successful.
-# Compile of plru_tree.sv was successful.
-# Compile of plru.sv was successful.
-# Compile of cva6_icache.sv was successful.
-# Compile of cva6_icache_axi_wrapper.sv was successful.
-# Compile of cva6_tlb.sv was successful.
-# Compile of lfsr.sv was successful with warnings.
-# Compile of cva6_shared_tlb.sv was successful.
-# Compile of cva6_ptw.sv was successful with warnings.
-# Compile of cva6_mmu.sv was successful with warnings.
-# Compile of pmp_entry.sv was successful.
-# Compile of pmp.sv was successful with warnings.
-# Compile of pmp_data_if.sv was successful with warnings.
-# Compile of decoder.sv was successful.
-# Compile of compressed_decoder.sv was successful.
-# Compile of macro_decoder.sv was successful.
-# Compile of instr_realign.sv was successful with warnings.
-# Compile of id_stage.sv was successful with warnings.
-# Compile of ariane_regfile_ff.sv was successful with warnings.
-# Compile of scoreboard.sv was successful with warnings.
-# Compile of cvxif_issue_register_commit_if_driver.sv was successful.
-# Compile of issue_read_operands.sv was successful with warnings.
-# Compile of issue_stage.sv was successful with warnings.
-# Compile of alu.sv was successful with warnings.
-# Compile of alu_wrapper.sv was successful with warnings.
-# Compile of branch_unit.sv was successful.
-# Compile of mult.sv was successful.
-# Compile of multiplier.sv was successful with warnings.
-# Compile of serdiv.sv was successful.
-# Compile of csr_buffer.sv was successful.
-# Compile of raw_checker.sv was successful with warnings.
-# Compile of perf_counters.sv was successful with warnings.
-# Compile of aes_pkg.sv was successful.
-# Compile of aes.sv was successful.
-# Compile of ex_stage.sv was successful with warnings.
-# Compile of amo_buffer.sv was successful with warnings.
-# Compile of store_buffer.sv was successful.
-# Compile of store_unit.sv was successful with warnings.
-# Compile of load_unit.sv was successful.
-# Compile of load_store_unit.sv was successful with warnings.
-# Compile of lsu_bypass.sv was successful.
-# Compile of commit_stage.sv was successful with warnings.
-# Compile of controller.sv was successful.
-# Compile of csr_regfile.sv was successful with warnings.
-# Compile of axi_shim.sv was successful with warnings.
-# Compile of cva6_fifo_v3.sv was successful.
-# Compile of hpdcache_pkg.sv was successful.
-# Compile of hpdcache_mem_req_read_arbiter.sv was successful.
-# Compile of hpdcache_mem_req_write_arbiter.sv was successful.
-# Compile of hpdcache_demux.sv was successful with warnings.
-# Compile of hpdcache_lfsr.sv was successful.
-# Compile of hpdcache_sync_buffer.sv was successful.
-# Compile of hpdcache_fifo_reg.sv was successful with warnings.
-# Compile of hpdcache_fifo_reg_initialized.sv was successful.
-# Compile of hpdcache_fxarb.sv was successful.
-# Compile of hpdcache_rrarb.sv was successful.
-# Compile of hpdcache_mux.sv was successful with warnings.
-# Compile of hpdcache_decoder.sv was successful.
-# Compile of hpdcache_1hot_to_binary.sv was successful.
-# Compile of hpdcache_prio_1hot_encoder.sv was successful.
-# Compile of hpdcache_prio_bin_encoder.sv was successful.
-# Compile of hpdcache_sram.sv was successful with warnings.
-# Compile of hpdcache_sram_wbyteenable.sv was successful with warnings.
-# Compile of hpdcache_sram_wmask.sv was successful with warnings.
-# Compile of hpdcache_regbank_wbyteenable_1rw.sv was successful.
-# Compile of hpdcache_regbank_wmask_1rw.sv was successful.
-# Compile of hpdcache_data_downsize.sv was successful.
-# Compile of hpdcache_data_upsize.sv was successful.
-# Compile of hpdcache_data_resize.sv was successful.
-# Compile of hwpf_stride_pkg.sv was successful.
-# Compile of hwpf_stride.sv was successful with warnings.
-# Compile of hwpf_stride_arb.sv was successful.
-# Compile of hwpf_stride_wrapper.sv was successful with warnings.
-# Compile of cva6_hpdcache_if_adapter.sv was successful with warnings.
-# Compile of cva6_hpdcache_cmo_if_adapter.sv was successful.
-# Compile of domino_pkg.sv was successful.
-# Compile of domino_trigger_detector.sv was successful.
-# Compile of domino_history_buffers.sv was successful.
-# Compile of domino_xor_hash.sv was successful.
-# Compile of domino_mht_ram.sv was successful.
-# Compile of domino_prefetcher_top.sv was successful.
-# Compile of hpdcache.sv was successful with warnings.
-# Compile of cva6_hpdcache_wrapper.sv was successful with warnings.
-# Compile of hpdcache_amo.sv was successful with warnings.
-# Compile of hpdcache_cmo.sv was successful with warnings.
-# Compile of hpdcache_core_arbiter.sv was successful with warnings.
-# Compile of hpdcache_ctrl.sv was successful with warnings.
-# Compile of hpdcache_ctrl_pe.sv was successful.
-# Compile of hpdcache_memctrl.sv was successful with warnings.
-# Compile of hpdcache_cbuf.sv was successful.
-# Compile of hpdcache_miss_handler.sv was successful with warnings.
-# Compile of hpdcache_mshr.sv was successful with warnings.
-# Compile of hpdcache_rtab.sv was successful with warnings.
-# Compile of hpdcache_uncached.sv was successful with warnings.
-# Compile of hpdcache_victim_plru.sv was successful.
-# Compile of hpdcache_victim_random.sv was successful.
-# Compile of hpdcache_victim_sel.sv was successful.
-# Compile of hpdcache_wbuf.sv was successful with warnings.
-# Compile of hpdcache_flush.sv was successful.
-# Compile of hpdcache_wrapper.sv was successful with warnings.
-# Compile of hpdcache_sram_1rw.sv was successful with warnings.
-# Compile of hpdcache_sram_wbyteenable_1rw.sv was successful with warnings.
-# Compile of hpdcache_sram_wmask_1rw.sv was successful with warnings.
-# Compile of hpdcache_mem_resp_demux.sv was successful with warnings.
-# Compile of hpdcache_mem_to_axi_write.sv was successful.
-# Compile of hpdcache_mem_to_axi_read.sv was successful.
-# Compile of cva6_hpdcache_subsystem_axi_arbiter.sv was successful.
-# Compile of cva6_hpdcache_subsystem.sv was successful with warnings.
-# Compile of cva6.sv was successful with warnings.
-# Compile of instr_tracer_pkg.sv was successful.
-# Compile of instr_tracer.sv was successful with warnings.
-# Compile of cva6_rvfi_probes.sv was successful with warnings.
-# Compile of tb_cva6.sv was successful.
-# Compile of tb_hpdcache_new.sv was successful.
-# Compile of tb_hpdcache_prefetch.sv was successful.
-# Compile of tb_plru.sv was successful.
-# Compile of tb_cva6_full_integration_FINAL_FIXED_ALL_ERRORS.sv was successful.
-# 155 compiles, 0 failed with no errors.
+vsim work.tb_cva6_full_integration_WORKING
+# vsim work.tb_cva6_full_integration_WORKING 
+# Start time: 21:39:45 on Jul 12,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: D:/khoaluantotnghiep/testbench/tb_cva6_full_integration_FINAL_FIXED_ALL_ERRORS.sv(136): (vopt-2241) Connection width does not match width of port 'boot_addr_i'. The port definition is at: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(324).
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/frontend/instr_queue.sv(59): (vopt-13314) Defaulting port 'instr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/frontend/instr_queue.sv(61): (vopt-13314) Defaulting port 'addr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/frontend/instr_queue.sv(78): (vopt-13314) Defaulting port 'cf_type_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/raw_checker.sv(24): (vopt-13314) Defaulting port 'rd_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/ariane_regfile_ff.sv(37): (vopt-13314) Defaulting port 'raddr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/ariane_regfile_ff.sv(40): (vopt-13314) Defaulting port 'waddr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/ariane_regfile_ff.sv(41): (vopt-13314) Defaulting port 'wdata_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/issue_read_operands.sv(44): (vopt-13314) Defaulting port 'orig_instr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/issue_read_operands.sv(123): (vopt-13314) Defaulting port 'waddr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/issue_read_operands.sv(125): (vopt-13314) Defaulting port 'wdata_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/issue_stage.sv(48): (vopt-13314) Defaulting port 'orig_instr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/issue_stage.sv(136): (vopt-13314) Defaulting port 'trans_id_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/issue_stage.sv(140): (vopt-13314) Defaulting port 'wbdata_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/issue_stage.sv(150): (vopt-13314) Defaulting port 'waddr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/issue_stage.sv(152): (vopt-13314) Defaulting port 'wdata_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/alu_wrapper.sv(23): (vopt-13314) Defaulting port 'alu_bypass_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp.sv(25): (vopt-13314) Defaulting port 'conf_addr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp.sv(26): (vopt-13314) Defaulting port 'conf_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_ptw.sv(87): (vopt-13314) Defaulting port 'pmpcfg_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_ptw.sv(88): (vopt-13314) Defaulting port 'pmpaddr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_mmu.sv(104): (vopt-13314) Defaulting port 'pmpcfg_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_mmu.sv(105): (vopt-13314) Defaulting port 'pmpaddr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_data_if.sv(39): (vopt-13314) Defaulting port 'pmpcfg_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_data_if.sv(40): (vopt-13314) Defaulting port 'pmpaddr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/amo_buffer.sv(32): (vopt-13314) Defaulting port 'amo_resp_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/store_unit.sv(85): (vopt-13314) Defaulting port 'amo_resp_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/load_store_unit.sv(161): (vopt-13314) Defaulting port 'amo_resp_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/load_store_unit.sv(164): (vopt-13314) Defaulting port 'pmpcfg_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/load_store_unit.sv(166): (vopt-13314) Defaulting port 'pmpaddr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/ex_stage.sv(46): (vopt-13314) Defaulting port 'rs1_forwarding_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/ex_stage.sv(48): (vopt-13314) Defaulting port 'rs2_forwarding_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/ex_stage.sv(52): (vopt-13314) Defaulting port 'alu_bypass_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/ex_stage.sv(60): (vopt-13314) Defaulting port 'tinst_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/ex_stage.sv(235): (vopt-13314) Defaulting port 'amo_resp_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/ex_stage.sv(241): (vopt-13314) Defaulting port 'pmpcfg_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/ex_stage.sv(243): (vopt-13314) Defaulting port 'pmpaddr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/commit_stage.sv(54): (vopt-13314) Defaulting port 'amo_resp_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/csr_regfile.sv(192): (vopt-13314) Defaulting port 'orig_instr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/perf_counters.sv(57): (vopt-13314) Defaulting port 'miss_vld_bits_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv(32): (vopt-13314) Defaulting port 'instruction' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv(37): (vopt-13314) Defaulting port 'waddr' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv(38): (vopt-13314) Defaulting port 'wdata' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/cva6_rvfi_probes.sv(29): (vopt-13314) Defaulting port 'instruction_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/cva6_rvfi_probes.sv(32): (vopt-13314) Defaulting port 'issue_pointer_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/cva6_rvfi_probes.sv(33): (vopt-13314) Defaulting port 'commit_pointer_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/cva6_rvfi_probes.sv(39): (vopt-13314) Defaulting port 'rs1_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/cva6_rvfi_probes.sv(40): (vopt-13314) Defaulting port 'rs2_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/cva6_rvfi_probes.sv(48): (vopt-13314) Defaulting port 'wbdata_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/cva6_rvfi_probes.sv(52): (vopt-13314) Defaulting port 'wdata_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_ptw.sv(528): (vopt-2697) LSB 22 of part-select into 'ppn' is out of bounds.
+# ** Warning: D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_ptw.sv(589): (vopt-2697) LSB 22 of part-select into 'ppn' is out of bounds.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=52.
+# Loading sv_std.std
+# Loading work.config_pkg(fast)
+# Loading work.build_config_pkg(fast)
+# Loading work.axi_pkg(fast)
+# Loading work.cva6_config_pkg(fast)
+# Loading work.riscv(fast)
+# Loading work.ariane_pkg(fast)
+# Loading work.tb_cva6_full_integration_FINAL_FIXED_ALL_ERRORS_sv_unit(fast)
+# Loading work.tb_cva6_full_integration_WORKING(fast)
+# Loading work.instr_tracer_pkg(fast)
+# Loading work.instr_tracer_sv_unit(fast)
+# Loading work.aes_pkg(fast)
+# Loading work.cf_math_pkg(fast)
+# Loading work.wt_cache_pkg(fast)
+# Loading work.cva6(fast)
+# Loading work.scoreboard(fast)
+# Loading work.hwpf_stride_pkg(fast)
+# Loading work.domino_pkg(fast)
+# Loading work.domino_mht_ram_sv_unit(fast)
+# Loading work.domino_xor_hash_sv_unit(fast)
+# Loading work.domino_history_buffers_sv_unit(fast)
+# Loading work.domino_trigger_detector_sv_unit(fast)
+# Loading work.domino_prefetcher_top_sv_unit(fast)
+# Loading work.l15_pkg(fast)
+# Loading work.hpdcache_pkg(fast)
+# Loading work.cva6_hpdcache_subsystem(fast)
+# Loading work.hpdcache_mem_to_axi_write(fast)
+# Loading work.hpdcache_mem_to_axi_read(fast)
+# Loading work.cva6_hpdcache_if_adapter(fast)
+# Loading work.hpdcache_demux(fast)
+# Loading work.hpdcache_mux(fast__15)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (64) for port 'boot_addr_i'. The port definition is at: D:/khoaluantotnghiep/cva6-master/core/cva6.sv(324).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cva6_full_integration_WORKING/u_cva6 File: D:/khoaluantotnghiep/testbench/tb_cva6_full_integration_FINAL_FIXED_ALL_ERRORS.sv Line: 136
+# ** Error: (vsim-3043) Unresolved reference to 'issue_q' in issue_q[0].sbe.
+#    Time: 0 ps  Iteration: 0  Region: /tb_cva6_full_integration_WORKING/u_cva6/id_stage_i/genblk3[0] File: D:/khoaluantotnghiep/cva6-master/core/id_stage.sv Line: 373
+# ** Error: (vsim-3043) Unresolved reference to 'issue_n' in issue_n[0].sbe.
+#    Time: 0 ps  Iteration: 0  Region: /tb_cva6_full_integration_WORKING/u_cva6/id_stage_i/genblk3[0] File: D:/khoaluantotnghiep/cva6-master/core/id_stage.sv Line: 374
+# Error loading design
+# End time: 21:39:46 on Jul 12,2026, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 55

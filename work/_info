@@ -1,15 +1,19 @@
 m255
 K4
 z2
-Z0 !s12c _opt1
+Z0 !s12c _opt2
 Z1 !s99 nomlopt
-Z2 !s12c _opt
+R0
 R1
-!s12c _opt2
+Z2 !s12c _opt1
+R1
+Z3 !s12c _opt
 R1
 R0
 R1
 R2
+R1
+R3
 R1
 !s11f vlog 2023.3 2023.07, Jul 17 2023
 13
@@ -18,258 +22,257 @@ R1
 !i10e 25
 !i10f 100
 cModel Technology
-Z3 dD:/HCMUS/THESIS
+Z4 dD:/HCMUS/THESIS
 T_opt
 !s110 1783741499
 VcNPdBNKeFFF;lNJU9j]i@2
 04 7 4 work tb_cva6 fast 0
 =1-381428541227-6a51bc3a-3e2-286c
 R1
-Z4 !s12b OEM100
-!s124 OEM10U365 
-Z5 o-quiet -auto_acc_if_foreign -work work -suppress 3009,13174 +acc
-Z6 tCvgOpt 0
+Z5 !s12b OEM100
+Z6 !s124 OEM10U365 
+o-quiet -auto_acc_if_foreign -work work -suppress 3009,13174 +acc
+Z7 tCvgOpt 0
 n@_opt
-Z7 OL;O;2023.3;77
-R3
+Z8 OL;O;2023.3;77
+R4
 T_opt1
 !s110 1783764971
 Vn<bRf0Y?FP^9jaLdTV5Bf3
 04 15 4 work tb_cva6_sv_unit fast 0
 =1-381428541227-6a5217eb-30e-c73c
 R1
-R4
+R5
 !s124 OEM10U0 
-o-quiet -auto_acc_if_foreign -work work
-R6
-n@_opt1
+Z9 o-quiet -auto_acc_if_foreign -work work
 R7
-R3
-T_opt2
-!s110 1783739669
-V3T5eGl]o]J293[E7SIHzO0
-04 20 4 work tb_hpdcache_prefetch fast 0
-=1-381428541227-6a51b514-34e-f250
-R1
+n@_opt1
+R8
 R4
-!s124 OEM10U199 
+T_opt2
+!s110 1783867185
+V_E3I4XRnP[YAB]7Jfi35M0
+04 32 4 work tb_cva6_full_integration_WORKING fast 0
+=1-381428541227-6a53a731-129-18ec
+R1
 R5
 R6
-n@_opt2
+R9
 R7
-R3
+n@_opt2
+R8
 vaes
 2D:/khoaluantotnghiep/cva6-master/core/aes.sv
-Z8 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z9 DXx4 work 10 config_pkg 0 22 ;mbk1JTiPPgJ6IE=N>NaM1
-Z10 DXx4 work 15 cva6_config_pkg 0 22 =PUgY5:n7::eOUP3G08=21
-Z11 DXx4 work 5 riscv 0 22 >VPOUm;m^iedg=zeYIG=G3
-Z12 DXx4 work 10 ariane_pkg 0 22 `b:@R81LEcFBW?0ndnW0H2
+Z10 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z11 DXx4 work 10 config_pkg 0 22 ;mbk1JTiPPgJ6IE=N>NaM1
+Z12 DXx4 work 15 cva6_config_pkg 0 22 =PUgY5:n7::eOUP3G08=21
+Z13 DXx4 work 5 riscv 0 22 >VPOUm;m^iedg=zeYIG=G3
+Z14 DXx4 work 10 ariane_pkg 0 22 `b:@R81LEcFBW?0ndnW0H2
 DXx4 work 7 aes_pkg 0 22 7<4[_1IC7`EC2j_IFScik3
-Z13 !s110 1783863214
+Z15 !s110 1783867119
 !i10b 1
 !s100 ]:VW;:WzUOKPHA^j0z74Y0
 IYV5eb3lHViHHhNcAhk3hf0
 S1
-Z14 dD:/khoaluantotnghiep
-Z15 w1780322994
+Z16 dD:/khoaluantotnghiep
+Z17 w1780322994
 8D:/khoaluantotnghiep/cva6-master/core/aes.sv
 FD:/khoaluantotnghiep/cva6-master/core/aes.sv
-!i122 6422
+!i122 6872
 L0 13 222
-Z16 VDg1SIo80bB@j0V0VzS_@n1
-Z17 OL;L;2023.3;77
+Z18 VDg1SIo80bB@j0V0VzS_@n1
+Z19 OL;L;2023.3;77
 r1
 !s85 0
 31
-Z18 !s108 1783863213.000000
+Z20 !s108 1783867119.000000
 !s107 D:/khoaluantotnghiep/cva6-master/core/aes.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/aes.sv|
 !i113 0
-Z19 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R6
+Z21 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R7
 Xaes_pkg
 2D:/khoaluantotnghiep/cva6-master/core/include/aes_pkg.sv
-R8
-Z20 !s110 1783863213
+R10
+R15
 !i10b 1
 !s100 =BJLoFLU;T`FNG0;05d6V0
 I7<4[_1IC7`EC2j_IFScik3
 S1
-R14
-R15
+R16
+R17
 8D:/khoaluantotnghiep/cva6-master/core/include/aes_pkg.sv
 FD:/khoaluantotnghiep/cva6-master/core/include/aes_pkg.sv
-!i122 6421
-Z21 L0 13 0
+!i122 6871
+Z22 L0 13 0
 V7<4[_1IC7`EC2j_IFScik3
-R17
+R19
 r1
 !s85 0
 31
-R18
+R20
 !s107 D:/khoaluantotnghiep/cva6-master/core/include/aes_pkg.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/include/aes_pkg.sv|
 !i113 0
-R19
-R6
+R21
+R7
 valu
 2D:/khoaluantotnghiep/cva6-master/core/alu.sv
-R8
-R9
-R10
-R11
-R12
-Z22 !s110 1783863212
-!i10b 1
-!s100 JhdckTBmm]TDcK=PAeEXW3
-I><;2L?]]FDbD47PR9Gz7j0
-S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/alu.sv
-FD:/khoaluantotnghiep/cva6-master/core/alu.sv
-!i122 6412
-L0 21 393
-R16
-R17
-r1
-!s85 0
-31
-Z23 !s108 1783863212.000000
-!s107 D:/khoaluantotnghiep/cva6-master/core/alu.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/alu.sv|
-!i113 0
-R19
-R6
-valu_wrapper
-2D:/khoaluantotnghiep/cva6-master/core/alu_wrapper.sv
-R8
-R9
-R10
-R11
-R12
-R22
-!i10b 1
-!s100 jiA9<5Z6CcS42jSm1e0k<3
-IV=aFz]1ToJD3zLS`c6EeO2
-S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/alu_wrapper.sv
-FD:/khoaluantotnghiep/cva6-master/core/alu_wrapper.sv
-!i122 6413
-L0 15 57
-R16
-R17
-r1
-!s85 0
-31
-R23
-!s107 D:/khoaluantotnghiep/cva6-master/core/alu_wrapper.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/alu_wrapper.sv|
-!i113 0
-R19
-R6
-vamo_buffer
-2D:/khoaluantotnghiep/cva6-master/core/amo_buffer.sv
-R8
-R9
 R10
 R11
 R12
 R13
+R14
+Z23 !s110 1783867118
+!i10b 1
+!s100 JhdckTBmm]TDcK=PAeEXW3
+I><;2L?]]FDbD47PR9Gz7j0
+S1
+R16
+R17
+8D:/khoaluantotnghiep/cva6-master/core/alu.sv
+FD:/khoaluantotnghiep/cva6-master/core/alu.sv
+!i122 6862
+L0 21 393
+R18
+R19
+r1
+!s85 0
+31
+Z24 !s108 1783867118.000000
+!s107 D:/khoaluantotnghiep/cva6-master/core/alu.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/alu.sv|
+!i113 0
+R21
+R7
+valu_wrapper
+2D:/khoaluantotnghiep/cva6-master/core/alu_wrapper.sv
+R10
+R11
+R12
+R13
+R14
+R23
+!i10b 1
+!s100 jiA9<5Z6CcS42jSm1e0k<3
+IV=aFz]1ToJD3zLS`c6EeO2
+S1
+R16
+R17
+8D:/khoaluantotnghiep/cva6-master/core/alu_wrapper.sv
+FD:/khoaluantotnghiep/cva6-master/core/alu_wrapper.sv
+!i122 6863
+L0 15 57
+R18
+R19
+r1
+!s85 0
+31
+R24
+!s107 D:/khoaluantotnghiep/cva6-master/core/alu_wrapper.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/alu_wrapper.sv|
+!i113 0
+R21
+R7
+vamo_buffer
+2D:/khoaluantotnghiep/cva6-master/core/amo_buffer.sv
+R10
+R11
+R12
+R13
+R14
+R15
 !i10b 1
 !s100 J2ZlVSg`8YFQXhECboO7[1
 IYPbeO;5FB1@@mkbOWInMc3
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/amo_buffer.sv
-FD:/khoaluantotnghiep/cva6-master/core/amo_buffer.sv
-!i122 6424
-Z24 L0 17 67
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/amo_buffer.sv
+FD:/khoaluantotnghiep/cva6-master/core/amo_buffer.sv
+!i122 6874
+Z25 L0 17 67
+R18
+R19
 r1
 !s85 0
 31
-Z25 !s108 1783863214.000000
+R20
 !s107 D:/khoaluantotnghiep/cva6-master/core/amo_buffer.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/amo_buffer.sv|
 !i113 0
-R19
-R6
+R21
+R7
 Xariane_pkg
 2D:/khoaluantotnghiep/cva6-master/core/include/ariane_pkg.sv
-R8
-R9
 R10
 R11
-Z26 !s110 1783863205
+R12
+R13
+Z26 !s110 1783867115
 !i10b 1
 !s100 XG<0WI2H7LM4N42iI;B;o1
 I`b:@R81LEcFBW?0ndnW0H2
 S1
-R14
-R15
+R16
+R17
 8D:/khoaluantotnghiep/cva6-master/core/include/ariane_pkg.sv
 FD:/khoaluantotnghiep/cva6-master/core/include/ariane_pkg.sv
-!i122 6359
+!i122 6809
 L0 29 0
 V`b:@R81LEcFBW?0ndnW0H2
-R17
+R19
 r1
 !s85 0
 31
-Z27 !s108 1783863205.000000
+Z27 !s108 1783867115.000000
 !s107 D:/khoaluantotnghiep/cva6-master/core/include/ariane_pkg.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/include/ariane_pkg.sv|
 !i113 0
-R19
-R6
+R21
+R7
 variane_regfile
 2D:/khoaluantotnghiep/cva6-master/core/ariane_regfile_ff.sv
-R8
-R9
-Z28 !s110 1783863211
+R10
+R11
+R23
 !i10b 1
 !s100 `=FFS=ibJbLZWzUb?[_022
 IbZ=gW>YHd7:7WG7<_k<MA2
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/ariane_regfile_ff.sv
-FD:/khoaluantotnghiep/cva6-master/core/ariane_regfile_ff.sv
-!i122 6407
-L0 25 59
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/ariane_regfile_ff.sv
+FD:/khoaluantotnghiep/cva6-master/core/ariane_regfile_ff.sv
+!i122 6857
+L0 25 59
+R18
+R19
 r1
 !s85 0
 31
-Z29 !s108 1783863211.000000
+R24
 !s107 D:/khoaluantotnghiep/cva6-master/core/ariane_regfile_ff.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/ariane_regfile_ff.sv|
 !i113 0
-R19
-R6
+R21
+R7
 Xaxi_pkg
 2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/axi/src/axi_pkg.sv
-R8
+R10
 R26
 !i10b 1
 !s100 mhXa[i`IbVLG:cY:SPQFO3
 I;RW@BLczkQf7WXfjIY4NX2
 S1
-R14
-R15
+R16
+R17
 8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/axi/src/axi_pkg.sv
 FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/axi/src/axi_pkg.sv
-!i122 6360
+!i122 6810
 L0 21 0
 V;RW@BLczkQf7WXfjIY4NX2
-R17
+R19
 r1
 !s85 0
 31
@@ -277,165 +280,165 @@ R27
 !s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/axi/src/axi_pkg.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/axi/src/axi_pkg.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vaxi_shim
 2D:/khoaluantotnghiep/cva6-master/core/axi_shim.sv
-R8
-R9
-Z30 DXx4 work 7 axi_pkg 0 22 ;RW@BLczkQf7WXfjIY4NX2
-Z31 !s110 1783863215
+R10
+R11
+Z28 DXx4 work 7 axi_pkg 0 22 ;RW@BLczkQf7WXfjIY4NX2
+Z29 !s110 1783867120
 !i10b 1
 !s100 4bQ0jl;J2T<B>AKS[z`n80
 I5f?^0`czPH:=Ra;dOZU2b0
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/axi_shim.sv
-FD:/khoaluantotnghiep/cva6-master/core/axi_shim.sv
-!i122 6433
-L0 22 289
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/axi_shim.sv
+FD:/khoaluantotnghiep/cva6-master/core/axi_shim.sv
+!i122 6883
+L0 22 289
+R18
+R19
 r1
 !s85 0
 31
-Z32 !s108 1783863215.000000
+Z30 !s108 1783867120.000000
 !s107 D:/khoaluantotnghiep/cva6-master/core/axi_shim.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/axi_shim.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vbht
 2D:/khoaluantotnghiep/cva6-master/core/frontend/bht.sv
-R8
-R9
 R10
 R11
 R12
-Z33 !s110 1783863208
+R13
+R14
+Z31 !s110 1783867116
 !i10b 1
 !s100 3>Sz6nZ4XFZbQo3:K:E]f3
 I=J3o6kEaS0fYL_2:J`8<03
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/frontend/bht.sv
-FD:/khoaluantotnghiep/cva6-master/core/frontend/bht.sv
-!i122 6383
-L0 24 290
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/frontend/bht.sv
+FD:/khoaluantotnghiep/cva6-master/core/frontend/bht.sv
+!i122 6833
+L0 24 290
+R18
+R19
 r1
 !s85 0
 31
-Z34 !s108 1783863208.000000
+Z32 !s108 1783867116.000000
 !s107 D:/khoaluantotnghiep/cva6-master/core/frontend/bht.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/frontend/bht.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vbht2lvl
 2D:/khoaluantotnghiep/cva6-master/core/frontend/bht2lvl.sv
-R8
-R9
 R10
 R11
 R12
-R33
+R13
+R14
+R31
 !i10b 1
 !s100 Wik2_aNMTllh1]O@NXdES0
 I24Y<XoDT[61Nmg]6S^2L81
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/frontend/bht2lvl.sv
-FD:/khoaluantotnghiep/cva6-master/core/frontend/bht2lvl.sv
-!i122 6385
-L0 14 118
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/frontend/bht2lvl.sv
+FD:/khoaluantotnghiep/cva6-master/core/frontend/bht2lvl.sv
+!i122 6835
+L0 14 118
+R18
+R19
 r1
 !s85 0
 31
-R34
+R32
 !s107 D:/khoaluantotnghiep/cva6-master/core/frontend/bht2lvl.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/frontend/bht2lvl.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vbranch_unit
 2D:/khoaluantotnghiep/cva6-master/core/branch_unit.sv
-R8
-R9
 R10
 R11
 R12
-R22
+R13
+R14
+R23
 !i10b 1
 !s100 hF5WDPT18f3Nhd[fG^CL53
 IogEAcm=:UW=:91U``GV]l2
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/branch_unit.sv
-FD:/khoaluantotnghiep/cva6-master/core/branch_unit.sv
-!i122 6414
-L0 15 126
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/branch_unit.sv
+FD:/khoaluantotnghiep/cva6-master/core/branch_unit.sv
+!i122 6864
+L0 15 126
+R18
+R19
 r1
 !s85 0
 31
-R23
+R24
 !s107 D:/khoaluantotnghiep/cva6-master/core/branch_unit.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/branch_unit.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vbtb
 2D:/khoaluantotnghiep/cva6-master/core/frontend/btb.sv
-R8
-R9
-R33
+R10
+R11
+R31
 !i10b 1
 !s100 5B@9_ZB=3dmh2U[;^BQ[<1
 IJ6LYmFf:jkT_D5QQHCj0>0
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/frontend/btb.sv
-FD:/khoaluantotnghiep/cva6-master/core/frontend/btb.sv
-!i122 6384
-L0 28 166
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/frontend/btb.sv
+FD:/khoaluantotnghiep/cva6-master/core/frontend/btb.sv
+!i122 6834
+L0 28 166
+R18
+R19
 r1
 !s85 0
 31
-R34
+R32
 !s107 D:/khoaluantotnghiep/cva6-master/core/frontend/btb.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/frontend/btb.sv|
 !i113 0
-R19
-R6
+R21
+R7
 Xbuild_config_pkg
 2D:/khoaluantotnghiep/cva6-master/core/include/build_config_pkg.sv
-R8
-R9
-Z35 !s110 1783863206
+R10
+R11
+R26
 !i10b 1
 !s100 Pi@>9C;UD_24cd2ZbMPA^1
 IE4GRJ]h;HCR0M7PnDF4b=0
 S1
-R14
-R15
+R16
+R17
 8D:/khoaluantotnghiep/cva6-master/core/include/build_config_pkg.sv
 FD:/khoaluantotnghiep/cva6-master/core/include/build_config_pkg.sv
-!i122 6362
-Z36 L0 1 0
+!i122 6812
+Z33 L0 1 0
 VE4GRJ]h;HCR0M7PnDF4b=0
-R17
+R19
 r1
 !s85 0
 31
@@ -443,750 +446,750 @@ R27
 !s107 D:/khoaluantotnghiep/cva6-master/core/include/build_config_pkg.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/include/build_config_pkg.sv|
 !i113 0
-R19
-R6
+R21
+R7
 Xcf_math_pkg
 2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/cf_math_pkg.sv
-R8
-R35
+R10
+R26
 !i10b 1
 !s100 BCK1a3g]B;deb7k<XVBUH0
 I:TSdRUUo<@Fn4ko6Cdh`?0
 S1
-R14
-R15
+R16
+R17
 8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/cf_math_pkg.sv
 FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/cf_math_pkg.sv
-!i122 6364
-Z37 L0 18 0
+!i122 6814
+Z34 L0 18 0
 V:TSdRUUo<@Fn4ko6Cdh`?0
-R17
-r1
-!s85 0
-31
-Z38 !s108 1783863206.000000
-!s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/cf_math_pkg.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/cf_math_pkg.sv|
-!i113 0
 R19
-R6
-vcommit_stage
-2D:/khoaluantotnghiep/cva6-master/core/commit_stage.sv
-R8
-R9
-R10
-R11
-R12
-R31
-!i10b 1
-!s100 ;eA<`ULL@ffeZkEdTo2682
-I?9JHdVo285>3l3@jLOfV^3
-S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/commit_stage.sv
-FD:/khoaluantotnghiep/cva6-master/core/commit_stage.sv
-!i122 6430
-L0 16 400
-R16
-R17
-r1
-!s85 0
-31
-R32
-!s107 D:/khoaluantotnghiep/cva6-master/core/commit_stage.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/commit_stage.sv|
-!i113 0
-R19
-R6
-vcompressed_decoder
-2D:/khoaluantotnghiep/cva6-master/core/compressed_decoder.sv
-R8
-R9
-R10
-R11
-R28
-!i10b 1
-!s100 YRPLVl6n=?PgXhW]>Y<jl2
-I]@kY3TAgYH:mgmgXRGlOD2
-S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/compressed_decoder.sv
-FD:/khoaluantotnghiep/cva6-master/core/compressed_decoder.sv
-!i122 6403
-L0 22 926
-R16
-R17
-r1
-!s85 0
-31
-R29
-!s107 D:/khoaluantotnghiep/cva6-master/core/compressed_decoder.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/compressed_decoder.sv|
-!i113 0
-R19
-R6
-Xconfig_pkg
-2D:/khoaluantotnghiep/cva6-master/core/include/config_pkg.sv
-R8
-R26
-!i10b 1
-!s100 cPFDa0NbUQo;iUYl_FUhh1
-I;mbk1JTiPPgJ6IE=N>NaM1
-S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/include/config_pkg.sv
-FD:/khoaluantotnghiep/cva6-master/core/include/config_pkg.sv
-!i122 6356
-Z39 L0 10 0
-V;mbk1JTiPPgJ6IE=N>NaM1
-R17
 r1
 !s85 0
 31
 R27
-!s107 D:/khoaluantotnghiep/cva6-master/core/include/config_pkg.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/include/config_pkg.sv|
+!s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/cf_math_pkg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/cf_math_pkg.sv|
 !i113 0
-R19
-R6
-vcontroller
-2D:/khoaluantotnghiep/cva6-master/core/controller.sv
-R8
-R9
+R21
+R7
+vcommit_stage
+2D:/khoaluantotnghiep/cva6-master/core/commit_stage.sv
 R10
 R11
 R12
-R31
+R13
+R14
+R29
+!i10b 1
+!s100 ;eA<`ULL@ffeZkEdTo2682
+I?9JHdVo285>3l3@jLOfV^3
+S1
+R16
+R17
+8D:/khoaluantotnghiep/cva6-master/core/commit_stage.sv
+FD:/khoaluantotnghiep/cva6-master/core/commit_stage.sv
+!i122 6880
+L0 16 400
+R18
+R19
+r1
+!s85 0
+31
+R30
+!s107 D:/khoaluantotnghiep/cva6-master/core/commit_stage.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/commit_stage.sv|
+!i113 0
+R21
+R7
+vcompressed_decoder
+2D:/khoaluantotnghiep/cva6-master/core/compressed_decoder.sv
+R10
+R11
+R12
+R13
+R23
+!i10b 1
+!s100 YRPLVl6n=?PgXhW]>Y<jl2
+I]@kY3TAgYH:mgmgXRGlOD2
+S1
+R16
+R17
+8D:/khoaluantotnghiep/cva6-master/core/compressed_decoder.sv
+FD:/khoaluantotnghiep/cva6-master/core/compressed_decoder.sv
+!i122 6853
+L0 22 926
+R18
+R19
+r1
+!s85 0
+31
+R24
+!s107 D:/khoaluantotnghiep/cva6-master/core/compressed_decoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/compressed_decoder.sv|
+!i113 0
+R21
+R7
+Xconfig_pkg
+2D:/khoaluantotnghiep/cva6-master/core/include/config_pkg.sv
+R10
+!s110 1783867114
+!i10b 1
+!s100 cPFDa0NbUQo;iUYl_FUhh1
+I;mbk1JTiPPgJ6IE=N>NaM1
+S1
+R16
+R17
+8D:/khoaluantotnghiep/cva6-master/core/include/config_pkg.sv
+FD:/khoaluantotnghiep/cva6-master/core/include/config_pkg.sv
+!i122 6806
+Z35 L0 10 0
+V;mbk1JTiPPgJ6IE=N>NaM1
+R19
+r1
+!s85 0
+31
+Z36 !s108 1783867114.000000
+!s107 D:/khoaluantotnghiep/cva6-master/core/include/config_pkg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/include/config_pkg.sv|
+!i113 0
+R21
+R7
+vcontroller
+2D:/khoaluantotnghiep/cva6-master/core/controller.sv
+R10
+R11
+R12
+R13
+R14
+R29
 !i10b 1
 !s100 KKIP8X_@e[HU?MD3F94E53
 IXID7OYQTfB`Z0Bh[i3j>@3
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/controller.sv
-FD:/khoaluantotnghiep/cva6-master/core/controller.sv
-!i122 6431
-L0 16 262
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/controller.sv
+FD:/khoaluantotnghiep/cva6-master/core/controller.sv
+!i122 6881
+L0 16 262
+R18
+R19
 r1
 !s85 0
 31
-R32
+R30
 !s107 D:/khoaluantotnghiep/cva6-master/core/controller.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/controller.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vcounter
 2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/counter.sv
-R8
-Z40 !s110 1783863207
+R10
+R31
 !i10b 1
 !s100 fAXT?FGIi^P@i@DfJJFz_3
 I6az^cTZAGgJSDY6EfDVdK3
 S1
-R14
-R15
+R16
+R17
 8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/counter.sv
 FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/counter.sv
-!i122 6376
+!i122 6826
 L0 14 30
-R16
-R17
-r1
-!s85 0
-31
-Z41 !s108 1783863207.000000
-!s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/counter.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/counter.sv|
-!i113 0
-R19
-R6
-vcsr_buffer
-2D:/khoaluantotnghiep/cva6-master/core/csr_buffer.sv
-R8
-R9
-R10
-R11
-R12
-R20
-!i10b 1
-!s100 b3J59g?L;]h1cFL3=NRlR0
-IgH9U5l`A?l0a?<mjPg35d3
-S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/csr_buffer.sv
-FD:/khoaluantotnghiep/cva6-master/core/csr_buffer.sv
-!i122 6418
-R24
-R16
-R17
-r1
-!s85 0
-31
 R18
-!s107 D:/khoaluantotnghiep/cva6-master/core/csr_buffer.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/csr_buffer.sv|
-!i113 0
 R19
-R6
-vcsr_regfile
-2D:/khoaluantotnghiep/cva6-master/core/csr_regfile.sv
-R8
-R9
-R10
-R11
-R12
-R31
-!i10b 1
-!s100 PYZJEhCGSF2^z_N62FhST0
-I=VjojNB6k9__Nm=el]4W=3
-S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/csr_regfile.sv
-FD:/khoaluantotnghiep/cva6-master/core/csr_regfile.sv
-!i122 6432
-L0 16 3073
-R16
-R17
 r1
 !s85 0
 31
 R32
-!s107 D:/khoaluantotnghiep/cva6-master/core/csr_regfile.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/csr_regfile.sv|
+!s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/counter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/counter.sv|
 !i113 0
-R19
-R6
-vcva6
-2D:/khoaluantotnghiep/cva6-master/core/cva6.sv
-R8
-R9
+R21
+R7
+vcsr_buffer
+2D:/khoaluantotnghiep/cva6-master/core/csr_buffer.sv
 R10
 R11
 R12
-Z42 DXx4 work 16 build_config_pkg 0 22 E4GRJ]h;HCR0M7PnDF4b=0
-Z43 DXx4 work 12 wt_cache_pkg 0 22 KL1d3MHET>`dT=4lf4dk<0
+R13
+R14
+R15
+!i10b 1
+!s100 b3J59g?L;]h1cFL3=NRlR0
+IgH9U5l`A?l0a?<mjPg35d3
+S1
+R16
+R17
+8D:/khoaluantotnghiep/cva6-master/core/csr_buffer.sv
+FD:/khoaluantotnghiep/cva6-master/core/csr_buffer.sv
+!i122 6868
+R25
+R18
+R19
+r1
+!s85 0
+31
+R20
+!s107 D:/khoaluantotnghiep/cva6-master/core/csr_buffer.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/csr_buffer.sv|
+!i113 0
+R21
+R7
+vcsr_regfile
+2D:/khoaluantotnghiep/cva6-master/core/csr_regfile.sv
+R10
+R11
+R12
+R13
+R14
+R29
+!i10b 1
+!s100 PYZJEhCGSF2^z_N62FhST0
+I=VjojNB6k9__Nm=el]4W=3
+S1
+R16
+R17
+8D:/khoaluantotnghiep/cva6-master/core/csr_regfile.sv
+FD:/khoaluantotnghiep/cva6-master/core/csr_regfile.sv
+!i122 6882
+L0 16 3073
+R18
+R19
+r1
+!s85 0
+31
 R30
-Z44 !s110 1783863223
+!s107 D:/khoaluantotnghiep/cva6-master/core/csr_regfile.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/csr_regfile.sv|
+!i113 0
+R21
+R7
+vcva6
+2D:/khoaluantotnghiep/cva6-master/core/cva6.sv
+R10
+R11
+R12
+R13
+R14
+Z37 DXx4 work 16 build_config_pkg 0 22 E4GRJ]h;HCR0M7PnDF4b=0
+Z38 DXx4 work 12 wt_cache_pkg 0 22 KL1d3MHET>`dT=4lf4dk<0
+R28
+Z39 !s110 1783867124
 !i10b 1
 !s100 Cgn]b4`?1eMM:P:Ae?zPn0
 IGNG>91bz<UP:j2oZM`4MT2
 S1
-R14
+R16
 w1781256701
 8D:/khoaluantotnghiep/cva6-master/core/cva6.sv
 FD:/khoaluantotnghiep/cva6-master/core/cva6.sv
-!i122 6497
+!i122 6947
 L0 18 1875
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-Z45 !s108 1783863223.000000
+Z40 !s108 1783867124.000000
 !s107 D:/khoaluantotnghiep/cva6-master/core/include/cvxif_types.svh|D:/khoaluantotnghiep/cva6-master/core/include/rvfi_types.svh|D:/khoaluantotnghiep/cva6-master/core/cva6.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|+incdir+D:/khoaluantotnghiep/cva6-master/core/include|-stats=none|D:/khoaluantotnghiep/cva6-master/core/cva6.sv|
 !i113 0
-R19
+R21
 !s92 -work work -sv +incdir+D:/khoaluantotnghiep/cva6-master/core/include -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R6
+R7
 Xcva6_config_pkg
 2D:/khoaluantotnghiep/cva6-master/core/include/cv32a6_imac_sv32_config_pkg.sv
-R8
-R9
+R10
+R11
 R26
 !i10b 1
 !s100 g4?E^VS2z8K:=JHU]f1MR3
 I=PUgY5:n7::eOUP3G08=21
 S1
-R14
-R15
+R16
+R17
 8D:/khoaluantotnghiep/cva6-master/core/include/cv32a6_imac_sv32_config_pkg.sv
 FD:/khoaluantotnghiep/cva6-master/core/include/cv32a6_imac_sv32_config_pkg.sv
-!i122 6357
+!i122 6807
 L0 11 0
 V=PUgY5:n7::eOUP3G08=21
-R17
+R19
 r1
 !s85 0
 31
-R27
+R36
 !s107 D:/khoaluantotnghiep/cva6-master/core/include/cv32a6_imac_sv32_config_pkg.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/include/cv32a6_imac_sv32_config_pkg.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vcva6_fifo_v3
 2D:/khoaluantotnghiep/cva6-master/core/cva6_fifo_v3.sv
-R8
-R31
+R10
+R29
 !i10b 1
 !s100 ?=e5YV1^az0=QfbVTbh@L2
 I_2K;Le4;6`;Y@5K?0QmPY1
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/cva6_fifo_v3.sv
-FD:/khoaluantotnghiep/cva6-master/core/cva6_fifo_v3.sv
-!i122 6434
-L0 16 216
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/cva6_fifo_v3.sv
+FD:/khoaluantotnghiep/cva6-master/core/cva6_fifo_v3.sv
+!i122 6884
+L0 16 216
+R18
+R19
 r1
 !s85 0
 31
-R32
+R30
 !s107 D:/khoaluantotnghiep/cva6-master/core/cva6_fifo_v3.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/cva6_fifo_v3.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vcva6_hpdcache_cmo_if_adapter
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/target/cva6/cva6_hpdcache_cmo_if_adapter.sv
-R8
-Z46 DXx4 work 12 hpdcache_pkg 0 22 ;aOaP]TaTS=A=Q;OiDO6`3
-Z47 !s110 1783863219
+R10
+Z41 DXx4 work 12 hpdcache_pkg 0 22 ;aOaP]TaTS=A=Q;OiDO6`3
+Z42 !s110 1783867122
 !i10b 1
 !s100 UQXOn[>m9gd=eLSHIbb>=0
 I<L3WlgQdOZXd0N2EIRA:[3
 S1
-R14
+R16
 w1781582043
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/target/cva6/cva6_hpdcache_cmo_if_adapter.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/target/cva6/cva6_hpdcache_cmo_if_adapter.sv
-!i122 6463
+!i122 6913
 L0 16 154
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-Z48 !s108 1783863219.000000
+Z43 !s108 1783867122.000000
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/target/cva6/cva6_hpdcache_cmo_if_adapter.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/target/cva6/cva6_hpdcache_cmo_if_adapter.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vcva6_hpdcache_if_adapter
 2D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_if_adapter.sv
-R8
-R9
-R46
 R10
 R11
+R41
 R12
-R47
+R13
+R14
+R42
 !i10b 1
 !s100 Wn1<jNCB`6c3KIWQin5D<0
 IIYVaXeI;aAUJnf3YboXXb0
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_if_adapter.sv
-FD:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_if_adapter.sv
-!i122 6462
-L0 12 362
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_if_adapter.sv
+FD:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_if_adapter.sv
+!i122 6912
+L0 12 362
+R18
+R19
 r1
 !s85 0
 31
-R48
+R43
 !s107 D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_if_adapter.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_if_adapter.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vcva6_hpdcache_subsystem
 2D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv
-R8
-R9
 R10
 R11
 R12
-R46
-Z49 DXx4 work 10 domino_pkg 0 22 TlJY8V3koWXJ]G1NZ6z@Y3
+R13
+R14
+R41
+Z44 DXx4 work 10 domino_pkg 0 22 TlJY8V3koWXJ]G1NZ6z@Y3
 DXx4 work 7 l15_pkg 0 22 JPL?[FzUPPVNJnSVIKYeI1
-R44
+R39
 !i10b 1
 !s100 gihO;V9i<;7J[NE67X[V?1
 IPfRo3fO_8K`Qk?fICSzYY0
 S1
-R14
+R16
 w1782231436
 8D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv
 FD:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh
-!i122 6496
+!i122 6946
 L0 15 731
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R45
+R40
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh|D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|+incdir+D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include|-stats=none|D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem.sv|
 !i113 0
-R19
-Z50 !s92 -work work -sv +incdir+D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R6
+R21
+Z45 !s92 -work work -sv +incdir+D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R7
 vcva6_hpdcache_subsystem_axi_arbiter
 2D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem_axi_arbiter.sv
-R8
-R9
-R46
-R43
-R44
+R10
+R11
+R41
+R38
+R39
 !i10b 1
 !s100 ^gQV1RMg46@Z]IVaJG7Hc3
 IDQ:ekN9E0Uc;b:UF14H<d1
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem_axi_arbiter.sv
-FD:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem_axi_arbiter.sv
-!i122 6495
-L0 15 411
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem_axi_arbiter.sv
+FD:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem_axi_arbiter.sv
+!i122 6945
+L0 15 411
+R18
+R19
 r1
 !s85 0
 31
-R45
+R40
 !s107 D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem_axi_arbiter.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem_axi_arbiter.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vcva6_hpdcache_wrapper
 2D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_wrapper.sv
-R8
-R9
-R46
 R10
 R11
+R41
 R12
-Z51 DXx4 work 15 hwpf_stride_pkg 0 22 SSQ5z5UlE`;E82PgPF4U62
-Z52 !s110 1783863220
+R13
+R14
+Z46 DXx4 work 15 hwpf_stride_pkg 0 22 SSQ5z5UlE`;E82PgPF4U62
+R42
 !i10b 1
 !s100 lejYkDnocFn:`W90^<oGC0
 I;OK`LnclQHGj3F>QMf_NB0
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_wrapper.sv
-FD:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_wrapper.sv
-!i122 6471
-L0 15 428
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_wrapper.sv
+FD:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_wrapper.sv
+!i122 6921
+L0 15 428
+R18
+R19
 r1
 !s85 0
 31
-Z53 !s108 1783863220.000000
+R43
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh|D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_wrapper.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|+incdir+D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include|-stats=none|D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_wrapper.sv|
 !i113 0
-R19
-R50
-R6
+R21
+R45
+R7
 vcva6_icache
 2D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_icache.sv
-R8
-R9
 R10
 R11
 R12
-R43
-Z54 !s110 1783863209
+R13
+R14
+R38
+Z47 !s110 1783867117
 !i10b 1
 !s100 ^TMBfJ@hV?WiMRj34ETaM0
 I^ZGl;`X2^TBjY4LakhfI41
 S1
-R14
+R16
 w1781280133
 8D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_icache.sv
 FD:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_icache.sv
-!i122 6392
+!i122 6842
 L0 28 575
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-Z55 !s108 1783863209.000000
+Z48 !s108 1783867117.000000
 !s107 D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_icache.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_icache.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vcva6_icache_axi_wrapper
 2D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_icache_axi_wrapper.sv
-R8
-R9
 R10
 R11
 R12
-R43
-R54
+R13
+R14
+R38
+R47
 !i10b 1
 !s100 ^N0XLf]jl6ifBg<LacTIH0
 I^V^4`BKBd8H=BToSGHDfF1
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_icache_axi_wrapper.sv
-FD:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_icache_axi_wrapper.sv
-!i122 6393
-L0 16 199
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_icache_axi_wrapper.sv
+FD:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_icache_axi_wrapper.sv
+!i122 6843
+L0 16 199
+R18
+R19
 r1
 !s85 0
 31
-R55
+R48
 !s107 D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_icache_axi_wrapper.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_icache_axi_wrapper.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vcva6_mmu
 2D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_mmu.sv
-R8
-R9
 R10
 R11
 R12
-Z56 !s110 1783863210
+R13
+R14
+R47
 !i10b 1
 !s100 ePUCZ:U[GhH2;B1Ob2Pg=0
 InQUd=HR]9097_LlOG8:WE2
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_mmu.sv
-FD:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_mmu.sv
-!i122 6398
-L0 25 744
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_mmu.sv
+FD:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_mmu.sv
+!i122 6848
+L0 25 744
+R18
+R19
 r1
 !s85 0
 31
-Z57 !s108 1783863210.000000
+R48
 !s107 D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_mmu.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_mmu.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vcva6_ptw
 2D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_ptw.sv
-R8
-R9
 R10
 R11
 R12
-R56
+R13
+R14
+R47
 !i10b 1
 !s100 fo9U3HO4_8[OjG<0KNkZn3
 IQhHO==0JdHeIf6S1cEm<00
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_ptw.sv
-FD:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_ptw.sv
-!i122 6397
-L0 23 680
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_ptw.sv
+FD:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_ptw.sv
+!i122 6847
+L0 23 680
+R18
+R19
 r1
 !s85 0
 31
-R57
+R48
 !s107 D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_ptw.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_ptw.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vcva6_rvfi_probes
 2D:/khoaluantotnghiep/cva6-master/core/cva6_rvfi_probes.sv
-R8
-R9
 R10
 R11
 R12
-Z58 !s110 1783863224
+R13
+R14
+Z49 !s110 1783867125
 !i10b 1
 !s100 N7eobodW^[fBQCTRa@jc]0
 IY<4kD55>b5d?VN[LKF3JI0
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/cva6_rvfi_probes.sv
-FD:/khoaluantotnghiep/cva6-master/core/cva6_rvfi_probes.sv
-!i122 6500
-L0 12 133
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/cva6_rvfi_probes.sv
+FD:/khoaluantotnghiep/cva6-master/core/cva6_rvfi_probes.sv
+!i122 6950
+L0 12 133
+R18
+R19
 r1
 !s85 0
 31
-Z59 !s108 1783863224.000000
+Z50 !s108 1783867125.000000
 !s107 D:/khoaluantotnghiep/cva6-master/core/cva6_rvfi_probes.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/cva6_rvfi_probes.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vcva6_shared_tlb
 2D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_shared_tlb.sv
-R8
-R9
-R56
+R10
+R11
+R47
 !i10b 1
 !s100 I66>RmKKT6aU=;^CaVgR00
 IU[BC9eQ:9Z^a5fIQN4ijl2
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_shared_tlb.sv
-FD:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_shared_tlb.sv
-!i122 6396
-L0 23 531
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_shared_tlb.sv
+FD:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_shared_tlb.sv
+!i122 6846
+L0 23 531
+R18
+R19
 r1
 !s85 0
 31
-R57
+R48
 !s107 D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_shared_tlb.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_shared_tlb.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vcva6_tlb
 2D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_tlb.sv
-R8
-R9
 R10
 R11
 R12
-R56
+R13
+R14
+R47
 !i10b 1
 !s100 o=^@d^CJhNeCJU7m5iWoo2
 IIWVFzm4D@gDgY1fBBe2:h0
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_tlb.sv
-FD:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_tlb.sv
-!i122 6394
-L0 24 515
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_tlb.sv
+FD:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_tlb.sv
+!i122 6844
+L0 24 515
+R18
+R19
 r1
 !s85 0
 31
-R57
+R48
 !s107 D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_tlb.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_tlb.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vcvxif_issue_register_commit_if_driver
 2D:/khoaluantotnghiep/cva6-master/core/cvxif_issue_register_commit_if_driver.sv
-R8
-R9
-R22
+R10
+R11
+R23
 !i10b 1
 !s100 <3J2=PZ4[f]`]GERgOW1h0
 I8Bi1IW<<`L4l0FO0gGn0G0
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/cvxif_issue_register_commit_if_driver.sv
-FD:/khoaluantotnghiep/cva6-master/core/cvxif_issue_register_commit_if_driver.sv
-!i122 6409
-L0 10 57
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/cvxif_issue_register_commit_if_driver.sv
+FD:/khoaluantotnghiep/cva6-master/core/cvxif_issue_register_commit_if_driver.sv
+!i122 6859
+L0 10 57
+R18
+R19
 r1
 !s85 0
 31
-R23
+R24
 !s107 D:/khoaluantotnghiep/cva6-master/core/cvxif_issue_register_commit_if_driver.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/cvxif_issue_register_commit_if_driver.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vdecoder
 2D:/khoaluantotnghiep/cva6-master/core/decoder.sv
-R8
-R9
 R10
 R11
 R12
-R28
+R13
+R14
+R23
 !i10b 1
 !s100 3Mh4ennA9A>Dd[lo3ILh11
 Ib0>aV0QQC]6nH>Uj_i;D_1
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/decoder.sv
-FD:/khoaluantotnghiep/cva6-master/core/decoder.sv
-!i122 6402
-L0 22 1967
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/decoder.sv
+FD:/khoaluantotnghiep/cva6-master/core/decoder.sv
+!i122 6852
+L0 22 1967
+R18
+R19
 r1
 !s85 0
 31
-R29
+R24
 !s107 D:/khoaluantotnghiep/cva6-master/core/decoder.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/decoder.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vdelta_counter
 2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/delta_counter.sv
-R8
-R40
+R10
+R31
 !i10b 1
 !s100 UJbDN<mnFYXjPkcNZXXNa2
 I`[]j5j^0hlJDUMG:<MJDJ1
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/delta_counter.sv
-FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/delta_counter.sv
-!i122 6377
-Z60 L0 13 62
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/delta_counter.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/delta_counter.sv
+!i122 6827
+Z51 L0 13 62
+R18
+R19
 r1
 !s85 0
 31
-R41
+R32
 !s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/delta_counter.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/delta_counter.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vdomino_history_buffers
-Z61 2D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_history_buffers.sv
-R8
-R49
+Z52 2D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_history_buffers.sv
+R10
+R44
 DXx4 work 30 domino_history_buffers_sv_unit 0 22 2j;=Aim:FNXJk5l7Ub55X0
-R47
-R16
+R42
+R18
 r1
 !s85 0
 !i10b 1
@@ -1194,25 +1197,25 @@ r1
 IzOOo`DTGRORZWDlePk4in1
 !s105 domino_history_buffers_sv_unit
 S1
-R14
-Z62 w1781761119
-Z63 8D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_history_buffers.sv
-Z64 FD:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_history_buffers.sv
-!i122 6466
+R16
+Z53 w1781761119
+Z54 8D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_history_buffers.sv
+Z55 FD:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_history_buffers.sv
+!i122 6916
 L0 2 19
-R17
-31
-R48
-Z65 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_history_buffers.sv|
-Z66 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_history_buffers.sv|
-!i113 0
 R19
-R6
+31
+R43
+Z56 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_history_buffers.sv|
+Z57 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_history_buffers.sv|
+!i113 0
+R21
+R7
 Xdomino_history_buffers_sv_unit
-R61
-R8
-R49
-R47
+R52
+R10
+R44
+R42
 V2j;=Aim:FNXJk5l7Ub55X0
 r1
 !s85 0
@@ -1221,27 +1224,27 @@ r1
 I2j;=Aim:FNXJk5l7Ub55X0
 !i103 1
 S1
-R14
-R62
-R63
-R64
-!i122 6466
-R36
-R17
-31
-R48
-R65
-R66
-!i113 0
-R19
-R6
-vdomino_mht_ram
-Z67 2D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_mht_ram.sv
-R8
-R49
-DXx4 work 22 domino_mht_ram_sv_unit 0 22 7_1:56?[GiPzO=AlTP@9E0
-R52
 R16
+R53
+R54
+R55
+!i122 6916
+R33
+R19
+31
+R43
+R56
+R57
+!i113 0
+R21
+R7
+vdomino_mht_ram
+Z58 2D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_mht_ram.sv
+R10
+R44
+DXx4 work 22 domino_mht_ram_sv_unit 0 22 7_1:56?[GiPzO=AlTP@9E0
+R42
+R18
 r1
 !s85 0
 !i10b 1
@@ -1249,25 +1252,25 @@ r1
 IaDdFffGza=NTT<Pk87:iN3
 !s105 domino_mht_ram_sv_unit
 S1
-R14
-Z68 w1781761190
-Z69 8D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_mht_ram.sv
-Z70 FD:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_mht_ram.sv
-!i122 6468
+R16
+Z59 w1781761190
+Z60 8D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_mht_ram.sv
+Z61 FD:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_mht_ram.sv
+!i122 6918
 L0 2 47
-R17
-31
-R48
-Z71 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_mht_ram.sv|
-Z72 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_mht_ram.sv|
-!i113 0
 R19
-R6
+31
+R43
+Z62 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_mht_ram.sv|
+Z63 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_mht_ram.sv|
+!i113 0
+R21
+R7
 Xdomino_mht_ram_sv_unit
-R67
-R8
-R49
-R52
+R58
+R10
+R44
+R42
 V7_1:56?[GiPzO=AlTP@9E0
 r1
 !s85 0
@@ -1276,52 +1279,52 @@ r1
 I7_1:56?[GiPzO=AlTP@9E0
 !i103 1
 S1
-R14
-R68
-R69
-R70
-!i122 6468
-R36
-R17
-31
-R48
-R71
-R72
-!i113 0
+R16
+R59
+R60
+R61
+!i122 6918
+R33
 R19
-R6
+31
+R43
+R62
+R63
+!i113 0
+R21
+R7
 Xdomino_pkg
 2D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_pkg.sv
-R8
-R47
+R10
+R42
 !i10b 1
 !s100 I5==CaJ9X>K?E9EbB;_W60
 ITlJY8V3koWXJ]G1NZ6z@Y3
 S1
-R14
+R16
 w1781761014
 8D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_pkg.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_pkg.sv
-!i122 6464
-R36
+!i122 6914
+R33
 VTlJY8V3koWXJ]G1NZ6z@Y3
-R17
+R19
 r1
 !s85 0
 31
-R48
+R43
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_pkg.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_pkg.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vdomino_prefetcher_top
-Z73 2D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_prefetcher_top.sv
-R8
-R49
+Z64 2D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_prefetcher_top.sv
+R10
+R44
 DXx4 work 29 domino_prefetcher_top_sv_unit 0 22 9B9cn[I572e@hDZ4B3m=Y2
-R52
-R16
+R42
+R18
 r1
 !s85 0
 !i10b 1
@@ -1329,25 +1332,25 @@ r1
 IA=dP^bAU@S7Q`9UFL36;R3
 !s105 domino_prefetcher_top_sv_unit
 S1
-R14
-Z74 w1782198279
-Z75 8D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_prefetcher_top.sv
-Z76 FD:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_prefetcher_top.sv
-!i122 6469
+R16
+Z65 w1782198279
+Z66 8D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_prefetcher_top.sv
+Z67 FD:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_prefetcher_top.sv
+!i122 6919
 L0 2 79
-R17
-31
-R53
-Z77 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_prefetcher_top.sv|
-Z78 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_prefetcher_top.sv|
-!i113 0
 R19
-R6
+31
+R43
+Z68 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_prefetcher_top.sv|
+Z69 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_prefetcher_top.sv|
+!i113 0
+R21
+R7
 Xdomino_prefetcher_top_sv_unit
-R73
-R8
-R49
-R52
+R64
+R10
+R44
+R42
 V9B9cn[I572e@hDZ4B3m=Y2
 r1
 !s85 0
@@ -1356,27 +1359,27 @@ r1
 I9B9cn[I572e@hDZ4B3m=Y2
 !i103 1
 S1
-R14
-R74
-R75
-R76
-!i122 6469
-R36
-R17
-31
-R53
-R77
-R78
-!i113 0
-R19
-R6
-vdomino_trigger_detector
-Z79 2D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_trigger_detector.sv
-R8
-R49
-DXx4 work 31 domino_trigger_detector_sv_unit 0 22 Zci];DW5L::Mdh1I`E8<@3
-R47
 R16
+R65
+R66
+R67
+!i122 6919
+R33
+R19
+31
+R43
+R68
+R69
+!i113 0
+R21
+R7
+vdomino_trigger_detector
+Z70 2D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_trigger_detector.sv
+R10
+R44
+DXx4 work 31 domino_trigger_detector_sv_unit 0 22 Zci];DW5L::Mdh1I`E8<@3
+R42
+R18
 r1
 !s85 0
 !i10b 1
@@ -1384,25 +1387,25 @@ r1
 IDm`[<CNB_1W[XAN@QFd`f1
 !s105 domino_trigger_detector_sv_unit
 S1
-R14
-Z80 w1781761052
-Z81 8D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_trigger_detector.sv
-Z82 FD:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_trigger_detector.sv
-!i122 6465
+R16
+Z71 w1781761052
+Z72 8D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_trigger_detector.sv
+Z73 FD:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_trigger_detector.sv
+!i122 6915
 L0 2 20
-R17
-31
-R48
-Z83 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_trigger_detector.sv|
-Z84 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_trigger_detector.sv|
-!i113 0
 R19
-R6
+31
+R43
+Z74 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_trigger_detector.sv|
+Z75 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_trigger_detector.sv|
+!i113 0
+R21
+R7
 Xdomino_trigger_detector_sv_unit
-R79
-R8
-R49
-R47
+R70
+R10
+R44
+R42
 VZci];DW5L::Mdh1I`E8<@3
 r1
 !s85 0
@@ -1411,27 +1414,27 @@ r1
 IZci];DW5L::Mdh1I`E8<@3
 !i103 1
 S1
-R14
-R80
-R81
-R82
-!i122 6465
-R36
-R17
-31
-R48
-R83
-R84
-!i113 0
-R19
-R6
-vdomino_xor_hash
-Z85 2D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_xor_hash.sv
-R8
-R49
-DXx4 work 23 domino_xor_hash_sv_unit 0 22 `;Tc:NA_nJ8QN6d@jYPn<1
-R47
 R16
+R71
+R72
+R73
+!i122 6915
+R33
+R19
+31
+R43
+R74
+R75
+!i113 0
+R21
+R7
+vdomino_xor_hash
+Z76 2D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_xor_hash.sv
+R10
+R44
+DXx4 work 23 domino_xor_hash_sv_unit 0 22 `;Tc:NA_nJ8QN6d@jYPn<1
+R42
+R18
 r1
 !s85 0
 !i10b 1
@@ -1439,25 +1442,25 @@ r1
 IDgR?<W5BDgm`aC@K;T;j53
 !s105 domino_xor_hash_sv_unit
 S1
-R14
-Z86 w1781761160
-Z87 8D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_xor_hash.sv
-Z88 FD:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_xor_hash.sv
-!i122 6467
+R16
+Z77 w1781761160
+Z78 8D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_xor_hash.sv
+Z79 FD:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_xor_hash.sv
+!i122 6917
 L0 2 13
-R17
-31
-R48
-Z89 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_xor_hash.sv|
-Z90 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_xor_hash.sv|
-!i113 0
 R19
-R6
+31
+R43
+Z80 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_xor_hash.sv|
+Z81 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_xor_hash.sv|
+!i113 0
+R21
+R7
 Xdomino_xor_hash_sv_unit
-R85
-R8
-R49
-R47
+R76
+R10
+R44
+R42
 V`;Tc:NA_nJ8QN6d@jYPn<1
 r1
 !s85 0
@@ -1466,1253 +1469,1253 @@ r1
 I`;Tc:NA_nJ8QN6d@jYPn<1
 !i103 1
 S1
-R14
-R86
-R87
-R88
-!i122 6467
-R36
-R17
-31
-R48
-R89
-R90
-!i113 0
+R16
+R77
+R78
+R79
+!i122 6917
+R33
 R19
-R6
+31
+R43
+R80
+R81
+!i113 0
+R21
+R7
 vex_stage
 2D:/khoaluantotnghiep/cva6-master/core/ex_stage.sv
-R8
-R9
 R10
 R11
 R12
 R13
+R14
+R15
 !i10b 1
 !s100 6D`iZaXIzQ1`Nk;dH>OLS3
 IJho1KB]U8SQ@9mCDQhca@3
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/ex_stage.sv
-FD:/khoaluantotnghiep/cva6-master/core/ex_stage.sv
-!i122 6423
-L0 17 744
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/ex_stage.sv
+FD:/khoaluantotnghiep/cva6-master/core/ex_stage.sv
+!i122 6873
+L0 17 744
+R18
+R19
 r1
 !s85 0
 31
-R25
+R20
 !s107 D:/khoaluantotnghiep/cva6-master/core/ex_stage.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/ex_stage.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vexp_backoff
 2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/exp_backoff.sv
-R8
-R40
+R10
+R31
 !i10b 1
 !s100 khUV=Y8Jei4;4Q:6^5PEc0
 IoGETdWzCKTJoh[_8<fdcm0
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/exp_backoff.sv
-FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/exp_backoff.sv
-!i122 6375
-L0 23 76
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/exp_backoff.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/exp_backoff.sv
+!i122 6825
+L0 23 76
+R18
+R19
 r1
 !s85 0
 31
-R41
+R32
 !s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/exp_backoff.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/exp_backoff.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vfifo_v3
 2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/fifo_v3.sv
-R8
-R35
+R10
+R26
 !i10b 1
 !s100 lM1XRXIZ_[PFiIG@ShnKd0
 I?SHK1WGKP7Wj2iXA;iDEL1
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/fifo_v3.sv
-FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/fifo_v3.sv
-!i122 6365
-L0 13 144
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/fifo_v3.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/fifo_v3.sv
+!i122 6815
+L0 13 144
+R18
+R19
 r1
 !s85 0
 31
-R38
+R27
 !s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/fifo_v3.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/fifo_v3.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vfrontend
 2D:/khoaluantotnghiep/cva6-master/core/frontend/frontend.sv
-R8
-R9
 R10
 R11
 R12
-R54
+R13
+R14
+R47
 !i10b 1
 !s100 @IKH@^_73<:FR_kG1Ul[T1
 I>naWmLLJo8Dkg?n5R[`zI1
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/frontend/frontend.sv
-FD:/khoaluantotnghiep/cva6-master/core/frontend/frontend.sv
-!i122 6389
-L0 18 576
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/frontend/frontend.sv
+FD:/khoaluantotnghiep/cva6-master/core/frontend/frontend.sv
+!i122 6839
+L0 18 576
+R18
+R19
 r1
 !s85 0
 31
-R55
+R48
 !s107 D:/khoaluantotnghiep/cva6-master/core/frontend/frontend.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/frontend/frontend.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache.sv
-R8
-R46
-R52
+R10
+R41
+R42
 !i10b 1
 !s100 beZF;QLI9Xoa_8`DKdF:=3
 I?n5j@4`2UQJS:SLb=3mN_1
 S1
-R14
-Z91 w1779437026
+R16
+Z82 w1779437026
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache.sv
-!i122 6470
+!i122 6920
 L0 15 1321
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R53
+R43
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|+incdir+D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache.sv|
 !i113 0
-R19
-R50
-R6
+R21
+R45
+R7
 vhpdcache_1hot_to_binary
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_1hot_to_binary.sv
-R8
-Z92 !s110 1783863217
+R10
+Z83 !s110 1783867121
 !i10b 1
 !s100 f<ISKYA;cR_I=JR;d>JZH1
 I5Uf2DE`UPm_2bYkakEzCd3
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_1hot_to_binary.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_1hot_to_binary.sv
-!i122 6447
+!i122 6897
 L0 26 35
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-Z93 !s108 1783863217.000000
+Z84 !s108 1783867121.000000
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_1hot_to_binary.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_1hot_to_binary.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_amo
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_amo.sv
-R8
-R46
-R52
+R10
+R41
+Z85 !s110 1783867123
 !i10b 1
 !s100 ;zd;RHH0bFmz16TXRoC2I0
 IYzO8FR]X92OBR>@Xn:QUS0
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_amo.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_amo.sv
-!i122 6472
+!i122 6922
 L0 27 42
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R53
+Z86 !s108 1783867123.000000
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_amo.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_amo.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_cbuf
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_cbuf.sv
-R8
-R46
-Z94 !s110 1783863221
+R10
+R41
+R85
 !i10b 1
 !s100 :@<=Vja=naFf[:;gUZfcN3
 I7AU3NghEUEEzAW;a0U4o40
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_cbuf.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_cbuf.sv
-!i122 6478
+!i122 6928
 L0 19 75
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-Z95 !s108 1783863221.000000
+R86
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_cbuf.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_cbuf.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_cmo
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_cmo.sv
-R8
-R46
-R52
+R10
+R41
+R85
 !i10b 1
 !s100 V^P@Y6NSY_iBPXaJCh`hO3
 IlF8ageJ^`FQAllX`9;>2N2
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_cmo.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_cmo.sv
-!i122 6473
+!i122 6923
 L0 27 656
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R53
+R86
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_cmo.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_cmo.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_core_arbiter
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_core_arbiter.sv
-R8
-R46
-R52
+R10
+R41
+R85
 !i10b 1
 !s100 c=1W9MF3o;e89E;6d1^_H0
 I>]QBF:=oLkYPdi`_W1]MD2
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_core_arbiter.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_core_arbiter.sv
-!i122 6474
+!i122 6924
 L0 27 149
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R53
+R86
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_core_arbiter.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_core_arbiter.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_ctrl
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_ctrl.sv
-R8
-R46
-R94
+R10
+R41
+R85
 !i10b 1
 !s100 VNa_?=R6fna^>`A9Zf1c[2
 Ih4Dk[QA`4ac6ND:Pj?BDO1
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_ctrl.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_ctrl.sv
-!i122 6475
+!i122 6925
 L0 13 1777
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R53
+R86
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_ctrl.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_ctrl.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_ctrl_pe
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_ctrl_pe.sv
-R8
-R46
-R94
+R10
+R41
+R85
 !i10b 1
 !s100 6kz0L8hleb^l5TcA?bUXZ3
 IFF:S3bG2ZF74D0ZCZ63Pj0
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_ctrl_pe.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_ctrl_pe.sv
-!i122 6476
+!i122 6926
 L0 13 1262
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R95
+R86
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_ctrl_pe.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_ctrl_pe.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_data_downsize
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_downsize.sv
-R8
-R46
-Z96 !s110 1783863218
+R10
+R41
+R83
 !i10b 1
 !s100 :Sm>WzgD^kEcWPn@VaJS@1
 IQD4PZmi`Hg5i3W^X>=Baj1
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_downsize.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_downsize.sv
-!i122 6455
+!i122 6905
 L0 26 165
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-Z97 !s108 1783863218.000000
+R84
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_downsize.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_downsize.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_data_resize
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_resize.sv
-R8
-R46
-R96
+R10
+R41
+R42
 !i10b 1
 !s100 IY3<>nWW[4G4FeZd@n2c@2
 I2@92kW2L[zKIa@bQ`AVRP2
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_resize.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_resize.sv
-!i122 6457
+!i122 6907
 L0 26 103
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R97
+R84
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_resize.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_resize.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_data_upsize
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_upsize.sv
-R8
-R46
-R96
+R10
+R41
+R83
 !i10b 1
 !s100 @9S_dhS268Xf92Od8mNdO3
 IzW>=V8c_>_1:Qo:ZW<BVK0
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_upsize.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_upsize.sv
-!i122 6456
-Z98 L0 26 155
-R16
-R17
+!i122 6906
+Z87 L0 26 155
+R18
+R19
 r1
 !s85 0
 31
-R97
+R84
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_upsize.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_upsize.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_decoder
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_decoder.sv
-R8
-R92
+R10
+R83
 !i10b 1
 !s100 k2<b_>I[aTF0D`=FUfKL]2
 IS<mfYOSEGHIg6aI][FBTZ3
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_decoder.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_decoder.sv
-!i122 6446
+!i122 6896
 L0 26 28
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R93
+R84
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_decoder.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_decoder.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_demux
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv
-R8
-Z99 !s110 1783863216
+R10
+R29
 !i10b 1
 !s100 8INIkCG2kjW]5<OnQkgF>3
 I>JZ2d_^DgH:3063eIbDi22
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv
-!i122 6438
+!i122 6888
 L0 26 47
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-Z100 !s108 1783863216.000000
+R30
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_fifo_reg
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg.sv
-R8
-R99
+R10
+R29
 !i10b 1
 !s100 hC2NiVHTe:kcHd[<BSJC02
 I4f2Ach?FH9W1<]MacnLFH2
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg.sv
-!i122 6441
-R98
-R16
-R17
+!i122 6891
+R87
+R18
+R19
 r1
 !s85 0
 31
-R100
+R30
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_fifo_reg_initialized
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg_initialized.sv
-R8
-R99
+R10
+R83
 !i10b 1
 !s100 `V=]PbFQceD6?3nhk`Wc?2
 IZU80FESlJVJbBCgf:VWRK0
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg_initialized.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg_initialized.sv
-!i122 6442
+!i122 6892
 L0 27 121
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R100
+R84
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg_initialized.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fifo_reg_initialized.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_flush
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_flush.sv
-R8
-R46
-Z101 !s110 1783863222
+R10
+R41
+R39
 !i10b 1
 !s100 GaVWH90AZfWPUG1WVb?na3
 I`d@H]?Y?=LJE51iTgRz[l0
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_flush.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_flush.sv
-!i122 6487
+!i122 6937
 L0 27 368
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-Z102 !s108 1783863222.000000
+R40
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_flush.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_flush.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_fxarb
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fxarb.sv
-R8
-R99
+R10
+R83
 !i10b 1
 !s100 547J6P5YFSf8FYk`EIPMb0
 ITN4Y_Y;_2k<V<=@41KOQB2
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fxarb.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fxarb.sv
-!i122 6443
+!i122 6893
 L0 26 60
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R100
+R84
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fxarb.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fxarb.sv|
 !i113 0
-R19
-R6
+R21
+R7
 Yhpdcache_if
 2D:/HCMUS/UVM/tb/hpdcache_if.sv
-R8
-Z103 DXx4 work 12 hpdcache_pkg 0 22 ;V_<A2oEZhZ6Mj<2oP4in0
+R10
+Z88 DXx4 work 12 hpdcache_pkg 0 22 ;V_<A2oEZhZ6Mj<2oP4in0
 !s110 1783700963
 !i10b 1
 !s100 Mm212FdhaYNNiLQBD59DW2
 ITSmKg:I<5973HOL7f;PC22
 S1
-R3
+R4
 w1783418183
 8D:/HCMUS/UVM/tb/hpdcache_if.sv
 FD:/HCMUS/UVM/tb/hpdcache_if.sv
 !i122 278
-Z104 L0 23 0
-R16
-R17
+Z89 L0 23 0
+R18
+R19
 r1
 !s85 0
 31
-Z105 !s108 1783700963.000000
+Z90 !s108 1783700963.000000
 !s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include/hpdcache_config.svh|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh|D:/HCMUS/UVM/tb/hpdcache_if.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+.|+incdir+D:/HCMUS/UVM/sv|+incdir+D:/HCMUS/UVM/tb|+incdir+D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include|+define+CONF_HPDCACHE_PA_WIDTH=56|+define+CONF_HPDCACHE_WORD_WIDTH=64|+define+CONF_HPDCACHE_SETS=64|+define+CONF_HPDCACHE_WAYS=8|+define+CONF_HPDCACHE_CL_WORDS=8|+define+CONF_HPDCACHE_REQ_WORDS=2|+define+CONF_HPDCACHE_REQ_TRANS_ID_WIDTH=6|+define+CONF_HPDCACHE_REQ_SRC_ID_WIDTH=3|+define+CONF_HPDCACHE_MEM_ADDR_WIDTH=56|+define+CONF_HPDCACHE_MEM_ID_WIDTH=8|+define+CONF_HPDCACHE_MEM_DATA_WIDTH=512|+define+CONF_HPDCACHE_MSHR_SETS=4|+define+CONF_HPDCACHE_MSHR_WAYS=4|+define+CONF_HPDCACHE_MSHR_WAYS_PER_RAM_WORD=1|+define+CONF_HPDCACHE_MSHR_SETS_PER_RAM=4|+define+CONF_HPDCACHE_MSHR_RAM_WBYTEENABLE=1|+define+CONF_HPDCACHE_MSHR_USE_REGBANK=0|+define+CONF_HPDCACHE_VICTIM_SEL=0|+define+CONF_HPDCACHE_DATA_WAYS_PER_RAM_WORD=1|+define+CONF_HPDCACHE_DATA_SETS_PER_RAM=64|+define+CONF_HPDCACHE_DATA_RAM_WBYTEENABLE=1|+define+CONF_HPDCACHE_ACCESS_WORDS=2|+define+CONF_HPDCACHE_WBUF_DIR_ENTRIES=4|+define+CONF_HPDCACHE_WBUF_DATA_ENTRIES=4|+define+CONF_HPDCACHE_WBUF_WORDS=2|+define+CONF_HPDCACHE_WBUF_TIMECNT_WIDTH=4|+define+CONF_HPDCACHE_RTAB_ENTRIES=4|+define+CONF_HPDCACHE_FLUSH_ENTRIES=2|+define+CONF_HPDCACHE_FLUSH_FIFO_DEPTH=2|+define+CONF_HPDCACHE_CBUF_ENTRIES=4|+define+CONF_HPDCACHE_REFILL_CORE_RSP_FEEDTHROUGH=0|+define+CONF_HPDCACHE_REFILL_FIFO_DEPTH=2|+define+CONF_HPDCACHE_WT_ENABLE=1|+define+CONF_HPDCACHE_WB_ENABLE=1|+define+CONF_HPDCACHE_LOW_LATENCY=0|+define+CONF_HPDCACHE_ECC_ENABLE=0|+define+CONF_HPDCACHE_ECC_SCRUBBER_ENABLE=0|+define+HPDCACHE_ASSERT_OFF|D:/HCMUS/UVM/tb/hpdcache_if.sv|
 !i113 0
-Z106 o-sv -work work
+Z91 o-sv -work work
 !s92 -sv -work work +incdir+. +incdir+D:/HCMUS/UVM/sv +incdir+D:/HCMUS/UVM/tb +incdir+D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include +define+CONF_HPDCACHE_PA_WIDTH=56 +define+CONF_HPDCACHE_WORD_WIDTH=64 +define+CONF_HPDCACHE_SETS=64 +define+CONF_HPDCACHE_WAYS=8 +define+CONF_HPDCACHE_CL_WORDS=8 +define+CONF_HPDCACHE_REQ_WORDS=2 +define+CONF_HPDCACHE_REQ_TRANS_ID_WIDTH=6 +define+CONF_HPDCACHE_REQ_SRC_ID_WIDTH=3 +define+CONF_HPDCACHE_MEM_ADDR_WIDTH=56 +define+CONF_HPDCACHE_MEM_ID_WIDTH=8 +define+CONF_HPDCACHE_MEM_DATA_WIDTH=512 +define+CONF_HPDCACHE_MSHR_SETS=4 +define+CONF_HPDCACHE_MSHR_WAYS=4 +define+CONF_HPDCACHE_MSHR_WAYS_PER_RAM_WORD=1 +define+CONF_HPDCACHE_MSHR_SETS_PER_RAM=4 +define+CONF_HPDCACHE_MSHR_RAM_WBYTEENABLE=1 +define+CONF_HPDCACHE_MSHR_USE_REGBANK=0 +define+CONF_HPDCACHE_VICTIM_SEL=0 +define+CONF_HPDCACHE_DATA_WAYS_PER_RAM_WORD=1 +define+CONF_HPDCACHE_DATA_SETS_PER_RAM=64 +define+CONF_HPDCACHE_DATA_RAM_WBYTEENABLE=1 +define+CONF_HPDCACHE_ACCESS_WORDS=2 +define+CONF_HPDCACHE_WBUF_DIR_ENTRIES=4 +define+CONF_HPDCACHE_WBUF_DATA_ENTRIES=4 +define+CONF_HPDCACHE_WBUF_WORDS=2 +define+CONF_HPDCACHE_WBUF_TIMECNT_WIDTH=4 +define+CONF_HPDCACHE_RTAB_ENTRIES=4 +define+CONF_HPDCACHE_FLUSH_ENTRIES=2 +define+CONF_HPDCACHE_FLUSH_FIFO_DEPTH=2 +define+CONF_HPDCACHE_CBUF_ENTRIES=4 +define+CONF_HPDCACHE_REFILL_CORE_RSP_FEEDTHROUGH=0 +define+CONF_HPDCACHE_REFILL_FIFO_DEPTH=2 +define+CONF_HPDCACHE_WT_ENABLE=1 +define+CONF_HPDCACHE_WB_ENABLE=1 +define+CONF_HPDCACHE_LOW_LATENCY=0 +define+CONF_HPDCACHE_ECC_ENABLE=0 +define+CONF_HPDCACHE_ECC_SCRUBBER_ENABLE=0 +define+HPDCACHE_ASSERT_OFF
-R6
+R7
 vhpdcache_lfsr
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_lfsr.sv
-R8
-R99
+R10
+R29
 !i10b 1
 !s100 0RDRZ2BhPA>6RRBj8^H7k3
 IHIVJUF2a0:o[IHMFVik5A0
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_lfsr.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_lfsr.sv
-!i122 6439
-Z107 L0 26 70
-R16
-R17
+!i122 6889
+Z92 L0 26 70
+R18
+R19
 r1
 !s85 0
 31
-R100
+R30
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_lfsr.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_lfsr.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_mem_req_read_arbiter
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_read_arbiter.sv
-R8
-R99
+R10
+R29
 !i10b 1
 !s100 L]WF]TOmz24T1Mz_0kI0?0
 I[FYHc_7AZgZU9gWBPZnQ;3
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_read_arbiter.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_read_arbiter.sv
-!i122 6436
+!i122 6886
 L0 26 73
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R32
+R30
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_read_arbiter.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_read_arbiter.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_mem_req_write_arbiter
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_write_arbiter.sv
-R8
-R99
+R10
+R29
 !i10b 1
 !s100 J6LN[?>g?S>2P9S35fHnX2
 IX@hA^1C@K;34V3Yb^_D<h1
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_write_arbiter.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_write_arbiter.sv
-!i122 6437
+!i122 6887
 L0 26 164
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R100
+R30
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_write_arbiter.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_write_arbiter.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_mem_resp_demux
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_resp_demux.sv
-R8
-R44
+R10
+R39
 !i10b 1
 !s100 ;W<6O=K7SzT=ZaGOXO0672
 INIMMi>MWjL<mPFOgo4DhT2
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_resp_demux.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_resp_demux.sv
-!i122 6492
+!i122 6942
 L0 26 83
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R45
+R40
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_resp_demux.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_resp_demux.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_mem_to_axi_read
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_read.sv
-R8
-R46
-R30
-R44
+R10
+R41
+R28
+R39
 !i10b 1
 !s100 NlW@GJ@:UHaYQT4QFd_H70
 I;R3RzBVDeZ?l@D7_jJR6g3
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_read.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_read.sv
-!i122 6494
-R107
-R16
-R17
+!i122 6944
+R92
+R18
+R19
 r1
 !s85 0
 31
-R45
+R40
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_read.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_read.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_mem_to_axi_write
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_write.sv
-R8
-R46
-R30
-R44
+R10
+R41
+R28
+R39
 !i10b 1
 !s100 >kme1k349B:MDLj^j9zV61
 IK1E:AjmL0RY[iXS=VAaEK3
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_write.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_write.sv
-!i122 6493
+!i122 6943
 L0 26 123
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R45
+R40
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_write.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_write.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_memctrl
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv
-R8
-R46
-R94
+R10
+R41
+R85
 !i10b 1
 !s100 @Hz5TSf_agfTU[j90f]SP1
 ICTK;`d?mKL;:@20:mM3co0
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv
-!i122 6477
+!i122 6927
 L0 13 1150
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R95
+R86
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_miss_handler
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_miss_handler.sv
-R8
-R46
-R94
+R10
+R41
+R85
 !i10b 1
 !s100 ]JGoj_;HBN1nZFo4Zi@S61
 IzNJCMVN@Ma`;`zMKAz?`H1
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_miss_handler.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_miss_handler.sv
-!i122 6479
+!i122 6929
 L0 27 866
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R95
+R86
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_miss_handler.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_miss_handler.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_mshr
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_mshr.sv
-R8
-R46
-R94
+R10
+R41
+R85
 !i10b 1
 !s100 OlORD0i>Jo<87_Z8HJ`^K3
 IEoaZD6KRmXTMdHH>c8VZE3
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_mshr.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_mshr.sv
-!i122 6480
+!i122 6930
 L0 27 407
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R95
+R86
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_mshr.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_mshr.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_mux
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_mux.sv
-R8
-R92
+R10
+R83
 !i10b 1
 !s100 dh6Xj92J@l<hPDn25DTFg2
 I]g>gNTPgh35z;CHNHag5V1
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_mux.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_mux.sv
-!i122 6445
+!i122 6895
 L0 26 59
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R93
+R84
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_mux.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_mux.sv|
 !i113 0
-R19
-R6
+R21
+R7
 Xhpdcache_pkg
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_pkg.sv
-R8
-R31
+R10
+R29
 !i10b 1
 !s100 j]?SLY5iHZ`14?LO44Wb]3
 I;aOaP]TaTS=A=Q;OiDO6`3
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_pkg.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_pkg.sv
-!i122 6435
-R21
+!i122 6885
+R22
 V;aOaP]TaTS=A=Q;OiDO6`3
-R17
+R19
 r1
 !s85 0
 31
-R32
+R30
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_pkg.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_pkg.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_prio_1hot_encoder
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_prio_1hot_encoder.sv
-R8
-R92
+R10
+R83
 !i10b 1
 !s100 F:<>4mLkIZ>1;`Xb[NcEj0
 IV:MChTe_f9Z=R2cm1g=nb3
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_prio_1hot_encoder.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_prio_1hot_encoder.sv
-!i122 6448
+!i122 6898
 L0 26 17
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R93
+R84
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_prio_1hot_encoder.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_prio_1hot_encoder.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_prio_bin_encoder
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_prio_bin_encoder.sv
-R8
-R92
+R10
+R83
 !i10b 1
 !s100 MEllTGL=Rb1j>_D8F]z;<0
 I7T8e11:?dK@AK[Gz?cK>:3
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_prio_bin_encoder.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_prio_bin_encoder.sv
-!i122 6449
+!i122 6899
 L0 19 18
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R93
+R84
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_prio_bin_encoder.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_prio_bin_encoder.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_regbank_wbyteenable_1rw
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wbyteenable_1rw.sv
-R8
-R96
+R10
+R83
 !i10b 1
 !s100 h>>Xf2^dh2_>:6iLGT6be2
 I232f6QQA2JLf:4LhIcKWW1
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wbyteenable_1rw.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wbyteenable_1rw.sv
-!i122 6453
+!i122 6903
 L0 26 43
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R97
+R84
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wbyteenable_1rw.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wbyteenable_1rw.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_regbank_wmask_1rw
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wmask_1rw.sv
-R8
-R96
+R10
+R83
 !i10b 1
 !s100 ;JcGnenidKa_TGJUD_MG62
 I4IJ]L4hk9BeDNF?zClM1l2
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wmask_1rw.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wmask_1rw.sv
-!i122 6454
+!i122 6904
 L0 26 41
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R97
+R84
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wmask_1rw.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wmask_1rw.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_rrarb
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_rrarb.sv
-R8
-R92
+R10
+R83
 !i10b 1
 !s100 H@R_IS169ae85?Sg@D2G[2
 I8Y2nOWdWbLMZXVFO<ji6c2
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_rrarb.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_rrarb.sv
-!i122 6444
+!i122 6894
 L0 28 94
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R100
+R84
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_rrarb.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_rrarb.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_rtab
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_rtab.sv
-R8
-R46
-R94
+R10
+R41
+R85
 !i10b 1
 !s100 L9F]P7ZZ]1BRT0h]^B<C<1
 ITN945n`F]eHJJem]_ilFR1
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_rtab.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_rtab.sv
-!i122 6481
+!i122 6931
 L0 13 720
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R95
+R86
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_rtab.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_rtab.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_sram
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram.sv
-R8
-R92
+R10
+R83
 !i10b 1
 !s100 lfYC3H8ZggYjLlbBFk<zz3
 ITM]SL>1@Zn?mFD[N??6eC2
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram.sv
-!i122 6450
+!i122 6900
 L0 13 64
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R93
+R84
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_sram_1rw
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_1rw.sv
-R8
-R101
+R10
+R39
 !i10b 1
 !s100 zQ950cmPJz]<JaAbZIO;L1
 I=E^A^K6nnPAmM_QD^19zZ1
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_1rw.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_1rw.sv
-!i122 6489
+!i122 6939
 L0 13 57
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R102
+R40
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_1rw.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_1rw.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_sram_wbyteenable
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wbyteenable.sv
-R8
-R92
+R10
+R83
 !i10b 1
 !s100 9eOfDEZk1P>[<J[f78P2_0
 IgPz3iE<<HOQee6XWGEW6`1
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wbyteenable.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wbyteenable.sv
-!i122 6451
+!i122 6901
 L0 13 69
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R93
+R84
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wbyteenable.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wbyteenable.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_sram_wbyteenable_1rw
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wbyteenable_1rw.sv
-R8
-R44
+R10
+R39
 !i10b 1
 !s100 IUe73B2]=;8Da>c70J:>N2
 IX@3TQJN91cNITUen=;FC30
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wbyteenable_1rw.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wbyteenable_1rw.sv
-!i122 6490
-R60
-R16
-R17
+!i122 6940
+R51
+R18
+R19
 r1
 !s85 0
 31
-R102
+R40
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wbyteenable_1rw.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wbyteenable_1rw.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_sram_wmask
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv
-R8
-R96
+R10
+R83
 !i10b 1
 !s100 bzj:N_Wz2G@fWE[o?nHbF2
 IGln`L7A7@[1^^4B^7lX]W3
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv
-!i122 6452
+!i122 6902
 L0 13 70
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R93
+R84
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_sram_wmask_1rw
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wmask_1rw.sv
-R8
-R44
+R10
+R39
 !i10b 1
 !s100 :HRkiA]NE^B3QoOmhoJTU1
 Im<VR91g>VdK=A:MfdPD?m3
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wmask_1rw.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wmask_1rw.sv
-!i122 6491
+!i122 6941
 L0 13 58
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R45
+R40
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wmask_1rw.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wmask_1rw.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_sync_buffer
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sync_buffer.sv
-R8
-R99
+R10
+R29
 !i10b 1
 !s100 jkko_4X=SD8H_`hP5cY:h2
 Ik35<ID_gPJQ:DI1bd^eaQ0
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sync_buffer.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sync_buffer.sv
-!i122 6440
+!i122 6890
 L0 26 68
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R100
+R30
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sync_buffer.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sync_buffer.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_uncached
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_uncached.sv
-R8
-R46
-R94
+R10
+R41
+R85
 !i10b 1
 !s100 _aocRl6Sgh<O>=ghE]76L0
 IA93kU@m:mHlNn2oM:z;;j1
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_uncached.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_uncached.sv
-!i122 6482
+!i122 6932
 L0 13 966
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R95
+R86
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_uncached.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_uncached.sv|
 !i113 0
-R19
-R6
+R21
+R7
 Xhpdcache_uvm_pkg
 2D:/HCMUS/UVM/sv/hpdcache_uvm_pkg.sv
-Z108 !s115 hpdcache_if
-R8
-Z109 DXx6 mtiUvm 7 uvm_pkg 0 22 8V[`8]Q0W57le7Z>zYaAj1
-R103
-Z110 !s110 1783700964
+Z93 !s115 hpdcache_if
+R10
+Z94 DXx6 mtiUvm 7 uvm_pkg 0 22 8V[`8]Q0W57le7Z>zYaAj1
+R88
+Z95 !s110 1783700964
 !i10b 1
 !s100 JNX^Jn1<jN`GTD1XKL=Lg0
 I?H[KNikn?C40kjM@FFNU;1
 S1
-R3
+R4
 w1783449287
 8D:/HCMUS/UVM/sv/hpdcache_uvm_pkg.sv
 FD:/HCMUS/UVM/sv/hpdcache_uvm_pkg.sv
-Z111 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
-Z112 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
-Z113 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
-Z114 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh
-Z115 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh
-Z116 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh
-Z117 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh
-Z118 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
-Z119 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh
-Z120 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
-Z121 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
-Z122 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
+Z96 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
+Z97 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
+Z98 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
+Z99 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh
+Z100 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh
+Z101 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh
+Z102 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh
+Z103 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
+Z104 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh
+Z105 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
+Z106 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
+Z107 FC:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
 FD:/HCMUS/UVM/sv/hpdcache_seq_item.sv
 FD:/HCMUS/UVM/sv/hpdcache_sequencer.sv
 FD:/HCMUS/UVM/sv/hpdcache_driver.sv
@@ -2720,1060 +2723,1060 @@ FD:/HCMUS/UVM/sv/hpdcache_monitor.sv
 FD:/HCMUS/UVM/sv/hpdcache_scoreboard.sv
 FD:/HCMUS/UVM/sv/hpdcache_env.sv
 !i122 279
-R104
+R89
 V?H[KNikn?C40kjM@FFNU;1
-R17
+R19
 r1
 !s85 0
 31
-R105
+R90
 !s107 D:/HCMUS/UVM/sv/hpdcache_env.sv|D:/HCMUS/UVM/sv/hpdcache_scoreboard.sv|D:/HCMUS/UVM/sv/hpdcache_monitor.sv|D:/HCMUS/UVM/sv/hpdcache_driver.sv|D:/HCMUS/UVM/sv/hpdcache_sequencer.sv|D:/HCMUS/UVM/sv/hpdcache_seq_item.sv|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|D:/HCMUS/UVM/sv/hpdcache_uvm_pkg.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+.|+incdir+D:/HCMUS/UVM/sv|+incdir+D:/HCMUS/UVM/tb|+incdir+D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include|-L|mtiUvm|D:/HCMUS/UVM/sv/hpdcache_uvm_pkg.sv|
 !i113 0
-Z123 o-sv -work work -L mtiUvm
-Z124 !s92 -sv -work work +incdir+. +incdir+D:/HCMUS/UVM/sv +incdir+D:/HCMUS/UVM/tb +incdir+D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include -L mtiUvm
-R6
+Z108 o-sv -work work -L mtiUvm
+Z109 !s92 -sv -work work +incdir+. +incdir+D:/HCMUS/UVM/sv +incdir+D:/HCMUS/UVM/tb +incdir+D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include -L mtiUvm
+R7
 vhpdcache_victim_plru
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_plru.sv
-R8
-R46
-R101
+R10
+R41
+R85
 !i10b 1
 !s100 n>ReIjW4CnASchk[H7S]H1
 ID=8dZUP:Vo`i41Wl<cL5e3
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_plru.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_plru.sv
-!i122 6483
+!i122 6933
 L0 27 120
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R102
+R86
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_plru.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_plru.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_victim_random
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_random.sv
-R8
-R46
-R101
+R10
+R41
+R85
 !i10b 1
 !s100 ZdRFk:Pega3aie^z2CZEU3
 I:Pm1;^ie7YDA7G8lD9Ac52
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_random.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_random.sv
-!i122 6484
+!i122 6934
 L0 27 100
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R102
+R86
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_random.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_random.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_victim_sel
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_sel.sv
-R8
-R46
-R101
+R10
+R41
+R85
 !i10b 1
 !s100 j]oPI3nGFjABF7S5<;FA21
 InnWhURN;F8Xdb[KilCe`L1
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_sel.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_sel.sv
-!i122 6485
+!i122 6935
 L0 27 96
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R102
+R86
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_sel.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_sel.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_wbuf
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_wbuf.sv
-R8
-R46
-R101
+R10
+R41
+R39
 !i10b 1
 !s100 n==HFn>UB8XYf2KF7_Y`J1
 IoHIK6RONjIf74B6o;[5Hk3
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_wbuf.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_wbuf.sv
-!i122 6486
+!i122 6936
 L0 27 716
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R102
+R40
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_wbuf.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_wbuf.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhpdcache_wrapper
 2D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_wrapper.sv
-R8
-R46
-R101
+R10
+R41
+R39
 !i10b 1
 !s100 M2Pj=CMVP994KSzRdJg?B3
 Ifj8i_bZKKDdASQi?kE:I]3
 S1
-R14
+R16
 w1781671591
 8D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_wrapper.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_wrapper.sv
-!i122 6488
+!i122 6938
 L0 15 405
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R102
+R40
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_config.svh|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh|D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_wrapper.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|+incdir+D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_wrapper.sv|
 !i113 0
-R19
-R50
-R6
+R21
+R45
+R7
 vhw_top
 2D:/HCMUS/UVM/tb/hw_top.sv
-R8
-R103
-R110
+R10
+R88
+R95
 !i10b 1
 !s100 ;=U_=0=Lbz3A;GDT^A1PO0
 IbgbKMKSJGi3D7VUWUF?KV1
 S1
-R3
+R4
 w1783448256
 8D:/HCMUS/UVM/tb/hw_top.sv
 FD:/HCMUS/UVM/tb/hw_top.sv
 !i122 280
 L0 24 398
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-Z125 !s108 1783700964.000000
+Z110 !s108 1783700964.000000
 !s107 D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include/hpdcache_config.svh|D:/HCMUS/UVM/tb/hw_top.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+.|+incdir+D:/HCMUS/UVM/sv|+incdir+D:/HCMUS/UVM/tb|+incdir+D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include|D:/HCMUS/UVM/tb/hw_top.sv|
 !i113 0
-R106
+R91
 !s92 -sv -work work +incdir+. +incdir+D:/HCMUS/UVM/sv +incdir+D:/HCMUS/UVM/tb +incdir+D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include
-R6
+R7
 vhwpf_stride
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride.sv
-R8
-R51
+R10
 R46
-R96
+R41
+R42
 !i10b 1
 !s100 jkg=a<;cCNi:SN5f:8g[^1
 Ig9DOCGMbm<mQTUDYGC:^W3
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride.sv
-!i122 6459
+!i122 6909
 L0 27 353
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R97
+R43
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhwpf_stride_arb
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_arb.sv
-R8
-R46
-R47
+R10
+R41
+R42
 !i10b 1
 !s100 ;[4U_f7jaXSa2_UBlOzjh1
 InQRNDPU>??4ZCSGW9W=WB2
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_arb.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_arb.sv
-!i122 6460
+!i122 6910
 L0 26 96
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R97
+R43
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_arb.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_arb.sv|
 !i113 0
-R19
-R6
+R21
+R7
 Xhwpf_stride_pkg
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_pkg.sv
-R8
-R96
+R10
+R42
 !i10b 1
 !s100 NT:Q]CJA[N0=k4<maXknl3
 ISSQ5z5UlE`;E82PgPF4U62
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_pkg.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_pkg.sv
-!i122 6458
+!i122 6908
 L0 27 0
 VSSQ5z5UlE`;E82PgPF4U62
-R17
+R19
 r1
 !s85 0
 31
-R97
+R43
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_pkg.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_pkg.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vhwpf_stride_wrapper
 2D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv
-R8
-R51
+R10
 R46
-R47
+R41
+R42
 !i10b 1
 !s100 Jkg=m4UG4bRJBZiH_LCT:3
 I31O1=J0e]1>3koU8V1G2J2
 S1
-R14
-R91
+R16
+R82
 8D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv
 FD:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv
-!i122 6461
+!i122 6911
 L0 28 262
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R48
+R43
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|+incdir+D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include|-stats=none|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv|
 !i113 0
-R19
-R50
-R6
+R21
+R45
+R7
 vid_stage
 2D:/khoaluantotnghiep/cva6-master/core/id_stage.sv
-R8
-R9
 R10
 R11
-R28
+R12
+R13
+R23
 !i10b 1
 !s100 SPmi8lnPj<hMl>WQ`KUa30
 I7E6PgJb0Q34JnYZb>iK8A2
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/id_stage.sv
-FD:/khoaluantotnghiep/cva6-master/core/id_stage.sv
-!i122 6406
-L0 16 466
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/id_stage.sv
+FD:/khoaluantotnghiep/cva6-master/core/id_stage.sv
+!i122 6856
+L0 16 466
+R18
+R19
 r1
 !s85 0
 31
-R29
+R24
 !s107 D:/khoaluantotnghiep/cva6-master/core/id_stage.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/id_stage.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vinstr_queue
 2D:/khoaluantotnghiep/cva6-master/core/frontend/instr_queue.sv
-R8
-R9
 R10
 R11
 R12
-R54
+R13
+R14
+R47
 !i10b 1
 !s100 0ad4m[fJ51^]YMlg2RAPQ3
 I>2NlC[XWn>?6AJfk:65IC2
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/frontend/instr_queue.sv
-FD:/khoaluantotnghiep/cva6-master/core/frontend/instr_queue.sv
-!i122 6388
-L0 46 520
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/frontend/instr_queue.sv
+FD:/khoaluantotnghiep/cva6-master/core/frontend/instr_queue.sv
+!i122 6838
+L0 46 520
+R18
+R19
 r1
 !s85 0
 31
-R55
+R48
 !s107 D:/khoaluantotnghiep/cva6-master/core/frontend/instr_queue.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/frontend/instr_queue.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vinstr_realign
 2D:/khoaluantotnghiep/cva6-master/core/instr_realign.sv
-R8
-R9
 R10
 R11
 R12
-R28
+R13
+R14
+R23
 !i10b 1
 !s100 Aj5?XmclLK^I8;1GB2na91
 Il0Izd]Ym6UY@53j:6Ih=80
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/instr_realign.sv
-FD:/khoaluantotnghiep/cva6-master/core/instr_realign.sv
-!i122 6405
-L0 22 344
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/instr_realign.sv
+FD:/khoaluantotnghiep/cva6-master/core/instr_realign.sv
+!i122 6855
+L0 22 344
+R18
+R19
 r1
 !s85 0
 31
-R29
+R24
 !s107 D:/khoaluantotnghiep/cva6-master/core/instr_realign.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/instr_realign.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vinstr_scan
 2D:/khoaluantotnghiep/cva6-master/core/frontend/instr_scan.sv
-R8
-R9
 R10
 R11
-R54
+R12
+R13
+R47
 !i10b 1
 !s100 1P_M=Ifi@3aGV;O?HWd@B0
 I`o3e4^Fhjk2BfMTh5?LaH3
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/frontend/instr_scan.sv
-FD:/khoaluantotnghiep/cva6-master/core/frontend/instr_scan.sv
-!i122 6387
-L0 18 93
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/frontend/instr_scan.sv
+FD:/khoaluantotnghiep/cva6-master/core/frontend/instr_scan.sv
+!i122 6837
+L0 18 93
+R18
+R19
 r1
 !s85 0
 31
-R55
+R32
 !s107 D:/khoaluantotnghiep/cva6-master/core/frontend/instr_scan.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/frontend/instr_scan.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vinstr_tracer
-Z126 2D:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv
-R8
-R9
+Z111 2D:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv
 R10
 R11
 R12
-Z127 DXx4 work 16 instr_tracer_pkg 0 22 L12:F[3cdlN^2a_M@EVY60
-DXx4 work 20 instr_tracer_sv_unit 0 22 YKIgW_>QhXK4mF988U>]02
-R58
-R16
+R13
+R14
+Z112 DXx4 work 16 instr_tracer_pkg 0 22 L12:F[3cdlN^2a_M@EVY60
+DXx4 work 20 instr_tracer_sv_unit 0 22 OeMgVmQZCR:HV>;o0T86A2
+R49
+R18
 r1
 !s85 0
 !i10b 1
-!s100 LjlFZH_66A3OK>YB9W_nE0
-I>d3MOSL]E:X:OS^N;0no72
+!s100 L0Go<aIi=>DK?]0R]5]2C1
+IeW13[]5JjamzJS;ah<Z:F1
 !s105 instr_tracer_sv_unit
 S1
-R14
-R15
-Z128 8D:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv
-Z129 FD:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv
-!i122 6499
+R16
+Z113 w1783867058
+Z114 8D:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv
+Z115 FD:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv
+!i122 6949
 L0 20 293
-R17
-31
-R59
-Z130 !s107 D:/khoaluantotnghiep/cva6-master/common/local/util/instr_trace_item.svh|D:/khoaluantotnghiep/cva6-master/common/local/util/ex_trace_item.svh|D:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv|
-Z131 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv|
-!i113 0
 R19
-R6
+31
+R40
+Z116 !s107 D:/khoaluantotnghiep/cva6-master/common/local/util/instr_trace_item.svh|D:/khoaluantotnghiep/cva6-master/common/local/util/ex_trace_item.svh|D:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv|
+Z117 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv|
+!i113 0
+R21
+R7
 Xinstr_tracer_pkg
 2D:/khoaluantotnghiep/cva6-master/core/include/instr_tracer_pkg.sv
-R8
-R9
 R10
 R11
-R58
+R12
+R13
+R39
 !i10b 1
 !s100 _E=czY?gXb5Mf<GZ35]Z02
 IL12:F[3cdlN^2a_M@EVY60
 S1
-R14
-R15
+R16
+R17
 8D:/khoaluantotnghiep/cva6-master/core/include/instr_tracer_pkg.sv
 FD:/khoaluantotnghiep/cva6-master/core/include/instr_tracer_pkg.sv
-!i122 6498
-Z132 L0 16 0
+!i122 6948
+Z118 L0 16 0
 VL12:F[3cdlN^2a_M@EVY60
-R17
+R19
 r1
 !s85 0
 31
-R45
+R40
 !s107 D:/khoaluantotnghiep/cva6-master/core/include/instr_tracer_pkg.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/include/instr_tracer_pkg.sv|
 !i113 0
-R19
-R6
+R21
+R7
 Xinstr_tracer_sv_unit
-R126
-R8
-R9
+R111
 R10
 R11
 R12
-R127
-R58
-VYKIgW_>QhXK4mF988U>]02
+R13
+R14
+R112
+R49
+VOeMgVmQZCR:HV>;o0T86A2
 r1
 !s85 0
 !i10b 1
-!s100 b3RhD`d@E2m=dl=0eWeBD2
-IYKIgW_>QhXK4mF988U>]02
+!s100 5bh5f5_OOIQRCdV9:S98I3
+IOeMgVmQZCR:HV>;o0T86A2
 !i103 1
 S1
-R14
-R15
-R128
-R129
+R16
+R113
+R114
+R115
 FD:/khoaluantotnghiep/cva6-master/common/local/util/ex_trace_item.svh
 FD:/khoaluantotnghiep/cva6-master/common/local/util/instr_trace_item.svh
-!i122 6499
-R132
-R17
-31
-R59
-R130
-R131
-!i113 0
+!i122 6949
+R118
 R19
-R6
+31
+R40
+R116
+R117
+!i113 0
+R21
+R7
 vissue_read_operands
 2D:/khoaluantotnghiep/cva6-master/core/issue_read_operands.sv
-R8
-R9
 R10
 R11
 R12
-R22
+R13
+R14
+R23
 !i10b 1
 !s100 QUlCK:CCg6AkT:8?FANd=1
 I[L]:>GT[Ej<Zo2FVWjofU2
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/issue_read_operands.sv
-FD:/khoaluantotnghiep/cva6-master/core/issue_read_operands.sv
-!i122 6410
-L0 17 1101
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/issue_read_operands.sv
+FD:/khoaluantotnghiep/cva6-master/core/issue_read_operands.sv
+!i122 6860
+L0 17 1101
+R18
+R19
 r1
 !s85 0
 31
-R23
+R24
 !s107 D:/khoaluantotnghiep/cva6-master/core/issue_read_operands.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/issue_read_operands.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vissue_stage
 2D:/khoaluantotnghiep/cva6-master/core/issue_stage.sv
-R8
-R9
 R10
 R11
 R12
-R22
+R13
+R14
+R23
 !i10b 1
 !s100 GdPX9Z0^OJjMFc<Bbn_b_3
 IF72E7ndS7o6YOLCOCggRT0
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/issue_stage.sv
-FD:/khoaluantotnghiep/cva6-master/core/issue_stage.sv
-!i122 6411
-L0 17 302
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/issue_stage.sv
+FD:/khoaluantotnghiep/cva6-master/core/issue_stage.sv
+!i122 6861
+L0 17 302
+R18
+R19
 r1
 !s85 0
 31
-R23
+R24
 !s107 D:/khoaluantotnghiep/cva6-master/core/issue_stage.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/issue_stage.sv|
 !i113 0
-R19
-R6
+R21
+R7
 Xl15_pkg
 2D:/khoaluantotnghiep/cva6-master/core/include/dummy_l15_pkg.sv
-R8
-R35
+R10
+R26
 !i10b 1
 !s100 8nL[n@@al;0>nFSE;PW`l2
 IJPL?[FzUPPVNJnSVIKYeI1
 S1
-R14
-R15
+R16
+R17
 8D:/khoaluantotnghiep/cva6-master/core/include/dummy_l15_pkg.sv
 FD:/khoaluantotnghiep/cva6-master/core/include/dummy_l15_pkg.sv
-!i122 6363
+!i122 6813
 L0 4 0
 VJPL?[FzUPPVNJnSVIKYeI1
-R17
+R19
 r1
 !s85 0
 31
-R38
+R27
 !s107 D:/khoaluantotnghiep/cva6-master/core/include/dummy_l15_pkg.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/include/dummy_l15_pkg.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vlfsr
 2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lfsr.sv
-R8
-R56
+R10
+R47
 !i10b 1
 !s100 ZPT796JU@@?S[G4ohCb^X1
 INoB_oFm;A4GFQ3GGNEWCG2
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lfsr.sv
-FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lfsr.sv
-!i122 6395
-L0 22 294
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lfsr.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lfsr.sv
+!i122 6845
+L0 22 294
+R18
+R19
 r1
 !s85 0
 31
-R57
+R48
 !s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lfsr.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lfsr.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vload_store_unit
 2D:/khoaluantotnghiep/cva6-master/core/load_store_unit.sv
-R8
-R9
 R10
 R11
 R12
 R13
+R14
+R29
 !i10b 1
 !s100 Lo[6f7LD3m;Q9P5l3OMg30
 IS=X5BKH46Eb4`O<P5?8OY1
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/load_store_unit.sv
-FD:/khoaluantotnghiep/cva6-master/core/load_store_unit.sv
-!i122 6428
-L0 16 877
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/load_store_unit.sv
+FD:/khoaluantotnghiep/cva6-master/core/load_store_unit.sv
+!i122 6878
+L0 16 877
+R18
+R19
 r1
 !s85 0
 31
-R25
+R20
 !s107 D:/khoaluantotnghiep/cva6-master/core/load_store_unit.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/load_store_unit.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vload_unit
 2D:/khoaluantotnghiep/cva6-master/core/load_unit.sv
-R8
-R9
 R10
 R11
 R12
 R13
+R14
+R15
 !i10b 1
 !s100 C38zHQ<773KdO2a>o7QA[3
 IhBEJ0Y9P:H8]_?nN?4iF<3
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/load_unit.sv
-FD:/khoaluantotnghiep/cva6-master/core/load_unit.sv
-!i122 6427
-L0 21 633
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/load_unit.sv
+FD:/khoaluantotnghiep/cva6-master/core/load_unit.sv
+!i122 6877
+L0 21 633
+R18
+R19
 r1
 !s85 0
 31
-R25
+R20
 !s107 D:/khoaluantotnghiep/cva6-master/core/load_unit.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/load_unit.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vlsu_bypass
 2D:/khoaluantotnghiep/cva6-master/core/lsu_bypass.sv
-R8
-R9
 R10
 R11
 R12
-R31
+R13
+R14
+R29
 !i10b 1
 !s100 jTVFhCHHGUgIi`Pe3V@Nc1
 Im9fHeQbG0NK7^bkW^K6An3
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/lsu_bypass.sv
-FD:/khoaluantotnghiep/cva6-master/core/lsu_bypass.sv
-!i122 6429
-L0 26 119
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/lsu_bypass.sv
+FD:/khoaluantotnghiep/cva6-master/core/lsu_bypass.sv
+!i122 6879
+L0 26 119
+R18
+R19
 r1
 !s85 0
 31
-R25
+R30
 !s107 D:/khoaluantotnghiep/cva6-master/core/lsu_bypass.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/lsu_bypass.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vlzc
 2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lzc.sv
-R8
+R10
 DXx4 work 11 cf_math_pkg 0 22 :TSdRUUo<@Fn4ko6Cdh`?0
-R35
+R26
 !i10b 1
 !s100 lZa^Mnl[28h8>3g_j;k>A3
 I`6>2O^Km:d2ekMWfi[I8?0
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lzc.sv
-FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lzc.sv
-!i122 6370
-L0 25 88
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lzc.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lzc.sv
+!i122 6820
+L0 25 88
+R18
+R19
 r1
 !s85 0
 31
-R38
+R27
 !s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lzc.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lzc.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vmacro_decoder
 2D:/khoaluantotnghiep/cva6-master/core/macro_decoder.sv
-R8
-R9
 R10
 R11
-R28
+R12
+R13
+R23
 !i10b 1
 !s100 9hFgoWfSjWdIF6IgV6Daa0
 IUJ2QIS>jQ1=4R0=^@eFRT3
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/macro_decoder.sv
-FD:/khoaluantotnghiep/cva6-master/core/macro_decoder.sv
-!i122 6404
-L0 17 749
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/macro_decoder.sv
+FD:/khoaluantotnghiep/cva6-master/core/macro_decoder.sv
+!i122 6854
+L0 17 749
+R18
+R19
 r1
 !s85 0
 31
-R29
+R24
 !s107 D:/khoaluantotnghiep/cva6-master/core/macro_decoder.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/macro_decoder.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vmult
 2D:/khoaluantotnghiep/cva6-master/core/mult.sv
-R8
-R9
 R10
 R11
 R12
-R20
+R13
+R14
+R15
 !i10b 1
 !s100 dAl2`<5hY2^:4VLTic9M90
 IRY]N<PaV5MF@;>nkj[K2l2
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/mult.sv
-FD:/khoaluantotnghiep/cva6-master/core/mult.sv
-!i122 6415
-L0 3 156
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/mult.sv
+FD:/khoaluantotnghiep/cva6-master/core/mult.sv
+!i122 6865
+L0 3 156
+R18
+R19
 r1
 !s85 0
 31
-R23
+R20
 !s107 D:/khoaluantotnghiep/cva6-master/core/mult.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/mult.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vmultiplier
 2D:/khoaluantotnghiep/cva6-master/core/multiplier.sv
-R8
-R9
 R10
 R11
 R12
-R20
+R13
+R14
+R15
 !i10b 1
 !s100 6?zMAaz?:PibGC=Bf?:e70
 IC=N@[3f9SedCMO3Ge84ID3
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/multiplier.sv
-FD:/khoaluantotnghiep/cva6-master/core/multiplier.sv
-!i122 6416
-L0 18 152
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/multiplier.sv
+FD:/khoaluantotnghiep/cva6-master/core/multiplier.sv
+!i122 6866
+L0 18 152
+R18
+R19
 r1
 !s85 0
 31
-R18
+R20
 !s107 D:/khoaluantotnghiep/cva6-master/core/multiplier.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/multiplier.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vperf_counters
 2D:/khoaluantotnghiep/cva6-master/core/perf_counters.sv
-R8
-R9
 R10
 R11
 R12
-R20
+R13
+R14
+R15
 !i10b 1
 !s100 =Mif?5F[F<ZLaeG;=j1Ai0
 I70ci6Z4Fj4ENJd;fz[AGc0
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/perf_counters.sv
-FD:/khoaluantotnghiep/cva6-master/core/perf_counters.sv
-!i122 6420
-L0 16 202
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/perf_counters.sv
+FD:/khoaluantotnghiep/cva6-master/core/perf_counters.sv
+!i122 6870
+L0 16 202
+R18
+R19
 r1
 !s85 0
 31
-R18
+R20
 !s107 D:/khoaluantotnghiep/cva6-master/core/perf_counters.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/perf_counters.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vplru
 2D:/khoaluantotnghiep/icache-master/plru.sv
-R8
-R54
+R10
+R47
 !i10b 1
 !s100 lh8:M=cWYkjF`L<9GeUb10
 Ih82[]K4:;K1FW2aFYi`9S2
 S1
-R14
+R16
 w1781279652
 8D:/khoaluantotnghiep/icache-master/plru.sv
 FD:/khoaluantotnghiep/icache-master/plru.sv
-!i122 6391
+!i122 6841
 L0 25 87
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R55
+R48
 !s107 D:/khoaluantotnghiep/icache-master/plru.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/icache-master/plru.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vplru_tree
 2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/plru_tree.sv
-R8
-R54
+R10
+R47
 !i10b 1
 !s100 @U4]ZKGXlUbAM3=6JFT_13
 Idz@LV0B?R:=b3>XVzGW810
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/plru_tree.sv
-FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/plru_tree.sv
-!i122 6390
-L0 17 104
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/plru_tree.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/plru_tree.sv
+!i122 6840
+L0 17 104
+R18
+R19
 r1
 !s85 0
 31
-R55
+R48
 !s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/plru_tree.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/plru_tree.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vpmp
 2D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp.sv
-R8
-R9
 R10
 R11
 R12
-R56
+R13
+R14
+R47
 !i10b 1
 !s100 Hb3IMk7gAUlFeNFW[E1O92
 I3TkeB^6nK[FBd03U_Xg6R1
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp.sv
-FD:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp.sv
-!i122 6400
-L0 15 61
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp.sv
+FD:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp.sv
+!i122 6850
+L0 15 61
+R18
+R19
 r1
 !s85 0
 31
-R57
+R48
 !s107 D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vpmp_data_if
 2D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_data_if.sv
-R8
-R9
 R10
 R11
 R12
-R28
+R13
+R14
+R23
 !i10b 1
 !s100 Gb7?5XYcBDI;8X@@?HjGc2
 IU4I^7Y@H]9^K34?=LJCe62
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_data_if.sv
-FD:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_data_if.sv
-!i122 6401
-L0 9 191
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_data_if.sv
+FD:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_data_if.sv
+!i122 6851
+L0 9 191
+R18
+R19
 r1
 !s85 0
 31
-R57
+R48
 !s107 D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_data_if.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_data_if.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vpmp_entry
 2D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_entry.sv
-R8
-R9
 R10
 R11
-R56
+R12
+R13
+R47
 !i10b 1
 !s100 ieAE:LJ`EdIKIaT]B2C150
 IGJa:c8TX6T`5ZeCkNVSH70
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_entry.sv
-FD:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_entry.sv
-!i122 6399
-L0 15 108
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_entry.sv
+FD:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_entry.sv
+!i122 6849
+L0 15 108
+R18
+R19
 r1
 !s85 0
 31
-R57
+R48
 !s107 D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_entry.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_entry.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vpopcount
 2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/popcount.sv
-R8
-R40
+R10
+R31
 !i10b 1
 !s100 l<UmFgm7EBSihXlPjbUac2
 IhLCTh@EF?;Kj8cOzO?02U2
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/popcount.sv
-FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/popcount.sv
-!i122 6374
-L0 19 39
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/popcount.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/popcount.sv
+!i122 6824
+L0 19 39
+R18
+R19
 r1
 !s85 0
 31
-R41
+R32
 !s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/popcount.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/popcount.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vras
 2D:/khoaluantotnghiep/cva6-master/core/frontend/ras.sv
-R8
-R9
-R54
+R10
+R11
+R31
 !i10b 1
 !s100 IWz8gSam?GVHzA?[=Gka73
 I]IfH;B53M1z4bKc[R8lNo1
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/frontend/ras.sv
-FD:/khoaluantotnghiep/cva6-master/core/frontend/ras.sv
-!i122 6386
-L0 17 63
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/frontend/ras.sv
+FD:/khoaluantotnghiep/cva6-master/core/frontend/ras.sv
+!i122 6836
+L0 17 63
+R18
+R19
 r1
 !s85 0
 31
-R34
+R32
 !s107 D:/khoaluantotnghiep/cva6-master/core/frontend/ras.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/frontend/ras.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vraw_checker
 2D:/khoaluantotnghiep/cva6-master/core/raw_checker.sv
-R8
-R9
 R10
 R11
 R12
-R20
+R13
+R14
+R15
 !i10b 1
 !s100 F[Rg[Oi5WFLhUSE[01FVS1
 IFogVi4^UXDcN4H]^CQDno2
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/raw_checker.sv
-FD:/khoaluantotnghiep/cva6-master/core/raw_checker.sv
-!i122 6419
-L0 10 64
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/raw_checker.sv
+FD:/khoaluantotnghiep/cva6-master/core/raw_checker.sv
+!i122 6869
+L0 10 64
+R18
+R19
 r1
 !s85 0
 31
-R18
+R20
 !s107 D:/khoaluantotnghiep/cva6-master/core/raw_checker.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/raw_checker.sv|
 !i113 0
-R19
-R6
+R21
+R7
 Xriscv
 2D:/khoaluantotnghiep/cva6-master/core/include/riscv_pkg.sv
-R8
-R9
 R10
+R11
+R12
 R26
 !i10b 1
 !s100 m3i7Q3oEY9^B5<X6OimA<3
 I>VPOUm;m^iedg=zeYIG=G3
 S1
-R14
-R15
+R16
+R17
 8D:/khoaluantotnghiep/cva6-master/core/include/riscv_pkg.sv
 FD:/khoaluantotnghiep/cva6-master/core/include/riscv_pkg.sv
-!i122 6358
-R37
+!i122 6808
+R34
 V>VPOUm;m^iedg=zeYIG=G3
-R17
+R19
 r1
 !s85 0
 31
@@ -3781,336 +3784,336 @@ R27
 !s107 D:/khoaluantotnghiep/cva6-master/core/include/riscv_pkg.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/include/riscv_pkg.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vrr_arb_tree
 2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/rr_arb_tree.sv
-R8
-R40
+R10
+R26
 !i10b 1
 !s100 cC2HhWH;CAgz42PaO[P`:0
 I<g=bZS^mVR?E>F=DLjhNB2
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/rr_arb_tree.sv
-FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/rr_arb_tree.sv
-!i122 6371
-L0 47 302
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/rr_arb_tree.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/rr_arb_tree.sv
+!i122 6821
+L0 47 302
+R18
+R19
 r1
 !s85 0
 31
-R41
+R27
 !s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/rr_arb_tree.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/rr_arb_tree.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vscoreboard
 2D:/khoaluantotnghiep/cva6-master/core/scoreboard.sv
-R8
-R9
 R10
 R11
 R12
-R22
+R13
+R14
+R23
 !i10b 1
 !s100 BD>F>A?1cE2E?3T4Z`k1h3
 IU^[B6]F3e^eHmOkbg8Jl;3
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/scoreboard.sv
-FD:/khoaluantotnghiep/cva6-master/core/scoreboard.sv
-!i122 6408
-L0 15 342
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/scoreboard.sv
+FD:/khoaluantotnghiep/cva6-master/core/scoreboard.sv
+!i122 6858
+L0 15 342
+R18
+R19
 r1
 !s85 0
 31
-R29
+R24
 !s107 D:/khoaluantotnghiep/cva6-master/core/scoreboard.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/scoreboard.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vserdiv
 2D:/khoaluantotnghiep/cva6-master/core/serdiv.sv
-R8
-R9
 R10
 R11
 R12
-R20
+R13
+R14
+R15
 !i10b 1
 !s100 V4dM?2Pn63kHb1G4Pf9k92
 ImLaaigf:`5b<gmO2ZcGX`0
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/serdiv.sv
-FD:/khoaluantotnghiep/cva6-master/core/serdiv.sv
-!i122 6417
-L0 18 260
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/serdiv.sv
+FD:/khoaluantotnghiep/cva6-master/core/serdiv.sv
+!i122 6867
+L0 18 260
+R18
+R19
 r1
 !s85 0
 31
-R18
+R20
 !s107 D:/khoaluantotnghiep/cva6-master/core/serdiv.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/serdiv.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vshift_reg
 2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/shift_reg.sv
-R8
-R40
+R10
+R31
 !i10b 1
 !s100 4V0gB@4jCU^f]X_aSXGH?3
 IJ64d`h[Jj8j]@5e[i2XO23
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/shift_reg.sv
-FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/shift_reg.sv
-!i122 6372
-L0 16 38
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/shift_reg.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/shift_reg.sv
+!i122 6822
+L0 16 38
+R18
+R19
 r1
 !s85 0
 31
-R41
+R27
 !s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/shift_reg.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/shift_reg.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vsram
 2D:/khoaluantotnghiep/cva6-master/common/local/util/sram.sv
-R8
-R33
+R10
+R31
 !i10b 1
 !s100 WT3[ZY_FKcMOUgQ?`bZ><0
 IoeIU`IP>hi0OhPnaT9<8J3
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/common/local/util/sram.sv
-FD:/khoaluantotnghiep/cva6-master/common/local/util/sram.sv
-!i122 6381
-L0 21 97
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/common/local/util/sram.sv
+FD:/khoaluantotnghiep/cva6-master/common/local/util/sram.sv
+!i122 6831
+L0 21 97
+R18
+R19
 r1
 !s85 0
 31
-R34
+R32
 !s107 D:/khoaluantotnghiep/cva6-master/common/local/util/sram.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/common/local/util/sram.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vsram_cache
 2D:/khoaluantotnghiep/cva6-master/common/local/util/sram_cache.sv
-R8
-R33
+R10
+R31
 !i10b 1
 !s100 Z^dz3GVFznSRHO>@fVnoU0
 IfflCl_al3dPF9jjZ38ioN1
 S1
-R14
+R16
 w1781083615
 8D:/khoaluantotnghiep/cva6-master/common/local/util/sram_cache.sv
 FD:/khoaluantotnghiep/cva6-master/common/local/util/sram_cache.sv
-!i122 6382
+!i122 6832
 L0 21 107
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R34
+R32
 !s107 D:/khoaluantotnghiep/cva6-master/common/local/util/sram_cache.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/common/local/util/sram_cache.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vstore_buffer
 2D:/khoaluantotnghiep/cva6-master/core/store_buffer.sv
-R8
-R9
 R10
 R11
 R12
 R13
+R14
+R15
 !i10b 1
 !s100 NAB`<fB;cTz_Z=4C]_f982
 I0WZB>zUG8Of6;5QlVn5F60
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/store_buffer.sv
-FD:/khoaluantotnghiep/cva6-master/core/store_buffer.sv
-!i122 6425
-L0 17 301
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/store_buffer.sv
+FD:/khoaluantotnghiep/cva6-master/core/store_buffer.sv
+!i122 6875
+L0 17 301
+R18
+R19
 r1
 !s85 0
 31
-R25
+R20
 !s107 D:/khoaluantotnghiep/cva6-master/core/store_buffer.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/store_buffer.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vstore_unit
 2D:/khoaluantotnghiep/cva6-master/core/store_unit.sv
-R8
-R9
 R10
 R11
 R12
 R13
+R14
+R15
 !i10b 1
 !s100 Tomb6?zU;S?jcGPd4XHR<2
 I8KQ^0aACIMG?a2@0@3?CJ1
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/core/store_unit.sv
-FD:/khoaluantotnghiep/cva6-master/core/store_unit.sv
-!i122 6426
-L0 16 390
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/core/store_unit.sv
+FD:/khoaluantotnghiep/cva6-master/core/store_unit.sv
+!i122 6876
+L0 16 390
+R18
+R19
 r1
 !s85 0
 31
-R25
+R20
 !s107 D:/khoaluantotnghiep/cva6-master/core/store_unit.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/store_unit.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vstream_arbiter
 2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter.sv
-R8
-R35
+R10
+R26
 !i10b 1
 !s100 UZY5SC?7LZAR<I1][84K>1
 I`;9IJ?8ihkQ0jVY^ho<l_0
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter.sv
-FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter.sv
-!i122 6366
-L0 16 34
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter.sv
+!i122 6816
+L0 16 34
+R18
+R19
 r1
 !s85 0
 31
-R38
+R27
 !s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vstream_arbiter_flushable
 2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter_flushable.sv
-R8
-R35
+R10
+R26
 !i10b 1
 !s100 h_h=LVlGeTQ:;cf8W2ODj1
 I^mX7n3mamz6ZRQKV=`MV=2
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter_flushable.sv
-FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter_flushable.sv
-!i122 6367
-L0 16 67
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter_flushable.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter_flushable.sv
+!i122 6817
+L0 16 67
+R18
+R19
 r1
 !s85 0
 31
-R38
+R27
 !s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter_flushable.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter_flushable.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vstream_demux
 2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_demux.sv
-R8
-R35
+R10
+R26
 !i10b 1
 !s100 0cnIRi4I^DHm2mMnTNNc^3
 I?bUNc[Fi^7S6W][CjL=4G1
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_demux.sv
-FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_demux.sv
-!i122 6369
-L0 15 22
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_demux.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_demux.sv
+!i122 6819
+L0 15 22
+R18
+R19
 r1
 !s85 0
 31
-R38
+R27
 !s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_demux.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_demux.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vstream_mux
 2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_mux.sv
-R8
-R35
+R10
+R26
 !i10b 1
 !s100 8hP5ZjP0dZdIB?_lf1d3G0
 I=Teo>i]6fdA31GRaSNfKN1
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_mux.sv
-FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_mux.sv
-!i122 6368
-L0 14 33
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_mux.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_mux.sv
+!i122 6818
+L0 14 33
+R18
+R19
 r1
 !s85 0
 31
-R38
+R27
 !s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_mux.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_mux.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vtb_cva6
-Z133 2D:/khoaluantotnghiep/testbench/tb_cva6.sv
-R8
-R9
+Z119 2D:/khoaluantotnghiep/testbench/tb_cva6.sv
 R10
 R11
 R12
-R30
+R13
+R14
+R28
 DXx4 work 15 tb_cva6_sv_unit 0 22 4[oB;gi5@L[1ZYG=MZJo31
-R42
-R58
-R16
+R37
+R49
+R18
 r1
 !s85 0
 !i10b 1
@@ -4118,29 +4121,29 @@ r1
 Ib5?Eg1=DPT[`VSC5O8Wkb3
 !s105 tb_cva6_sv_unit
 S1
-R14
-Z134 w1782232710
-Z135 8D:/khoaluantotnghiep/testbench/tb_cva6.sv
-Z136 FD:/khoaluantotnghiep/testbench/tb_cva6.sv
-!i122 6501
+R16
+Z120 w1782232710
+Z121 8D:/khoaluantotnghiep/testbench/tb_cva6.sv
+Z122 FD:/khoaluantotnghiep/testbench/tb_cva6.sv
+!i122 6951
 L0 8 243
-R17
-31
-R59
-Z137 !s107 D:/khoaluantotnghiep/testbench/tb_cva6.sv|
-Z138 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/testbench/tb_cva6.sv|
-!i113 0
 R19
-R6
+31
+R50
+Z123 !s107 D:/khoaluantotnghiep/testbench/tb_cva6.sv|
+Z124 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/testbench/tb_cva6.sv|
+!i113 0
+R21
+R7
 Xtb_cva6_full_integration_FINAL_FIXED_ALL_ERRORS_sv_unit
-Z139 2D:/khoaluantotnghiep/testbench/tb_cva6_full_integration_FINAL_FIXED_ALL_ERRORS.sv
-R8
-R9
+Z125 2D:/khoaluantotnghiep/testbench/tb_cva6_full_integration_FINAL_FIXED_ALL_ERRORS.sv
 R10
 R11
 R12
-R30
-Z140 !s110 1783863225
+R13
+R14
+R28
+R49
 VhI?8m7<4Rm:^L0T?c2;Kj3
 r1
 !s85 0
@@ -4149,28 +4152,28 @@ r1
 IhI?8m7<4Rm:^L0T?c2;Kj3
 !i103 1
 S1
-R14
-Z141 w1783862002
-Z142 8D:/khoaluantotnghiep/testbench/tb_cva6_full_integration_FINAL_FIXED_ALL_ERRORS.sv
-Z143 FD:/khoaluantotnghiep/testbench/tb_cva6_full_integration_FINAL_FIXED_ALL_ERRORS.sv
-!i122 6505
-R39
-R17
-31
-R59
-!s107 D:/khoaluantotnghiep/testbench/tb_cva6_full_integration_FINAL_FIXED_ALL_ERRORS.sv|
-Z144 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/testbench/tb_cva6_full_integration_FINAL_FIXED_ALL_ERRORS.sv|
-!i113 0
+R16
+Z126 w1783862002
+Z127 8D:/khoaluantotnghiep/testbench/tb_cva6_full_integration_FINAL_FIXED_ALL_ERRORS.sv
+Z128 FD:/khoaluantotnghiep/testbench/tb_cva6_full_integration_FINAL_FIXED_ALL_ERRORS.sv
+!i122 6955
+R35
 R19
-R6
+31
+R50
+Z129 !s107 D:/khoaluantotnghiep/testbench/tb_cva6_full_integration_FINAL_FIXED_ALL_ERRORS.sv|
+Z130 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/testbench/tb_cva6_full_integration_FINAL_FIXED_ALL_ERRORS.sv|
+!i113 0
+R21
+R7
 ntb_cva6_full_integration_@f@i@n@a@l_@f@i@x@e@d_@a@l@l_@e@r@r@o@r@s_sv_unit
 Xtb_cva6_full_integration_FINAL_sv_unit
-R8
-R9
 R10
 R11
 R12
-R30
+R13
+R14
+R28
 !s110 1783861723
 VI[5hl[jleWAUfWEhlS^;c1
 r1
@@ -4180,33 +4183,33 @@ r1
 II[5hl[jleWAUfWEhlS^;c1
 !i103 1
 S1
-R14
+R16
 w1783861691
 8D:/khoaluantotnghiep/testbench/tb_cva6_full_integration_FINAL.sv
 FD:/khoaluantotnghiep/testbench/tb_cva6_full_integration_FINAL.sv
 !i122 6205
-R39
-R17
+R35
+R19
 31
 !s108 1783861723.000000
 !s107 D:/khoaluantotnghiep/testbench/tb_cva6_full_integration_FINAL.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/testbench/tb_cva6_full_integration_FINAL.sv|
 !i113 0
-R19
-R6
+R21
+R7
 ntb_cva6_full_integration_@f@i@n@a@l_sv_unit
 vtb_cva6_full_integration_WORKING
-R139
-R8
-R9
+R125
 R10
 R11
 R12
-R30
+R13
+R14
+R28
 DXx4 work 55 tb_cva6_full_integration_FINAL_FIXED_ALL_ERRORS_sv_unit 0 22 hI?8m7<4Rm:^L0T?c2;Kj3
-R42
-R140
-R16
+R37
+R49
+R18
 r1
 !s85 0
 !i10b 1
@@ -4214,30 +4217,30 @@ r1
 InSjUUgE9Y`UOSWX`UVzXM2
 !s105 tb_cva6_full_integration_FINAL_FIXED_ALL_ERRORS_sv_unit
 S1
-R14
-R141
-R142
-R143
-!i122 6505
+R16
+R126
+R127
+R128
+!i122 6955
 L0 15 324
-R17
-31
-R59
-Z145 !s107 D:/khoaluantotnghiep/testbench/tb_cva6_full_integration_FINAL_FIXED_ALL_ERRORS.sv|
-R144
-!i113 0
 R19
-R6
+31
+R50
+R129
+R130
+!i113 0
+R21
+R7
 ntb_cva6_full_integration_@w@o@r@k@i@n@g
 Xtb_cva6_sv_unit
-R133
-R8
-R9
+R119
 R10
 R11
 R12
-R30
-R58
+R13
+R14
+R28
+R49
 V4[oB;gi5@L[1ZYG=MZJo31
 r1
 !s85 0
@@ -4246,109 +4249,109 @@ r1
 I4[oB;gi5@L[1ZYG=MZJo31
 !i103 1
 S1
-R14
-R134
-R135
-R136
-!i122 6501
+R16
+R120
+R121
+R122
+!i122 6951
 L0 3 0
-R17
-31
-R59
-R137
-R138
-!i113 0
 R19
-R6
+31
+R50
+R123
+R124
+!i113 0
+R21
+R7
 vtb_hpdcache_new
 2D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv
-R8
-R46
-R58
+R10
+R41
+R49
 !i10b 1
 !s100 TcL]R87RH;2=>[ES:F[X_2
 IISN__6R@`i?FkB24H41i;2
 S1
-R14
+R16
 w1781669848
 8D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv
 FD:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv
-!i122 6502
+!i122 6952
 L0 7 359
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R59
+R50
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_config.svh|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh|D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|+incdir+D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include|-stats=none|D:/khoaluantotnghiep/testbench/tb_hpdcache_new.sv|
 !i113 0
-R19
-R50
-R6
+R21
+R45
+R7
 vtb_hpdcache_prefetch
 2D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv
-R8
-R46
+R10
+R41
+R44
 R49
-R58
 !i10b 1
 !s100 mH?d9G`83nLOFHG<SI]OD1
 I31kLAj7`m8VafFLZKZR?>0
 S1
-R14
+R16
 w1782200513
 8D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv
 FD:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv
-!i122 6503
+!i122 6953
 L0 8 353
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R59
+R50
 !s107 D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_config.svh|D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh|D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|+incdir+D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include|-stats=none|D:/khoaluantotnghiep/testbench/tb_hpdcache_prefetch.sv|
 !i113 0
-R19
-R50
-R6
+R21
+R45
+R7
 vtb_plru
 2D:/khoaluantotnghiep/testbench/tb_plru.sv
-R8
-R58
+R10
+R49
 !i10b 1
 !s100 FkLM1QI2HSgS4Ne:[0;NA2
 IHdd3:[NKd>?=49K4MRjW@1
 S1
-R14
+R16
 w1782267626
 8D:/khoaluantotnghiep/testbench/tb_plru.sv
 FD:/khoaluantotnghiep/testbench/tb_plru.sv
-!i122 6504
+!i122 6954
 L0 3 105
-R16
-R17
+R18
+R19
 r1
 !s85 0
 31
-R59
+R50
 !s107 D:/khoaluantotnghiep/testbench/tb_plru.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/testbench/tb_plru.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vtb_top
-Z146 2D:/HCMUS/UVM/tb/tb_top.sv
-R8
-R109
-R103
-Z147 DXx4 work 16 hpdcache_uvm_pkg 0 22 ?H[KNikn?C40kjM@FFNU;1
+Z131 2D:/HCMUS/UVM/tb/tb_top.sv
+R10
+R94
+R88
+Z132 DXx4 work 16 hpdcache_uvm_pkg 0 22 ?H[KNikn?C40kjM@FFNU;1
 DXx4 work 14 tb_top_sv_unit 0 22 M1DQM]KcaL[Bl=OLJOAh=0
-R110
-R16
+R95
+R18
 r1
 !s85 0
 !i10b 1
@@ -4356,29 +4359,29 @@ r1
 ILUFHCXjh;1=:<V1o4LMZ<1
 !s105 tb_top_sv_unit
 S1
-R3
+R4
 w1783416002
-Z148 8D:/HCMUS/UVM/tb/tb_top.sv
-Z149 FD:/HCMUS/UVM/tb/tb_top.sv
+Z133 8D:/HCMUS/UVM/tb/tb_top.sv
+Z134 FD:/HCMUS/UVM/tb/tb_top.sv
 !i122 281
 L0 17 43
-R17
+R19
 31
-R125
-Z150 !s107 D:/HCMUS/UVM/tb/hpdcache_test_lib.sv|D:/HCMUS/UVM/tb/hpdcache_base_test.sv|D:/HCMUS/UVM/tb/hpdcache_seq_lib.sv|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include/hpdcache_config.svh|D:/HCMUS/UVM/tb/tb_top.sv|
-Z151 !s90 -reportprogress|300|-sv|-work|work|+incdir+.|+incdir+D:/HCMUS/UVM/sv|+incdir+D:/HCMUS/UVM/tb|+incdir+D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include|-L|mtiUvm|D:/HCMUS/UVM/tb/tb_top.sv|
-!i113 0
-R123
-R124
-R6
-Xtb_top_sv_unit
-R146
-R108
-R8
-R109
-R103
-R147
 R110
+Z135 !s107 D:/HCMUS/UVM/tb/hpdcache_test_lib.sv|D:/HCMUS/UVM/tb/hpdcache_base_test.sv|D:/HCMUS/UVM/tb/hpdcache_seq_lib.sv|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/intelFPGA/23.1std/questa_fse/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh|D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include/hpdcache_config.svh|D:/HCMUS/UVM/tb/tb_top.sv|
+Z136 !s90 -reportprogress|300|-sv|-work|work|+incdir+.|+incdir+D:/HCMUS/UVM/sv|+incdir+D:/HCMUS/UVM/tb|+incdir+D:/HCMUS/THESIS/cv-hpdcache-master/rtl/include|-L|mtiUvm|D:/HCMUS/UVM/tb/tb_top.sv|
+!i113 0
+R108
+R109
+R7
+Xtb_top_sv_unit
+R131
+R93
+R10
+R94
+R88
+R132
+R95
 VM1DQM]KcaL[Bl=OLJOAh=0
 r1
 !s85 0
@@ -4387,154 +4390,154 @@ r1
 IM1DQM]KcaL[Bl=OLJOAh=0
 !i103 1
 S1
-R3
+R4
 w1783443758
-R148
-R149
+R133
+R134
 FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/include/hpdcache_config.svh
 FD:/HCMUS/THESIS/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh
-R111
-R112
-R113
-R114
-R115
-R116
-R117
-R118
-R119
-R120
-R121
-R122
+R96
+R97
+R98
+R99
+R100
+R101
+R102
+R103
+R104
+R105
+R106
+R107
 FD:/HCMUS/UVM/tb/hpdcache_seq_lib.sv
 FD:/HCMUS/UVM/tb/hpdcache_base_test.sv
 FD:/HCMUS/UVM/tb/hpdcache_test_lib.sv
 !i122 281
 L0 9 0
-R17
+R19
 31
-R125
-R150
-R151
+R110
+R135
+R136
 !i113 0
-R123
-R124
-R6
+R108
+R109
+R7
 vtc_sram
 2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv
-R8
-R33
+R10
+R31
 !i10b 1
 !s100 6^KWPSZiF`nZbQW1PS5_A3
 IK54IaD?hEg73jBUZGK`a;0
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv
-FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv
-!i122 6378
-L0 56 193
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv
+!i122 6828
+L0 56 193
+R18
+R19
 r1
 !s85 0
 31
-R41
+R32
 !s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vtc_sram_wrapper
 2D:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper.sv
-R8
-R33
+R10
+R31
 !i10b 1
 !s100 JbNM2gE[dn3V30@GR@ZlN3
 If0Lo4ENo?HiMKWg]6GOQi2
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper.sv
-FD:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper.sv
-!i122 6379
-L0 10 51
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper.sv
+FD:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper.sv
+!i122 6829
+L0 10 51
+R18
+R19
 r1
 !s85 0
 31
-R34
+R32
 !s107 D:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vtc_sram_wrapper_cache_techno
 2D:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper_cache_techno.sv
-R8
-R33
+R10
+R31
 !i10b 1
 !s100 MFhiUSJRngWnMKZ;dgzoP2
 I@iN^hn`1JFhD>coj@k6lF2
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper_cache_techno.sv
-FD:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper_cache_techno.sv
-!i122 6380
-L0 13 52
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper_cache_techno.sv
+FD:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper_cache_techno.sv
+!i122 6830
+L0 13 52
+R18
+R19
 r1
 !s85 0
 31
-R34
+R32
 !s107 D:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper_cache_techno.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper_cache_techno.sv|
 !i113 0
-R19
-R6
+R21
+R7
 vunread
 2D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/unread.sv
-R8
-R40
+R10
+R31
 !i10b 1
 !s100 DB9FlkePX9kCczGL:za3>3
 IjWi;7hcCZ;a@U89_ScJaE0
 S1
-R14
-R15
-8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/unread.sv
-FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/unread.sv
-!i122 6373
-L0 16 5
 R16
 R17
+8D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/unread.sv
+FD:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/unread.sv
+!i122 6823
+L0 16 5
+R18
+R19
 r1
 !s85 0
 31
-R41
+R32
 !s107 D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/unread.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/unread.sv|
 !i113 0
-R19
-R6
+R21
+R7
 Xwt_cache_pkg
 2D:/khoaluantotnghiep/cva6-master/core/include/wt_cache_pkg.sv
-R8
+R10
 R26
 !i10b 1
 !s100 zUhKHVbD@=T9=aKN;Mg;@1
 IKL1d3MHET>`dT=4lf4dk<0
 S1
-R14
-R15
+R16
+R17
 8D:/khoaluantotnghiep/cva6-master/core/include/wt_cache_pkg.sv
 FD:/khoaluantotnghiep/cva6-master/core/include/wt_cache_pkg.sv
-!i122 6361
-R37
+!i122 6811
+R34
 VKL1d3MHET>`dT=4lf4dk<0
-R17
+R19
 r1
 !s85 0
 31
@@ -4542,5 +4545,5 @@ R27
 !s107 D:/khoaluantotnghiep/cva6-master/core/include/wt_cache_pkg.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/khoaluantotnghiep/cva6-master/core/include/wt_cache_pkg.sv|
 !i113 0
-R19
-R6
+R21
+R7
