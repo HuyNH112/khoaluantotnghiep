@@ -187,6 +187,25 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	hpdcache_fifo_reg
 
+} {} {}} D:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+** Warning: D:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv(32): (vlog-13314) Defaulting port 'instruction' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv(37): (vlog-13314) Defaulting port 'waddr' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv(38): (vlog-13314) Defaulting port 'wdata' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Compiling package instr_tracer_sv_unit
+-- Importing package config_pkg
+-- Importing package riscv
+-- Importing package cva6_config_pkg
+-- Importing package ariane_pkg
+-- Importing package instr_tracer_pkg
+-- Compiling module instr_tracer
+** Warning: D:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv(32): (vlog-13314) Defaulting port 'instruction' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv(37): (vlog-13314) Defaulting port 'waddr' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv(38): (vlog-13314) Defaulting port 'wdata' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	instr_tracer
+
 } {} {}} D:/khoaluantotnghiep/testbench/tb_plru.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/testbench/tb_plru.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module tb_plru
@@ -553,23 +572,6 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	hpdcache_prio_1hot_encoder
 
-} {} {}} D:/khoaluantotnghiep/cva6-master/core/include/wt_cache_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/include/wt_cache_pkg.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling package wt_cache_pkg
-
-Top level modules:
-	--none--
-
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-
-} {} {}} D:/khoaluantotnghiep/cva6-master/core/include/config_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/include/config_pkg.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling package config_pkg
-
-Top level modules:
-	--none--
-
 } {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_1rw.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_1rw.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module hpdcache_sram_1rw
@@ -577,6 +579,16 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 
 Top level modules:
 	hpdcache_sram_1rw
+
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module hpdcache_sram_wmask
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv(27): (vlog-13314) Defaulting port 'wdata' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv(28): (vlog-13314) Defaulting port 'wmask' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv(32): (vlog-13314) Defaulting port 'err_inj_msk_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	hpdcache_sram_wmask
 
 } {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_ctrl.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_ctrl.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -726,15 +738,22 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	hpdcache_ctrl
 
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/include/wt_cache_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/include/wt_cache_pkg.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module hpdcache_sram_wmask
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv(27): (vlog-13314) Defaulting port 'wdata' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv(28): (vlog-13314) Defaulting port 'wmask' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv(32): (vlog-13314) Defaulting port 'err_inj_msk_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Compiling package wt_cache_pkg
 
 Top level modules:
-	hpdcache_sram_wmask
+	--none--
+
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/include/config_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/include/config_pkg.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling package config_pkg
+
+Top level modules:
+	--none--
 
 } {} {}} D:/khoaluantotnghiep/cva6-master/core/frontend/instr_scan.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/frontend/instr_scan.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -988,6 +1007,16 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 
 Top level modules:
 	--none--
+
+} {} {}} D:/khoaluantotnghiep/testbench/tb_integrated.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/testbench/tb_integrated.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module tb_l1_cache_integration_logic
+-- Importing package cva6_config_pkg
+-- Importing package config_pkg
+-- Importing package build_config_pkg
+
+Top level modules:
+	tb_l1_cache_integration_logic
 
 } {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_decoder.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_decoder.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -1484,20 +1513,6 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 
 Top level modules:
 	branch_unit
-
-} {} {}} D:/khoaluantotnghiep/testbench/tb_cva6_full_integration_FINAL_FIXED_ALL_ERRORS.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/testbench/tb_cva6_full_integration_FINAL_FIXED_ALL_ERRORS.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling package tb_cva6_full_integration_FINAL_FIXED_ALL_ERRORS_sv_unit
--- Importing package ariane_pkg
--- Importing package config_pkg
--- Importing package riscv
--- Importing package cva6_config_pkg
--- Importing package axi_pkg
--- Compiling module tb_cva6_full_integration_WORKING
--- Importing package build_config_pkg
-
-Top level modules:
-	tb_cva6_full_integration_WORKING
 
 } {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_core_arbiter.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_core_arbiter.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023

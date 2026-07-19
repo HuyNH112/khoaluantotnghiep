@@ -1,0 +1,115 @@
+================
+# CLOCK & RESET
+# ========================================================
+
+add wave -noupdate -divider "CLOCK & RESET"
+add wave -noupdate tb_l1_cache_integration_logic/clk
+add wave -noupdate tb_l1_cache_integration_logic/rst_n
+
+# ========================================================
+# TC-INT-01: RVFI COMMIT STAGE (ONLY VALID PATHS)
+# ========================================================
+
+add wave -noupdate -divider "TC-INT-01: RVFI Commit Signals (Real CVA6)"
+add wave -noupdate -color Gold \
+  tb_l1_cache_integration_logic/i_cva6/rvfi_probes_o/instr/commit_instr_valid[0]
+
+add wave -noupdate -color Gold -radix hexadecimal \
+  tb_l1_cache_integration_logic/i_cva6/rvfi_probes_o/instr/commit_instr_pc[0]
+
+add wave -noupdate -color Gold -radix hexadecimal \
+  tb_l1_cache_integration_logic/i_cva6/rvfi_probes_o/instr/commit_instr_result[0]
+
+add wave -noupdate -color Gold -radix unsigned \
+  tb_l1_cache_integration_logic/i_cva6/rvfi_probes_o/instr/commit_instr_rd[0]
+
+add wave -noupdate -color Gold \
+  tb_l1_cache_integration_logic/i_cva6/rvfi_probes_o/instr/commit_ack[0]
+
+# ========================================================
+# CACHE INTERFACES (Testbench-level)
+# ========================================================
+
+add wave -noupdate -divider "Cache Interfaces (Testbench-level)"
+
+add wave -noupdate -color LightBlue \
+  tb_l1_cache_integration_logic/d_if/core_req_valid
+
+add wave -noupdate -color LightBlue \
+  tb_l1_cache_integration_logic/d_if/core_rsp_valid
+
+add wave -noupdate -color LightBlue -radix hexadecimal \
+  tb_l1_cache_integration_logic/d_if/core_rsp_data
+
+add wave -noupdate -color LightBlue \
+  tb_l1_cache_integration_logic/i_if/req_valid
+
+add wave -noupdate -color LightBlue \
+  tb_l1_cache_integration_logic/i_if/rsp_valid
+
+add wave -noupdate -color LightBlue -radix hexadecimal \
+  tb_l1_cache_integration_logic/i_if/rsp_instr
+
+# ========================================================
+# TEST COUNTERS
+# ========================================================
+
+add wave -noupdate -divider "Test Execution"
+add wave -noupdate tb_l1_cache_integration_logic/test_count
+add wave -noupdate tb_l1_cache_integration_logic/pass_count
+add wave -noupdate tb_l1_cache_integration_logic/fail_count
+
+# ========================================================
+# WAVEFORM SETTINGS
+# ========================================================
+
+TreeUpdate [SetDefaultTree]
+configure wave -namecolwidth 450
+configure wave -valuecolwidth 150
+configure wave -justifyvalue left
+configure wave -rowmargin 5
+
+# ========================================================
+# RUN SIMULATION
+# ========================================================
+
+puts ""
+puts "Running TC-INT-01 for 5000 ns..."
+puts ""
+
+run 5000 ns
+wave zoom full
+
+puts ""
+puts "=========================================================="
+puts "TC-INT-01 Simulation Complete"
+puts "=========================================================="
+puts ""
+puts "Waveform Signals (18 total):"
+puts "  ✓ RVFI Commit Signals (Gold)"
+puts "    - commit_instr_pc[0]"
+puts "    - commit_instr_valid[0]"
+puts "    - commit_instr_result[0]"
+puts "    - commit_instr_rd[0]"
+puts "    - commit_ack[0]"
+puts ""
+puts "  ✓ Cache Interfaces (LightBlue)"
+puts "    - d_if: core_req/rsp_valid, core_rsp_data"
+puts "    - i_if: req/rsp_valid, rsp_instr"
+puts ""
+puts "  ✓ Test Counters"
+puts "    - test_count, pass_count, fail_count"
+puts ""
+puts "Expected TC-INT-01 Pattern:"
+puts "  PC:           0x80000000→+4→0x8000007C (32 cycles)"
+puts "  Commit Valid: HIGH 32 cycles"
+puts "  D-Cache:      LOW (no stores in boot)"
+puts "  I-Cache:      HIGH (fetch)"
+puts "=========================================================="
+puts ""
+
+# Save VCD
+# write vcd /tmp/tc01_waveform.vcd
+# Waveform automatically dumped by $dumpvars in testbench → l1_cache_logic_sim.vcd
+puts "✅ Waveform auto-saved to: l1_cache_logic_sim.vcd"
+puts ""
