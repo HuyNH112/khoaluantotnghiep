@@ -1,15 +1,4 @@
-D:/khoaluantotnghiep/cva6-master/core/ariane_regfile_ff.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/ariane_regfile_ff.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module ariane_regfile
--- Importing package config_pkg
-** Warning: D:/khoaluantotnghiep/cva6-master/core/ariane_regfile_ff.sv(37): (vlog-13314) Defaulting port 'raddr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-** Warning: D:/khoaluantotnghiep/cva6-master/core/ariane_regfile_ff.sv(40): (vlog-13314) Defaulting port 'waddr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-** Warning: D:/khoaluantotnghiep/cva6-master/core/ariane_regfile_ff.sv(41): (vlog-13314) Defaulting port 'wdata_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-
-Top level modules:
-	ariane_regfile
-
-} {} {}} D:/khoaluantotnghiep/cva6-master/core/ex_stage.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/ex_stage.sv
+D:/khoaluantotnghiep/cva6-master/core/ex_stage.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/ex_stage.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module ex_stage
 -- Importing package ariane_pkg
@@ -38,30 +27,16 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	ex_stage
 
-} {} {}} D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_entry.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_entry.sv
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/ariane_regfile_ff.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/ariane_regfile_ff.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module pmp_entry
+-- Compiling module ariane_regfile
 -- Importing package config_pkg
--- Importing package riscv
--- Importing package cva6_config_pkg
+** Warning: D:/khoaluantotnghiep/cva6-master/core/ariane_regfile_ff.sv(37): (vlog-13314) Defaulting port 'raddr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/khoaluantotnghiep/cva6-master/core/ariane_regfile_ff.sv(40): (vlog-13314) Defaulting port 'waddr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/khoaluantotnghiep/cva6-master/core/ariane_regfile_ff.sv(41): (vlog-13314) Defaulting port 'wdata_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 
 Top level modules:
-	pmp_entry
-
-} {} {}} D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter_flushable.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter_flushable.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module stream_arbiter_flushable
-
-Top level modules:
-	stream_arbiter_flushable
-
-} {} {}} D:/khoaluantotnghiep/cva6-master/core/include/build_config_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/include/build_config_pkg.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling package build_config_pkg
--- Importing package config_pkg
-
-Top level modules:
-	--none--
+	ariane_regfile
 
 } {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_write.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_write.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -72,12 +47,30 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	hpdcache_mem_to_axi_write
 
-} {} {}} D:/khoaluantotnghiep/cva6-master/common/local/util/sram.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/common/local/util/sram.sv
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_entry.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_entry.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module sram
+-- Compiling module pmp_entry
+-- Importing package config_pkg
+-- Importing package riscv
+-- Importing package cva6_config_pkg
 
 Top level modules:
-	sram
+	pmp_entry
+
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/include/build_config_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/include/build_config_pkg.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling package build_config_pkg
+-- Importing package config_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter_flushable.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_arbiter_flushable.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module stream_arbiter_flushable
+
+Top level modules:
+	stream_arbiter_flushable
 
 } {} {}} D:/khoaluantotnghiep/cva6-master/core/alu_wrapper.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/alu_wrapper.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -94,6 +87,20 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	alu_wrapper
 
+} {} {}} D:/khoaluantotnghiep/cva6-master/common/local/util/sram.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/common/local/util/sram.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module sram
+
+Top level modules:
+	sram
+
+} {} {}} D:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper_cache_techno.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper_cache_techno.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module tc_sram_wrapper_cache_techno
+
+Top level modules:
+	tc_sram_wrapper_cache_techno
+
 } {} {}} D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_mmu.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_mmu.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module cva6_mmu
@@ -107,21 +114,6 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	cva6_mmu
 
-} {} {}} D:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper_cache_techno.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper_cache_techno.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module tc_sram_wrapper_cache_techno
-
-Top level modules:
-	tc_sram_wrapper_cache_techno
-
-} {} {}} D:/khoaluantotnghiep/cva6-master/core/include/cv32a6_imac_sv32_config_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/include/cv32a6_imac_sv32_config_pkg.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling package cva6_config_pkg
--- Importing package config_pkg
-
-Top level modules:
-	--none--
-
 } {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_prefetcher_top.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_prefetcher_top.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling package domino_prefetcher_top_sv_unit
@@ -130,6 +122,14 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 
 Top level modules:
 	domino_prefetcher_top
+
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/include/cv32a6_imac_sv32_config_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/include/cv32a6_imac_sv32_config_pkg.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling package cva6_config_pkg
+-- Importing package config_pkg
+
+Top level modules:
+	--none--
 
 } {} {}} D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_shared_tlb.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_shared_tlb.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -187,6 +187,13 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	hpdcache_fifo_reg
 
+} {} {}} D:/khoaluantotnghiep/testbench/tb_plru.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/testbench/tb_plru.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module tb_plru
+
+Top level modules:
+	tb_plru
+
 } {} {}} D:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 ** Warning: D:/khoaluantotnghiep/cva6-master/common/local/util/instr_tracer.sv(32): (vlog-13314) Defaulting port 'instruction' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
@@ -205,13 +212,6 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 
 Top level modules:
 	instr_tracer
-
-} {} {}} D:/khoaluantotnghiep/testbench/tb_plru.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/testbench/tb_plru.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module tb_plru
-
-Top level modules:
-	tb_plru
 
 } {} {}} D:/khoaluantotnghiep/cva6-master/core/macro_decoder.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/macro_decoder.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -255,11 +255,7 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	cva6_rvfi_probes
 
-} {} {}} D:/khoaluantotnghiep/ {0 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-** Error: (vlog-2054) File "D:/khoaluantotnghiep" is a directory.
-
-} {3.0 4.0} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_amo.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_amo.sv
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_amo.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_amo.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module hpdcache_amo
 -- Importing package hpdcache_pkg
@@ -572,23 +568,6 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	hpdcache_prio_1hot_encoder
 
-} {} {}} D:/khoaluantotnghiep/cva6-master/core/include/wt_cache_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/include/wt_cache_pkg.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling package wt_cache_pkg
-
-Top level modules:
-	--none--
-
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-
-} {} {}} D:/khoaluantotnghiep/cva6-master/core/include/config_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/include/config_pkg.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling package config_pkg
-
-Top level modules:
-	--none--
-
 } {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_1rw.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_1rw.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module hpdcache_sram_1rw
@@ -596,16 +575,6 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 
 Top level modules:
 	hpdcache_sram_1rw
-
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module hpdcache_sram_wmask
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv(27): (vlog-13314) Defaulting port 'wdata' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv(28): (vlog-13314) Defaulting port 'wmask' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv(32): (vlog-13314) Defaulting port 'err_inj_msk_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-
-Top level modules:
-	hpdcache_sram_wmask
 
 } {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_ctrl.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_ctrl.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -755,6 +724,33 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	hpdcache_ctrl
 
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module hpdcache_sram_wmask
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv(27): (vlog-13314) Defaulting port 'wdata' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv(28): (vlog-13314) Defaulting port 'wmask' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wmask.sv(32): (vlog-13314) Defaulting port 'err_inj_msk_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	hpdcache_sram_wmask
+
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/include/wt_cache_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/include/wt_cache_pkg.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling package wt_cache_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/include/config_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/include/config_pkg.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling package config_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include/hpdcache_typedef.svh
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+
 } {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wbyteenable_1rw.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wbyteenable_1rw.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module hpdcache_sram_wbyteenable_1rw
@@ -869,9 +865,6 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	tb_hpdcache_new
 
-} {} {}} D:/khoaluantotnghiep/cva6-master/core/include/rvfi_types.svh {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/include/rvfi_types.svh
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-
 } {} {}} D:/khoaluantotnghiep/cva6-master/core/amo_buffer.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/amo_buffer.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module amo_buffer
@@ -883,6 +876,17 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 
 Top level modules:
 	amo_buffer
+
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/include/rvfi_types.svh {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/include/rvfi_types.svh
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_flush.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_flush.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module hpdcache_flush
+-- Importing package hpdcache_pkg
+
+Top level modules:
+	hpdcache_flush
 
 } {} {}} D:/khoaluantotnghiep/cva6-master/core/frontend/btb.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/frontend/btb.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -918,42 +922,6 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	cva6_ptw
 
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_flush.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_flush.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module hpdcache_flush
--- Importing package hpdcache_pkg
-
-Top level modules:
-	hpdcache_flush
-
-} {} {}} D:/khoaluantotnghiep/icache-master/plru.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/icache-master/plru.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module plru
-
-Top level modules:
-	plru
-
-} {} {}} D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/counter.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/counter.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module counter
-
-Top level modules:
-	counter
-
-} {} {}} D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/exp_backoff.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/exp_backoff.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module exp_backoff
-
-Top level modules:
-	exp_backoff
-
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fxarb.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fxarb.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module hpdcache_fxarb
-
-Top level modules:
-	hpdcache_fxarb
-
 } {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module hpdcache_sram
@@ -962,6 +930,51 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 
 Top level modules:
 	hpdcache_sram
+
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fxarb.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_fxarb.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module hpdcache_fxarb
+
+Top level modules:
+	hpdcache_fxarb
+
+} {} {}} D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/exp_backoff.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/exp_backoff.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module exp_backoff
+
+Top level modules:
+	exp_backoff
+
+} {} {}} D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/counter.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/counter.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} D:/khoaluantotnghiep/icache-master/plru.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/icache-master/plru.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module plru
+
+Top level modules:
+	plru
+
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wbyteenable_1rw.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wbyteenable_1rw.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module hpdcache_regbank_wbyteenable_1rw
+
+Top level modules:
+	hpdcache_regbank_wbyteenable_1rw
+
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wbyteenable.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wbyteenable.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module hpdcache_sram_wbyteenable
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wbyteenable.sv(27): (vlog-13314) Defaulting port 'wdata' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wbyteenable.sv(28): (vlog-13314) Defaulting port 'wbyteenable' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wbyteenable.sv(32): (vlog-13314) Defaulting port 'err_inj_msk_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	hpdcache_sram_wbyteenable
 
 } {} {}} D:/khoaluantotnghiep/cva6-master/core/aes.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/aes.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -975,30 +988,6 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	aes
 
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wbyteenable.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wbyteenable.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module hpdcache_sram_wbyteenable
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wbyteenable.sv(27): (vlog-13314) Defaulting port 'wdata' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wbyteenable.sv(28): (vlog-13314) Defaulting port 'wbyteenable' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sram_wbyteenable.sv(32): (vlog-13314) Defaulting port 'err_inj_msk_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-
-Top level modules:
-	hpdcache_sram_wbyteenable
-
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wbyteenable_1rw.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wbyteenable_1rw.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module hpdcache_regbank_wbyteenable_1rw
-
-Top level modules:
-	hpdcache_regbank_wbyteenable_1rw
-
-} {} {}} D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/axi/src/axi_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/axi/src/axi_pkg.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling package axi_pkg
-
-Top level modules:
-	--none--
-
 } {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_read.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_to_axi_read.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module hpdcache_mem_to_axi_read
@@ -1007,6 +996,30 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 
 Top level modules:
 	hpdcache_mem_to_axi_read
+
+} {} {}} D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/axi/src/axi_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/axi/src/axi_pkg.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling package axi_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_decoder.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_decoder.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module hpdcache_decoder
+
+Top level modules:
+	hpdcache_decoder
+
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sync_buffer.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sync_buffer.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module hpdcache_sync_buffer
+
+Top level modules:
+	hpdcache_sync_buffer
+
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_config.svh {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_config.svh
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 
 } {} {}} D:/khoaluantotnghiep/cva6-master/core/frontend/instr_queue.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/frontend/instr_queue.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -1076,53 +1089,6 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	instr_queue
 
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_config.svh {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_config.svh
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sync_buffer.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_sync_buffer.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module hpdcache_sync_buffer
-
-Top level modules:
-	hpdcache_sync_buffer
-
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_decoder.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_decoder.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module hpdcache_decoder
-
-Top level modules:
-	hpdcache_decoder
-
-} {} {}} D:/khoaluantotnghiep/cva6-master/core/scoreboard.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/scoreboard.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module scoreboard
--- Importing package config_pkg
-** Warning: D:/khoaluantotnghiep/cva6-master/core/scoreboard.sv(54): (vlog-13314) Defaulting port 'orig_instr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-** Warning: D:/khoaluantotnghiep/cva6-master/core/scoreboard.sv(75): (vlog-13314) Defaulting port 'trans_id_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-** Warning: D:/khoaluantotnghiep/cva6-master/core/scoreboard.sv(77): (vlog-13314) Defaulting port 'wbdata_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
--- Importing package ariane_pkg
--- Importing package riscv
--- Importing package cva6_config_pkg
-
-Top level modules:
-	scoreboard
-
-} {} {}} D:/khoaluantotnghiep/cva6-master/core/issue_stage.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/issue_stage.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module issue_stage
--- Importing package ariane_pkg
--- Importing package config_pkg
--- Importing package riscv
--- Importing package cva6_config_pkg
-** Warning: D:/khoaluantotnghiep/cva6-master/core/issue_stage.sv(48): (vlog-13314) Defaulting port 'orig_instr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-** Warning: D:/khoaluantotnghiep/cva6-master/core/issue_stage.sv(136): (vlog-13314) Defaulting port 'trans_id_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-** Warning: D:/khoaluantotnghiep/cva6-master/core/issue_stage.sv(140): (vlog-13314) Defaulting port 'wbdata_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-** Warning: D:/khoaluantotnghiep/cva6-master/core/issue_stage.sv(150): (vlog-13314) Defaulting port 'waddr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-** Warning: D:/khoaluantotnghiep/cva6-master/core/issue_stage.sv(152): (vlog-13314) Defaulting port 'wdata_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-
-Top level modules:
-	issue_stage
-
 } {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_cmo.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_cmo.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module hpdcache_cmo
@@ -1141,6 +1107,36 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	hpdcache_cmo
 
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/issue_stage.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/issue_stage.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module issue_stage
+-- Importing package ariane_pkg
+-- Importing package config_pkg
+-- Importing package riscv
+-- Importing package cva6_config_pkg
+** Warning: D:/khoaluantotnghiep/cva6-master/core/issue_stage.sv(48): (vlog-13314) Defaulting port 'orig_instr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/khoaluantotnghiep/cva6-master/core/issue_stage.sv(136): (vlog-13314) Defaulting port 'trans_id_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/khoaluantotnghiep/cva6-master/core/issue_stage.sv(140): (vlog-13314) Defaulting port 'wbdata_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/khoaluantotnghiep/cva6-master/core/issue_stage.sv(150): (vlog-13314) Defaulting port 'waddr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/khoaluantotnghiep/cva6-master/core/issue_stage.sv(152): (vlog-13314) Defaulting port 'wdata_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	issue_stage
+
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/scoreboard.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/scoreboard.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module scoreboard
+-- Importing package config_pkg
+** Warning: D:/khoaluantotnghiep/cva6-master/core/scoreboard.sv(54): (vlog-13314) Defaulting port 'orig_instr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/khoaluantotnghiep/cva6-master/core/scoreboard.sv(75): (vlog-13314) Defaulting port 'trans_id_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/khoaluantotnghiep/cva6-master/core/scoreboard.sv(77): (vlog-13314) Defaulting port 'wbdata_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Importing package ariane_pkg
+-- Importing package riscv
+-- Importing package cva6_config_pkg
+
+Top level modules:
+	scoreboard
+
 } {} {}} D:/khoaluantotnghiep/cva6-master/core/frontend/ras.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/frontend/ras.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module ras
@@ -1149,17 +1145,35 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	ras
 
-} {} {}} D:/khoaluantotnghiep/cva6-master/core/raw_checker.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/raw_checker.sv
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_ctrl_pe.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_ctrl_pe.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module raw_checker
--- Importing package ariane_pkg
--- Importing package config_pkg
--- Importing package riscv
--- Importing package cva6_config_pkg
-** Warning: D:/khoaluantotnghiep/cva6-master/core/raw_checker.sv(24): (vlog-13314) Defaulting port 'rd_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Compiling module hpdcache_ctrl_pe
+-- Importing package hpdcache_pkg
 
 Top level modules:
-	raw_checker
+	hpdcache_ctrl_pe
+
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/target/cva6/cva6_hpdcache_cmo_if_adapter.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/target/cva6/cva6_hpdcache_cmo_if_adapter.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module cva6_hpdcache_cmo_if_adapter
+-- Importing package hpdcache_pkg
+
+Top level modules:
+	cva6_hpdcache_cmo_if_adapter
+
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_rrarb.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_rrarb.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module hpdcache_rrarb
+
+Top level modules:
+	hpdcache_rrarb
+
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_read_arbiter.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_read_arbiter.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module hpdcache_mem_req_read_arbiter
+
+Top level modules:
+	hpdcache_mem_req_read_arbiter
 
 } {} {}} D:/khoaluantotnghiep/cva6-master/core/store_buffer.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/store_buffer.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -1172,64 +1186,17 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	store_buffer
 
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_read_arbiter.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_read_arbiter.sv
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/raw_checker.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/raw_checker.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module hpdcache_mem_req_read_arbiter
-
-Top level modules:
-	hpdcache_mem_req_read_arbiter
-
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_rrarb.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_rrarb.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module hpdcache_rrarb
-
-Top level modules:
-	hpdcache_rrarb
-
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/target/cva6/cva6_hpdcache_cmo_if_adapter.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/target/cva6/cva6_hpdcache_cmo_if_adapter.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module cva6_hpdcache_cmo_if_adapter
--- Importing package hpdcache_pkg
-
-Top level modules:
-	cva6_hpdcache_cmo_if_adapter
-
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_ctrl_pe.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_ctrl_pe.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module hpdcache_ctrl_pe
--- Importing package hpdcache_pkg
-
-Top level modules:
-	hpdcache_ctrl_pe
-
-} {} {}} D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_data_if.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_data_if.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module pmp_data_if
+-- Compiling module raw_checker
 -- Importing package ariane_pkg
 -- Importing package config_pkg
 -- Importing package riscv
 -- Importing package cva6_config_pkg
-** Warning: D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_data_if.sv(39): (vlog-13314) Defaulting port 'pmpcfg_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-** Warning: D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_data_if.sv(40): (vlog-13314) Defaulting port 'pmpaddr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/khoaluantotnghiep/cva6-master/core/raw_checker.sv(24): (vlog-13314) Defaulting port 'rd_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 
 Top level modules:
-	pmp_data_if
-
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_1hot_to_binary.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_1hot_to_binary.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module hpdcache_1hot_to_binary
-
-Top level modules:
-	hpdcache_1hot_to_binary
-
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_trigger_detector.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_trigger_detector.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling package domino_trigger_detector_sv_unit
--- Importing package domino_pkg
--- Compiling module domino_trigger_detector
-
-Top level modules:
-	domino_trigger_detector
+	raw_checker
 
 } {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_mshr.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_mshr.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -1245,19 +1212,69 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	hpdcache_mshr
 
-} {} {}} D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_trigger_detector.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_trigger_detector.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module tc_sram
-** Warning: D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv(116): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-** Warning: D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv(116): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-** Warning: D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv(117): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-** Warning: D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv(118): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-** Warning: D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv(118): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-** Warning: D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv(119): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-** Warning: D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv(121): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+-- Compiling package domino_trigger_detector_sv_unit
+-- Importing package domino_pkg
+-- Compiling module domino_trigger_detector
 
 Top level modules:
-	tc_sram
+	domino_trigger_detector
+
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_1hot_to_binary.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_1hot_to_binary.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module hpdcache_1hot_to_binary
+
+Top level modules:
+	hpdcache_1hot_to_binary
+
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_data_if.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_data_if.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module pmp_data_if
+-- Importing package ariane_pkg
+-- Importing package config_pkg
+-- Importing package riscv
+-- Importing package cva6_config_pkg
+** Warning: D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_data_if.sv(39): (vlog-13314) Defaulting port 'pmpcfg_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/khoaluantotnghiep/cva6-master/core/pmp/src/pmp_data_if.sv(40): (vlog-13314) Defaulting port 'pmpaddr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	pmp_data_if
+
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module hpdcache_memctrl
+-- Importing package hpdcache_pkg
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(467): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(467): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(468): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(469): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(470): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(470): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(471): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(472): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(473): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(475): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(758): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(758): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(759): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(759): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(760): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(764): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+
+Top level modules:
+	hpdcache_memctrl
+
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/csr_buffer.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/csr_buffer.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module csr_buffer
+-- Importing package ariane_pkg
+-- Importing package config_pkg
+-- Importing package riscv
+-- Importing package cva6_config_pkg
+
+Top level modules:
+	csr_buffer
 
 } {} {}} D:/khoaluantotnghiep/cva6-master/core/instr_realign.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/instr_realign.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -1382,40 +1399,26 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	instr_realign
 
-} {} {}} D:/khoaluantotnghiep/cva6-master/core/csr_buffer.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/csr_buffer.sv
+} {} {}} D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module csr_buffer
--- Importing package ariane_pkg
--- Importing package config_pkg
--- Importing package riscv
--- Importing package cva6_config_pkg
+-- Compiling module tc_sram
+** Warning: D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv(116): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv(116): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv(117): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv(118): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv(118): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv(119): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv(121): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
 
 Top level modules:
-	csr_buffer
+	tc_sram
 
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wmask_1rw.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wmask_1rw.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module hpdcache_memctrl
--- Importing package hpdcache_pkg
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(467): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(467): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(468): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(469): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(470): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(470): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(471): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(472): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(473): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(475): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(758): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(758): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(759): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(759): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(760): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_memctrl.sv(764): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+-- Compiling module hpdcache_regbank_wmask_1rw
 
 Top level modules:
-	hpdcache_memctrl
+	hpdcache_regbank_wmask_1rw
 
 } {} {}} D:/khoaluantotnghiep/cva6-master/core/compressed_decoder.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/compressed_decoder.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -1427,33 +1430,12 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	compressed_decoder
 
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wmask_1rw.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_regbank_wmask_1rw.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module hpdcache_regbank_wmask_1rw
-
-Top level modules:
-	hpdcache_regbank_wmask_1rw
-
 } {} {}} D:/khoaluantotnghiep/cva6-master/core/cva6_fifo_v3.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/cva6_fifo_v3.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module cva6_fifo_v3
 
 Top level modules:
 	cva6_fifo_v3
-
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_lfsr.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_lfsr.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module hpdcache_lfsr
-
-Top level modules:
-	hpdcache_lfsr
-
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_pkg.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling package hwpf_stride_pkg
-
-Top level modules:
-	--none--
 
 } {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_sel.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_victim_sel.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -1463,27 +1445,26 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	hpdcache_victim_sel
 
-} {} {}} D:/khoaluantotnghiep/cva6-master/core/branch_unit.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/branch_unit.sv
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_pkg.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module branch_unit
--- Importing package config_pkg
--- Importing package ariane_pkg
--- Importing package riscv
--- Importing package cva6_config_pkg
+-- Compiling package hwpf_stride_pkg
 
 Top level modules:
-	branch_unit
+	--none--
 
-} {} {}} D:/khoaluantotnghiep/cva6-master/core/lsu_bypass.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/lsu_bypass.sv
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_lfsr.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_lfsr.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module lsu_bypass
--- Importing package ariane_pkg
--- Importing package config_pkg
--- Importing package riscv
--- Importing package cva6_config_pkg
+-- Compiling module hpdcache_lfsr
 
 Top level modules:
-	lsu_bypass
+	hpdcache_lfsr
+
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_write_arbiter.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_write_arbiter.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module hpdcache_mem_req_write_arbiter
+
+Top level modules:
+	hpdcache_mem_req_write_arbiter
 
 } {} {}} D:/khoaluantotnghiep/cva6-master/core/csr_regfile.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/csr_regfile.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -1497,37 +1478,27 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	csr_regfile
 
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_write_arbiter.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_req_write_arbiter.sv
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/lsu_bypass.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/lsu_bypass.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module hpdcache_mem_req_write_arbiter
-
-Top level modules:
-	hpdcache_mem_req_write_arbiter
-
-} {} {}} D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_tlb.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_tlb.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module cva6_tlb
+-- Compiling module lsu_bypass
 -- Importing package ariane_pkg
 -- Importing package config_pkg
 -- Importing package riscv
 -- Importing package cva6_config_pkg
 
 Top level modules:
-	cva6_tlb
+	lsu_bypass
 
-} {} {}} D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_demux.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_demux.sv
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/branch_unit.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/branch_unit.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module stream_demux
+-- Compiling module branch_unit
+-- Importing package config_pkg
+-- Importing package ariane_pkg
+-- Importing package riscv
+-- Importing package cva6_config_pkg
 
 Top level modules:
-	stream_demux
-
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_prio_bin_encoder.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_prio_bin_encoder.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module hpdcache_prio_bin_encoder
-
-Top level modules:
-	hpdcache_prio_bin_encoder
+	branch_unit
 
 } {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_core_arbiter.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_core_arbiter.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -1540,6 +1511,31 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	hpdcache_core_arbiter
 
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_prio_bin_encoder.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_prio_bin_encoder.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module hpdcache_prio_bin_encoder
+
+Top level modules:
+	hpdcache_prio_bin_encoder
+
+} {} {}} D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_demux.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/stream_demux.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module stream_demux
+
+Top level modules:
+	stream_demux
+
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_tlb.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/cva6_mmu/cva6_tlb.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module cva6_tlb
+-- Importing package ariane_pkg
+-- Importing package config_pkg
+-- Importing package riscv
+-- Importing package cva6_config_pkg
+
+Top level modules:
+	cva6_tlb
+
 } {} {}} D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem_axi_arbiter.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_subsystem_axi_arbiter.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module cva6_hpdcache_subsystem_axi_arbiter
@@ -1549,6 +1545,24 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 
 Top level modules:
 	cva6_hpdcache_subsystem_axi_arbiter
+
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_arb.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_arb.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module hwpf_stride_arb
+-- Importing package hpdcache_pkg
+
+Top level modules:
+	hwpf_stride_arb
+
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_pkg.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling package hpdcache_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/include/cvxif_types.svh {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/include/cvxif_types.svh
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 
 } {} {}} D:/khoaluantotnghiep/cva6-master/core/frontend/frontend.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/frontend/frontend.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -1561,23 +1575,16 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	frontend
 
-} {} {}} D:/khoaluantotnghiep/cva6-master/core/include/cvxif_types.svh {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/include/cvxif_types.svh
+} {} {}} D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lzc.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lzc.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_pkg.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling package hpdcache_pkg
+-- Compiling module lzc
+-- Importing package cf_math_pkg
+** Warning: D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lzc.sv(66): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lzc.sv(66): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lzc.sv(67): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
 
 Top level modules:
-	--none--
-
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_arb.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_arb.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module hwpf_stride_arb
--- Importing package hpdcache_pkg
-
-Top level modules:
-	hwpf_stride_arb
+	lzc
 
 } {} {}} D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/delta_counter.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/delta_counter.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -1590,17 +1597,6 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	delta_counter
 
-} {} {}} D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lzc.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lzc.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module lzc
--- Importing package cf_math_pkg
-** Warning: D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lzc.sv(66): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-** Warning: D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lzc.sv(66): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-** Warning: D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lzc.sv(67): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-
-Top level modules:
-	lzc
-
 } {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_mht_ram.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_mht_ram.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling package domino_mht_ram_sv_unit
@@ -1609,15 +1605,6 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 
 Top level modules:
 	domino_mht_ram
-
-} {} {}} D:/khoaluantotnghiep/cva6-master/core/include/riscv_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/include/riscv_pkg.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling package riscv
--- Importing package cva6_config_pkg
--- Importing package config_pkg
-
-Top level modules:
-	--none--
 
 } {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -1631,6 +1618,15 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	hwpf_stride
 
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/include/riscv_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/include/riscv_pkg.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling package riscv
+-- Importing package cva6_config_pkg
+-- Importing package config_pkg
+
+Top level modules:
+	--none--
+
 } {} {}} D:/khoaluantotnghiep/cva6-master/core/include/instr_tracer_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/include/instr_tracer_pkg.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling package instr_tracer_pkg
@@ -1641,12 +1637,9 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	--none--
 
-} {} {}} D:/khoaluantotnghiep/cva6-master/core/include/ariane_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/include/ariane_pkg.sv
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_pkg.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling package ariane_pkg
--- Importing package config_pkg
--- Importing package riscv
--- Importing package cva6_config_pkg
+-- Compiling package domino_pkg
 
 Top level modules:
 	--none--
@@ -1663,23 +1656,15 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	commit_stage
 
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_pkg.sv
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/include/ariane_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/include/ariane_pkg.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling package domino_pkg
-
-Top level modules:
-	--none--
-
-} {} {}} D:/khoaluantotnghiep/cva6-master/core/frontend/bht2lvl.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/frontend/bht2lvl.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module bht2lvl
+-- Compiling package ariane_pkg
 -- Importing package config_pkg
--- Importing package ariane_pkg
 -- Importing package riscv
 -- Importing package cva6_config_pkg
 
 Top level modules:
-	bht2lvl
+	--none--
 
 } {} {}} D:/khoaluantotnghiep/cva6-master/common/local/util/sram_cache.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/common/local/util/sram_cache.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -1696,6 +1681,17 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	sram_cache
 
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/frontend/bht2lvl.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/frontend/bht2lvl.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module bht2lvl
+-- Importing package config_pkg
+-- Importing package ariane_pkg
+-- Importing package riscv
+-- Importing package cva6_config_pkg
+
+Top level modules:
+	bht2lvl
+
 } {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_upsize.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_upsize.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module hpdcache_data_upsize
@@ -1703,6 +1699,14 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 
 Top level modules:
 	hpdcache_data_upsize
+
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_resp_demux.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_resp_demux.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module hpdcache_mem_resp_demux
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_resp_demux.sv(50): (vlog-13314) Defaulting port 'mem_resp_ready_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	hpdcache_mem_resp_demux
 
 } {} {}} D:/khoaluantotnghiep/cva6-master/core/issue_read_operands.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/issue_read_operands.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -1774,28 +1778,6 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	issue_read_operands
 
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_resp_demux.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_resp_demux.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module hpdcache_mem_resp_demux
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/utils/hpdcache_mem_resp_demux.sv(50): (vlog-13314) Defaulting port 'mem_resp_ready_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-
-Top level modules:
-	hpdcache_mem_resp_demux
-
-} {} {}} D:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module tc_sram_wrapper
-
-Top level modules:
-	tc_sram_wrapper
-
-} {} {}} D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/popcount.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/popcount.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module popcount
-
-Top level modules:
-	--none--
-
 } {} {}} D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_wrapper.sv {2 {vlog -work work -vopt -sv +incdir+D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include -stats=none D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_hpdcache_wrapper.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module cva6_hpdcache_wrapper
@@ -1813,12 +1795,37 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	cva6_hpdcache_wrapper
 
+} {} {}} D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/popcount.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/popcount.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module popcount
+
+Top level modules:
+	--none--
+
+} {} {}} D:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/common/local/util/tc_sram_wrapper.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module tc_sram_wrapper
+
+Top level modules:
+	tc_sram_wrapper
+
 } {} {}} D:/khoaluantotnghiep/cva6-master/core/include/dummy_l15_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/include/dummy_l15_pkg.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling package l15_pkg
 
 Top level modules:
 	--none--
+
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/mult.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/mult.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module mult
+-- Importing package ariane_pkg
+-- Importing package config_pkg
+-- Importing package riscv
+-- Importing package cva6_config_pkg
+
+Top level modules:
+	mult
 
 } {} {}} D:/khoaluantotnghiep/cva6-master/core/alu.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/alu.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -1836,17 +1843,6 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	alu
 
-} {} {}} D:/khoaluantotnghiep/cva6-master/core/mult.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/mult.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module mult
--- Importing package ariane_pkg
--- Importing package config_pkg
--- Importing package riscv
--- Importing package cva6_config_pkg
-
-Top level modules:
-	mult
-
 } {} {}} D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/fifo_v3.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/fifo_v3.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module fifo_v3
@@ -1854,18 +1850,14 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	fifo_v3
 
-} {} {}} D:/khoaluantotnghiep/testbench/tb_integrated_final.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/testbench/tb_integrated_final.sv
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_wrapper.sv {2 {vlog -work work -vopt -sv +incdir+D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_wrapper.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module tb_l1_cache_integration_logic
--- Importing package cva6_config_pkg
--- Importing package config_pkg
--- Importing package build_config_pkg
+-- Compiling module hpdcache_wrapper
+-- Importing package hpdcache_pkg
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_wrapper.sv(115): (vlog-13314) Defaulting port 'core_req_pma_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
 
 Top level modules:
-	tb_l1_cache_integration_logic
-
-} {} {}} D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/include/common_cells/registers.svh {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/include/common_cells/registers.svh
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+	hpdcache_wrapper
 
 } {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_miss_handler.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_miss_handler.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -1877,14 +1869,8 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	hpdcache_miss_handler
 
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_wrapper.sv {2 {vlog -work work -vopt -sv +incdir+D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_wrapper.sv
+} {} {}} D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/include/common_cells/registers.svh {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/include/common_cells/registers.svh
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module hpdcache_wrapper
--- Importing package hpdcache_pkg
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/hpdcache_wrapper.sv(115): (vlog-13314) Defaulting port 'core_req_pma_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-
-Top level modules:
-	hpdcache_wrapper
 
 } {} {}} D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lfsr.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/lfsr.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -1897,36 +1883,6 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 
 Top level modules:
 	lfsr
-
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module hpdcache_demux
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv(60): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv(60): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv(61): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv(67): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv(67): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv(68): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-
-Top level modules:
-	hpdcache_demux
-
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_resize.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_resize.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module hpdcache_data_resize
--- Importing package hpdcache_pkg
-
-Top level modules:
-	hpdcache_data_resize
-
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_history_buffers.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_history_buffers.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling package domino_history_buffers_sv_unit
--- Importing package domino_pkg
--- Compiling module domino_history_buffers
-
-Top level modules:
-	domino_history_buffers
 
 } {} {}} D:/khoaluantotnghiep/cva6-master/core/cva6.sv {2 {vlog -work work -vopt -sv +incdir+D:/khoaluantotnghiep/cva6-master/core/include -stats=none D:/khoaluantotnghiep/cva6-master/core/cva6.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -1958,6 +1914,36 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	cva6
 
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_history_buffers.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_history_buffers.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling package domino_history_buffers_sv_unit
+-- Importing package domino_pkg
+-- Compiling module domino_history_buffers
+
+Top level modules:
+	domino_history_buffers
+
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_resize.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_resize.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module hpdcache_data_resize
+-- Importing package hpdcache_pkg
+
+Top level modules:
+	hpdcache_data_resize
+
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module hpdcache_demux
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv(60): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv(60): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv(61): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv(67): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv(67): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_demux.sv(68): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+
+Top level modules:
+	hpdcache_demux
+
 } {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_downsize.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_data_downsize.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module hpdcache_data_downsize
@@ -1972,20 +1958,6 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 
 Top level modules:
 	plru_tree
-
-} {} {}} D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/shift_reg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/shift_reg.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module shift_reg
-
-Top level modules:
-	shift_reg
-
-} {} {}} D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/cf_math_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/cf_math_pkg.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling package cf_math_pkg
-
-Top level modules:
-	--none--
 
 } {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv {2 {vlog -work work -vopt -sv +incdir+D:/khoaluantotnghiep/cv-hpdcache-master/rtl/include -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hwpf_stride/hwpf_stride_wrapper.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -2008,6 +1980,29 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	hwpf_stride_wrapper
 
+} {} {}} D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/cf_math_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/cf_math_pkg.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling package cf_math_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/shift_reg.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/vendor/pulp-platform/common_cells/src/shift_reg.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module shift_reg
+
+Top level modules:
+	shift_reg
+
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wmask_1rw.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wmask_1rw.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module hpdcache_sram_wmask_1rw
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wmask_1rw.sv(26): (vlog-13314) Defaulting port 'wdata' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wmask_1rw.sv(27): (vlog-13314) Defaulting port 'wmask' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	hpdcache_sram_wmask_1rw
+
 } {} {}} D:/khoaluantotnghiep/cva6-master/core/store_unit.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/store_unit.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module store_unit
@@ -2020,14 +2015,24 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	store_unit
 
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wmask_1rw.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wmask_1rw.sv
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_cbuf.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_cbuf.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module hpdcache_sram_wmask_1rw
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wmask_1rw.sv(26): (vlog-13314) Defaulting port 'wdata' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
-** Warning: D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/macros/behav/hpdcache_sram_wmask_1rw.sv(27): (vlog-13314) Defaulting port 'wmask' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Compiling module hpdcache_cbuf
+-- Importing package hpdcache_pkg
 
 Top level modules:
-	hpdcache_sram_wmask_1rw
+	hpdcache_cbuf
+
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/serdiv.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/serdiv.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module serdiv
+-- Importing package ariane_pkg
+-- Importing package config_pkg
+-- Importing package riscv
+-- Importing package cva6_config_pkg
+
+Top level modules:
+	serdiv
 
 } {} {}} D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_icache.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_icache.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -2041,24 +2046,14 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	cva6_icache
 
-} {} {}} D:/khoaluantotnghiep/cva6-master/core/serdiv.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/serdiv.sv
+} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_xor_hash.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_xor_hash.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module serdiv
--- Importing package ariane_pkg
--- Importing package config_pkg
--- Importing package riscv
--- Importing package cva6_config_pkg
+-- Compiling package domino_xor_hash_sv_unit
+-- Importing package domino_pkg
+-- Compiling module domino_xor_hash
 
 Top level modules:
-	serdiv
-
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_cbuf.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/hpdcache_cbuf.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module hpdcache_cbuf
--- Importing package hpdcache_pkg
-
-Top level modules:
-	hpdcache_cbuf
+	domino_xor_hash
 
 } {} {}} D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_icache_axi_wrapper.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/cache_subsystem/cva6_icache_axi_wrapper.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -2071,41 +2066,6 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 
 Top level modules:
 	cva6_icache_axi_wrapper
-
-} {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_xor_hash.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/prefetcher/domino_xor_hash.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling package domino_xor_hash_sv_unit
--- Importing package domino_pkg
--- Compiling module domino_xor_hash
-
-Top level modules:
-	domino_xor_hash
-
-} {} {}} D:/khoaluantotnghiep/cva6-master/core/multiplier.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/multiplier.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module multiplier
--- Importing package ariane_pkg
--- Importing package config_pkg
--- Importing package riscv
--- Importing package cva6_config_pkg
-** Warning: D:/khoaluantotnghiep/cva6-master/core/multiplier.sv(66): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-** Warning: D:/khoaluantotnghiep/cva6-master/core/multiplier.sv(67): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-** Warning: D:/khoaluantotnghiep/cva6-master/core/multiplier.sv(67): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-** Warning: D:/khoaluantotnghiep/cva6-master/core/multiplier.sv(68): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
-
-Top level modules:
-	multiplier
-
-} {} {}} D:/khoaluantotnghiep/cva6-master/core/load_unit.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/load_unit.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module load_unit
--- Importing package ariane_pkg
--- Importing package config_pkg
--- Importing package riscv
--- Importing package cva6_config_pkg
-
-Top level modules:
-	load_unit
 
 } {} {}} D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_mux.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cv-hpdcache-master/rtl/src/common/hpdcache_mux.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -2121,5 +2081,31 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 
 Top level modules:
 	hpdcache_mux
+
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/load_unit.sv {1 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/load_unit.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module load_unit
+-- Importing package ariane_pkg
+-- Importing package config_pkg
+-- Importing package riscv
+-- Importing package cva6_config_pkg
+
+Top level modules:
+	load_unit
+
+} {} {}} D:/khoaluantotnghiep/cva6-master/core/multiplier.sv {2 {vlog -work work -vopt -sv -stats=none D:/khoaluantotnghiep/cva6-master/core/multiplier.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module multiplier
+-- Importing package ariane_pkg
+-- Importing package config_pkg
+-- Importing package riscv
+-- Importing package cva6_config_pkg
+** Warning: D:/khoaluantotnghiep/cva6-master/core/multiplier.sv(66): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cva6-master/core/multiplier.sv(67): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cva6-master/core/multiplier.sv(67): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/khoaluantotnghiep/cva6-master/core/multiplier.sv(68): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+
+Top level modules:
+	multiplier
 
 } {} {}}

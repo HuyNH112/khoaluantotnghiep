@@ -33,9 +33,7 @@ vsim -suppress 3009 \
      -suppress 7033 \
      -suppress 8386 \
      -quiet \
-     -nologo \
      -t 1ns \
-     -ieee_nowarn \
      my_opt
 
 # ========================================================
